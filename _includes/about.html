@@ -1,0 +1,49 @@
+    <!-- ******ABOUT****** --> 
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="title text-center">What is openCypher?</h2>
+            <p class="intro text-center">openCypher is an open source project to broaden access to the industry’s most widely adopted graph query language: Cypher.</p>
+
+
+            <div class="row">
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="fa fa-bullseye"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Focus on Your Domain</h3>
+                        <p>Graphs naturally describe your domain, and Cypher lets you focus on that domain instead of getting lost in the mechanics of data access. Both expressive and efficient, Cypher eliminates the distraction of learning a query language.</p>
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="fa fa-eye"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Human Readable</h3>
+                        <p>Cypher is a human readable query language that makes complex things possible. A combination of English prose and neat iconography means Cypher is accessible to both developers and operations professionals.</p>
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="fa fa-share-alt"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Complete Open Source Access</h3>
+                        <p>The openCypher project means you can use Cypher as your query language for graph processing capabilities within any product or application. Everyone from Oracle and SAP to Microsoft and IBM can (and does) use Cypher’s capabilities – now you can too.</p>
+                    </div><!--//content-->
+                </div><!--//item-->  
+                <div class="cypher">
+                    <pre>
+                        
+        MATCH (cypher:QueryLanguage)-[:QUERIES]->(graphs)
+        MATCH (cypher)<-[:USES]-(u:User) WHERE u.name IN [‘IBM’, ‘Oracle’, ‘SAP’, ‘Microsoft’]
+        MATCH (openCypher)-[:MAKES_AVAILBLE]->(cypher)
+        RETURN cypher.attributes
+        -----------
+        [‘awesome’,…]
+                    </pre>
+                </div><!--//cypher-->                    
+            </div><!--//row-->            
+        </div><!--//container-->
+    </section><!--//about-->
