@@ -102,9 +102,11 @@ GEM
       blankslate (~> 2.0)
     posix-spawn (0.3.11)
     public_suffix (1.5.1)
+    puma (2.14.0)
     pygments.rb (0.6.3)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.2.0)
+    rake (10.4.2)
     rb-fsevent (0.9.6)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -127,6 +129,5 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-
-BUNDLED WITH
-   1.10.6
+  puma
+  rake
