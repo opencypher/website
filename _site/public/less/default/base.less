@@ -17,6 +17,10 @@ h1, h2, h3, h4, h5, h6  {
     color: @color;
 }
 
+h3, h4, h5, h6 {
+    color: darken(@color, 30%);
+}
+
 a {
     color: @color;
     .transition (all 0.4s ease-in-out);
@@ -137,7 +141,7 @@ pre code {
                 font-family: 'Open Sans', sans-serif;
                 &.active {
                     a {
-                        color: @color;
+                        color: darken(@color, 40%);
                         background: none;
                     }
                 }

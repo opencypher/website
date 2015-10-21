@@ -24,6 +24,12 @@ h6 {
   font-weight: 500;
   color: #68BDF6;
 }
+h3,
+h4,
+h5,
+h6 {
+  color: #0b74ba;
+}
 a {
   color: #68BDF6;
   -webkit-transition: all 0.4s ease-in-out;
@@ -152,7 +158,7 @@ pre code {
   font-family: 'Open Sans', sans-serif;
 }
 .header .main-nav .nav .nav-item.active a {
-  color: #68BDF6;
+  color: #08568a;
   background: none;
 }
 .header .main-nav .nav .nav-item a {
