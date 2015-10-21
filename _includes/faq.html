@@ -13,10 +13,12 @@
               </div>
               <div id="collapse1" class="panel-collapse collapse in">
                 <div class="panel-body">
-                    <p>Cypher is an open graph query language that allows for expressive and efficient querying of graph data. Cypher is intuitive, powerful and easy to learn. It lets you write graph queries by describing patterns in your data. Because graphs describe your domain, Cypher lets you focus on your domain instead of getting lost in the mechanics of data access.</p>
-                    <p>Cypher is designed to be a human readable query language, suitable for both developers and operations professionals. The guiding principle behind Cypher is to make simple things easy, and complex things possible. Cypher combines English prose and neat iconography which helps to make queries more self-explanatory. </p>
-                    <p>Cypher is declarative, which means that it lets users express what data to retrieve, letting the engine underneath Cypher take care of seamlessly retrieving it. This is in contrast to imperative or scripting languages, including early-generation graph languages, which require query writes to have a deep technical understanding of physical implementation details. </p>
-                    <p>Cypher inspired by a number of different approaches and builds upon established practices for expressive querying. Most of the keywords like <code>WHERE</code> and <code>ORDER BY</code> are inspired by SQL. Pattern matching borrows expression approaches from SPARQL. Some of the collection semantics have been borrowed from languages such as Haskell and Python.   </p>    
+                    <p>Cypher is a graph query language that allows for expressive and efficient querying of graph data. Cypher is intuitive, powerful and easy to learn.</p>
+                    <p>It lets you write graph queries by describing patterns in your data. Because graphs already describe your domain, Cypher lets you focus on your domain instead of getting lost in the mechanics of data access. </p>
+                    <p>Designed to be a human readable query language, Cypher is suitable for developers and operations professionals alike. The guiding principle behind Cypher is to make simple things easy and complex things possible. Cypher combines English prose and intuitive iconography, making queries more self-explanatory.</p>
+                    <p>Cypher is declarative, which means it lets users express what data to retrieve, letting the engine underneath take care of seamlessly retrieving it. In contrast, imperative or scripting languages, including early-generation graph languages, require query writes to have a deep technical understanding of physical implementation details. Cypher eliminates this burden.</p>
+
+                    <p>The expressive querying of Cypher is inspired by a number of different approaches and established practices. Most of the keywords, such as <code>WHERE</code> and <code>ORDER BY</code> , are inspired by SQL, while pattern matching borrows from SPARQL. In addition, some of the collection semantics have been borrowed from languages such as Haskell and Python.</p> 
                 </div>
               </div>
             </div>
@@ -24,14 +26,34 @@
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h4 class="panel-title">
-                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">What are the benefits of openCypher?</a>
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">How does openCypher benefit me?</a>
                 </h4>
               </div>
               <div id="collapse2" class="panel-collapse collapse">
                 <div class="panel-body">
-                    <p>The openCypher project will make it possible for any developer or technology provider to use Cypher and incorporate and/or enable access to graph processing capabilities within that product or application.  openCypher will also help tooling providers gain efficiencies by gaining multi-platform.</p>
+                    <p>The openCypher project makes it possible for any developer or technology provider to use Cypher and incorporate graph processing capabilities within that product or application.</p>
 
-                    <p>openCypher delivers Cypher as an open graph query language, which can be used by any product or application as a query language for graph processing capabilities within that product or application. As an easy-to-learn and yet an extremely powerful graph query language, Cypher is currently the industry’s most successful and widely adopted graph query language and with openCypher, the language promises to be instrumental in the growth of graph processing and analysis in the same way that SQL has been instrumental in accelerating the adoption of RDBMS. </p>
+                    <p>Easy-to-learn and yet extremely powerful, Cypher is the industry’s most successful and widely adopted graph query language. With the advent of openCypher, the language promises to be just as instrumental in the growth of graph processing and analysis as SQL was instrumental in accelerating the adoption of RDBMS. </p>
+
+                    <p>With tens of thousands of users already trained in Cypher and numerous tooling providers already offering support for the language, openCypher provides a seamless way for industry participants to provide graph capabilities in their data platforms – ranging from database suppliers, tooling vendors and the broader graph ecosystem.</p>
+
+                    <h5>For data and tooling providers:</h5>
+                    <ul>
+                      <li>Improve time to market with tools, tests and specifications that enable rapid access to graph processing capabilities </li>
+                      <li>Collaborate on the evolution of Cypher to increase the size of the graph ecosystem</li>
+                    </ul>
+
+                    <h5>For application developers:</h5>
+                    <ul>
+                      <li>Reuse graph query knowledge and skills across a multitude of products that support</li>
+                      <li>Cypher as the graph query language</li>
+                    </ul>
+
+                    <h5>For enterprises:</h5>
+                    <ul>
+                      <li>Interoperability and vendor independence by interfacing with products using a common query language</li>
+                      <li>Higher availability of skilled developers trained in a graph query language used across multiple products</li>
+                    </ul>
                 </div>
               </div>
             </div>
@@ -47,10 +69,14 @@
                     <p>The project aims to deliver four types of artifacts: </p>
 
                     <ul>
-                        <li><strong>Cypher Reference Documentation</strong> - comprehensive user documentation describing use of the Cypher query language, with examples & tutorials</li>
-                        <li><strong>Technology certification kit (TCK)</strong> - The TCK consists of a number of tests that a software supplier would run in order to self certify support for a given version of Cypher</li>
-                        <li><strong>Reference implementation</strong> - Distributed under the Apache 2.0 license, the reference implementation is a fully functional implementation of key parts of the stack that one would need to build to support Cypher inside of one’s data platform or tool. The first planned deliverable is a parser that will take a Cypher statement and parse it into an AST (abstract syntax tree) representation. The reference implementation complements the documentation and tests by providing working implementations of Cypher, that are permissively licensed, and can be used as examples or as a foundation for one’s own implementation. </li>
-                        <li><strong>Cypher language specification</strong> - Licensed under the creative commons license <<link>>, the Cypher language specification is a technical expression the language syntax to enable parsers to auto-generate the query syntax. A full semantic specification is also planned as a part  openCypher. </li>
+                        <li><strong>Cypher Reference Documentation</strong><br />
+                          Comprehensive user documentation describing use of the Cypher query language with examples and tutorials.</li>
+                        <li><strong>Technology certification kit (TCK)</strong><br />
+                          The TCK consists of a number of tests that a software supplier would run in order to self-certify support for a given version of Cypher.</li>
+                        <li><strong>Reference implementation</strong><br />
+                          Distributed under the Apache 2.0 license, the reference implementation is a fully functional implementation of key parts of the stack needed to support Cypher inside a data platform or tool. The first planned deliverable is a parser that will take a Cypher statement and parse it into an AST (abstract syntax tree) representation. The reference implementation complements the documentation and tests by providing working implementations of Cypher – which are permissively licensed – and can be used as examples or as a foundation for one’s own implementation. </li>
+                        <li><strong>Cypher language specification</strong><br />
+                          Licensed under the <a href="https://creativecommons.org/licenses/" target="_blank">Creative Commons license</a>, the Cypher language specification is a technical expression of the language syntax to enable parsers to auto-generate the query syntax. A full semantic specification is also planned as a part the openCypher project.</li>
                      </ul>
 
                 </div>
@@ -59,12 +85,12 @@
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h4 class="panel-title">
-                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Who is behind openCypher?</a>
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">What companies are already involved in openCypher?</a>
                 </h4>
               </div>
               <div id="collapse4" class="panel-collapse collapse">
                 <div class="panel-body">            
-                    <p>openCypher includes support from industry heavyweights such as Oracle, SAP, Microsoft and IBM. Other early supporters include ThoughtWorks, Tableau, and DataBricks, the company behind Apache Spark. </p>
+                    <p>The openCypher project includes support from <a href="http://www.oracle.com/">Oracle</a>, <a href="https://databricks.com/">Databricks</a> (the company behind <a href="http://spark.apache.org/">Apache Spark</a>), <a href="http://neo4j.com/company">Neo Technology</a>, <a href="http://www.tableau.com/">Tableau</a>, <a href="http://graphaware.com/">GraphAware</a>, <a href="http://www.graphenedb.com/">GrapheneDB</a>, <a href="https://www.graphstory.com/">Graph Story</a>, <a href="https://www.graphgrid.com/">GraphGrid</a>, <a href="http://www.infoa.com/">Information Analysis Incorporated (IAI)</a>, <a href="http://linkurio.us/">Linkurious</a>, <a href="https://structr.org/">Structr</a>, <a href="https://purethink.com/">PureThink</a> and <a href="https://www.tomsawyer.com/">Tom Sawyer Software</a>.</p>
                 </div>
               </div>
             </div>
@@ -77,16 +103,16 @@
               <div id="collapse5" class="panel-collapse collapse">
                 <div class="panel-body">
                     <h4>Oracle</h4>
-                    <p><em>"The industry has seen through SQL the effect that a query language can have on accelerating platform adoption. As the most successful and widely adopted graph query language, Cypher is a natural choice for Oracle, and we look forward to rolling out support for it soon in Oracle Big Data Spatial & Graph."</em><br />
-                    - Andy Mendelsohn, Oracle Executive Vice President</p>
+                    <p><em>"Oracle is a strong supporter of standard, open APIs and languages. As with SQL, we believe open language standards accelerate platform and paradigm adoption. With the release of Oracle Big Data Spatial and Graph and our longstanding support for the Spatial and Graph option for Oracle Database, we are excited to deliver new, scalable solutions to the graph community. openCypher offers the graph community an opportunity to address the need for standards-based interfaces to simplify graph data access."</em><br />
+                    - Jim Steiner, Vice President, Spatial and Graph Technologies, Oracle</p>
 
                     <h4>Databricks</h4>
-                    <p><em>"Graph processing is becoming an indispensable part of the modern big data stack. Neo4j’s Cypher query language has greatly accelerated graph database adoption. We are looking forward to bringing Cypher’s graph pattern matching capabilities into the Spark stack, making graph querying accessible to the masses."</em><br />
-                    - Ion Stoica, the CEO of DataBricks</p>
+                    <p><em>"Graph processing is becoming an indispensable part of the modern big data stack. Neo4j’s Cypher query language has greatly accelerated graph database adoption. We look forward to bringing Cypher’s graph pattern matching capabilities into the Spark stack, making graph querying more accessible to the masses."</em><br />
+                    - Ion Stoica, CEO, DataBricks</p>
 
                     <h4>Forrester Research</h4>
-                    <p><em>"Today’s announcement is big news for the already rapidly-growing graph database space.An important and necessary step in the growth of any DBMS category is for the industry to coalesce around a standard language. Opening Cypher will make it easier for new vendors to enter the space, promoting competition, and be a great benefit to users of graph technology, by providing a clear choice of language to use."</em><br />
-                    - Noel Yuhanna, Principal Analyst</p>
+                    <p><em>"Today’s announcement is big news for the already rapidly-growing graph database space. An important and necessary step in the growth of any DBMS category is for the industry to coalesce around a standard language. Opening Cypher will make it easier for new vendors to enter the space, promote competition and be a great benefit to users of graph technology by providing a clear choice of language to use."</em><br />
+                    - Noel Yuhanna, Principal Analyst, Forrester</p>
 
                     <h4>Neo Technology</h4>
                     <p><em>"Companies such as Google, Facebook and LinkedIn have leveraged graph processing to transform their respective industries. openCypher promises to bring the same transformative power of graphs to enterprises of any size."</em><br />
