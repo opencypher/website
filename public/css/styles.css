@@ -188,6 +188,12 @@ pre code {
 .header .main-nav .nav .nav-item.last {
   margin-right: 0;
 }
+
+.redBox {
+    background-color: #fd756e;
+    color: #ffffff;
+}
+
 /* ======= Promo Section ======= */
 .promo {
   background: #68BDF6;
