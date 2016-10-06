@@ -1,0 +1,51 @@
+<section id="announcements" class="resources section has-pattern">
+    <div class="container">
+        <div class="contact-inner">
+            <h2 class="title  text-center">Announcements</h2>
+
+            <p>
+                <b>openCypher Grammar and Technology Compatibility Kit</b>
+            </p>
+
+            <p>
+                October 2016 - The openCypher project has produced two significant new features in 2016: an Extended BNF
+                grammar which formally defines the permitted syntax of Cypher, and a TCK (Technology Compatibility Kit).
+            </p>
+            <p>
+                An XML grammar definition is used to generate an EBNF and an Antlr4 grammar for use by projects who wish
+                to parse Cypher, and "Railroad Diagrams" which document the syntax.
+            </p>
+            <p>
+                openCypher is a declarative language which is not tied to any general-purpose programming language or
+                domain-specific language. In line with this approach, the TCK is a Cucumber-based set of tests that can
+                be used for any Cypher implementation in any of the many languages supported by
+                <a href="https://cucumber.io/">Cucumber</a>.
+            </p>
+            <p>
+                Several contributors and users have been using openCypher; read more about them in <a href="">Community projects</a>.
+            </p>
+
+            <p>
+                The next stage in the project is to create a Reference Implementation (RI), which should make it easier
+                to create systems that use Cypher as the programming interface for graph applications when they interact
+                with a graph database or query engine.
+            </p>
+            <p>
+                The Reference Implementation will include a parser that generates an Abstract Syntax Tree (AST) and
+                logical query plan. Implementors of JVM query engines will be able to take the RI as a starting point,
+                implementing the underlying concrete query planner and runtime engine/data storage.
+            </p>
+            <p>
+                At Neo, we're also beginning to start work on a semantic specification for Cypher. An English-language
+                semantic specification will enable Cypher implementations completely independent from the openCypher
+                codebase, including implementations using non-JVM languages.
+            </p>
+            <p>
+                At the same time we've been approaching the growing number of product and service vendors who are
+                offering property graph databases or data storage services, to explore the best way to come together
+                around an open standards process for a declarative property graph query language that occupies the same
+                ecological niche as SQL does for relational query processors.
+            </p>
+        </div>
+    </div>
+</section>
