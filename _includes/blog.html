@@ -1,0 +1,24 @@
+<section id="blog" class="section blog">
+	<div class="container">
+		<div class="title">
+			<h1>BLOG</h1>
+			<div class="underline"></div>
+		</div>
+		<div class="posts">
+			<ul>
+			  {% for post in site.posts %}
+			    <li class="post">
+			    	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+			    	<p class="summary">
+			    		{{ post.categories }} &nbsp;|&nbsp;
+			    		<span class="date">
+			    			{{ post.date | date: '%B %d, %Y' }}
+			    		</span>
+			    	</p>
+			    	{{ post.excerpt }}
+			    </li>
+			  {% endfor %}
+			</ul>	
+		</div>
+	</div>
+</section>
