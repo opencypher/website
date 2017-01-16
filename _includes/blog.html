@@ -10,7 +10,7 @@
 			    <li class="post">
 			    	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 			    	<p class="summary">
-			    		{{ post.categories }} &nbsp;|&nbsp;
+			    		By {{ post.author }} &nbsp;|&nbsp;
 			    		<span class="date">
 			    			{{ post.date | date: '%B %d, %Y' }}
 			    		</span>
@@ -18,7 +18,7 @@
 			    	{{ post.excerpt }}
 			    </li>
 			  {% endfor %}
-			</ul>	
+			</ul>
 		</div>
 	</div>
 </section>
