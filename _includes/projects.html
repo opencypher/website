@@ -1,28 +1,35 @@
 <!-- ******RESOURCES****** -->
-<section id="projects" class="projects section has-pattern">
+<section id="projects" class="about section has-pattern">
     <div class="container">
         <div class="projects-inner">
             <h2 class="title text-center">Current Projects</h2>
 
-            <div class="panel-group" id="parent">
+            <h3>Cypher implementations</h3>
+
+            <div class="panel-group">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#parent" href="#project1">Graph Databases support for Jetbrains' family of IDEs</a>
+                            <a data-toggle="collapse" data-parent="#parent" href="#project9">SAP HANA Graph</a>
                         </h4>
                     </div>
-                    <div id="project1" class="panel-collapse collapse">
+                    <div id="project9" class="panel-collapse collapse">
                         <div class="panel-body">
-                            <h4>Graph Database Support</h4>
+                            <h4>SAP HANA Graph</h4>
 
                             <p>
-                                The plugin may be used with, for example, IntelliJ IDEA, where it provides completion and
-                                highlighting of Cypher strings.
+                                SAP HANA Graph is an integral part of SAP HANA core functionality. It expands the SAP HANA platform with
+                                native support for graph processing and allows you to execute typical graph operations on the data stored in
+                                an SAP HANA system.
+                            </p>
+
+                            <p>
+                                SAP HANA Graph uses Cypher to express pattern matching queries.
                             </p>
 
                             <h4>Links</h4>
                             <ul>
-                                <li><a href="https://github.com/neueda/jetbrains-plugin-graph-database-support/">GitHub repository</a></li>
+                                <li><a href="http://help.sap.com/hana/SAP_HANA_Graph_Reference_en.pdf">SAP HANA Graph Reference</a></li>
                             </ul>
                         </div>
                     </div>
@@ -31,7 +38,70 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#parent" href="#project2">Ruruki: an in-memory graph database</a>
+                            <a data-toggle="collapse" data-parent="#parent" href="#project7">Agens Graph: A Multi-Model
+                                Database</a>
+                        </h4>
+                    </div>
+                    <div id="project7" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <h4>Agens Graph</h4>
+
+                            <p>
+                                Agens Graph is a multi-model (Relational + Graph) database. It is based on PostgreSQL
+                                RDBMS.
+                                With Agens Graph, one can retrieve a result from both relational and graph by a single
+                                query at the same time.
+                                Agens Graph supports ACID transactions and implements the graph data model.
+                            </p>
+
+                            <p>
+                                The railroad diagrams and CIPs have been used as reference.
+                            </p>
+
+                            <h4>Links</h4>
+                            <ul>
+                                <li><a href="https://github.com/bitnine-oss/agens-graph">GitHub repository</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#parent" href="#project5">ingraph: Graph Query
+                                Engine</a>
+                        </h4>
+                    </div>
+                    <div id="project5" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <h4>ingraph</h4>
+
+                            <p>
+                                The aim of the ingraph project is to evaluate openCypher graph queries incrementally.
+                                Our long-term goal is to provide a horizontally scalable graph query engine, which is
+                                able to perform complex graph queries on graphs with 100M+ elements.
+                            </p>
+
+                            <p>
+                                ingraph uses the Antlr4 grammar for parsing, and the TCK as a reference for the
+                                formalization & implementation.
+                            </p>
+
+                            <h4>Links</h4>
+                            <ul>
+                                <li><a href="http://docs.inf.mit.bme.hu/ingraph/">Website</a></li>
+                                <li><a href="https://github.com/ftsrg/ingraph">GitHub repository</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#parent" href="#project2">Ruruki: an in-memory graph
+                                database</a>
                         </h4>
                     </div>
                     <div id="project2" class="panel-collapse collapse">
@@ -56,10 +126,41 @@
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <h3>Cypher tools</h3>
+            <div class="panel-group">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#parent" href="#project3">libcypher-parser: Cypher parser written in C</a>
+                            <a data-toggle="collapse" data-parent="#parent" href="#project1">Graph Databases support for
+                                Jetbrains' family of IDEs</a>
+                        </h4>
+                    </div>
+                    <div id="project1" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <h4>Graph Database Support</h4>
+
+                            <p>
+                                The plugin may be used with, for example, IntelliJ IDEA, where it provides completion
+                                and
+                                highlighting of Cypher strings.
+                            </p>
+
+                            <h4>Links</h4>
+                            <ul>
+                                <li><a href="https://github.com/neueda/jetbrains-plugin-graph-database-support/">GitHub
+                                    repository</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#parent" href="#project3">libcypher-parser: Cypher
+                                parser written in C</a>
                         </h4>
                     </div>
                     <div id="project3" class="panel-collapse collapse">
@@ -68,26 +169,31 @@
 
                             <p>
                                 libcypher-parser is a parser library and validation (lint) tool for Cypher.
-                                The parser is written in C, and is intended for building tools and libraries in various languages.
+                                The parser is written in C, and is intended for building tools and libraries in various
+                                languages.
                             </p>
 
                             <p>
-                                libcypher-parser bases its implementation on CIP documents and the grammar specification.
+                                libcypher-parser bases its implementation on CIP documents and the grammar
+                                specification.
                             </p>
 
                             <h4>Links</h4>
                             <ul>
                                 <li><a href="https://git.io/libcypher-parser">Website</a></li>
                                 <li><a href="https://github.com/cleishm/libcypher-parser">GitHub repository</a></li>
-                                <li><a href="https://tracker.debian.org/pkg/libcypher-parser">Debian/Ubuntu distribution</a></li>
+                                <li><a href="https://tracker.debian.org/pkg/libcypher-parser">Debian/Ubuntu
+                                    distribution</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
+
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#parent" href="#project4">Neo4j Cypher DSL implementation using Jetbrains MPS</a>
+                            <a data-toggle="collapse" data-parent="#parent" href="#project4">Neo4j Cypher DSL
+                                implementation using Jetbrains MPS</a>
                         </h4>
                     </div>
                     <div id="project4" class="panel-collapse collapse">
@@ -101,38 +207,12 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#parent" href="#project5">ingraph: Graph Query Engine</a>
-                        </h4>
-                    </div>
-                    <div id="project5" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            <h4>ingraph</h4>
-
-                            <p>
-                                The aim of the ingraph project is to evaluate openCypher graph queries incrementally.
-                                Our long-term goal is to provide a horizontally scalable graph query engine, which is
-                                able to perform complex graph queries on graphs with 100M+ elements.
-                            </p>
-
-                            <p>
-                                ingraph uses the Antlr4 grammar for parsing, and the TCK as a reference for the formalization & implementation.
-                            </p>
-
-                            <h4>Links</h4>
-                            <ul>
-                                <li><a href="http://docs.inf.mit.bme.hu/ingraph/">Website</a></li>
-                                <li><a href="https://github.com/ftsrg/ingraph">GitHub repository</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#parent" href="#project6">slizaa: Software Architecture Workbench</a>
+                            <a data-toggle="collapse" data-parent="#parent" href="#project6">slizaa: Software
+                                Architecture Workbench</a>
                         </h4>
                     </div>
                     <div id="project6" class="panel-collapse collapse">
@@ -157,42 +237,18 @@
                             <ul>
                                 <li><a href="http://www.slizaa.org">Website</a></li>
                                 <li><a href="https://github.com/slizaa/slizaa">GitHub repository (home)</a></li>
-                                <li><a href="https://github.com/slizaa/slizaa-opencypher">GitHub repository (openCypher)</a></li>
+                                <li><a href="https://github.com/slizaa/slizaa-opencypher">GitHub repository
+                                    (openCypher)</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
+
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#parent" href="#project7">Agens Graph: A Multi-Model Database</a>
-                        </h4>
-                    </div>
-                    <div id="project7" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            <h4>Agens Graph</h4>
-
-                            <p>
-                                Agens Graph is a multi-model (Relational + Graph) database. It is based on PostgreSQL RDBMS.
-                                With Agens Graph, one can retrieve a result from both relational and graph by a single query at the same time.
-                                Agens Graph supports ACID transactions and implements the graph data model.
-                            </p>
-
-                            <p>
-                                The railroad diagrams and CIPs have been used as reference.
-                            </p>
-
-                            <h4>Links</h4>
-                            <ul>
-                                <li><a href="https://github.com/bitnine-oss/agens-graph">GitHub repository</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#parent" href="#project8">ocparse: Cypher parser written in Erlang</a>
+                            <a data-toggle="collapse" data-parent="#parent" href="#project8">ocparse: Cypher parser
+                                written in Erlang</a>
                         </h4>
                     </div>
                     <div id="project8" class="panel-collapse collapse">
