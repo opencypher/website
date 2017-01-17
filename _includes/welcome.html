@@ -1,0 +1,88 @@
+<!-- ******ABOUT****** -->
+<section id="about" class="about section">
+    <div class="container">
+        <div class="row">
+            <div class="item col-md-10 col-sm-10 col-xs-12 col-md-offset-1">
+                <h2 class="title text-center">What is openCypher?</h2>
+                <h3 class="title text-center">The openCypher project aims to deliver a full and open specification of
+                    the industry’s most widely adopted graph database query language: <strong>Cypher.</strong></h3>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="item col-md-4 col-sm-6 col-xs-12">
+                <div class="icon-holder">
+                    <i class="fa fa-bullseye"></i>
+                </div>
+                <div class="content">
+                    <h3 class="sub-title">Focus on Your Domain</h3>
+                    <p>Graphs naturally describe your domain, and Cypher lets you focus on that domain instead of
+                        getting lost in the mechanics of data access. Both expressive and efficient, Cypher is intuitive
+                        and immediately familiar, without the steep learning curve of learning a new language.</p>
+                </div><!--//content-->
+            </div><!--//item-->
+            <div class="item col-md-4 col-sm-6 col-xs-12">
+                <div class="icon-holder">
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div class="content">
+                    <h3 class="sub-title">Human Readable</h3>
+                    <p>Cypher is a human-readable query language that makes complex things possible. A combination of
+                        English prose and intuitive iconography, Cypher is accessible to developers and operations
+                        professionals alike.</p>
+                </div><!--//content-->
+            </div><!--//item-->
+            <div class="item col-md-4 col-sm-6 col-xs-12">
+                <div class="icon-holder">
+                    <i class="fa fa-share-alt"></i>
+                </div>
+                <div class="content">
+                    <h3 class="sub-title">Complete Open Source Access</h3>
+                    <p>The openCypher project means you can use Cypher as your query language for graph processing
+                        capabilities within any product or application. Everyone from Oracle and Apache Spark to Tableau
+                        and Structr can (and do) use Cypher’s capabilities – now you can too.</p>
+                </div><!--//content-->
+            </div><!--//item-->
+        </div><!--//row-->
+        <div class="row">
+            <div class="item col-md-10 col-sm-10 col-xs-12 col-md-offset-1">
+                <div class="cypher">
+                        <pre>
+
+    MATCH (cypher:QueryLanguage)-[:QUERIES]->(graphs)
+    MATCH (cypher)<-[:USES]-(u:User) WHERE u.name IN [‘Oracle’, ‘Apache Spark’, ‘Tableau’, ‘Structr’]
+    MATCH (openCypher)-[:MAKES_AVAILABLE]->(cypher)
+    RETURN cypher.attributes
+                        </pre>
+                </div><!--//cypher-->
+            </div><!--item-->
+        </div><!--//row-->
+
+        <div class="container text-center">
+            <div class="col-md-10 col-md-offset-1">
+                <p>The <strong>openCypher project</strong> aims to improve growth and adoption of graph processing and
+                    analysis by providing an open graph query language to any data store, tooling or application provider as
+                    a mechanism to query graph data.</p>
+            </div><!--//container-->
+        </div>
+        <div class="container">
+            <div class="col-md-6 col-md-offset-3">
+
+                <ul>
+                    <li>Provides a query language with full support</li>
+                    <li>Makes graph processing and analysis easier to adopt</li>
+                    <li>Grants vendor independence to all users</li>
+                    <li>Eases graph integration with other data platforms</li>
+                </ul>
+            </div>
+        </div><!--//container-->
+        <div class="container text-center">
+            <div class="col-md-10 col-md-offset-1">
+                <p>Check out the <strong>openCypher</strong> GitHub repository to track our progress, leave feature requests, and become a participant in our open source community.</p>
+                <p><a href="https://github.com/opencypher/openCypher"><img src="{{ site.baseurl }}public/images/GitHub-Mark-64px.png" alt="openCypher on GitHub"></a></p>
+            </div><!--//container-->
+        </div>
+
+    </div><!--//container-->
+</section><!--//about-->
