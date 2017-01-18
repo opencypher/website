@@ -38,6 +38,7 @@ The conference is a one-day event, which follows the below program.
 
 **Please note**: At the time of writing, the program is still provisional and will be updated continuously.
 
+A PDF version of the program may be downloaded [here](https://s3.amazonaws.com/artifacts.opencypher.org/website/oCIMProgram.pdf).
 
 <html>
 <head>
