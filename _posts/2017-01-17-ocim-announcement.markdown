@@ -26,6 +26,8 @@ We will be releasing the full program in the next few days, which will comprise 
 * Cypher gaps, annoyances and improvements
 * How to broaden involvement in the Cypher Improvement Proposal process, and how to progress towards a formal standard, e.g. work on semantic specification.
 
+Please view further details and the conference program at the [events page](http://opencypher.org/events/2017/02/08/event-ocim1/).
+
 ### Date and location
 
 The meeting will be kindly hosted by SAP, in their HQ in **Walldorf, Germany**, on Wednesday the **8th of February 2017**.
