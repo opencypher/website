@@ -23,7 +23,7 @@ The conference will comprise talks in areas such as:
 * Cypher gaps, annoyances and improvements
 * How to broaden involvement in the Cypher Improvement Proposal process, and how to progress towards a formal standard, e.g. work on semantic specification.
 
-The detailed program of events may be found [here](#program).
+The detailed programme of events may be found [here](#programme).
 
 ### Logistics
 
@@ -32,13 +32,13 @@ The meeting will be kindly hosted by SAP, in their HQ in **Dietmar-Hopp-Allee 16
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.0923722505213!2d8.63970021568986!3d49.29359327933243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4797bea45a725a3b%3A0x480588aba722a94b!2sDietmar-Hopp-Allee+16%2C+69190+Walldorf%2C+Germany!5e0!3m2!1sen!2suk!4v1484739708540" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 
-### <a name="program"></a> Provisional program
+### <a name="programme"></a> Provisional programme
 
-The conference is a one-day event, which follows the program below.
+The conference is a one-day event, which follows the programme below.
 
-**Please note**: At the time of writing, the program is still provisional and will be updated continuously.
+**Please note**: At the time of writing, the programme is still provisional and will be updated continuously.
 
-A PDF version of the program may be downloaded [here](https://s3.amazonaws.com/artifacts.opencypher.org/website/oCIMProgram.pdf).
+A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com/artifacts.opencypher.org/website/oCIMProgram.pdf).
 
 <html>
 <head>

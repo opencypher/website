@@ -14,7 +14,7 @@ This is the first face-to-face meeting for people, projects and companies who ar
 
 ### Topics
 
-We will be releasing the full program in the next few days, which will comprise talks in areas such as:
+We will be releasing the full programme in the next few days, which will comprise talks in areas such as:
 
 * Demonstrations and talks by implementers
 * Cypher conformance testing with the Technology Compatibility Kit
@@ -26,7 +26,7 @@ We will be releasing the full program in the next few days, which will comprise 
 * Cypher gaps, annoyances and improvements
 * How to broaden involvement in the Cypher Improvement Proposal process, and how to progress towards a formal standard, e.g. work on semantic specification.
 
-Please view further details and the conference program at the [events page](http://opencypher.org/event/2017/02/08/event-ocim1/).
+Please view further details and the conference programme at the [events page](http://opencypher.org/event/2017/02/08/event-ocim1/).
 
 ### Date and location
 
