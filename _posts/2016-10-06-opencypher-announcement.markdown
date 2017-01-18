@@ -5,7 +5,7 @@ date:   2016-10-06
 author: "Cypher Language Group"
 ---
 The openCypher project has produced two significant new features in 2016: an Extended BNF
-grammar which formally defines the permitted syntax of Cypher, and a TCK (Technology Compliance Kit).
+grammar which formally defines the permitted syntax of Cypher, and a TCK (Technology Compatibility Kit).
 
 An XML grammar definition is used to generate an EBNF and an Antlr4 grammar for use by projects who wish
 to parse Cypher, and "Railroad Diagrams" which document the syntax.
