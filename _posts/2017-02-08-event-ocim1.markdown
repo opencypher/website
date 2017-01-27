@@ -32,11 +32,9 @@ The meeting will be kindly hosted by SAP, in their HQ in **Dietmar-Hopp-Allee 16
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.0923722505213!2d8.63970021568986!3d49.29359327933243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4797bea45a725a3b%3A0x480588aba722a94b!2sDietmar-Hopp-Allee+16%2C+69190+Walldorf%2C+Germany!5e0!3m2!1sen!2suk!4v1484739708540" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 
-### <a name="programme"></a> Provisional programme
+### <a name="programme"></a> Programme
 
 The conference is a one-day event, which follows the programme below.
-
-**Please note**: At the time of writing, the programme is still provisional and will be updated continuously.
 
 A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com/artifacts.opencypher.org/website/oCIMProgram.pdf).
 
@@ -77,7 +75,7 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
         <td colspan="1" rowspan="1"><p>30 mins</p></td>
     </tr>
     <tr>
-        <td colspan="4" rowspan="1"><p><span>Chair: Tobias Lindaaker</p></td>
+        <td colspan="4" rowspan="1"><p><span>Chair: <b>Tobias Lindaaker</b></p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>09:30</p></td>
@@ -87,28 +85,27 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>09:45</p></td>
-        <td colspan="1" rowspan="1"><p>openCypher artefacts</p></td>
+        <td colspan="1" rowspan="1"><p>openCypher Artefacts</p></td>
         <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>10:00</p></td>
-        <td colspan="1" rowspan="1"><p>&lt;SAP HANA Graph&gt;*</p></td>
-        <td colspan="1" rowspan="1"><p>&lt;TBD&gt;</p></td>
+        <td colspan="1" rowspan="1"><p>Graph Pattern Matching in SAP HANA</p></td>
+        <td colspan="1" rowspan="1"><p>Marcus Paradies (SAP)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>10:15</p></td>
-        <td colspan="1" rowspan="1"><p>&lt;Neueda IDEA plugin&gt;</p></td>
-        <td colspan="1" rowspan="1"><p>Dmitrijs Vrublevskis (Neueda)</p></td>
+        <td colspan="1" rowspan="1"><p>Cypher in JetBrains IDE</p></td>
+        <td colspan="1" rowspan="1"><p>Dmitry Vrublevsky (Neueda)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>10:30</p>
             <p></p></td>
         <td colspan="1" rowspan="1"><p>Incremental Graph Queries for Cypher</p></td>
-        <td colspan="1" rowspan="1"><p>G&aacute;bor Sz&aacute;rnyas,</p>
-            <p>J&oacute;zsef Marton (Budapest University of Technology and Economics)</p></td>
+        <td colspan="1" rowspan="1"><p>G&aacute;bor Sz&aacute;rnyas, J&oacute;zsef Marton (Budapest University of Technology and Economics)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr class="break">
@@ -117,11 +114,11 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
         <td colspan="1" rowspan="1"><p>30 mins</p></td>
     </tr>
     <tr>
-        <td colspan="4" rowspan="1"><p><span>Chair: Petra Selmer</p></td>
+        <td colspan="4" rowspan="1"><p><span>Chair: <b>Petra Selmer</b></p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>11:30</p></td>
-        <td colspan="1" rowspan="1"><p>Neo4j Cypher implementation</p></td>
+        <td colspan="1" rowspan="1"><p>Neo4j Cypher Implementation</p></td>
         <td colspan="1" rowspan="1"><p>Andres Taylor (Neo)</p></td>
         <td colspan="1" rowspan="1"><p>30 mins</p></td>
     </tr>
@@ -133,21 +130,15 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>12:15</p></td>
-        <td colspan="1" rowspan="1"><p>&lt;Dgraph&gt;*</p></td>
-        <td colspan="1" rowspan="1"><p>Tomasz Zdyba&#322; (DGraph)</p></td>
+        <td colspan="1" rowspan="1"><p>Dgraph</p></td>
+        <td colspan="1" rowspan="1"><p>Tomasz Zdyba&#322; (Dgraph)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>12:30</p></td>
-        <td colspan="1" rowspan="1"><p>BitNine Agens Graph Database</p></td>
-        <td colspan="1" rowspan="1"><p>&lt;TBD&gt;</p></td>
-        <td colspan="1" rowspan="1"><p>15 mins</p></td>
-    </tr>
-    <tr>
-        <td colspan="1" rowspan="1"><p>12:45</p></td>
-        <td colspan="1" rowspan="1"><p>SQL Composition</p></td>
-        <td colspan="1" rowspan="1"><p>&lt;TBD&gt;</p></td>
-        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+        <td colspan="1" rowspan="1"><p>Language Integration: SQL, GraphQL, and Tinkerpop</p></td>
+        <td colspan="1" rowspan="1"><p><b>Open discussion</b></p></td>
+        <td colspan="1" rowspan="1"><p>30 mins</p></td>
     </tr>
     <tr class="break">
         <td colspan="1" rowspan="1"><p>13:00</p></td>
@@ -155,7 +146,7 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
         <td colspan="1" rowspan="1"><p>60 mins</p></td>
     </tr>
     <tr>
-        <td colspan="4" rowspan="1"><p><span>Chair: Mats Rydberg</p></td>
+        <td colspan="4" rowspan="1"><p><span>Chair: <b>Mats Rydberg</b></p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>14:00</p></td>
@@ -181,7 +172,7 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
         <td colspan="1" rowspan="1"><p>30 mins</p></td>
     </tr>
     <tr>
-        <td colspan="4" rowspan="1"><p><span>Chair: Alastair Green</p></td>
+        <td colspan="4" rowspan="1"><p><span>Chair: <b>Alastair Green</b></p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="6"><p></p>
@@ -211,7 +202,7 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
         <td colspan="1" rowspan="1"><p>Stefan Plantikow</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1" class="item"><p>CRPQ</p></td>
+        <td colspan="1" rowspan="1" class="item"><p>CRPQs</p></td>
         <td colspan="1" rowspan="1"><p>Tobias Lindaaker</p></td>
     </tr>
     <tr>
@@ -221,8 +212,7 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
     <tr>
         <td colspan="1" rowspan="1"><p>16:00</p></td>
         <td colspan="1" rowspan="1"><p>Natural Language and Formal Specifications of Cypher</p></td>
-        <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo)</p>
-            <p>Paolo Guagliardo, Nadime Francis (University of Edinburgh)</p></td>
+        <td colspan="1" rowspan="1"><p>Paolo Guagliardo, Nadime Francis (University of Edinburgh)</p></td>
         <td colspan="1" rowspan="1"><p>20 mins</p></td>
     </tr>
     <tr>
@@ -241,7 +231,7 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
         <td colspan="1" rowspan="1"><p>Mats Rydberg</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1" class="item"><p>Vendor extensions</p></td>
+        <td colspan="1" rowspan="1" class="item"><p>Vendor Extensions</p></td>
         <td colspan="1" rowspan="1"><p>Tobias Lindaaker</p></td>
     </tr>
     <tr>
