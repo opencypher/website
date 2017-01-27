@@ -246,37 +246,37 @@ pre code {
   position: relative;
   top: -5px;
 }
-/* ======= About Section ======= */
-.about {
-  padding: 80px 0;
+/* ======= Home Section ======= */
+.home {
+  padding: 80px 0 40px;
 }
-.about .title {
+.home .title {
   color: #08568a;
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.about .intro {
+.home .intro {
   max-width: 800px;
   margin: 0 auto;
   margin-bottom: 60px;
 }
-.about .item {
+.home .item {
   position: relative;
   margin-bottom: 30px;
 }
-.about .item .icon-holder {
+.home .item .icon-holder {
   position: absolute;
   left: 30px;
   top: 0;
 }
-.about .item .icon-holder .fa {
+.home .item .icon-holder .fa {
   font-size: 24px;
   color: #0b74ba;
 }
-.about .item .content {
+.home .item .content {
   padding-left: 60px;
 }
-.about .item .content .sub-title {
+.home .item .content .sub-title {
   margin-top: 0;
   color: #0b74ba;
   font-size: 18px;
