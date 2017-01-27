@@ -281,6 +281,11 @@ pre code {
   color: #0b74ba;
   font-size: 18px;
 }
+.home hr {
+  width: 60%;
+  height: 1px;
+  background: #fff
+}
 /* ======= Features Section ======= */
 .features {
   padding: 80px 0;
