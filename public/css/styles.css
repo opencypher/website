@@ -529,20 +529,21 @@ pre code {
   margin-bottom: 30px;
   margin-top: 0;
 }
-.resources .social-icons {
+/*Social Icons styling*/
+.social-icons {
   list-style: none;
   padding: 10px 0;
   margin-bottom: 0;
   display: inline-block;
   margin: 0 auto;
 }
-.resources .social-icons li {
+.social-icons li {
   float: left;
 }
-.resources .social-icons li.last {
+.social-icons li.last {
   margin-right: 0;
 }
-.resources .social-icons a {
+.social-icons a {
   display: inline-block;
   background: #0b74ba;
   width: 48px;
@@ -560,13 +561,13 @@ pre code {
   margin-right: 8px;
   float: left;
 }
-.resources .social-icons a:hover {
+.social-icons a:hover {
   background: #e6ad14;
 }
-.resources .social-icons a .fa {
+.social-icons a .fa {
   color: #fff;
 }
-.resources .social-icons a .fa:before {
+.social-icons a .fa:before {
   font-size: 26px;
   text-align: center;
   padding: 0;
