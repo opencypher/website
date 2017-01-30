@@ -41,9 +41,15 @@
 
                 <p>
                     How can we evaluate a global query on huge graphs in 0.1 seconds? Given our current technology, that would be magic. The lack of wizarding skills did not stop us, however, from tackling the problem by using smart caching structures, which are witchcrafts on their own.
+                </p>
+                <p>
                     Why is this challenge important? Several applications evaluate global queries on continuously changing graphs: fraud detection in financial transactions, analysis of source code repositories and validating engineering models.
                     Current approaches employ domain-specific optimizations, which are difficult and error-prone to implement. Meanwhile, the requirements of these (and similar) use cases could be uniformly addressed by incremental graph query evaluation. With this technique, the first execution of the queries takes some time, but once the result are calculated, they can be efficiently maintained for each change in the graph.
+                </p>
+                <p>
                     To allow incremental queries on property graphs, we implemented the ingraph engine, based on the openCypher language specification. We aim to support the standard subset of openCypher, as most standard constructs can be calculated incrementally. We already mapped some of the standard constructs to relational algebra, defined incremental relational algebraic operators and implemented them in an incremental relational engine using Akka actors.
+                </p>
+                <p>
                     We start the talk by presenting use cases that evaluate complex global queries on continuously changing graphs and discuss the idea of incremental graph queries. We show the mapping of basic openCypher constructs (e.g. MATCH, WHERE, WITH, RETURN) to relational operators, such as joins, selections and projections. Finally, we show our approach for optimizing incremental graph queries and outline related challenges.
                 </p>
             </div>
@@ -74,7 +80,7 @@
                 <h4>Tomasz Zdybał (Dgraph)</h4>
 
                 <p>
-                    ...
+                    <i>To be published</i>
                 </p>
             </div>
 
@@ -93,7 +99,7 @@
                 <h4>Roi Lipman (Redis Labs)</h4>
 
                 <p>
-                    ...
+                    <i>To be published</i>
                 </p>
             </div>
 
@@ -103,7 +109,7 @@
                 <h4>Stefan Plantikow, Alastair Green (Neo Technology)</h4>
 
                 <p>
-                    ...
+                    <i>To be published</i>
                 </p>
             </div>
 
@@ -113,7 +119,7 @@
                 <h4>Martin Junghanns (University of Leipzig)</h4>
 
                 <p>
-                    ...
+                    <i>To be published</i>
                 </p>
             </div>
 
