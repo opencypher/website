@@ -85,26 +85,26 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>09:45</p></td>
-        <td colspan="1" rowspan="1"><p>openCypher Artefacts</p></td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#oc-artefacts">openCypher Artefacts</a></p></td>
         <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>10:00</p></td>
-        <td colspan="1" rowspan="1"><p>Graph Pattern Matching in SAP HANA</p></td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#sap-hana">Graph Pattern Matching in SAP HANA</a></p></td>
         <td colspan="1" rowspan="1"><p>Marcus Paradies (SAP)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>10:15</p></td>
-        <td colspan="1" rowspan="1"><p>Cypher in JetBrains IDE</p></td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#neueda">Cypher in JetBrains IDE</p></td>
         <td colspan="1" rowspan="1"><p>Dmitry Vrublevsky (Neueda)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>10:30</p>
             <p></p></td>
-        <td colspan="1" rowspan="1"><p>Incremental Graph Queries for Cypher</p></td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#inc-q">Incremental Graph Queries for Cypher</p></td>
         <td colspan="1" rowspan="1"><p>G&aacute;bor Sz&aacute;rnyas, J&oacute;zsef Marton (Budapest University of Technology and Economics)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
@@ -118,25 +118,25 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>11:30</p></td>
-        <td colspan="1" rowspan="1"><p>Neo4j Cypher Implementation</p></td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#neo4j">Neo4j Cypher Implementation</p></td>
         <td colspan="1" rowspan="1"><p>Andres Taylor (Neo)</p></td>
         <td colspan="1" rowspan="1"><p>30 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>12:00</p></td>
-        <td colspan="1" rowspan="1"><p>QUIL</p></td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#quil">QUIL</a></p></td>
         <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>12:15</p></td>
-        <td colspan="1" rowspan="1"><p>Dgraph</p></td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#dgraph">Dgraph</a></p></td>
         <td colspan="1" rowspan="1"><p>Tomasz Zdyba&#322; (Dgraph)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>12:30</p></td>
-        <td colspan="1" rowspan="1"><p>Language Integration: SQL, GraphQL, and Tinkerpop</p></td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#discussion">Language Integration: SQL, GraphQL, and Tinkerpop</a></p></td>
         <td colspan="1" rowspan="1"><p><b>Open discussion</b></p></td>
         <td colspan="1" rowspan="1"><p>30 mins</p></td>
     </tr>
@@ -150,19 +150,19 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>14:00</p></td>
-        <td colspan="1" rowspan="1"><p>Redis Graph</p></td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#redis">Redis Graph</a></p></td>
         <td colspan="1" rowspan="1"><p>Roi Lipman (Redis Labs) </p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>14:15</p></td>
-        <td colspan="1" rowspan="1"><p>Multi-graph</p></td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#multi-graph">Multi-graph</a></p></td>
         <td colspan="1" rowspan="1"><p>Stefan Plantikow, Alastair Green</p></td>
         <td colspan="1" rowspan="1"><p>30 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>14:45</p></td>
-        <td colspan="1" rowspan="1"><p>Extended Property Graphs and Cypher on Gradoop</p></td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#gradoop">Extended Property Graphs and Cypher on Gradoop</a></p></td>
         <td colspan="1" rowspan="1"><p>Martin Junghanns (University of Leipzig)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
@@ -190,19 +190,19 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
             <p>30 mins</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1" class="item"><p>Schema and Constraints</p></td>
+        <td colspan="1" rowspan="1" class="item"><p><a href="/ocim1-abstracts#schema">Schema and Constraints</a></p></td>
         <td colspan="1" rowspan="1"><p>Mats Rydberg</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1" class="item"><p>Subqueries</p></td>
+        <td colspan="1" rowspan="1" class="item"><p><a href="/ocim1-abstracts#subqueries">Subqueries</a></p></td>
         <td colspan="1" rowspan="1"><p>Petra Selmer</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1" class="item"><p>Isomorphic Matching</p></td>
+        <td colspan="1" rowspan="1" class="item"><p><a href="/ocim1-abstracts#iso">Isomorphic Matching</a></p></td>
         <td colspan="1" rowspan="1"><p>Stefan Plantikow</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1" class="item"><p>CRPQs</p></td>
+        <td colspan="1" rowspan="1" class="item"><p><a href="/ocim1-abstracts#crpqs">CRPQs</a></p></td>
         <td colspan="1" rowspan="1"><p>Tobias Lindaaker</p></td>
     </tr>
     <tr>
@@ -211,7 +211,7 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>16:00</p></td>
-        <td colspan="1" rowspan="1"><p>Natural Language and Formal Specifications of Cypher</p></td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#edinburgh">Natural Language and Formal Specifications of Cypher</a></p></td>
         <td colspan="1" rowspan="1"><p>Paolo Guagliardo, Nadime Francis (University of Edinburgh)</p></td>
         <td colspan="1" rowspan="1"><p>20 mins</p></td>
     </tr>
@@ -227,15 +227,15 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
             <p>30 mins</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1" class="item"><p>TCK &nbsp;/ Specification</p></td>
+        <td colspan="1" rowspan="1" class="item"><p><a href="/ocim1-abstracts#tck">TCK &nbsp;/ Specification</a></p></td>
         <td colspan="1" rowspan="1"><p>Mats Rydberg</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1" class="item"><p>Vendor Extensions</p></td>
+        <td colspan="1" rowspan="1" class="item"><p><a href="/ocim1-abstracts#vendor">Vendor Extensions</a></p></td>
         <td colspan="1" rowspan="1"><p>Tobias Lindaaker</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1" class="item"><p>CIP Process -- Involvement</p></td>
+        <td colspan="1" rowspan="1" class="item"><p><a href="/ocim1-abstracts#cip">CIP Process -- Involvement</a></p></td>
         <td colspan="1" rowspan="1"><p>Petra Selmer</p></td>
     </tr>
     <tr>

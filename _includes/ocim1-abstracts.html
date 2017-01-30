@@ -1,0 +1,201 @@
+<!-- ******ABOUT****** -->
+<section id="faq" class="home section">
+    <div class="container">
+        <div class="faq-inner">
+            <h2 class="title text-center">First openCypher Implementers Meeting — Talks & Abstracts</h2>
+
+            <div id="oc-artifacts" class="abstract-anchor"></div>
+            <div class="abstract">
+                <h3>openCypher Artefacts</h3>
+                <h4>Mats Rydberg (Neo Technology)</h4>
+
+                <p>
+                    In this talk, we will present and discuss the motivation behind the provision of the openCypher artefacts, all of which are publicly available for consumption. We will describe the components of the grammar specification and our Technology Compatibility Kit (TCK).
+                </p>
+            </div>
+
+            <div id="sap-hana" class="abstract-anchor"></div>
+            <div class="abstract">
+                <h3>Graph Pattern Matching in SAP HANA</h3>
+                <h4>Marcus Paradies (SAP)</h4>
+
+                <p>
+                    In this presentation we will describe SAP HANA Graph, a core component of the SAP HANA database. Specifically, we discuss the major design decisions that drove the integration of native graph processing capabilities and describe how we integrated a language subset of openCypher into SAP HANA. We conclude with a list of observations that we made during the development process when integrating openCypher into an existing database management system.
+                </p>
+            </div>
+
+            <div id="neueda" class="abstract-anchor"></div>
+            <div class="abstract">
+                <h3>Cypher in JetBrains IDE</h3>
+                <h4>Dmitry Vrublevsky (Neueda)</h4>
+
+                <p>
+                    In this talk we will take a look on "Graph Database support" plugin for JetBrains IDEs, in particular Cypher support that this plugin offers. We will explore what functionality it provides and how it can be used by developers to make them more efficient when dealing with Cypher.
+                </p>
+            </div>
+
+            <div id="inc-q" class="abstract-anchor"></div>
+            <div class="abstract">
+                <h3>Incremental Graph Queries for Cypher</h3>
+                <h4>Gábor Szárnyas, József Marton (Budapest University of Technology and Economics)</h4>
+
+                <p>
+                    How can we evaluate a global query on huge graphs in 0.1 seconds? Given our current technology, that would be magic. The lack of wizarding skills did not stop us, however, from tackling the problem by using smart caching structures, which are witchcrafts on their own.
+                    Why is this challenge important? Several applications evaluate global queries on continuously changing graphs: fraud detection in financial transactions, analysis of source code repositories and validating engineering models.
+                    Current approaches employ domain-specific optimizations, which are difficult and error-prone to implement. Meanwhile, the requirements of these (and similar) use cases could be uniformly addressed by incremental graph query evaluation. With this technique, the first execution of the queries takes some time, but once the result are calculated, they can be efficiently maintained for each change in the graph.
+                    To allow incremental queries on property graphs, we implemented the ingraph engine, based on the openCypher language specification. We aim to support the standard subset of openCypher, as most standard constructs can be calculated incrementally. We already mapped some of the standard constructs to relational algebra, defined incremental relational algebraic operators and implemented them in an incremental relational engine using Akka actors.
+                    We start the talk by presenting use cases that evaluate complex global queries on continuously changing graphs and discuss the idea of incremental graph queries. We show the mapping of basic openCypher constructs (e.g. MATCH, WHERE, WITH, RETURN) to relational operators, such as joins, selections and projections. Finally, we show our approach for optimizing incremental graph queries and outline related challenges.
+                </p>
+            </div>
+
+            <div id="neo4j" class="abstract-anchor"></div>
+            <div class="abstract">
+                <h3>Neo4j Cypher Implementation</h3>
+                <h4>Andrés Taylor (Neo Technology)</h4>
+
+                <p>
+                    In this talk, we will present our implementation of Cypher in Neo4j.
+                </p>
+            </div>
+
+            <div id="quil" class="abstract-anchor"></div>
+            <div class="abstract">
+                <h3>QUIL</h3>
+                <h4>Stefan Plantikow (Neo Technology)</h4>
+
+                <p>
+                    QUIL is an ongoing effort for creating a platform-agnostic intermediary representation for Cypher. The goal of QUIL is to provide a compact representation for a Cypher query for analysis and executing by different vendors. We'd like to discuss the motivation for QUIL, our current approach, open questions, and gather general feedback around the idea.
+                </p>
+            </div>
+
+            <div id="dgraph" class="abstract-anchor"></div>
+            <div class="abstract">
+                <h3>Dgraph</h3>
+                <h4>Tomasz Zdybał (Dgraph)</h4>
+
+                <p>
+                    ...
+                </p>
+            </div>
+
+            <div id="discussion" class="abstract-anchor"></div>
+            <div class="abstract">
+                <h3>Language Integration: SQL, GraphQL, and Tinkerpop</h3>
+
+                <p>
+                    A number of companies and groups have considered how to integrate SQL and Cypher. The simple composition model used by Bitnine in their Agens Graph product is of interest. GraphQL is a widely-used tool for expressing queries and for defining returned data documents, but it is not a fully-featured graph querying language: it will be interesting to see how GraphQL can be integrated with Cypher. Jason Crawford at IBM's System G project has recently raised the idea of implementing Cypher over Tinkerpop, an idea which has also been floated by the Apache Tinkerpop project. This session is an opportunity to talk about these kinds of language integrations in a round table discussion.
+                </p>
+            </div>
+
+            <div id="redis" class="abstract-anchor"></div>
+            <div class="abstract">
+                <h3>Redis Graph</h3>
+                <h4>Roi Lipman (Redis Labs)</h4>
+
+                <p>
+                    ...
+                </p>
+            </div>
+
+            <div id="multi-graph" class="abstract-anchor"></div>
+            <div class="abstract">
+                <h3>Multi-graph</h3>
+                <h4>Stefan Plantikow, Alastair Green (Neo Technology)</h4>
+
+                <p>
+                    ...
+                </p>
+            </div>
+
+            <div id="gradoop" class="abstract-anchor"></div>
+            <div class="abstract">
+                <h3>Extended Property Graphs and Cypher on Gradoop</h3>
+                <h4>Martin Junghanns (University of Leipzig)</h4>
+
+                <p>
+                    ...
+                </p>
+            </div>
+
+            <div id="schema" class="abstract-anchor"></div>
+            <div class="abstract">
+                <h3>Language Evolution: Future Features — Schema and Constraints </h3>
+                <h4>Mats Rydberg (Neo Technology)</h4>
+
+                <p>
+                    Schemas and constraints are an integral part of any database management system. In this talk, we will present our view on this topic, and provide details on current and future work in this area.
+                </p>
+            </div>
+
+            <div id="subqueries" class="abstract-anchor"></div>
+            <div class="abstract">
+                <h3>Language Evolution: Future Features — Subqueries </h3>
+                <h4>Petra Selmer (Neo Technology)</h4>
+
+                <p>
+                    Subqueries are a well-known and useful adjunct in querying, and in this talk we will discuss how we envisage incorporating existential, nested, and scalar subqueries into Cypher, along with projections and comprehensions.
+                </p>
+            </div>
+
+            <div id="iso" class="abstract-anchor"></div>
+            <div class="abstract">
+                <h3>Language Evolution: Future Features — Isomorphic Matching </h3>
+                <h4>Stefan Plantikow (Neo Technology)</h4>
+
+                <p>
+                    Cypher's pattern matching semantics is based on relationship-isomorphic matching. While this has proven to be a good, pragmatic choice for real-world applications, it also limits language expressivity for no strong reason. This short talk presents a recent proposal for lifting this restriction by introducing a new set of uniqueness modes to pattern matching as well as accompanying path predicate functions.
+                </p>
+            </div>
+
+            <div id="crpqs" class="abstract-anchor"></div>
+            <div class="abstract">
+                <h3>Language Evolution: Future Features — CRPQs </h3>
+                <h4>Tobias Lindaaker (Neo Technology)</h4>
+
+                <p>
+                    Conjuctive Regular Path Queries (CRPQs) lie at the heart of complex graph pattern matching, and research into this area has been ongoing for decades. In this talk, we present our ideas for their incorporation into Cypher.
+                </p>
+            </div>
+
+            <div id="edinburgh" class="abstract-anchor"></div>
+            <div class="abstract">
+                <h3>Natural Language and Formal Specifications of Cypher</h3>
+                <h4>Paolo Guagliardo, Nadime Francis (University of Edinburgh)</h4>
+
+                <p>
+                    The SQL standard has been around for more than three decades, but we still do not fully understand what to expect when executing an SQL query on a relational DBMS. This is mostly due to vagueness of the standard and the ambiguity of the natural language it is expressed in. In this talk, I will discuss recent efforts in providing a formal semantics for a core fragment of the SQL language that captures the behavior of real DBMSs, and the lessons we learned from this exercise. I will also introduce the newly started, ongoing collaboration between Neo Technologies and the University of Edinburgh in providing a similar formal semantics for Cypher, the challenges it poses and expected outcomes.
+                </p>
+            </div>
+
+            <div id="tck" class="abstract-anchor"></div>
+            <div class="abstract">
+                <h3>Language Evolution: Conformance and Extension — TCK / Specification</h3>
+                <h4>Mats Rydberg (Neo Technology)</h4>
+
+                <p>
+                    In this talk, we will provide working details on the Technology Compatability Kit (TCK), an artefact that we provide as part of openCypher. We will discuss the purpose, benefits, and limitations of the TCK, and walk through an example.
+                </p>
+            </div>
+
+            <div id="vendor" class="abstract-anchor"></div>
+            <div class="abstract">
+                <h3>Language Evolution: Conformance and Extension — Vendor Extensions</h3>
+                <h4>Tobias Lindaaker (Neo Technology)</h4>
+
+                <p>
+                    In SQL's long history, there have been a number of undesirable outcomes, such as different meanings for the same query, alternative ways of implementing the same construct, and difficulty in evolving the language whilst remaining backwards-compatible. This is something we seek to avoid in Cypher, and in this talk, we discuss various ways of extending Cypher along with a motivating example, as well as language profiles and ideas around versioning the language.
+                </p>
+            </div>
+
+            <div id="cip" class="abstract-anchor"></div>
+            <div class="abstract">
+                <h3>Language Evolution: Conformance and Extension — CIP Process — Involvement</h3>
+                <h4>Petra Selmer (Neo Technology)</h4>
+
+                <p>
+                    The evolution of Cypher is driven by the production and acceptance of Cypher Improvement Proposals (CIPs), which are documents outlining the syntax and semantics of proposed new Cypher features. In this talk, we will provide details of how we envisage the Cypher Improvement Proposal (CIP) process to work going forwards.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
