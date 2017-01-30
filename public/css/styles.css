@@ -655,16 +655,18 @@ pre code {
   position: relative;
   top: -70px;
 }
-
+.abstract {
+  padding: 5px 10px 10px;
+}
+.abstract:nth-child(4n+3) {
+  background-color: #ddd;
+}
 .abstract h4 {
   font-style: italic;
   font-size: 16px;
 }
 .abstract p {
   padding-left: 15px;
-}
-
-.programme a {
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
