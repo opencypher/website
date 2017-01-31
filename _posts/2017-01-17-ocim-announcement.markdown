@@ -19,7 +19,7 @@ We will be releasing the full programme in the next few days, which will compris
 * Demonstrations and talks by implementers
 * Cypher conformance testing with the Technology Compatibility Kit
 * Round table discussions on how to approach possible new major features in areas such as
-  * Named graphs, multi-graphs and views
+  * Named graphs, multiple graphs and views
   * Improved schema and constraints
   * Stronger typing
   * Conjunctive regular path queries (CRPQs)

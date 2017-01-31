@@ -16,7 +16,7 @@ The conference will comprise talks in areas such as:
 * Demonstrations and talks by implementers
 * Cypher conformance testing with the Technology Compatibility Kit
 * Round table discussions on how to approach possible new major features in areas such as
-  * Named graphs, multi-graphs and views
+  * Named graphs, multiple graphs and views
   * Improved schema and constraints
   * Stronger typing
   * Conjunctive regular path queries (CRPQs)
@@ -156,7 +156,7 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>14:15</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#multi-graph">Multi-graph</a></p></td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#multi-graph">Multiple graphs</a></p></td>
         <td colspan="1" rowspan="1"><p>Stefan Plantikow, Alastair Green</p></td>
         <td colspan="1" rowspan="1"><p>30 mins</p></td>
     </tr>
