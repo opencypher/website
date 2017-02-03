@@ -118,10 +118,16 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
         <td colspan="4" rowspan="1"><p><span>Chair: <b>Petra Selmer</b></p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1"><p>11:30</p></td>
+        <td colspan="1" rowspan="1"><p>11:20</p></td>
         <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#neo4j">Neo4j Cypher Implementation</p></td>
         <td colspan="1" rowspan="1"><p>Andres Taylor (Neo)</p></td>
-        <td colspan="1" rowspan="1"><p>30 mins</p></td>
+        <td colspan="1" rowspan="1"><p>25 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>11:45</p></td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#redis">Redis Graph</a></p></td>
+        <td colspan="1" rowspan="1"><p>Roi Lipman (Redis Labs) </p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>12:00</p></td>
@@ -138,7 +144,7 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
     <tr>
         <td colspan="1" rowspan="1"><p>12:30</p></td>
         <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#discussion">Language Integration: SQL, GraphQL, and Tinkerpop</a></p></td>
-        <td colspan="1" rowspan="1"><p><b>Open discussion</b></p></td>
+        <td colspan="1" rowspan="1"><p><b>Open discussion</b><br />Moderator: Alastair Green (Neo)</p></td>
         <td colspan="1" rowspan="1"><p>30 mins</p></td>
     </tr>
     <tr class="break">
@@ -151,21 +157,27 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>14:00</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#redis">Redis Graph</a></p></td>
-        <td colspan="1" rowspan="1"><p>Roi Lipman (Redis Labs) </p></td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#multi-graph-case">The case for Multiple Graph Querying</a></p></td>
+        <td colspan="1" rowspan="1"><p>Alastair Green (Neo)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>14:15</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#multi-graph">Multiple graphs</a></p></td>
-        <td colspan="1" rowspan="1"><p>Stefan Plantikow, Alastair Green</p></td>
-        <td colspan="1" rowspan="1"><p>30 mins</p></td>
-    </tr>
-    <tr>
-        <td colspan="1" rowspan="1"><p>14:45</p></td>
         <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#gradoop">Extended Property Graphs and Cypher on Gradoop</a></p></td>
         <td colspan="1" rowspan="1"><p>Martin Junghanns (University of Leipzig)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>14:30</p></td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#multi-graph">Multiple Graphs: Evolving Cypher</a></p></td>
+        <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo)</p></td>
+        <td colspan="1" rowspan="1"><p>20 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>14:50</p></td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#views">Views on Cypher</a></p></td>
+        <td colspan="1" rowspan="1"><p>Hannes Voigt (TU Dresden)</p></td>
+        <td colspan="1" rowspan="1"><p>10 mins</p></td>
     </tr>
     <tr class="break">
         <td colspan="1" rowspan="1"><p>15:00</p></td>
@@ -192,19 +204,19 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
     </tr>
     <tr>
         <td colspan="1" rowspan="1" class="item"><p><a href="/ocim1-abstracts#schema">Schema and Constraints</a></p></td>
-        <td colspan="1" rowspan="1"><p>Mats Rydberg</p></td>
+        <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo)</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1" class="item"><p><a href="/ocim1-abstracts#subqueries">Subqueries</a></p></td>
-        <td colspan="1" rowspan="1"><p>Petra Selmer</p></td>
+        <td colspan="1" rowspan="1"><p>Petra Selmer (Neo)</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1" class="item"><p><a href="/ocim1-abstracts#iso">Isomorphic Matching</a></p></td>
-        <td colspan="1" rowspan="1"><p>Stefan Plantikow</p></td>
+        <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo)</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1" class="item"><p><a href="/ocim1-abstracts#crpqs">CRPQs</a></p></td>
-        <td colspan="1" rowspan="1"><p>Tobias Lindaaker</p></td>
+        <td colspan="1" rowspan="1"><p>Tobias Lindaaker (Neo)</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1" class="item"><p><b>What else? Other ideas?</b></p></td>
@@ -229,20 +241,20 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
     </tr>
     <tr>
         <td colspan="1" rowspan="1" class="item"><p><a href="/ocim1-abstracts#tck">TCK &nbsp;/ Specification</a></p></td>
-        <td colspan="1" rowspan="1"><p>Mats Rydberg</p></td>
+        <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo)</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1" class="item"><p><a href="/ocim1-abstracts#vendor">Vendor Extensions</a></p></td>
-        <td colspan="1" rowspan="1"><p>Tobias Lindaaker</p></td>
+        <td colspan="1" rowspan="1"><p>Tobias Lindaaker (Neo)</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1" class="item"><p><a href="/ocim1-abstracts#cip">CIP Process -- Involvement</a></p></td>
-        <td colspan="1" rowspan="1"><p>Petra Selmer</p></td>
+        <td colspan="1" rowspan="1"><p>Petra Selmer (Neo)</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>16:50</p></td>
         <td colspan="1" rowspan="1"><p>Wrap-up and future meetings</p></td>
-        <td colspan="1" rowspan="1"><p>Alastair Green, Stefan Plantikow</p></td>
+        <td colspan="1" rowspan="1"><p>Alastair Green, Stefan Plantikow (Neo)</p></td>
         <td colspan="1" rowspan="1"><p>10 mins</p></td>
     </tr>
     <tr class="break">
