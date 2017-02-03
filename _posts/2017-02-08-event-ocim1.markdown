@@ -37,7 +37,7 @@ The meeting will be kindly hosted by SAP, in their HQ in **Dietmar-Hopp-Allee 16
 
 The conference is a one-day event, which follows the programme below.
 
-A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com/artifacts.opencypher.org/website/oCIMProgram.pdf).
+A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com/artifacts.opencypher.org/website/oCIMProgramme.pdf).
 
 <html>
 <head>
