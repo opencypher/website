@@ -83,13 +83,13 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>09:30</p></td>
-        <td colspan="1" rowspan="1"><p>Introduction</p></td>
+        <td colspan="1" rowspan="1"><p>Introduction</p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/09-30+-+Introduction.pdf">slides</a>)</td>
         <td colspan="1" rowspan="1"><p>Alastair Green (Neo)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>09:45</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#oc-artefacts">openCypher Artefacts</a></p></td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#oc-artefacts">openCypher Artefacts</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/09-45+-+openCypher+artefacts.pdf">slides</a>)</td>
         <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
@@ -122,7 +122,7 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>11:20</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#neo4j">Neo4j Cypher Implementation</p></td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#neo4j">Neo4j Cypher Implementation</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/11-20+-+Neo4j+Cypher+implementation.pdf">slides</a>)</td>
         <td colspan="1" rowspan="1"><p>Andres Taylor (Neo)</p></td>
         <td colspan="1" rowspan="1"><p>25 mins</p></td>
     </tr>
@@ -134,7 +134,7 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>12:00</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#quil">QUIL</a></p></td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#quil">QUIL</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/12-00+-+QUIL.pdf">slides</a>)</td>
         <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
@@ -146,7 +146,7 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>12:30</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#discussion">Language Integration: SQL, GraphQL, and Tinkerpop</a></p></td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#discussion">Language Integration: SQL, GraphQL, and Tinkerpop</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/12-30+-+Language+Integration.pdf">slides</a>)</td>
         <td colspan="1" rowspan="1"><p><b>Open discussion</b><br />Moderator: Alastair Green (Neo)</p></td>
         <td colspan="1" rowspan="1"><p>30 mins</p></td>
     </tr>
@@ -160,7 +160,7 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>14:00</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#multi-graph-case">The case for Multiple Graph Querying</a></p></td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#multi-graph-case">The case for Multiple Graph Querying</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/14-00+-+The+Case+for+Multiple+Graph+Querying.pdf">slides</a>)</td>
         <td colspan="1" rowspan="1"><p>Alastair Green (Neo)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
@@ -172,7 +172,7 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>14:30</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#multi-graph">Multiple Graphs: Evolving Cypher</a></p></td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#multi-graph">Multiple Graphs: Evolving Cypher</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/14-30+Multiple+Graphs-+Evolving+Cypher.pdf">slides</a>)</td>
         <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo)</p></td>
         <td colspan="1" rowspan="1"><p>20 mins</p></td>
     </tr>
@@ -197,7 +197,7 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
             <p></p>
             <p></p>
             <p>15:30</p></td>
-        <td colspan="2" rowspan="1"><p><span>Language Evolution: Future Features</p></td>
+        <td colspan="2" rowspan="1"><p>Language Evolution: Future Features</p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/15-30+-+Language+Evolution-+Future+Features.pdf">slides</a>)</td>
         <td colspan="1" rowspan="6"><p></p>
             <p></p>
             <p></p>
@@ -236,7 +236,7 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
             <p></p>
             <p></p>
             <p>16:20</p></td>
-        <td colspan="2" rowspan="1"><p>Language Evolution: Conformance and Extension</p></td>
+        <td colspan="2" rowspan="1"><p>Language Evolution: Conformance and Extension</p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/16-20+-+Language+Evolution-+Conformance+and+Extension.pdf">slides</a>)</td>
         <td colspan="1" rowspan="4"><p></p>
             <p></p>
             <p></p>
