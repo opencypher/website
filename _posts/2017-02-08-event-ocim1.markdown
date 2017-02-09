@@ -214,8 +214,8 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
         <td colspan="1" rowspan="1"><p>Petra Selmer (Neo)</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1" class="item"><p><a href="/ocim1-abstracts#iso">Isomorphic Matching</a></p></td>
-        <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo)</p></td>
+        <td colspan="1" rowspan="1" class="item"><p><a href="/ocim1-abstracts#iso">Isomorphic Matching</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/cypher_implementers_day_2017_pattern_matching_semantics.pdf">extra slides</a>)</td>
+        <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo), Oskar van Rest (Oracle)</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1" class="item"><p><a href="/ocim1-abstracts#crpqs">CRPQs</a></p></td>
