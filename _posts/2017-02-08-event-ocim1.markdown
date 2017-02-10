@@ -110,7 +110,7 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
             <p></p></td>
         <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#inc-q">Incremental Graph Queries for Cypher</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/ocim2017-incremental-opencypher.pdf">slides</a>)</td>
         <td colspan="1" rowspan="1"><p>G&aacute;bor Sz&aacute;rnyas, J&oacute;zsef Marton (Budapest University of Technology and Economics)</p></td>
-        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+        <td colspan="1" rowspan="1"><p>30 mins</p></td>
     </tr>
     <tr class="break">
         <td colspan="1" rowspan="1"><p>11:00</p></td>
@@ -227,7 +227,7 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>16:00</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#edinburgh">Natural Language and Formal Specifications of Cypher</a></p></td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#edinburgh">Natural Language and Formal Specifications of Cypher</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/sql-sem.pdf">slides</a>)</td>
         <td colspan="1" rowspan="1"><p>Paolo Guagliardo, Nadime Francis (University of Edinburgh)</p></td>
         <td colspan="1" rowspan="1"><p>20 mins</p></td>
     </tr>
