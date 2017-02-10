@@ -146,7 +146,7 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>12:30</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#discussion">Language Integration: SQL, GraphQL, and Tinkerpop</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/12-30+-+Language+Integration.pdf">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#discussion">Language Integration: SQL, GraphQL, and Tinkerpop</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/12-30+-+Language+Integration.pdf">slides</a>, <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/AgensGraph-+SQL+%2B+Cypher+Integration.pdf">BitNine slides</a>)</td>
         <td colspan="1" rowspan="1"><p><b>Open discussion</b><br />Moderator: Alastair Green (Neo)</p></td>
         <td colspan="1" rowspan="1"><p>30 mins</p></td>
     </tr>
