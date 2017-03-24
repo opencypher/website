@@ -3,6 +3,7 @@ layout: event
 categories: event
 title:  "First openCypher Implementers Meeting"
 date:   2017-02-08
+excerpt: "The first face-to-face meeting for people, projects and organizations interested in participating in the openCypher project, with the goal of creating a standard language based on Cypher for querying graphs."
 ---
 This is the first face-to-face meeting for people, projects and companies who are interested in
 

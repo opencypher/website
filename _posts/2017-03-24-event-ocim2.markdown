@@ -1,0 +1,53 @@
+---
+layout: event
+categories: event
+title:  "Second openCypher Implementers Meeting"
+date:   2017-05-10
+excerpt: "The second face-to-face meeting for people, projects and organizations interested in participating in the openCypher project, with the goal of creating a standard language based on Cypher for querying graphs.."
+---
+This is the second face-to-face meeting for people, projects and organizations who are interested in
+
+* implementing part or whole of the [Cypher graph query language](https://neo4j.com/developer/cypher/), including current implementers
+* the design and development of a standard declarative query language for graph databases, and want to see how Cypher could evolve to reach that goal
+
+oCIM is a conference organised by the [openCypher project](http://www.opencypher.org).
+
+## Agenda
+
+For the second oCIM, we want to encourage deeper involvement from parties outside Neo Technology by collaboratively creating an agenda via a conference call on Thursday the **6th of April 2017**.
+The agenda call will be hosted by Neo Technology using [GoToMeeting](https://www.gotomeeting.com/).
+To participate in the agenda-forming session, either join using the desktop client, or through a web browser, or through a smartphone app, or dial in using a phone.
+The call is scheduled for one hour and will start at **16.00 UTC**, which translates to:
+
+* 19.00 IST (Tel Aviv)
+* 17.00 CEST (Berlin)
+* 16.00 BST (London)
+* 11.00 EDT (New York)
+* 8.00 PDT (San Francisco)
+
+The call will open 15 minutes prior to the beginning of the meeting in order to allow some contingency in sorting out the technicalities of joining.
+
+### Discussion topics
+
+To serve as an inspiration to the agenda-forming session, we have carefully selected a set of topics that are the most interesting from our point of view.
+The list is not meant to serve as a partial agenda, but rather as input to the agenda meeting.
+
+* Mode of collaboration
+* Multiple graph querying
+* Formal semantics of Cypher
+* New language features
+  * Regular Path Queries
+  * Subqueries
+  * Sorting Lists
+  * Pattern Matching Semantics
+  * Aggregation
+
+The topic on aggregation has been raised by representatives of Scott Tiger.
+
+## Logistics
+
+The second oCIM will be held at the Marble Arch Edgware Road in London, United Kingdom, on Wednesday the **10th of May 2017**.
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d655.3306178401593!2d-0.16368293312351984!3d51.51539565196469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761acaa3df49ed%3A0x23f0c6bb528aea95!2setc.venues+Marble+Arch!5e0!3m2!1sen!2sse!4v1490365633315" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+More details will follow in due course.
