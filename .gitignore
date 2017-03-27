@@ -3,3 +3,5 @@
 *~
 # Generated site files
 _site/*
+.DS_Store
+_site/
