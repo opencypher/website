@@ -17,7 +17,7 @@ oCIM is a conference organised by the [openCypher project](http://www.opencypher
 For the second oCIM, we want to encourage deeper involvement from parties outside Neo Technology by collaboratively creating an agenda via a conference call on Thursday the **6th of April 2017**.
 The agenda call will be hosted by Neo Technology using [GoToMeeting](https://www.gotomeeting.com/).
 To participate in the agenda-forming session, either join using the desktop client, or through a web browser, or through a smartphone app, or dial in using a phone.
-The call is scheduled for one hour and will start at **16.00 UTC**, which translates to:
+The call is scheduled for one hour and will start at **15.00 UTC**, which translates to:
 
 * 19.00 IST (Tel Aviv)
 * 17.00 CEST (Berlin)
