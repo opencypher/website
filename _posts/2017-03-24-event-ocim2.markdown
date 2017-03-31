@@ -15,8 +15,6 @@ oCIM is a conference organised by the [openCypher project](http://www.opencypher
 ## Agenda
 
 For the second oCIM, we want to encourage deeper involvement from parties outside Neo Technology by collaboratively creating an agenda via a conference call on Thursday the **6th of April 2017**.
-The agenda call will be hosted by Neo Technology using [GoToMeeting](https://www.gotomeeting.com/).
-To participate in the agenda-forming session, either join using the desktop client, or through a web browser, or through a smartphone app, or dial in using a phone.
 The call is scheduled for one hour and will start at **15.00 UTC**, which translates to:
 
 * 19.00 IST (Tel Aviv)
@@ -26,6 +24,33 @@ The call is scheduled for one hour and will start at **15.00 UTC**, which transl
 * 8.00 PDT (San Francisco)
 
 The call will open 15 minutes prior to the beginning of the meeting in order to allow some contingency in sorting out the technicalities of joining.
+
+The agenda call will be hosted by Neo Technology using [GoToMeeting](https://www.gotomeeting.com/).
+To participate in the agenda-forming session, either join using the desktop client, or through a web browser, or through a smartphone app, or dial in using a phone.
+The meeting id is **985476213**, or you can follow this [direct link](https://global.gotomeeting.com/join/985476213).
+
+Dialing in via phone is possible through these country numbers:
+
+Access Code: 985-476-213
+
+Australia: +61 2 8355 1050<br/>
+Austria: +43 1 2060 92967<br/>
+Belgium: +32 28 93 7010<br/>
+Canada: +1 (647) 497-9391<br/>
+Denmark: +45 43 31 47 82<br/>
+Finland: +358 972 52 2974<br/>
+France: +33 170 950 594<br/>
+Germany: +49 692 5736 7210<br/>
+Ireland: +353 15 621 586<br/>
+Italy: +39 0 694 80 34 40<br/>
+Netherlands: +31 707 709 523<br/>
+New Zealand: +64 9 909 7888<br/>
+Norway: +47 23 96 01 70<br/>
+Spain: +34 932 75 2004<br/>
+Sweden: +46 775 757 474<br/>
+Switzerland: +41 225 4599 78<br/>
+United Kingdom: +44 330 221 0086<br/>
+United States: +1 (646) 749-3129<br/>
 
 ### Discussion topics
 
