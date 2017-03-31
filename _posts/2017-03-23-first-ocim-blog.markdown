@@ -99,4 +99,4 @@ All in all, the meeting was a resounding success, and we look forward to many mo
 
 ### Presentation materials
 
-The programme, complete with all slide material presented during the conference may be found at the [event page for the 1st oCIM](http://localhost:4000/event/2017/02/08/event-ocim1/#program).
+The programme, complete with all slide material presented during the conference may be found at the [event page for the 1st oCIM](/event/2017/02/08/event-ocim1/#program).
