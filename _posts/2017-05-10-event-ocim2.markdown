@@ -14,7 +14,7 @@ oCIM is a conference organised by the [openCypher project](http://www.opencypher
 
 ## Agenda
 
-For the second oCIM, we want to encourage deeper involvement from parties outside Neo Technology by collaboratively creating an agenda via a conference call on Thursday the **6th of April 2017**.
+For the second oCIM, we want to encourage deeper involvement from parties outside Neo Technology by collaboratively creating an agenda via a conference call on Tuesday the **18th of April 2017**.
 The call is scheduled for one hour and will start at **15.00 UTC**, which translates to:
 
 * 19.00 IST (Tel Aviv)
