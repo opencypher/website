@@ -170,7 +170,7 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>14:45</p></td>
-        <td colspan="2" rowspan="1"><p><b>Session:</b> Multiple Graphs (Chair: Mats Rybderg)</p></td>
+        <td colspan="2" rowspan="1"><p><b>Session:</b> Multiple Graphs (Chair: Mats Rydberg)</p></td>
         <td colspan="1" rowspan="1"><p>60 mins</p></td>
     </tr>
     <tr class="break">
