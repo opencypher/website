@@ -77,88 +77,103 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
     </tr>
 
     <tr>
-        <td colspan="1" rowspan="3"><p>10.00</p></td>
+        <td colspan="1" rowspan="2"><p>10.00</p></td>
         <td colspan="2" rowspan="1"><p><b>Session:</b> CIPs (Chair: Alastair Green)</p></td>
-        <td colspan="1" rowspan="3"><p>60 mins</p></td>
+        <td colspan="1" rowspan="2"><p>60 mins</p></td>
     </tr>
     <tr>
-        <td colspan="2" rowspan="1" class="item"><p>CIPs proposed for approval by oCIG</td>
-    </tr>
-    <tr>
-        <td colspan="2" rowspan="1" class="item"><p>CIPs in progress</td>
+        <td colspan="2" rowspan="1" class="item">
+            CIPs proposed for approval by oCIG:
+            <ul>
+                <li><a href="https://github.com/opencypher/openCypher/pull/100" target="_blank">Nested Subqueries</a></li>
+                <li><a href="https://github.com/opencypher/openCypher/pull/227" target="_blank">Query Combinators</a></li>
+                <li><a href="https://github.com/opencypher/openCypher/pull/212" target="_blank">MANDATORY MATCH</a></li>
+                <li><a href="https://github.com/opencypher/openCypher/pull/166" target="_blank">Constraints</a></li>
+            </ul>
+        </td>
     </tr>
     <tr class="break">
         <td colspan="1" rowspan="1"><p>11:00</p></td>
         <td colspan="2" rowspan="1"><p>Break</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="4" rowspan="1"><p><b>Session:</b> CIPs & Specification (Chair: Stefan Plantikow)</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>11:15</p></td>
+        <td colspan="1" rowspan="1"><p>Regular Path Queries (RPQs)</p></td>
+        <td colspan="1" rowspan="1"><p>Tobias Lindaaker (Neo Technology)</p></td>
         <td colspan="1" rowspan="1"><p>30 mins</p></td>
     </tr>
     <tr>
-        <td colspan="4" rowspan="1"><p><b>Session:</b> openCypher Implementations & Semantics (Chair: Petra Selmer)</p></td>
+        <td colspan="1" rowspan="1"><p>11:45</p></td>
+        <td colspan="1" rowspan="1"><p>Formal specification of Cypher</p></td>
+        <td colspan="1" rowspan="1"><p>Nadime Francis (University of Edinburgh)</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
+    <tr class="break">
+        <td colspan="1" rowspan="1"><p>12:00</p></td>
+        <td colspan="2" rowspan="1"><p>Lunch</p></td>
+        <td colspan="1" rowspan="1"><p>60 mins</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1"><p>11:30</p></td>
+        <td colspan="4" rowspan="1"><p><b>Session:</b> openCypher Implementations (Chair: Petra Selmer)</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>13:00</p></td>
         <td colspan="1" rowspan="1"><p>Implementation in Prolog</p></td>
         <td colspan="1" rowspan="1"><p>Jan Posiadała (Scott Tiger)</p></td>
         <td colspan="1" rowspan="1"><p>20 mins</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1"><p>11:50</p></td>
-        <td colspan="1" rowspan="1"><p>The ingraph project and incremental evaluation of Cypher queries</p></td>
-        <td colspan="1" rowspan="1"><p>G&aacute;bor Sz&aacute;rnyas, J&oacute;zsef Marton (Budapest University of Technology and Economics)</p></td>
-        <td colspan="1" rowspan="1"><p>15 mins</p></td>
-    </tr>
-    <tr>
-        <td colspan="1" rowspan="1"><p>12:05</p></td>
+        <td colspan="1" rowspan="1"><p>13:20</p></td>
         <td colspan="1" rowspan="1"><p>Cypher implementation atop Apache Spark</p></td>
         <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo Technology)</p></td>
         <td colspan="1" rowspan="1"><p>10 mins</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1"><p>12:15</p></td>
-        <td colspan="1" rowspan="1"><p>Formal specification of Cypher</p></td>
-        <td colspan="1" rowspan="1"><p>Nadime Francis (University of Edinburgh)</p></td>
+        <td colspan="1" rowspan="1"><p>13:30</p></td>
+        <td colspan="1" rowspan="1"><p>The ingraph project and incremental evaluation of Cypher queries</p></td>
+        <td colspan="1" rowspan="1"><p>G&aacute;bor Sz&aacute;rnyas, J&oacute;zsef Marton (Budapest University of Technology and Economics)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1"><p>12:30</p></td>
-        <td colspan="1" rowspan="1"><p>Discussion around controversies in Cypher semantics</p></td>
-        <td colspan="1" rowspan="1"><p><b>Open discussion</b></p></td>
+        <td colspan="1" rowspan="1"><p>13:45</p></td>
+        <td colspan="1" rowspan="1"><p>Neo4j implementation changes</p></td>
+        <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo Technology)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr class="break">
-        <td colspan="1" rowspan="1"><p>12:45</p></td>
-        <td colspan="2" rowspan="1"><p>Lunch</p></td>
-        <td colspan="1" rowspan="1"><p>60 mins</p></td>
+        <td colspan="1" rowspan="1"><p>14:00</p></td>
+        <td colspan="2" rowspan="1"><p>Break</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="4" rowspan="1"><p><b>Session:</b> openCypher Artifacts (Chair: Petra Selmer)</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1"><p>13:45</p></td>
+        <td colspan="1" rowspan="1"><p>14:15</p></td>
         <td colspan="1" rowspan="1"><p>Mode of collaboration</p></td>
-        <td colspan="1" rowspan="1"><p>TBD (Neo Technology)</p></td>
+        <td colspan="1" rowspan="1"><p>Alastair Green (Neo Technology)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1"><p>14:00</p></td>
+        <td colspan="1" rowspan="1"><p>14:30</p></td>
         <td colspan="1" rowspan="1"><p>Web-based Cypher editor in relationship to openCypher</p></td>
         <td colspan="1" rowspan="1"><p>Dmitry Vrublevsky (Neueda)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1"><p>14:15</p></td>
+        <td colspan="1" rowspan="1"><p>14:45</p></td>
         <td colspan="1" rowspan="1"><p>openCypher TCK</p></td>
         <td colspan="1" rowspan="1"><p>G&aacute;bor Sz&aacute;rnyas (Budapest University of Technology and Economics)</p></td>
         <td colspan="1" rowspan="1"><p>10 mins</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="4"><p>14:25</p></td>
+        <td colspan="1" rowspan="3"><p>14:55</p></td>
         <td colspan="2" rowspan="1"><p>openCypher grammar and parsers</p></td>
-        <td colspan="1" rowspan="4"><p>20 mins</p></td>
-    </tr>
-    <tr>
-        <td colspan="1" rowspan="1"><p>libcypher-parser</p></td>
-        <td colspan="1" rowspan="1"><p>Chris Leishman</p></td>
+        <td colspan="1" rowspan="3"><p>20 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>openCypher perspective on parsing and grammar</p></td>
@@ -168,23 +183,28 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
         <td colspan="1" rowspan="1"><p>openCypher Artifacts & Best Practices</p></td>
         <td colspan="1" rowspan="1"><p><b>Open discussion</b></p></td>
     </tr>
+    <tr class="break">
+        <td colspan="1" rowspan="1"><p>15:15</p></td>
+        <td colspan="2" rowspan="1"><p>Break</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
     <tr>
-        <td colspan="1" rowspan="1"><p>14:45</p></td>
+        <td colspan="1" rowspan="1"><p>15:30</p></td>
         <td colspan="2" rowspan="1"><p><b>Session:</b> Multiple Graphs (Chair: Mats Rydberg)</p></td>
         <td colspan="1" rowspan="1"><p>60 mins</p></td>
     </tr>
     <tr class="break">
-        <td colspan="1" rowspan="1"><p>15:45</p></td>
+        <td colspan="1" rowspan="1"><p>16:30</p></td>
         <td colspan="2" rowspan="1"><p>Break</p></td>
-        <td colspan="1" rowspan="1"><p>30 mins</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="4" rowspan="1"><p><b>Session:</b> Cypher Improvement Requests (CIRs) and developing ideas (Chair: Stefan Plantikow)</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="4"><p>16:15</p></td>
+        <td colspan="1" rowspan="4"><p>16:45</p></td>
         <td colspan="2" rowspan="1"><p>Discussion on grouping semantics</p></td>
-        <td colspan="1" rowspan="4"><p>20 mins</p></td>
+        <td colspan="1" rowspan="4"><p>25 mins</p></td>
     </tr>
     <tr>
         <td colspan="2" rowspan="1" class="item"><p>Presentation by Scott Tiger</p></td>
@@ -196,45 +216,25 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
         <td colspan="2" rowspan="1" class="item"><p>Open discussion</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1"><p>16:35</p></td>
+        <td colspan="1" rowspan="1"><p>17:10</p></td>
         <td colspan="1" rowspan="1"><p>Sorting lists</p></td>
         <td colspan="1" rowspan="1"><p>J&oacute;zsef Marton (Budapest University of Technology and Economics)</p></td>
         <td colspan="1" rowspan="1"><p>10 mins</p></td>
     </tr>
 
     <tr>
-        <td colspan="1" rowspan="1"><p>16:45</p></td>
-        <td colspan="1" rowspan="1"><p>SQL-Cypher composition</p></td>
-        <td colspan="1" rowspan="1"><p>TBD</p></td>
-        <td colspan="1" rowspan="1"><p>10 mins</p></td>
-    </tr>
-    <tr>
-        <td colspan="1" rowspan="3"><p>16:55</p></td>
-        <td colspan="1" rowspan="1"><p>Discussion on grouping semantics</p></td>
-        <td colspan="1" rowspan="1"><p>TBD (Neo Technology)</p></td>
-        <td colspan="1" rowspan="3"><p>15 mins</p></td>
-    </tr>
-    <tr>
-        <td colspan="2" rowspan="1" class="item"><p>Expression subqueries</p></td>
-    </tr>
-    <tr>
-        <td colspan="2" rowspan="1" class="item"><p>Pattern matching semantics (Iso/Homomorphism)</p></td>
-    </tr>
-
-    <tr>
-        <td colspan="1" rowspan="1"><p>17:10</p></td>
-        <td colspan="2" rowspan="1"><p><b>Open Discussion</b></p></td>
-        <td colspan="1" rowspan="1"><p>10 mins</p></td>
-    </tr>
-
-
-    <tr>
         <td colspan="1" rowspan="1"><p>17:20</p></td>
+        <td colspan="1" rowspan="1"><p>Future oCIM Topics</p></td>
+        <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo Technology)</p></td>
+        <td colspan="1" rowspan="1"><p>10 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>17:30</p></td>
         <td colspan="2" rowspan="1"><p>Closing & Next Meeting</p></td>
         <td colspan="1" rowspan="1"><p>10 mins</p></td>
     </tr>
     <tr class="break">
-        <td colspan="1" rowspan="1"><p>17:30</p></td>
+        <td colspan="1" rowspan="1"><p>17:40</p></td>
         <td colspan="3" rowspan="1"><p>End</p></td>
     </tr>
     <tr class="break">
