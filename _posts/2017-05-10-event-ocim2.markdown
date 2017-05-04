@@ -124,13 +124,13 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
         <td colspan="1" rowspan="1"><p>13:00</p></td>
         <td colspan="1" rowspan="1"><p>Implementation in Prolog</p></td>
         <td colspan="1" rowspan="1"><p>Jan Posiadała (Scott Tiger)</p></td>
-        <td colspan="1" rowspan="1"><p>20 mins</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1"><p>13:20</p></td>
+        <td colspan="1" rowspan="1"><p>13:15</p></td>
         <td colspan="1" rowspan="1"><p>Cypher for Apache Spark</p></td>
         <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo Technology)</p></td>
-        <td colspan="1" rowspan="1"><p>10 mins</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>13:30</p></td>
