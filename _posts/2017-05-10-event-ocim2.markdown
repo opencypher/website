@@ -65,13 +65,13 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>09:30</p></td>
-        <td colspan="1" rowspan="1"><p>Introduction & Status Report (<a href="" target="_blank">slides</a>)</p></td>
+        <td colspan="1" rowspan="1"><p>Introduction & Status Report (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/09-15+State+of+the+Cypher+%5BDONE%5D.pdf" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo Technology)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>09:45</p></td>
-        <td colspan="1" rowspan="1"><p>Updated CIP/oCIG Process (<a href="" target="_blank">slides</a>)</p></td>
+        <td colspan="1" rowspan="1"><p>Updated CIP/oCIG Process (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM+2+09.45+openCypher+Implementers+Group.pdf" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>Alastair Green (Neo Technology)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
@@ -85,9 +85,9 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
         <td colspan="2" rowspan="1" class="item">
             CIPs proposed for approval by oCIG:
             <ul>
-                <li><a href="https://github.com/opencypher/openCypher/pull/100" target="_blank">Nested Subqueries</a> (<a href="" target="_blank">slides</a>)</li>
-                <li><a href="https://github.com/opencypher/openCypher/pull/227" target="_blank">Query Combinators</a> (<a href="" target="_blank">slides</a>)</li>
-                <li><a href="https://github.com/opencypher/openCypher/pull/212" target="_blank">MANDATORY MATCH</a> (<a href="" target="_blank">slides</a>)</li>
+                <li><a href="https://github.com/opencypher/openCypher/pull/100" target="_blank">Nested Subqueries</a> (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10-00+Nested+Subqueries+%5BDONE%5D.pdf" target="_blank">slides</a>)</li>
+                <li><a href="https://github.com/opencypher/openCypher/pull/227" target="_blank">Query Combinators</a> (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10-00+Query+Combinators+%5BDONE%5D.pdf" target="_blank">slides</a>)</li>
+                <li><a href="https://github.com/opencypher/openCypher/pull/212" target="_blank">MANDATORY MATCH</a> (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10-00+MANDATORY+MATCH+%5BDONE%5D.pdf" target="_blank">slides</a>)</li>
                 <li><a href="https://github.com/opencypher/openCypher/pull/166" target="_blank">Constraints</a> (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10.00+Constraints+syntax.pdf" target="_blank">slides</a>)</li>
             </ul>
         </td>
@@ -102,7 +102,7 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>11:15</p></td>
-        <td colspan="1" rowspan="1"><p><a href="https://github.com/opencypher/openCypher/pull/187" target="_blank">Regular Path Queries (RPQs)</a> (<a href="" target="_blank">slides</a>)</p></td>
+        <td colspan="1" rowspan="1"><p><a href="https://github.com/opencypher/openCypher/pull/187" target="_blank">Regular Path Queries (RPQs)</a> (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/11-15+Path+Queries.pdf" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>Tobias Lindaaker (Neo Technology)</p></td>
         <td colspan="1" rowspan="1"><p>30 mins</p></td>
     </tr>
@@ -154,7 +154,7 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>14:15</p></td>
-        <td colspan="1" rowspan="1"><p>Mode of collaboration (<a href="" target="_blank">slides</a>)</p></td>
+        <td colspan="1" rowspan="1"><p>Mode of collaboration (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM+2+14.15+Collaboration.pdf" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>Alastair Green (Neo Technology)</p></td>
         <td colspan="1" rowspan="1"><p>5 mins</p></td>
     </tr>
@@ -193,14 +193,14 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
         <td colspan="2" rowspan="1"><p><b>Session:</b> Multiple Graphs (Chair: Mats Rydberg)</p></td>
         <td colspan="1" rowspan="4"><p>75 mins</p></td>
     <tr>
-        <td colspan="2" rowspan="1" class="item"><p>User requirements (Frank Smit's <a href="" target="_blank">slides</a>)</p></td>
+        <td colspan="2" rowspan="1" class="item"><p>User requirements (<a href="" target="_blank">Frank Smit's slides</a>)</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1" class="item"><p>Identification and addressing (<a href="" target="_blank">slides</a>)</p></td>
+        <td colspan="1" rowspan="1" class="item"><p>Identification and addressing (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM+2+15.15+Multiple+Graph+Naming+and+Addressing.pdf" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>Alastair Green (Neo Technology)</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1" class="item"><p>Syntax and semantics (<a href="" target="_blank">slides</a>)</p></td>
+        <td colspan="1" rowspan="1" class="item"><p>Syntax and semantics (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/15-15+Duality+through+Inversion-+Syntax+and+Semantics+of+Cypher+for+multiple+Graphs+%5BDONE%5D.pdf" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo Technology)</p></td>
     </tr>
     </tr>
