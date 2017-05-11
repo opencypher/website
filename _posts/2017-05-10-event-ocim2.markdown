@@ -65,13 +65,13 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>09:30</p></td>
-        <td colspan="1" rowspan="1"><p>Introduction & Status Report (slides)</p></td>
+        <td colspan="1" rowspan="1"><p>Introduction & Status Report (<a href="" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo Technology)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>09:45</p></td>
-        <td colspan="1" rowspan="1"><p>Updated CIP/oCIG Process (slides)</p></td>
+        <td colspan="1" rowspan="1"><p>Updated CIP/oCIG Process (<a href="" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>Alastair Green (Neo Technology)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
@@ -85,10 +85,10 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
         <td colspan="2" rowspan="1" class="item">
             CIPs proposed for approval by oCIG:
             <ul>
-                <li><a href="https://github.com/opencypher/openCypher/pull/100" target="_blank">Nested Subqueries</a> (slides)</li>
-                <li><a href="https://github.com/opencypher/openCypher/pull/227" target="_blank">Query Combinators</a> (slides)</li>
-                <li><a href="https://github.com/opencypher/openCypher/pull/212" target="_blank">MANDATORY MATCH</a> (slides)</li>
-                <li><a href="https://github.com/opencypher/openCypher/pull/166" target="_blank">Constraints</a> (slides)</li>
+                <li><a href="https://github.com/opencypher/openCypher/pull/100" target="_blank">Nested Subqueries</a> (<a href="" target="_blank">slides</a>)</li>
+                <li><a href="https://github.com/opencypher/openCypher/pull/227" target="_blank">Query Combinators</a> (<a href="" target="_blank">slides</a>)</li>
+                <li><a href="https://github.com/opencypher/openCypher/pull/212" target="_blank">MANDATORY MATCH</a> (<a href="" target="_blank">slides</a>)</li>
+                <li><a href="https://github.com/opencypher/openCypher/pull/166" target="_blank">Constraints</a> (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10.00+Constraints+syntax.pdf" target="_blank">slides</a>)</li>
             </ul>
         </td>
     </tr>
@@ -102,13 +102,13 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>11:15</p></td>
-        <td colspan="1" rowspan="1"><p><a href="https://github.com/opencypher/openCypher/pull/187" target="_blank">Regular Path Queries (RPQs)</a> (slides)</p></td>
+        <td colspan="1" rowspan="1"><p><a href="https://github.com/opencypher/openCypher/pull/187" target="_blank">Regular Path Queries (RPQs)</a> (<a href="" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>Tobias Lindaaker (Neo Technology)</p></td>
         <td colspan="1" rowspan="1"><p>30 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>11:45</p></td>
-        <td colspan="1" rowspan="1"><p>Formal specification of Cypher (slides)</p></td>
+        <td colspan="1" rowspan="1"><p>Formal specification of Cypher (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/Slides.pdf" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>Nadime Francis (University of Edinburgh)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
@@ -122,25 +122,25 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>13:00</p></td>
-        <td colspan="1" rowspan="1"><p>Implementation in Prolog (slides)</p></td>
+        <td colspan="1" rowspan="1"><p>Implementation in Prolog (<a href="" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>Jan Posiadała (Scott Tiger)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>13:15</p></td>
-        <td colspan="1" rowspan="1"><p>Cypher for Apache Spark (slides)</p></td>
+        <td colspan="1" rowspan="1"><p>Cypher for Apache Spark (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/13-15+Cypher+for+Apache+Spark.pdf" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo Technology)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>13:30</p></td>
-        <td colspan="1" rowspan="1"><p>The ingraph project and incremental evaluation of Cypher queries (slides)</p></td>
+        <td colspan="1" rowspan="1"><p>The ingraph project and incremental evaluation of Cypher queries (<a href="" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>G&aacute;bor Sz&aacute;rnyas, J&oacute;zsef Marton (Budapest University of Technology and Economics)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>13:45</p></td>
-        <td colspan="1" rowspan="1"><p>Neo4j implementation changes (slides)</p></td>
+        <td colspan="1" rowspan="1"><p>Neo4j implementation changes (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/13-45+Neo4j+implementation+updates.pdf" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo Technology)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
@@ -154,19 +154,19 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>14:15</p></td>
-        <td colspan="1" rowspan="1"><p>Mode of collaboration (slides)</p></td>
+        <td colspan="1" rowspan="1"><p>Mode of collaboration (<a href="" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>Alastair Green (Neo Technology)</p></td>
         <td colspan="1" rowspan="1"><p>5 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>14:20</p></td>
-        <td colspan="1" rowspan="1"><p>Web-based Cypher editor in relationship to openCypher (slides)</p></td>
+        <td colspan="1" rowspan="1"><p>Web-based Cypher editor in relationship to openCypher (<a href="" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>Dmitry Vrublevsky (Neueda)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>14:35</p></td>
-        <td colspan="1" rowspan="1"><p>openCypher TCK (slides)</p></td>
+        <td colspan="1" rowspan="1"><p>openCypher TCK (<a href="" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>G&aacute;bor Sz&aacute;rnyas (Budapest University of Technology and Economics)</p></td>
         <td colspan="1" rowspan="1"><p>10 mins</p></td>
     </tr>
@@ -193,14 +193,14 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
         <td colspan="2" rowspan="1"><p><b>Session:</b> Multiple Graphs (Chair: Mats Rydberg)</p></td>
         <td colspan="1" rowspan="4"><p>75 mins</p></td>
     <tr>
-        <td colspan="2" rowspan="1" class="item"><p>User requirements (Frank Smit's slides)</p></td>
+        <td colspan="2" rowspan="1" class="item"><p>User requirements (Frank Smit's <a href="" target="_blank">slides</a>)</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1" class="item"><p>Identification and addressing (slides)</p></td>
+        <td colspan="1" rowspan="1" class="item"><p>Identification and addressing (<a href="" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>Alastair Green (Neo Technology)</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1" class="item"><p>Syntax and semantics (slides)</p></td>
+        <td colspan="1" rowspan="1" class="item"><p>Syntax and semantics (<a href="" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo Technology)</p></td>
     </tr>
     </tr>
@@ -218,24 +218,24 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
         <td colspan="1" rowspan="4"><p>25 mins</p></td>
     </tr>
     <tr>
-        <td colspan="2" rowspan="1" class="item"><p>Presentation by Scott Tiger (slides)</p></td>
+        <td colspan="2" rowspan="1" class="item"><p>Presentation by Scott Tiger (<a href="" target="_blank">slides</a>)</p></td>
     </tr>
     <tr>
-        <td colspan="2" rowspan="1" class="item"><p>Presentation by J&oacute;zsef Marton (slides)</p></td>
+        <td colspan="2" rowspan="1" class="item"><p>Presentation by J&oacute;zsef Marton (<a href="" target="_blank">slides</a>)</p></td>
     </tr>
     <tr>
         <td colspan="2" rowspan="1" class="item"><p>Open discussion</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>17:10</p></td>
-        <td colspan="1" rowspan="1"><p>Sorting lists (slides)</p></td>
+        <td colspan="1" rowspan="1"><p>Sorting lists (<a href="" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>J&oacute;zsef Marton (Budapest University of Technology and Economics)</p></td>
         <td colspan="1" rowspan="1"><p>10 mins</p></td>
     </tr>
 
     <tr>
         <td colspan="1" rowspan="5"><p>17:20</p></td>
-        <td colspan="1" rowspan="1"><p>Future oCIM Topics (slides)</p></td>
+        <td colspan="1" rowspan="1"><p>Future oCIM Topics (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/17-20+Future+oCIM+Topics+%5BDONE%5D.pdf" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo Technology)</p></td>
         <td colspan="1" rowspan="5"><p>15 mins</p></td>
     </tr>
