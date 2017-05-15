@@ -12,6 +12,10 @@ This is the second face-to-face meeting for people, projects and organizations w
 
 oCIM is a conference organised by the [openCypher project](http://www.opencypher.org).
 
+<img src="{{ site.baseurl }}/public/images/ocim2-group-photo.jpg" width="840" height="630" />
+
+*Group photo of the participants at the oCIM 2 conference.*
+
 <div class="abstract-anchor" id="agenda"></div>
 
 ## Agenda
