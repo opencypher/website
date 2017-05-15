@@ -122,7 +122,7 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>13:00</p></td>
-        <td colspan="1" rowspan="1"><p>Implementation in Prolog (<a href="" target="_blank">slides coming soon</a>)</p></td>
+        <td colspan="1" rowspan="1"><p>Implementation in Prolog (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/Cypher.PL_PS_1300_JP_MR.pdf" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>Jan Posiadała (Scott Tiger)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
@@ -134,7 +134,7 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>13:30</p></td>
-        <td colspan="1" rowspan="1"><p>The ingraph project and incremental evaluation of Cypher queries (<a href="" target="_blank">slides coming soon</a>)</p></td>
+        <td colspan="1" rowspan="1"><p>The ingraph project and incremental evaluation of Cypher queries (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/ocim2-ingraph.pdf" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>G&aacute;bor Sz&aacute;rnyas, J&oacute;zsef Marton (Budapest University of Technology and Economics)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
@@ -166,7 +166,7 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>14:35</p></td>
-        <td colspan="1" rowspan="1"><p>openCypher TCK (<a href="" target="_blank">slides coming soon</a>)</p></td>
+        <td colspan="1" rowspan="1"><p>openCypher TCK (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/ocim2-tck.pdf" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>G&aacute;bor Sz&aacute;rnyas (Budapest University of Technology and Economics)</p></td>
         <td colspan="1" rowspan="1"><p>10 mins</p></td>
     </tr>
@@ -193,7 +193,7 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
         <td colspan="2" rowspan="1"><p><b>Session:</b> Multiple Graphs (Chair: Mats Rydberg)</p></td>
         <td colspan="1" rowspan="4"><p>75 mins</p></td>
     <tr>
-        <td colspan="2" rowspan="1" class="item"><p>User requirements (<a href="" target="_blank">Frank Smit's slides coming soon</a>, <a href="" target="_blank">Matt Toy's slides coming soon</a>)</p></td>
+        <td colspan="2" rowspan="1" class="item"><p>User requirements (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/Presentation+OBI4wan+graphs.pdf" target="_blank">Frank Smit's slides</a>, <a href="" target="_blank">Matt Toy's slides coming soon</a>)</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1" class="item"><p>Identification and addressing (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM+2+15.15+Multiple+Graph+Naming+and+Addressing.pdf" target="_blank">slides</a>)</p></td>
@@ -218,17 +218,17 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
         <td colspan="1" rowspan="4"><p>25 mins</p></td>
     </tr>
     <tr>
-        <td colspan="2" rowspan="1" class="item"><p>Presentation by Scott Tiger (<a href="" target="_blank">slides coming soon</a>)</p></td>
+        <td colspan="2" rowspan="1" class="item"><p>Presentation by Scott Tiger (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/GrupingSemantics_SP_1645_SoCIM_JP_MR.pdf" target="_blank">slides</a>)</p></td>
     </tr>
     <tr>
-        <td colspan="2" rowspan="1" class="item"><p>Presentation by J&oacute;zsef Marton (<a href="" target="_blank">slides coming soon</a>)</p></td>
+        <td colspan="2" rowspan="1" class="item"><p>Presentation by J&oacute;zsef Marton (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM2_aggregation_JozsefMarton.pdf" target="_blank">slides</a>)</p></td>
     </tr>
     <tr>
         <td colspan="2" rowspan="1" class="item"><p>Open discussion</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>17:10</p></td>
-        <td colspan="1" rowspan="1"><p>Sorting lists (<a href="" target="_blank">slides coming soon</a>)</p></td>
+        <td colspan="1" rowspan="1"><p>Sorting lists (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM2_lists_JozsefMarton.pdf" target="_blank">slides</a>)</p></td>
         <td colspan="1" rowspan="1"><p>J&oacute;zsef Marton (Budapest University of Technology and Economics)</p></td>
         <td colspan="1" rowspan="1"><p>10 mins</p></td>
     </tr>
