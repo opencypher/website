@@ -22,6 +22,9 @@ The second oCIM will be held at **etc.venues Marble Arch** at Garfield House, 86
 
 ## Agenda
 
+All slide presentations from the conference are now publicly available to download, see the below links.
+A zipped archive of all presentations may be downloaded [here](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/ocim2-slides.zip).
+
 On Tuesday 18th of April we held an open Agenda Call, during which the following agenda was outlined:
 
 <html>
