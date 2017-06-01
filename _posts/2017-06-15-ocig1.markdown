@@ -13,10 +13,13 @@ This is the first virtual meeting for members of the openCypher Implementers Gro
 
 * Aggregations and grouping:
     * **[CIR-2017-219](https://github.com/opencypher/openCypher/issues/219)**: Grouping key selection for aggregating subqueries  _(József Marton, Jan Posiadała)_
+        * [Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM2_aggregation_JozsefMarton.pdf) by József Marton, Budapest University of Technology and Economics
+        * [Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/GrupingSemantics_SP_1645_SoCIM_JP_MR.pdf) by Jan Posiadała and Paweł Susicki, Scott Tiger
     * **[CIR-2017-183](https://github.com/opencypher/openCypher/issues/183)**: Support calling aggregation functions on lists in expressions _(Stefan Plantikow)_
     * **[CIR-2017-188](https://github.com/opencypher/openCypher/issues/188)**: Syntax differentiation for aggregations _(Mats Rydberg)_
     * **[CIP2017-04-13](https://github.com/opencypher/openCypher/pull/218)**: Aggregations CIP _(Tobias Lindaaker)_
 * **[CIP2016-01-26](https://github.com/opencypher/openCypher/pull/212)**: MANDATORY MATCH _(Stefan Plantikow)_
+    * [Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10-00+MANDATORY+MATCH+%5BDONE%5D.pdf) by Stefan Plantikow, Neo Technology
 
 ## Logistics
 
