@@ -17,8 +17,9 @@
                 <div class="content">
                     <h3 class="sub-title">Focus on Your Domain</h3>
                     <p>Graphs naturally describe your domain, and Cypher lets you focus on that domain instead of
-                        getting lost in the mechanics of data access. Both expressive and efficient, Cypher is intuitive
-                        and immediately familiar, without the steep learning curve of learning a new language.</p>
+                        getting lost in the mechanics of data access. Both <i>expressive</i> and <i>efficient</i>,
+                        Cypher is <i>intuitive</i>
+                        and immediately familiar.</p>
                 </div><!--//content-->
             </div><!--//item-->
             <div class="item col-md-4 col-sm-6 col-xs-12">
@@ -27,8 +28,10 @@
                 </div>
                 <div class="content">
                     <h3 class="sub-title">Human Readable</h3>
-                    <p>Cypher is a human-readable query language that makes complex things possible. A combination of
-                        English prose and intuitive iconography, Cypher is accessible to developers and operations
+                    <p>Cypher is a <i>human-readable</i> query language that makes common operations easy. A combination
+                        of
+                        English prose and <i>intuitive iconography</i>, Cypher is <i>accessible</i> to developers and
+                        operations
                         professionals alike.</p>
                 </div><!--//content-->
             </div><!--//item-->
@@ -39,8 +42,8 @@
                 <div class="content">
                     <h3 class="sub-title">Complete Open Source Access</h3>
                     <p>The openCypher project means you can use Cypher as your query language for graph processing
-                        capabilities within any product or application. Everyone from Oracle and Apache Spark to Tableau
-                        and Structr can (and do) use Cypher’s capabilities – now you can too.</p>
+                        capabilities within any product or application. Databases like <b>SAP HANA Graph</b>, <b>Redis</b>, <b>AgensGraph</b>
+                        and <b>Neo4j</b> all use the Cypher query language – now you can too.</p>
                 </div><!--//content-->
             </div><!--//item-->
         </div><!--//row-->
@@ -49,10 +52,9 @@
                 <div class="cypher">
                         <pre>
 
-    MATCH (cypher:QueryLanguage)-[:QUERIES]->(graphs)
-    MATCH (cypher)<-[:USES]-(u:User) WHERE u.name IN [‘Oracle’, ‘Apache Spark’, ‘Tableau’, ‘Structr’]
-    MATCH (openCypher)-[:MAKES_AVAILABLE]->(cypher)
-    RETURN cypher.attributes
+     MATCH (d:Database)-[:USES]->(<b>Cypher</b>)-[:QUERIES]->(:Model:Graph)
+     WHERE d.name IN [<b>'SAP HANA Graph','Redis','AgensGraph', 'Neo4j'</b>,...]
+     RETURN Cypher.features
                         </pre>
                 </div><!--//cypher-->
             </div><!--item-->
@@ -61,7 +63,8 @@
         <div class="container text-center">
             <div class="col-md-10 col-md-offset-1">
                 <p>The <strong>openCypher project</strong> aims to improve growth and adoption of graph processing and
-                    analysis by providing an open graph query language to any data store, tooling or application provider as
+                    analysis by providing an open graph query language to any data store, tooling or application
+                    provider as
                     a mechanism to query graph data.</p>
             </div><!--//container-->
         </div>
@@ -85,16 +88,22 @@
             </p>
 
             <ul class="social-icons list-inline">
-                <li><a href="https://groups.google.com/forum/#!forum/opencypher" target="_blank"><i class="fa fa-group"></i></a></li>
+                <li><a href="https://groups.google.com/forum/#!forum/opencypher" target="_blank"><i
+                        class="fa fa-group"></i></a></li>
                 <li><a href="https://twitter.com/opencypher" target="_blank"><i class="fa fa-twitter"></i></a></li>
                 <li><a href="mailto: openCypher@neotechnology.com"><i class="fa fa-envelope"></i></a></li>
-                <li class="last"><a href="https://github.com/opencypher/openCypher"><i class="fa fa-github"></i></a></li>
-                <li class="last"><a href="http://neo4j-users-slack-invite.herokuapp.com/"><i class="fa fa-slack"></i></a></li>
+                <li class="last"><a href="https://github.com/opencypher/openCypher"><i class="fa fa-github"></i></a>
+                </li>
+                <li class="last"><a href="http://neo4j-users-slack-invite.herokuapp.com/"><i
+                        class="fa fa-slack"></i></a></li>
             </ul>
 
             <p>
-                Most of our activity happens on the GitHub repository, where you may for example submit or comment on CIRs (Cypher Improvement Requests).
-                The Slack link points to a sign-up page, which will give you an invitation to the <a href="https://neo4j-users.slack.com/">neo4j-users</a> Slack team, where we live in the #opencypher channel.
+                Most of our activity happens on the GitHub repository, where you may for example submit or comment on
+                CIRs (Cypher Improvement Requests).
+                The Slack link points to a sign-up page, which will give you an invitation to the <a
+                    href="https://neo4j-users.slack.com/">neo4j-users</a> Slack team, where we live in the #opencypher
+                channel.
             </p>
         </div>
     </div>
