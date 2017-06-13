@@ -23,7 +23,7 @@ _Alastair Green_, the Product Manager at Neo Technology, followed on from Stefan
 As a public body, the oCIG is open to any interested parties -- vendors, researchers, implementers, users -- wishing to be involved in improving the feature set, expressiveness, aesthetics and usability of Cypher.
 Alastair introduced the process underpinning this initiative, which is broadly as follows:
 
-* [Cypher Improvement Requests](https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR) (CIRs) outline at a high level ideas, feature suggestions or topics for discussion.
+* [Cypher Improvement Requests](https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR) (CIRs) outline at a high level ideas, feature suggestions, or topics for discussion.
 * [Cypher Improvement Proposals](https://github.com/opencypher/openCypher/pulls?q=is%3Aopen+is%3Apr+label%3ACIP) (CIPs) act as the formal Cypher specification vehicle in that they address ideas suggested in CIRs, detailing the syntax and semantics of proposed new features.
 
 Every three weeks, the [oCIG will meet virtually](http://www.opencypher.org/ocig) to discuss CIPs and CIRs -- expanding and enriching as needed -- and to arrive at a consensus as to whether to accept or reject a CIP, and to assign working groups to produce CIPs in response to high-priority CIRs.
@@ -60,8 +60,8 @@ This would have the benefit of not needing to invent contrived examples in each 
 
 The next session gave a lot of food for thought, exploring in detail Conjunctive Regular Path Queries (CRPQs), and work done to date on the formal specification on Cypher, both topics pushing the boundaries on querying in general.
 
-_Tobias Lindaaker_, an engineer at Neo Technology and a member of the Cypher Language Group, began the session with a [deep dive](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/11-15+Path+Queries.pdf) on the thinking around CRPQs  -- or, to use a more Cypher-oriented nomenclature  -- Path Query Patterns (PQPs) in Cypher ([CIP](https://github.com/opencypher/openCypher/pull/187)).
-These allow for paths to be defined by regular expressions (including grouping or nesting) over the relationship types, thus allowing for complex connections to be expressed.
+_Tobias Lindaaker_, an engineer at Neo Technology and a member of the Cypher Language Group, began the session with a [deep dive](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/11-15+Path+Queries.pdf) into the thinking around CRPQs  -- or, to use a more Cypher-oriented nomenclature  -- Path Query Patterns (PQPs) in Cypher ([CIP](https://github.com/opencypher/openCypher/pull/187)).
+These allow for paths to be defined by regular expressions (including grouping or nesting) over the relationship types, thus allowing for very complex connections to be expressed.
 CRPQs have been studied extensively in academia over the past few decades.
 Bringing the notion of CRPQs into the world of property graphs, PQPs additionally allow for property predicates on intermediate nodes and relationships (i.e. data tests).
 
@@ -70,10 +70,10 @@ This work returns to basics, defining all the constructs within Cypher and the p
 Nadime started off by detailing the formalization of operations, expressions and pattern matching.
 He then proceeded to discuss the various corner cases, ambiguities and inconsistencies, and incomplete and ill-defined cases, discovered in the course of this work so far, making for a very illuminating presentation!
 
-For example, it is not clear what the semantics are for the following query: `MATCH (n:Person {name: null}) RETURN n`.
-Does this i) return every node `n` labelled with `Person` having a `name` property, or ii) return every node `n` labelled with `Person` such that `n.name IS NULL = true`, or iii) return nothing?
-It turns out that the third case is the correct one, as the query is equivalent to `MATCH (n:Person) WHERE n.name = null RETURN n`, thus returning no results as no such data is ever persisted.
-However, by considering the original form of the query, this behaviour does not necessarily follow.
+For example, it may not be clear what the semantics are for the following query: `MATCH (n:Person {name: null}) RETURN n`.
+Does this i) return every node `n` labelled with `:Person` having a `name` property, or ii) return every node `n` labelled with `:Person` such that `n.name IS NULL = true`, or iii) return nothing?
+It turns out that the third case is the correct one, as the query is equivalent to `MATCH (n:Person) WHERE n.name = null RETURN n`, thus returning no results as nothing is ever equal to null.
+As Nadime reflected, this provides a good example as to why formal semantics are not only interesting, but necessary.
 
 ---
 
@@ -102,7 +102,7 @@ Alastair opened the series of talks by quickly drawing attention to the [legal s
 
 This was followed by [_Dmitry Vrublevsky_](https://neo4j.com/blog/contributor/dmitry-vrublevsky/), a software engineer at [Neueda](https://www.neueda.com/) who, following on from his [presentation at the 1st oCIM conference](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/Jetbrains_Plugin_-_Graph_Database_support.pdf), covered [work](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/Cypher_Editor.pdf) on the Cypher editor they have been building which is included in the Neo4j Browser.
 Dmitry showed us the syntax highlighting features, context-sensitive error reporting (for example, when a query does not comply with the expected syntax) and auto completion.
-He concluded with a quick tour of small improvements made to the grammar, and challenges they encountered, comprising vendor extensions and intricacies surrounding the applications of the Cypher style guide.
+He concluded with a quick tour of small improvements made to the grammar, and challenges they encountered, comprising vendor extensions and intricacies surrounding the applications of the [Cypher style guide](https://github.com/opencypher/openCypher/blob/master/docs/style-guide.adoc).
 
 Gábor then rounded off the presentation section of the session with a [discussion](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/ocim2-tck.pdf) on his and his colleagues' take on the [TCK](http://www.opencypher.org/#resources) (Technology Compliance Kit), thus exemplifying how an implementation incorporated an openCypher artifact from scratch.
 Gábor began by covering the TCK as it stands, and then delved into more details about their experiences in implementing the TCK, focusing on issues and inconsistencies they encountered; in particular, in the area of side effects and how the underlying behaviour of these was not clearly specified.
@@ -127,7 +127,7 @@ Frank ended with an overview of their system architecture, which uses Spark, and
 
 _Patrick Watts_ and _Matthew Toy_, from [BNP Paribas](http://www.bnpparibas.co.uk/en/), discussed the [second use case](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM+2+BNP+Paribas+Data+Lineage+--+Generic+Overview.pdf) for multiple graphs.
 Briefly, they are required by law to show that they are compliant with a number of regulations.
-In order to do this, they need to show, and subsequently query, a list of files pertaining to a set of Risk portfolios.
+In order to do this, they need to show, and subsequently query, a list of files pertaining to a set of risk portfolios.
 The resulting data is in essence a graph.
 They showed that using a graph database for these tasks was easy, extensible, and performed well.
 
@@ -166,6 +166,6 @@ We should like to thank all our speakers and attendees for making it such an int
 It was very gratifying to see how many different strands -- introduced at the first meeting a mere three months ago -- have developed and gained momentum since the last meeting.
 We anticipate the pace to accelerate even more this summer, with the inception of [regular virtual meetings](http://www.opencypher.org/ocig) to discuss and incorporate new features into Cypher.
 We are also in the process of organizing the 3rd oCIM conference, and details thereof will be made public on our events page.
-As always, please feel free to reach out to us at openCypher@neotechnology.com if you are interested or have any questions -- everyone is welcome!
+As always, please feel free to reach out to us at <openCypher@neotechnology.com> if you are interested or have any questions -- everyone is welcome!
 
 The programme, complete with all the slide materials presented during the conference, may be found at the event page for the [2nd oCIM conference](/event/2017/05/10/event-ocim2).
