@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: blog
 title:  "Reflections on the Second openCypher Implementers Meeting"
 date:   2017-06-13
 author: "Petra Selmer & Mats Rydberg"

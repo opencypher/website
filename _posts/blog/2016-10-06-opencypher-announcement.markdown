@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: blog
 title:  "openCypher — Grammar and TCK"
 date:   2016-10-06
 author: "Cypher Language Group"

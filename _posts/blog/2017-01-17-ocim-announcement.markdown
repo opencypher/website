@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: blog
 title:  "openCypher Implementers Meeting"
 date:   2017-01-17
 author: "Mats Rydberg & Petra Selmer"
