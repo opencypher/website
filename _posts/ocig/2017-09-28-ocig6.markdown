@@ -1,0 +1,23 @@
+---
+layout: event
+categories: ocig
+title:  "Sixth openCypher Implementers Group Meeting"
+date:   2017-09-28
+author: "Mats Rydberg"
+excerpt: "The sixth virtual meeting for members of the openCypher Implementers Group."
+---
+This is the sixth virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="/cips/" target="_blank">CIPs</a>).
+
+This meeting is dedicated to the topic of subqueries.
+
+## Agenda
+
+* Subqueries
+    * **[CIR-2017-181](https://github.com/opencypher/openCypher/issues/181)**: Extended subqueries for Cypher _(Stefan Plantikow)_
+    * **[CIR-2017-191](https://github.com/opencypher/openCypher/issues/191)**: Make OPTIONAL MATCH and WHERE interaction easier to understand _(Mats Rydberg)_
+    * **[CIP-2016-06-22](https://github.com/opencypher/openCypher/pull/100)**: Nested Subqueries _(Petra Selmer & Stefan Plantikow)_
+    * **[CIP-2017-03-29](https://github.com/opencypher/openCypher/pull/217)**: Scalar Subqueries and List Subqueries _(Tobias Lindaaker)_
+
+## Logistics
+
+The sixth oCIG meeting will be held on 15.00 - 16:30 UTC on Thursday, 28 September 2017.
