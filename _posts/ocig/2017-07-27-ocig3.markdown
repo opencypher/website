@@ -2,7 +2,7 @@
 layout: event
 categories: ocig
 title:  "Third openCypher Implementers Group Meeting"
-date:   2017-07-26
+date:   2017-07-27
 author: "Mats Rydberg"
 excerpt: "The third virtual meeting for members of the openCypher Implementers Group."
 ---
@@ -16,10 +16,11 @@ The list of referenced CIRs and CIPs on the agenda will be updated as relevant e
 
 * Controllable morphism
     * **[CIR-2017-174](https://github.com/opencypher/openCypher/issues/174)**: Isomorphic pattern matching and configurable uniqueness _(Stefan Plantikow)_
+    * **[CIP-2017-01-18](https://github.com/opencypher/openCypher/pull/175)**: Isomorphic Matching Semantics _(Stefan Plantikow)_
 * Multiple graphs, preview
     * A URI scheme for multiple graphs _(Alastair Green)_
     * **[CIR-2017-182](https://github.com/opencypher/openCypher/issues/182)**: Adding support for multiple graphs _(Stefan Plantikow)_
 
 ## Logistics
 
-The third oCIG meeting will be held on 15.00 - 16:30 UTC on Thursday, 26 July 2017.
+The third oCIG meeting will be held on 15.00 - 16:30 UTC on Thursday, 27 July 2017.
