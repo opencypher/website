@@ -22,4 +22,4 @@ This is the first virtual meeting for members of the openCypher Implementers Gro
 
 ## Logistics
 
-The first oCIG meeting will be held on 15.00 - 16:30 UTC on Thursday, 22 June 2017, using [this GoToMeeting link](https://global.gotomeeting.com/join/871643141).
+The first oCIG meeting will be held on 15.00 - 16:30 UTC on Thursday, 22 June 2017, using [this GoToMeeting link](https://global.gotomeeting.com/join/936502805).
