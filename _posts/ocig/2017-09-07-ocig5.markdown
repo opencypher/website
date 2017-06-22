@@ -1,0 +1,21 @@
+---
+layout: event
+categories: ocig
+title:  "Fifth openCypher Implementers Group Meeting"
+date:   2017-09-07
+author: "Mats Rydberg"
+excerpt: "The fifth virtual meeting for members of the openCypher Implementers Group."
+---
+This is the fifth virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="/cips/" target="_blank">CIPs</a>).
+
+This meeting is intended as a catch-all of topics that time did not allow prior oCIG meetings to reach conclusion on, especially topics related to multiple graphs.
+The list of referenced CIRs and CIPs on the agenda will be updated as relevant entries come up.
+
+## Agenda
+
+* Multiple graphs, syntax and semantics
+    * **[CIR-2017-182](https://github.com/opencypher/openCypher/issues/182)**: Adding support for multiple graphs _(Stefan Plantikow)_
+
+## Logistics
+
+The fifth oCIG meeting will be held on 15.00 - 16:30 UTC on Thursday, 7 September 2017.
