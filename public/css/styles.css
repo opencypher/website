@@ -634,6 +634,19 @@ pre code {
   margin-bottom: 20px;
 }
 
+.inline-agenda {
+  margin: 5px 25px 20px;
+  padding-left: 15px;
+  padding-bottom: 1px;
+  padding-top: 5px;
+  border-left: thick solid #cdcdcd;
+}
+
+.inline-agenda h2 {
+  font-size: 25px;
+  margin-top: 0;
+}
+
 /* ======= Posts ======= */
 
 .post {
@@ -695,6 +708,3 @@ pre code {
     margin-bottom: 5px;
   }
 }
-/* Small devices (tablets, 768px and up) */
-/* Medium devices (desktops, 992px and up) */
-/* Large devices (large desktops, 1200px and up) */

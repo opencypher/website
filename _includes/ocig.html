@@ -30,22 +30,44 @@
 
         <p>&nbsp;</p>
 
-        <!-- This will allow us to change the view of this page with one line edit -->
-        {% assign nextDate = "Thursday, 6 July 2017" %}
-        <h3>Next oCIG meeting: {{ nextDate }}</h3>
+        <!-- Enumerate all oCIG posts, sorted -->
+        {% assign sorted = (site.categories.ocig | sort: 'date') %}
 
-        {% for post in site.categories.ocig %}
-        {% assign postDate = post.date | date: "%A, %-d %B %Y" %}
-        {% if nextDate == postDate %}
-            {{ post.agenda | markdownify }}
+        <!-- The current time in milliseconds -->
+        {% assign now = site.time | date: "%s" %}
 
-            <p>
-                Visit the <a href= {{ post.url }}>meeting page</a> to view all details of this meeting.
-            </p>
-        {% endif %}
+        <!-- Display historical meetings -->
+        <h3>Historical meetings</h3>
+        {% for post in sorted %}
+            {% assign postDateMillis = post.date | date: "%s" %}
+
+            <ul>
+            {% if postDateMillis < now %}
+                <li>
+                    <a href="{{ post.url }}"><b>{{ post.date | date: "%A, %-d %B %Y" }}</b> (page)</a>
+                </li>
+            {% endif %}
+            </ul>
         {% endfor %}
 
-        <h4>Local times</h4>
+        <!-- This allows us to change the view of this page with one line edit -->
+        {% assign nextDate = "Thursday, 6 July 2017" %}
+
+        {% for post in sorted %}
+            {% assign postDate = post.date | date: "%A, %-d %B %Y" %}
+            {% if nextDate == postDate %}
+                <h3>Next oCIG meeting: {{ nextDate }}</h3>
+                <div class="inline-agenda">
+                    {{ post.agenda | markdownify }}
+                </div>
+                <p>
+                    Visit the <a href= {{ post.url }}>meeting page</a> to view all details of this meeting.
+                    See the <a href="#meetings">full meetings schedule</a> below.
+                </p>
+            {% endif %}
+        {% endfor %}
+
+        <h3>Local times</h3>
         <p>
 
             The call is scheduled for an hour and a half, and will start at <b>15.00 UTC</b>, which translates to:
@@ -57,10 +79,6 @@
             <li>11.00 EDT (New York)</li>
             <li>08.00 PDT (San Francisco)</li>
         </ul>
-
-        <h4><a href="#meetings">Future meetings schedule</a></h4>
-
-        <p>&nbsp;</p>
 
         <h3>Meeting logistics</h3>
 
@@ -111,18 +129,13 @@
             <!--<li>United States: +1 (312) 757-3117</li>-->
         </ul>
 
-        <h3><a name="meetings"></a>Meetings schedule</h3>
-
-        <div class="posts">
-            <ul>
-                {% assign sorted = (site.categories.ocig | sort: 'date') %}
-                {% for post in sorted %}
+        <h3><a name="meetings"></a>Full meetings schedule</h3>
+        <ul>
+            {% for post in sorted %}
                 <li>
                     <a href="{{ post.url }}"><b>{{ post.date | date: "%A, %-d %B %Y" }}</b> (page)</a>
                 </li>
-                {% endfor %}
-            </ul>
-        </div>
-
+            {% endfor %}
+        </ul>
     </div>
 </section>
