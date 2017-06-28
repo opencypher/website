@@ -1,4 +1,5 @@
 ---
+permalink: ocig3
 layout: event
 categories: ocig
 title:  "Third openCypher Implementers Group Meeting"

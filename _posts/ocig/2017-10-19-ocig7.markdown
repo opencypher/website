@@ -1,4 +1,5 @@
 ---
+permalink: ocig7
 layout: event
 categories: ocig
 title:  "Seventh openCypher Implementers Group Meeting"
