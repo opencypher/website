@@ -5,6 +5,15 @@ title:  "Third openCypher Implementers Group Meeting"
 date:   2017-07-27
 author: "Mats Rydberg"
 excerpt: "The third virtual meeting for members of the openCypher Implementers Group."
+agenda: |
+    ## Agenda
+
+    * Controllable morphism
+        * **[CIR-2017-174](https://github.com/opencypher/openCypher/issues/174)**: Isomorphic pattern matching and configurable uniqueness _(Stefan Plantikow)_
+        * **[CIP-2017-01-18](https://github.com/opencypher/openCypher/pull/175)**: Isomorphic Matching Semantics _(Stefan Plantikow)_
+    * Multiple graphs, preview
+        * A URI scheme for multiple graphs _(Alastair Green)_
+        * **[CIR-2017-182](https://github.com/opencypher/openCypher/issues/182)**: Adding support for multiple graphs _(Stefan Plantikow)_
 ---
 This is the third virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="/cips/" target="_blank">CIPs</a>).
 
@@ -12,14 +21,7 @@ This meeting will focus on proposals to change how semantics for pattern matchin
 It will also introduce the topic of multiple graphs, which will be covered more extensively in the next meeting.
 The list of referenced CIRs and CIPs on the agenda will be updated as relevant entries come up.
 
-## Agenda
-
-* Controllable morphism
-    * **[CIR-2017-174](https://github.com/opencypher/openCypher/issues/174)**: Isomorphic pattern matching and configurable uniqueness _(Stefan Plantikow)_
-    * **[CIP-2017-01-18](https://github.com/opencypher/openCypher/pull/175)**: Isomorphic Matching Semantics _(Stefan Plantikow)_
-* Multiple graphs, preview
-    * A URI scheme for multiple graphs _(Alastair Green)_
-    * **[CIR-2017-182](https://github.com/opencypher/openCypher/issues/182)**: Adding support for multiple graphs _(Stefan Plantikow)_
+{{ page.agenda }}
 
 ## Logistics
 
