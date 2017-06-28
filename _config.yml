@@ -4,9 +4,9 @@ exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefil
 title: openCypher
 email: opencypher@neotechnology.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The openCypher project is a collaboration between researchers, database vendors,
+  and a growing open community, with the goal to design and specify a standardised
+  property graph query language, called Cypher.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://openCypher.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
