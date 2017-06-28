@@ -15,3 +15,6 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# File organisation
+include: ["_pages"]
