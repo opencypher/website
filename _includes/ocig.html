@@ -34,7 +34,8 @@
         {% assign sorted = (site.categories.ocig | sort: 'date') %}
 
         <!-- The current time in milliseconds -->
-        {% assign now = site.time | date: "%s" %}
+        <!-- TODO: Compute the time of yesterday -->
+        {% assign now = "1499291000" %}
 
         <!-- Display historical meetings -->
         <h3>Historical meetings</h3>
