@@ -22,3 +22,4 @@ This meeting is dedicated to the topic of extending Cypher with support for expr
 ## Logistics
 
 The second oCIG meeting will be held on 15.00 - 16:30 UTC on Thursday, 6 July 2017.
+Join the meeting by following this GotoMeeting link: [https://global.gotomeeting.com/join/759233861](https://global.gotomeeting.com/join/759233861.).
