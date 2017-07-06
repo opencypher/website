@@ -26,4 +26,6 @@ Join the meeting by following this GotoMeeting link: [https://global.gotomeeting
 
 ## Meeting materials
 
-During the course of the meeting, [this Google document](https://docs.google.com/document/d/1smNzklcyiU8BB2-0I9LdSCrPcC1U2l-X5WeEHwzJMds/edit?usp=sharing) may be shared between participants for collaborative notes.
+A PDF version of the slide deck presented by Tobias may be found [here](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig2/Path+Pattern+Queries+-+oCIG+2017-07-06.pdf).
+
+The recording for the meeting will be published here shortly.
