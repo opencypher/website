@@ -23,3 +23,7 @@ This meeting is dedicated to the topic of extending Cypher with support for expr
 
 The second oCIG meeting will be held on 15.00 - 16:30 UTC on Thursday, 6 July 2017.
 Join the meeting by following this GotoMeeting link: [https://global.gotomeeting.com/join/759233861](https://global.gotomeeting.com/join/759233861.).
+
+## Meeting materials
+
+During the course of the meeting, [this Google document](https://docs.google.com/document/d/1smNzklcyiU8BB2-0I9LdSCrPcC1U2l-X5WeEHwzJMds/edit?usp=sharing) may be shared between participants for collaborative notes.
