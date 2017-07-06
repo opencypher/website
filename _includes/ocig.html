@@ -33,17 +33,13 @@
         <!-- Enumerate all oCIG posts, sorted -->
         {% assign sorted = (site.categories.ocig | sort: 'date') %}
 
-        <!-- The current time in milliseconds -->
-        <!-- TODO: Compute the time of yesterday -->
-        {% assign now = "1499291000" %}
-
         <!-- Display historical meetings -->
         <h3>Historical meetings</h3>
         {% for post in sorted %}
             {% assign postDateMillis = post.date | date: "%s" %}
 
             <ul>
-            {% if postDateMillis < now %}
+            {% if postDateMillis < "1500501600" %}
                 <li>
                     <a href="{{ post.url }}"><b>{{ post.date | date: "%A, %-d %B %Y" }}</b> (page)</a>
                 </li>
@@ -52,7 +48,7 @@
         {% endfor %}
 
         <!-- This allows us to change the view of this page with one line edit -->
-        {% assign nextDate = "Thursday, 6 July 2017" %}
+        {% assign nextDate = "Thursday, 27 July 2017" %}
 
         {% for post in sorted %}
             {% assign postDate = post.date | date: "%A, %-d %B %Y" %}
