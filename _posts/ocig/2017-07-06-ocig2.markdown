@@ -28,4 +28,5 @@ Join the meeting by following this GotoMeeting link: [https://global.gotomeeting
 
 A PDF version of the slide deck presented by Tobias may be found [here](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig2/Path+Pattern+Queries+-+oCIG+2017-07-06.pdf).
 
-The recording for the meeting will be published here shortly.
+The recording of the meeting may be downloaded via [this link](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig2/ocig2-recording.zip).
+The first few minutes (introduction and agenda overview) were unfortunately not recorded.
