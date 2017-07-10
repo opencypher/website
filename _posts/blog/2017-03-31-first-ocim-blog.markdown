@@ -16,17 +16,17 @@ _The conference room, featuring Alastair Green making the case for multiple grap
 
 # What happened
 
-The [opening presentation](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/09-30+-+Introduction.pdf) was given by _Alastair Green_, the Product Manager at Neo Technology responsible for the development of Cypher and the openCypher project.
+The [opening presentation](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/09-30+-+Introduction.pdf) was given by _Alastair Green_, the Product Manager at Neo4j responsible for the development of Cypher and the openCypher project.
 In his talk, Alastair explained that the goal of the openCypher initiative is to craft a standard language for querying graphs, using as a basis Cypher in its current form, and seeking to evolve it via an open process, with the active participation of all interested vendors and implementers.
 
-_Mats Rydberg_, an engineer at Neo Technology, [presented an overview](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/09-45+-+openCypher+artefacts.pdf) of the library of shared artifacts that have been produced and made publicly available under the auspices of openCypher.
+_Mats Rydberg_, an engineer at Neo4j, [presented an overview](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/09-45+-+openCypher+artefacts.pdf) of the library of shared artifacts that have been produced and made publicly available under the auspices of openCypher.
 He then proceeded to a discussion of ideas around a shared grammar and a verifiable test kit.
 
 <div class="abstract-anchor" id="above"></div>
 
 Next, _Marcus Paradies_, developer at SAP, discussed how they've [injected Cypher](https://blogs.sap.com/2016/12/01/graph-processing-with-sap-hana-2/) into their HANA Graph stack, [detailing how SAP has modelled graphs in their relational system](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/Graph+Pattern+Matching+in+SAP+HANA.pdf), and mentioning some of the shortcomings that were encountered.
 In particular, Marcus highlighted the importance of compositionality within the language, and brought up two of the conference's larger topics: pattern matching semantics, and multiple graphs.
-[Later in the day](#below), Neo Technology's CLG (Cypher Language Group, the internal Neo Technology team responsible for language development of Cypher) team lead _Stefan Plantikow_ and _Oskar van Rest_, Principal Member of Technical Staff at Oracle, both described problems relating to Cypher's pattern matching semantics, and explored alternatives.
+[Later in the day](#below), Neo4j's CLG (Cypher Language Group, the internal Neo4j team responsible for language development of Cypher) team lead _Stefan Plantikow_ and _Oskar van Rest_, Principal Member of Technical Staff at Oracle, both described problems relating to Cypher's pattern matching semantics, and explored alternatives.
 
 Following on from Marcus' presentation, _Dmitry Vrublevsky_, software engineer at [Neueda](http://www.neueda.com/), [presented and demonstrated](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/Jetbrains_Plugin_-_Graph_Database_support.pdf) the Cypher developer tool that they have been building as a plugin for the popular JetBrains family of IDEs.
 As of 8 February 2017, the plugin had over 11,000 downloads, and Dmitry showcased its syntax highlighting, refactoring and error reporting features.
@@ -39,13 +39,13 @@ Both Gábor and József, as well as Dmitry, had already been directly involved i
 
 ---
 
-_Andrés Taylor_, engineer at Neo Technology, father of Cypher, and former team lead of the CLG, started the next session by [describing how Cypher has been (and is) implemented in Neo4j](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/11-20+-+Neo4j+Cypher+implementation.pdf), for and from which the language has been grown.
+_Andrés Taylor_, engineer at Neo4j, father of Cypher, and former team lead of the CLG, started the next session by [describing how Cypher has been (and is) implemented in Neo4j](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/11-20+-+Neo4j+Cypher+implementation.pdf), for and from which the language has been grown.
 After a brief overview of Cypher's history, Andrés described in detail the cost-based query planner, the algorithm it is based on, and ended with a quick look at Neo4j's new Cypher runtime, which runs on generated code.
 
 _Roi Lipman_, software engineer at [Redis Labs](https://redislabs.com/), then gave a [presentation](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/Redis+Graph.pdf) on how he had developed the Redis graph module based on a hexastore model, where node-relationship-node triplets are stored in six permutations to enable fast prefix-based searches.
 
 A concept that has arisen in prior meetings with several interested parties is that of a shared standard of internal graph query representation, possibly compiled from several distinct source languages.
-_Stefan Plantikow_ [gave an insight](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/12-00+-+QUIL.pdf) as to how Neo Technology and the CLG had been thinking about such a model, called QUIL (Query Intermediary Language).
+_Stefan Plantikow_ [gave an insight](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/12-00+-+QUIL.pdf) as to how Neo4j and the CLG had been thinking about such a model, called QUIL (Query Intermediary Language).
 
 _Tomasz Zdybał_, software engineer at [Dgraph Labs](https://dgraph.io/), [presented Dgraph](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/dgraph.pdf), an in-memory native graph database, and the implementation in their product of a graph query language based on Facebook's GraphQL.
 Tomasz highlighted Dgraph's intentions of adding support for Cypher, and how schema validation was an important topic.
@@ -72,7 +72,7 @@ Before Stefan's dive into the world of multiple graphs, _Martin Junghanns_, rese
 Martin gave us an overview on how their system handled query planning, and the model used to represent (intermediate) query results in the distributed framework, Flink, in which the queries are executed.
 The project also featured interesting extensions to the [Property Graph Model](https://github.com/opencypher/openCypher/blob/master/docs/property-graph-model.adoc), upon which Cypher is based, including the concept of logical subgraphs and a set of graph operations.
 
-Following on from Martin's talk, _Hannes Voigt_, researcher at the Technical University of Dresden, [walked us through his research project](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/openCypher-GraphViews.pdf), in which _Michael Hunger_, community caretaker at Neo Technology, had participated.
+Following on from Martin's talk, _Hannes Voigt_, researcher at the Technical University of Dresden, [walked us through his research project](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/openCypher-GraphViews.pdf), in which _Michael Hunger_, community caretaker at Neo4j, had participated.
 The topic comprised virtual graphs and views, and featured several intriguing extensions to Cypher. These were expressed in terms of 'crossing the concept chasm', which Hannes explained as the different levels of abstraction that users view their data in.
 At the lowest level of abstraction is the actual raw unprocessed data, which is usually very high in volume.
 At higher levels, larger patterns start to appear, composed of groups of nodes and relationships from the lower levels.
@@ -97,7 +97,7 @@ This project will be undertaken during the spring of 2017, and reports of progre
 ---
 
 All in all, the meeting was a resounding success, and we look forward to many more in the future, starting with the 2nd oCIM already on May 10th, this time in London.
-Please do reach out to us at <openCypher@neotechnology.com> if you are interested, and be sure to check out the [event page for the 2nd oCIM](/event/2017/05/10/event-ocim2/) for further details.
+Please do reach out to us at <openCypher@neo4j.com> if you are interested, and be sure to check out the [event page for the 2nd oCIM](/event/2017/05/10/event-ocim2/) for further details.
 
 ### Presentation materials
 

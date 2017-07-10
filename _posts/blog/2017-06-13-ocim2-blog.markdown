@@ -18,9 +18,9 @@ We were very pleased to welcome an interested and diverse set of attendees to th
 Testament to the increasing impact and adoption of Cypher, and following in the footsteps of the [1st oCIM conference](/event/2017/02/08/event-ocim1/#program), we had once more a schedule jam-packed with a wide variety of presentations.
 The day was divided into a number of sessions, each of which centred around a particular topic or theme.
 
-_Stefan Plantikow_, the team lead of Neo Technology's Cypher Language Group (the team at Neo Technology responsible for the language development of Cypher and fostering the growth of the openCyper project) welcomed everyone to the meeting with a [summarization](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/09-15+State+of+the+Cypher+%5BDONE%5D.pdf) of the current state of Cypher, touching upon the vast quantity of new features under consideration, and giving a quick update on both the ongoing specification process, as well as the progress of new implementations using Cypher, such as Scott Tiger and the _Cypher for Apache Spark_ project.
+_Stefan Plantikow_, the team lead of Neo4j's Cypher Language Group (the team at Neo4j responsible for the language development of Cypher and fostering the growth of the openCyper project) welcomed everyone to the meeting with a [summarization](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/09-15+State+of+the+Cypher+%5BDONE%5D.pdf) of the current state of Cypher, touching upon the vast quantity of new features under consideration, and giving a quick update on both the ongoing specification process, as well as the progress of new implementations using Cypher, such as Scott Tiger and the _Cypher for Apache Spark_ project.
 
-_Alastair Green_, the Product Manager at Neo Technology, followed on from Stefan’s talk with a [presentation](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM+2+09.45+openCypher+Implementers+Group.pdf) on the openCypher Implementers Group, building on from the announcement made at the 1st oCIM conference.
+_Alastair Green_, the Product Manager at Neo4j, followed on from Stefan’s talk with a [presentation](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM+2+09.45+openCypher+Implementers+Group.pdf) on the openCypher Implementers Group, building on from the announcement made at the 1st oCIM conference.
 As a public body, the oCIG is open to any interested parties -- vendors, researchers, implementers, users -- wishing to be involved in improving the feature set, expressiveness, aesthetics and usability of Cypher.
 Alastair introduced the process underpinning this initiative, which is broadly as follows:
 
@@ -33,7 +33,7 @@ Every three weeks, the [oCIG will meet virtually](http://www.opencypher.org/ocig
 
 The next session shone a spotlight on four CIPs, with the aim of kicking off a discussion around these.
 
-_Petra Selmer_, an engineer at Neo Technology and a member of the Cypher Language Group, started off by [presenting](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10-00+Nested+Subqueries+%5BDONE%5D.pdf) a talk on [nested subqueries](https://github.com/opencypher/openCypher/pull/100); i.e. self-contained queries running within the scope of an outer query.
+_Petra Selmer_, an engineer at Neo4j and a member of the Cypher Language Group, started off by [presenting](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10-00+Nested+Subqueries+%5BDONE%5D.pdf) a talk on [nested subqueries](https://github.com/opencypher/openCypher/pull/100); i.e. self-contained queries running within the scope of an outer query.
 This feature would greatly increase the expressivity of complex read, write and read-write queries, as well as provide a useful abstraction mechanism.
 In addition to following in the footsteps of SQL, this CIP motivates, for the first time, the usage of a query combinator to allow for chained nested subqueries.
 
@@ -49,7 +49,7 @@ Indeed, a user can mimic this behaviour manually by returning a flag, but it may
 Stefan then changed track with a [discussion](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10-00+MANDATORY+MATCH+%5BDONE%5D.pdf) on `MANDATORY MATCH` ([CIP](https://github.com/opencypher/openCypher/pull/212)), which can be considered as the inverse to `OPTIONAL MATCH`, whereby an error is raised if the pattern does not find at least one match.
 The idea broadly is to improve error reporting, and make querying more expressive and efficient by negating the need to have validation code in the application.
 
-_Mats Rydberg_, an engineer at Neo Technology and a member of the Cypher Language Group, ended the session with a [talk](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10.00+Constraints+syntax.pdf) on the proposed generic syntax for [constraints](https://github.com/opencypher/openCypher/pull/166).
+_Mats Rydberg_, an engineer at Neo4j and a member of the Cypher Language Group, ended the session with a [talk](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10.00+Constraints+syntax.pdf) on the proposed generic syntax for [constraints](https://github.com/opencypher/openCypher/pull/166).
 In addition to the familiar uniqueness constraint, Mats also discussed the generality of the syntax when applied to more sophisticated constraints underpinning label co-existence, cardinality conditions and property value conditions.
 The wording of `NODE KEY` was questioned by Leonid and Hannes, among others.
 Moreover, concerns were raised around the idea of standardizing a loose framework around constraints in general (instead of specific, feasible constraints) as it was deemed that using a generic syntax to express most constraints would never be implementable.
@@ -61,7 +61,7 @@ This would have the benefit of not needing to invent contrived examples in each 
 
 The next session gave a lot of food for thought, exploring in detail Conjunctive Regular Path Queries (CRPQs), and work done to date on the formal specification on Cypher, both topics pushing the boundaries on querying in general.
 
-_Tobias Lindaaker_, an engineer at Neo Technology and a member of the Cypher Language Group, began the session with a [deep dive](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/11-15+Path+Queries.pdf) into the thinking around CRPQs  -- or, to use a more Cypher-oriented nomenclature  -- Path Query Patterns (PQPs) in Cypher ([CIP](https://github.com/opencypher/openCypher/pull/187)).
+_Tobias Lindaaker_, an engineer at Neo4j and a member of the Cypher Language Group, began the session with a [deep dive](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/11-15+Path+Queries.pdf) into the thinking around CRPQs  -- or, to use a more Cypher-oriented nomenclature  -- Path Query Patterns (PQPs) in Cypher ([CIP](https://github.com/opencypher/openCypher/pull/187)).
 These allow for paths to be defined by regular expressions (including grouping or nesting) over the relationship types, thus allowing for very complex connections to be expressed.
 CRPQs have been studied extensively in academia over the past few decades.
 Bringing the notion of CRPQs into the world of property graphs, PQPs additionally allow for property predicates on intermediate nodes and relationships (i.e. data tests).
@@ -167,6 +167,6 @@ We should like to thank all our speakers and attendees for making it such an int
 It was very gratifying to see how many different strands -- introduced at the first meeting a mere three months ago -- have developed and gained momentum since the last meeting.
 We anticipate the pace to accelerate even more this summer, with the inception of [regular virtual meetings](http://www.opencypher.org/ocig) to discuss and incorporate new features into Cypher.
 We are also in the process of organizing the 3rd oCIM conference, and details thereof will be made public on our events page.
-As always, please feel free to reach out to us at <openCypher@neotechnology.com> if you are interested or have any questions -- everyone is welcome!
+As always, please feel free to reach out to us at <openCypher@neo4j.com> if you are interested or have any questions -- everyone is welcome!
 
 The programme, complete with all the slide materials presented during the conference, may be found at the event page for the [2nd oCIM conference](/event/2017/05/10/event-ocim2).

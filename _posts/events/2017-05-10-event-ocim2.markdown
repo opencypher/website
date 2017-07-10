@@ -67,13 +67,13 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
     <tr>
         <td colspan="1" rowspan="1"><p>09:30</p></td>
         <td colspan="1" rowspan="1"><p>Introduction & Status Report (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/09-15+State+of+the+Cypher+%5BDONE%5D.pdf" target="_blank">slides</a>)</p></td>
-        <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo Technology)</p></td>
+        <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo4j)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>09:45</p></td>
         <td colspan="1" rowspan="1"><p>Updated CIP/oCIG Process (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM+2+09.45+openCypher+Implementers+Group.pdf" target="_blank">slides</a>)</p></td>
-        <td colspan="1" rowspan="1"><p>Alastair Green (Neo Technology)</p></td>
+        <td colspan="1" rowspan="1"><p>Alastair Green (Neo4j)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
 
@@ -104,7 +104,7 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
     <tr>
         <td colspan="1" rowspan="1"><p>11:15</p></td>
         <td colspan="1" rowspan="1"><p><a href="https://github.com/opencypher/openCypher/pull/187" target="_blank">Regular Path Queries (RPQs)</a> (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/11-15+Path+Queries.pdf" target="_blank">slides</a>)</p></td>
-        <td colspan="1" rowspan="1"><p>Tobias Lindaaker (Neo Technology)</p></td>
+        <td colspan="1" rowspan="1"><p>Tobias Lindaaker (Neo4j)</p></td>
         <td colspan="1" rowspan="1"><p>30 mins</p></td>
     </tr>
     <tr>
@@ -130,7 +130,7 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
     <tr>
         <td colspan="1" rowspan="1"><p>13:15</p></td>
         <td colspan="1" rowspan="1"><p>Cypher for Apache Spark (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/13-15+Cypher+for+Apache+Spark.pdf" target="_blank">slides</a>)</p></td>
-        <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo Technology)</p></td>
+        <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo4j)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
@@ -142,7 +142,7 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
     <tr>
         <td colspan="1" rowspan="1"><p>13:45</p></td>
         <td colspan="1" rowspan="1"><p>Neo4j implementation changes (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/13-45+Neo4j+implementation+updates.pdf" target="_blank">slides</a>)</p></td>
-        <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo Technology)</p></td>
+        <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo4j)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr class="break">
@@ -156,7 +156,7 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
     <tr>
         <td colspan="1" rowspan="1"><p>14:15</p></td>
         <td colspan="1" rowspan="1"><p>Mode of collaboration (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM+2+14.15+Collaboration.pdf" target="_blank">slides</a>)</p></td>
-        <td colspan="1" rowspan="1"><p>Alastair Green (Neo Technology)</p></td>
+        <td colspan="1" rowspan="1"><p>Alastair Green (Neo4j)</p></td>
         <td colspan="1" rowspan="1"><p>5 mins</p></td>
     </tr>
     <tr>
@@ -178,7 +178,7 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>openCypher perspective on parsing and grammar</p></td>
-        <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo Technology)</p></td>
+        <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo4j)</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>openCypher Artifacts & Best Practices</p></td>
@@ -198,11 +198,11 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
     </tr>
     <tr>
         <td colspan="1" rowspan="1" class="item"><p>Identification and addressing (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM+2+15.15+Multiple+Graph+Naming+and+Addressing.pdf" target="_blank">slides</a>)</p></td>
-        <td colspan="1" rowspan="1"><p>Alastair Green (Neo Technology)</p></td>
+        <td colspan="1" rowspan="1"><p>Alastair Green (Neo4j)</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1" class="item"><p>Syntax and semantics (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/15-15+Duality+through+Inversion-+Syntax+and+Semantics+of+Cypher+for+multiple+Graphs+%5BDONE%5D.pdf" target="_blank">slides</a>)</p></td>
-        <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo Technology)</p></td>
+        <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo4j)</p></td>
     </tr>
     </tr>
     <tr class="break">
@@ -237,7 +237,7 @@ On Tuesday 18th of April we held an open Agenda Call, during which the following
     <tr>
         <td colspan="1" rowspan="5"><p>17:20</p></td>
         <td colspan="1" rowspan="1"><p>Future oCIM Topics (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/17-20+Future+oCIM+Topics+%5BDONE%5D.pdf" target="_blank">slides</a>)</p></td>
-        <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo Technology)</p></td>
+        <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo4j)</p></td>
         <td colspan="1" rowspan="5"><p>15 mins</p></td>
     </tr>
     <tr>

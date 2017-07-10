@@ -19,7 +19,7 @@ This was the first virtual meeting for members of the openCypher Implementers Gr
     * **[CIR-2017-188](https://github.com/opencypher/openCypher/issues/188)**: Syntax differentiation for aggregations _(Mats Rydberg)_
     * **[CIP2017-04-13](https://github.com/opencypher/openCypher/pull/218)**: Aggregations CIP _(Tobias Lindaaker)_
 * **[CIP2016-01-26](https://github.com/opencypher/openCypher/pull/212)**: MANDATORY MATCH _(Stefan Plantikow)_
-    * [Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10-00+MANDATORY+MATCH+%5BDONE%5D.pdf) by Stefan Plantikow, Neo Technology
+    * [Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10-00+MANDATORY+MATCH+%5BDONE%5D.pdf) by Stefan Plantikow, Neo4j
 
 ## Logistics
 
