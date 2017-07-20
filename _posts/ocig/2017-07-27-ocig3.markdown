@@ -9,12 +9,12 @@ excerpt: "The third virtual meeting for members of the openCypher Implementers G
 agenda: |
     ## Agenda
 
-    * Controllable morphism
+    * Overview of the property graph query language landscape _(Alastair Green)_
+    * Controllable morphism: walks, trails, and paths
         * **[CIR-2017-174](https://github.com/opencypher/openCypher/issues/174)**: Isomorphic pattern matching and configurable uniqueness _(Stefan Plantikow)_
-        * **[CIP-2017-01-18](https://github.com/opencypher/openCypher/pull/175)**: Isomorphic Matching Semantics _(Stefan Plantikow)_
-    * Multiple graphs, preview
-        * A URI scheme for multiple graphs _(Alastair Green)_
-        * **[CIR-2017-182](https://github.com/opencypher/openCypher/issues/182)**: Adding support for multiple graphs _(Stefan Plantikow)_
+        * **[CIP-2017-01-18](https://github.com/opencypher/openCypher/pull/175)**: Configurable Pattern Matching Semantics _(Stefan Plantikow)_
+    * Composing SQL and Cypher _(Peter Furniss & Alastair Green)_
+    * Graph addressing in support of multiple graphs _(Alastair Green)_
 ---
 This is the third virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="/cips/" target="_blank">CIPs</a>).
 
@@ -27,3 +27,4 @@ The list of referenced CIRs and CIPs on the agenda will be updated as relevant e
 ## Logistics
 
 The third oCIG meeting will be held on 15.00 - 16:30 UTC on Thursday, 27 July 2017.
+To join the meeting, follow this GotoMeeting link: <a href="https://www.gotomeet.me/opencypher">https://www.gotomeet.me/opencypher</a>
