@@ -79,6 +79,15 @@
             <li>08.00 PDT (San Francisco)</li>
         </ul>
 
+        <h3><a name="meetings"></a>Full meetings schedule</h3>
+        <ul>
+            {% for post in sorted %}
+            <li>
+                <a href="{{ post.url }}"><b>{{ post.date | date: "%A, %-d %B %Y" }}</b> (page)</a>
+            </li>
+            {% endfor %}
+        </ul>
+
         <h3>Meeting logistics</h3>
 
         <p>
@@ -101,85 +110,6 @@
             Dialing in via phone is possible through these country numbers:
         </p>
 
-        <!--United States (Toll Free): 1 866 899 4679-->
-        <!--United States: +1 (786) 535-3119-->
-
-        <!--Access Code: 538-255-317-->
-
-        <!--More phone numbers-->
-        <!--Argentina (Toll Free): 0 800 444 2385-->
-        <!--Australia (Toll Free): 1 800 191 358-->
-        <!--Australia: +61 2 8355 1038-->
-        <!--Austria (Toll Free): 0 800 202144-->
-        <!--Austria: +43 1 2530 22500-->
-        <!--Bahrain (Toll Free): 800 81 305-->
-        <!--Belarus (Toll Free): 8 820 0011 0331-->
-        <!--Belgium (Toll Free): 0 800 81382-->
-        <!--Belgium: +32 28 93 7002-->
-        <!--Brazil (Toll Free): 0 800 025 8726-->
-        <!--Bulgaria (Toll Free): 00800 120 4413-->
-        <!--Canada (Toll Free): 1 888 299 1889-->
-        <!--Canada: +1 (647) 497-9373-->
-        <!--Chile (Toll Free): 800 395 146-->
-        <!--China (Toll Free): 4008 866143-->
-        <!--Colombia (Toll Free): 01 800 012 9057-->
-        <!--Czech Republic (Toll Free): 800 143570-->
-        <!--Denmark (Toll Free): 8025 3112-->
-        <!--Denmark: +45 32 72 03 69-->
-        <!--Finland (Toll Free): 0 800 917643-->
-        <!--Finland: +358 923 17 0556-->
-        <!--France (Toll Free): 0 800 919 896-->
-        <!--France: +33 170 950 590-->
-        <!--Germany (Toll Free): 0 800 184 4230-->
-        <!--Germany: +49 692 5736 7300-->
-        <!--Greece (Toll Free): 00 800 4414 4282-->
-        <!--Hong Kong (Toll Free): 30774812-->
-        <!--Hungary (Toll Free): (06) 80 986 259-->
-        <!--Iceland (Toll Free): 800 9993-->
-        <!--India (Toll Free): 000 800 852 1424-->
-        <!--Indonesia (Toll Free): 001 803 852 9155-->
-        <!--Ireland (Toll Free): 1 800 901 609-->
-        <!--Ireland: +353 15 360 756-->
-        <!--Israel (Toll Free): 1 809 452 627-->
-        <!--Italy (Toll Free): 800 906955-->
-        <!--Italy: +39 0 230 57 81 80-->
-        <!--Japan (Toll Free): 0066 33 813 267-->
-        <!--Korea, Republic of (Toll Free): 0806180880-->
-        <!--Luxembourg (Toll Free): 800 29524-->
-        <!--Malaysia (Toll Free): 1 800 81 6859-->
-        <!--Mexico (Toll Free): 01 800 083 5535-->
-        <!--Netherlands (Toll Free): 0 800 020 0178-->
-        <!--Netherlands: +31 207 941 375-->
-        <!--New Zealand (Toll Free): 0 800 14 1485-->
-        <!--New Zealand: +64 9 913 2226-->
-        <!--Norway (Toll Free): 800 69 055-->
-        <!--Norway: +47 21 93 37 37-->
-        <!--Panama (Toll Free): 001 800 507 2789-->
-        <!--Peru (Toll Free): 0 800 77844-->
-        <!--Philippines (Toll Free): 1 800 1110 1669-->
-        <!--Poland (Toll Free): 00 800 1124748-->
-        <!--Portugal (Toll Free): 800 784 711-->
-        <!--Romania (Toll Free): 0 800 410 025-->
-        <!--Russian Federation (Toll Free): 8 800 100 6217-->
-        <!--Saudi Arabia (Toll Free): 800 814 2399-->
-        <!--Singapore (Toll Free): 18007231322-->
-        <!--South Africa (Toll Free): 0 800 555 451-->
-        <!--Spain (Toll Free): 800 900 593-->
-        <!--Spain: +34 932 75 1230-->
-        <!--Sweden (Toll Free): 020 980 768-->
-        <!--Sweden: +46 853 527 818-->
-        <!--Switzerland (Toll Free): 0 800 000 452-->
-        <!--Switzerland: +41 225 4599 60-->
-        <!--Taiwan (Toll Free): 0 800 666 846-->
-        <!--Thailand (Toll Free): 001 800 658 129-->
-        <!--Turkey (Toll Free): 00 800 4488 29001-->
-        <!--Ukraine (Toll Free): 0 800 60 9142-->
-        <!--United Arab Emirates (Toll Free): 800 044 40444-->
-        <!--United Kingdom (Toll Free): 0 800 031 4727-->
-        <!--United Kingdom: +44 330 221 0097-->
-        <!--Uruguay (Toll Free): 0004 019 1017-->
-        <!--Viet Nam (Toll Free): 122 80 105-->
-
         <p>
             Access Code: 538-255-317
         </p>
@@ -193,13 +123,94 @@
             <li>United States: +1 (786) 535-3119</li>
         </ul>
 
-        <h3><a name="meetings"></a>Full meetings schedule</h3>
-        <ul>
-            {% for post in sorted %}
-                <li>
-                    <a href="{{ post.url }}"><b>{{ post.date | date: "%A, %-d %B %Y" }}</b> (page)</a>
-                </li>
-            {% endfor %}
-        </ul>
+        <div class="panel panel-default phone-numbers">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#parent" href="#phone_nbrs">Expand this to find more phone numbers</a>
+                </h4>
+            </div>
+            <div id="phone_nbrs" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p>Access Code: 538-255-317</p>
+
+                    <ul>
+                        <li>Argentina (Toll Free): 0 800 444 2385</li>
+                        <li>Australia (Toll Free): 1 800 191 358</li>
+                        <li>Australia: +61 2 8355 1038</li>
+                        <li>Austria (Toll Free): 0 800 202144</li>
+                        <li>Austria: +43 1 2530 22500</li>
+                        <li>Bahrain (Toll Free): 800 81 305</li>
+                        <li>Belarus (Toll Free): 8 820 0011 0331</li>
+                        <li>Belgium (Toll Free): 0 800 81382</li>
+                        <li>Belgium: +32 28 93 7002</li>
+                        <li>Brazil (Toll Free): 0 800 025 8726</li>
+                        <li>Bulgaria (Toll Free): 00800 120 4413</li>
+                        <li>Canada (Toll Free): 1 888 299 1889</li>
+                        <li>Canada: +1 (647) 497-9373</li>
+                        <li>Chile (Toll Free): 800 395 146</li>
+                        <li>China (Toll Free): 4008 866143</li>
+                        <li>Colombia (Toll Free): 01 800 012 9057</li>
+                        <li>Czech Republic (Toll Free): 800 143570</li>
+                        <li>Denmark (Toll Free): 8025 3112</li>
+                        <li>Denmark: +45 32 72 03 69</li>
+                        <li>Finland (Toll Free): 0 800 917643</li>
+                        <li>Finland: +358 923 17 0556</li>
+                        <li>France (Toll Free): 0 800 919 896</li>
+                        <li>France: +33 170 950 590</li>
+                        <li>Germany (Toll Free): 0 800 184 4230</li>
+                        <li>Germany: +49 692 5736 7300</li>
+                        <li>Greece (Toll Free): 00 800 4414 4282</li>
+                        <li>Hong Kong (Toll Free): 30774812</li>
+                        <li>Hungary (Toll Free): (06) 80 986 259</li>
+                        <li>Iceland (Toll Free): 800 9993</li>
+                        <li>India (Toll Free): 000 800 852 1424</li>
+                        <li>Indonesia (Toll Free): 001 803 852 9155</li>
+                        <li>Ireland (Toll Free): 1 800 901 609</li>
+                        <li>Ireland: +353 15 360 756</li>
+                        <li>Israel (Toll Free): 1 809 452 627</li>
+                        <li>Italy (Toll Free): 800 906955</li>
+                        <li>Italy: +39 0 230 57 81 80</li>
+                        <li>Japan (Toll Free): 0066 33 813 267</li>
+                        <li>Korea, Republic of (Toll Free): 0806180880</li>
+                        <li>Luxembourg (Toll Free): 800 29524</li>
+                        <li>Malaysia (Toll Free): 1 800 81 6859</li>
+                        <li>Mexico (Toll Free): 01 800 083 5535</li>
+                        <li>Netherlands (Toll Free): 0 800 020 0178</li>
+                        <li>Netherlands: +31 207 941 375</li>
+                        <li>New Zealand (Toll Free): 0 800 14 1485</li>
+                        <li>New Zealand: +64 9 913 2226</li>
+                        <li>Norway (Toll Free): 800 69 055</li>
+                        <li>Norway: +47 21 93 37 37</li>
+                        <li>Panama (Toll Free): 001 800 507 2789</li>
+                        <li>Peru (Toll Free): 0 800 77844</li>
+                        <li>Philippines (Toll Free): 1 800 1110 1669</li>
+                        <li>Poland (Toll Free): 00 800 1124748</li>
+                        <li>Portugal (Toll Free): 800 784 711</li>
+                        <li>Romania (Toll Free): 0 800 410 025</li>
+                        <li>Russian Federation (Toll Free): 8 800 100 6217</li>
+                        <li>Saudi Arabia (Toll Free): 800 814 2399</li>
+                        <li>Singapore (Toll Free): 18007231322</li>
+                        <li>South Africa (Toll Free): 0 800 555 451</li>
+                        <li>Spain (Toll Free): 800 900 593</li>
+                        <li>Spain: +34 932 75 1230</li>
+                        <li>Sweden (Toll Free): 020 980 768</li>
+                        <li>Sweden: +46 853 527 818</li>
+                        <li>Switzerland (Toll Free): 0 800 000 452</li>
+                        <li>Switzerland: +41 225 4599 60</li>
+                        <li>Taiwan (Toll Free): 0 800 666 846</li>
+                        <li>Thailand (Toll Free): 001 800 658 129</li>
+                        <li>Turkey (Toll Free): 00 800 4488 29001</li>
+                        <li>Ukraine (Toll Free): 0 800 60 9142</li>
+                        <li>United Arab Emirates (Toll Free): 800 044 40444</li>
+                        <li>United Kingdom (Toll Free): 0 800 031 4727</li>
+                        <li>United Kingdom: +44 330 221 0097</li>
+                        <li>United States (Toll Free): 1 866 899 4679</li>
+                        <li>United States: +1 (786) 535-3119</li>
+                        <li>Uruguay (Toll Free): 0004 019 1017</li>
+                        <li>Vietnam (Toll Free): 122 80 105</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
