@@ -7,7 +7,7 @@ date:   2017-10-19
 author: "Mats Rydberg"
 excerpt: "The seventh virtual meeting for members of the openCypher Implementers Group."
 agenda: |
-    ## Agenda
+    ## Proposed Agenda
 
     * Organisation of the Third openCypher Implementers Meeting
 ---

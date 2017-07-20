@@ -7,7 +7,7 @@ date:   2017-09-07
 author: "Mats Rydberg"
 excerpt: "The fifth virtual meeting for members of the openCypher Implementers Group."
 agenda: |
-    ## Agenda
+    ## Proposed Agenda
 
     * Multiple graphs, syntax and semantics
         * **[CIR-2017-182](https://github.com/opencypher/openCypher/issues/182)**: Adding support for multiple graphs _(Stefan Plantikow)_

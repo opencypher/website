@@ -7,7 +7,7 @@ date:   2017-09-28
 author: "Mats Rydberg"
 excerpt: "The sixth virtual meeting for members of the openCypher Implementers Group."
 agenda: |
-    ## Agenda
+    ## Proposed Agenda
 
     * Subqueries
         * **[CIR-2017-181](https://github.com/opencypher/openCypher/issues/181)**: Extended subqueries for Cypher _(Stefan Plantikow)_
