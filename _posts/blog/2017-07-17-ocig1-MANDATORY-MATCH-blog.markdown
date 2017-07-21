@@ -16,6 +16,7 @@ _The goal is to have in place for our next face-to-face openCypher Implementers 
 ---
 
 As announced in the [Executive Summary](http://www.opencypher.org/blog/2017/07/14/ocig1-exec-summary-blog/) for the [First oCIG (openCypher Implementers Group) Meeting](http://www.opencypher.org/ocig1), the decision was taken to add to the language a new variant of the `MATCH` clause, called `MANDATORY MATCH`.
+`MANDATORY MATCH` is, in effect, a sibling of the `OPTIONAL MATCH` clause.
 
 We discuss below a motivating use case for `MANDATORY MATCH`, after which we describe how it works, summarise the benefits and conclude with some related considerations.
 
@@ -23,8 +24,8 @@ We discuss below a motivating use case for `MANDATORY MATCH`, after which we des
 
 ## Resources
 
-* the [CIP](https://github.com/opencypher/openCypher/blob/master/cip/1.accepted/CIP2016-01-26-mandatory-match.adoc), authored by _Stefan Plantikow_ (Neo4j)
-* supplementary [slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10-00+MANDATORY+MATCH+%5BDONE%5D.pdf)
+* The [CIP](https://github.com/opencypher/openCypher/blob/master/cip/1.accepted/CIP2016-01-26-mandatory-match.adoc), authored by _Stefan Plantikow_ (Neo4j)
+* Supplementary [slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10-00+MANDATORY+MATCH+%5BDONE%5D.pdf)
 
 ---
 
@@ -38,7 +39,7 @@ For example, assume we have the following query, called __Query 1__, running as 
 
 ~~~~
 MATCH (u:User {id: $user})
-MATCH (old:Product {id: $product})-[:BOUGHT]->(u)
+MATCH (old:Product {id: $product})<-[:BOUGHT]-(u)
 MATCH (store)-[:IN]->(c:City {name: $city}),
     (store)-[:SELLS]->(new:Product),
     (new)-[:MADE_BY]->(brand)<-[:MADE_BY]-(old)
@@ -51,8 +52,8 @@ For the user identified by `$user`, __Query 1__ returns all stores in the city (
 
 __Query 1__ may not return any results for perfectly valid reasons, such as the following:
 
-* all products having the same brand and category as `$product` may be out of stock
-* there may be no stores in the city given by `$city`, and so on
+* all products having the same brand and category as `$product` may be out of stock, and
+* there may be no stores in the city given by `$city`.
 
 
 The expectation is very clear that a node ought to be found for each of the patterns `(u:User {id: $user})`, `(old:Product {id: $product})` and `(c:City {name: $city})`.
@@ -93,7 +94,7 @@ In other words, having the capability of errors being raised when certain data i
 
 
 `MANDATORY MATCH`, a new variant of the `MATCH` clause, comes to the rescue by allowing the author of a query to force a match in the cases where there is an expectation of matching at least one node complying with a given pattern, enabling implicit query validity checking; i.e `MANDATORY MATCH <pattern>` will cause a query to fail when `pattern` does not produce at least one result.
-This means it is now possible to raise appropriate exceptions when there are errors in the query itself, such as invalid/non-existent parameter values etc.
+This means it is now possible to raise appropriate errors when the query itself contains invalid portions, such as non-existent parameter values.
 In all other aspects, however, `MANDATORY MATCH` works in the same way as `MATCH`.
 
 Returning to our recommendations example, let's take a look at __Query 2__, which is a rewritten version of __Query 1__ using `MANDATORY MATCH`:
@@ -101,7 +102,7 @@ Returning to our recommendations example, let's take a look at __Query 2__, whic
 ~~~~
 MANDATORY MATCH (u:User {id: $user})
 MANDATORY MATCH (c:City {name: $city})
-MANDATORY MATCH (old:Product {id: $product})-[:BOUGHT]->(u)
+MANDATORY MATCH (old:Product {id: $product})<-[:BOUGHT]-(u)
 MATCH (store)-[:IN]->(c)-[:SELLS]->(new:Product),
     (new)-[:MADE_BY]->(brand)<-[:MADE_BY]-(old)
 WHERE new.availability > 0 AND new.category = old.category
@@ -110,9 +111,9 @@ ORDER BY offers
 ~~~~
 
 `MANDATORY MATCH` instead of `MATCH` is used in the first three lines, in which all the data that is supposed to be in the graph is queried with the expectation of finding the particular user, city and product identified by `$user`, `$city` and `$product`, respectively.
-This means that any errors with these ids will cause the query fail immediately.
+This means that any errors with these properties will cause the query to fail immediately.
 
-It is fine to interleave `MANDATORY MATCH` and `MATCH` statements, but the intuition is that it is best practice to put all `MANDATORY MATCH` statements first for easier query readability.
+It is perfectly acceptable to interleave `MANDATORY MATCH` and `MATCH` statements, but the intuition is that it is best practice to put all `MANDATORY MATCH` statements first for easier query readability.
 
 ---
 
@@ -144,5 +145,5 @@ However, this notion may be worth exploring as an extension to `MANDATORY MATCH`
 Moreover, we anticipate that this scenario would be better dealt with using subqueries, which will be presented and discussed at the [Sixth oCIG Meeting](http://www.opencypher.org/ocig6) in September 2017.
 
 
-In addition, we note that the CIP does not include a mechanism to identify precisely _which_ `MANDATORY MATCH` clause failed (where there is more than one of these in a query); i.e. the ability to specify different errors for say, when a `user` is not found compared to a `city`, is not defined.
-This facet is part of a much larger topic of error management, which will be defined in a future proposal.
+In addition, we note that the CIP does not include a mechanism to identify precisely _which_ `MANDATORY MATCH` clause failed (when there is more than one of these in a query); i.e. the ability to specify different errors for say, when a `user` is not found compared to a `city`, is not defined.
+This facet is part of a much larger topic of error management, which will be covered in a future proposal.
