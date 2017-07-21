@@ -18,7 +18,7 @@ _The goal is to have in place for our next face-to-face openCypher Implementers 
 The [First oCIG (openCypher Implementers Group) Meeting](http://www.opencypher.org/ocig1) was held on Thursday 22 June 2017, and we were delighted to welcome a wide range of attendees.
 
 The major outcome was the acceptance by the oCIG of a new clause into Cypher, called [`MANDATORY MATCH`](https://github.com/opencypher/openCypher/pull/212).
-This is a new variant of the `MATCH` clause, which will cause a query to fail if no matching data is found in the underlying graph, and the purpose is to allow for easier query validation.
+This is a new variant of the `MATCH` clause (in effect a sibling of the `OPTIONAL MATCH` clause), which will cause a query to fail if no matching data is found in the underlying graph, and the purpose is to allow for easier query validation.
 
 `MANDATORY MATCH <pattern>` allows the author of a query to force a match in the cases where there is an expectation of matching at least one node complying with `<pattern>`, enabling implicit query validity checking.
 Errors in the writing of the query itself -- such as invalid/non-existent parameter values -- will raise an appropriate exception.
