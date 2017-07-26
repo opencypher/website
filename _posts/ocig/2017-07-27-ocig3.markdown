@@ -7,7 +7,7 @@ date:   2017-07-27
 author: "Mats Rydberg"
 excerpt: "The third virtual meeting for members of the openCypher Implementers Group."
 agenda: |
-    ## Proposed Agenda
+    ## Agenda
 
     * How openCypher relates to graph query language discussions in ISO and LDBC _(Alastair Green, Neo4j)_
     * ISO/INCITS initiatives on property graph querying in SQL _(Jan Michels (Oracle), Group Chair: Ad Hoc on SQL Extensions Property Graphs)_
@@ -22,7 +22,7 @@ agenda: |
 ---
 This is the third virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="/cips/" target="_blank">CIPs</a>).
 
-The proposed agenda focuses on adding support for control over pattern matching 'morphism', and graph addressing.
+The agenda focuses on adding support for control over pattern matching 'morphism', and graph addressing.
 
 Additionally, there are interesting discussions in ISO and the LDBC Query Language Task Force around graph querying, which are relevant for the openCypher community.
 An important aspect of these discussions is the relationship between SQL and a native property graph query language like Cypher.
