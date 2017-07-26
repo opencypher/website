@@ -9,12 +9,16 @@ excerpt: "The third virtual meeting for members of the openCypher Implementers G
 agenda: |
     ## Proposed Agenda
 
-    * How openCypher relates to graph query language discussions in ISO and LDBC _(Alastair Green)_
-    * Controllable morphism: walks, trails, and paths
-        * **[CIR-2017-174](https://github.com/opencypher/openCypher/issues/174)**: Isomorphic pattern matching and configurable uniqueness _(Stefan Plantikow)_
-        * **[CIP-2017-01-18](https://github.com/opencypher/openCypher/pull/175)**: Configurable Pattern Matching Semantics _(Stefan Plantikow)_
-    * SQL and Cypher (and PGQL) _(Peter Furniss & Alastair Green)_
-    * Graph addressing in support of multiple graphs _(Peter Furniss & Alastair Green)_
+    * How openCypher relates to graph query language discussions in ISO and LDBC _(Alastair Green, Neo4j)_
+    * ISO/INCITS initiatives on property graph querying in SQL _(Jan Michels (Oracle), Group Chair: Ad Hoc on SQL Extensions Property Graphs)_
+    * Controllable morphism: walks, trails, and paths _(Stefan Plantikow, Neo4j)_
+        * **[CIR-2017-174](https://github.com/opencypher/openCypher/issues/174)**: Isomorphic pattern matching and configurable uniqueness
+        * **[CIP-2017-01-18](https://github.com/opencypher/openCypher/pull/175)**: Configurable Pattern Matching Semantics
+    * SQL and Cypher (and PGQL) _(Alastair Green, Neo4j)_
+    * Graph addressing in support of multiple graphs _(Peter Furniss, Neo4j)_
+        * **[Graph URI Scheme (draft)](https://s3.amazonaws.com/artifacts.opencypher.org/website/materials/Draft+graph+URI+Scheme+Specification+0.3.pdf)**
+        * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/materials/Graph+addressing+-+oCIG2.pdf)**
+
 ---
 This is the third virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="/cips/" target="_blank">CIPs</a>).
 
