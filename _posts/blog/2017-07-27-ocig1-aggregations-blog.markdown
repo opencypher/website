@@ -17,8 +17,8 @@ _The goal is to have in place for our next face-to-face openCypher Implementers 
 
 As mentioned in the [Executive Summary](http://www.opencypher.org/blog/2017/07/14/ocig1-exec-summary-blog/) for the [First oCIG (openCypher Implementers Group) Meeting](http://www.opencypher.org/ocig1), there was a discussion on the potentially confusing behaviour of aggregation and grouping in Cypher today, along with strategies for improvement.
 
-We provide below a description of the problems in the existing aggregation and grouping semantics, and then [present various approaches](#proposals-for-unambiguous-aggregation-semantics) to address these.
-As an ancillary consideration, a proposal to [distinguish between standard and aggregating functions](#distinguishing-between-standard-functions-and-aggregating-functions) is also discussed, and we conclude by considering the steps necessary to include this in a clear aggregation story for Cypher.
+We provide below a description of the problems in the existing aggregation and grouping semantics, and then [present various approaches](#unambiguous-semantics) to address these.
+As an ancillary consideration, a proposal to [distinguish between standard and aggregating functions](#distinguish-functions) is also discussed, and we conclude by considering the steps necessary to include this in a clear aggregation story for Cypher.
 
 ---
 
@@ -86,6 +86,8 @@ This ambiguity is obviously undesirable: the fact that **Query 1** and **Query 2
 
 ----
 
+<div class="abstract-anchor" id="unambiguous-semantics"></div>
+
 ## Proposals for unambiguous aggregation semantics
 
 _Tobias Lindaaker_ (Neo4j) began by giving a [presentation](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig1/Improving+Aggregations+in+Cypher.pdf) on his ideas about how to resolve the ambiguous semantics.
@@ -134,7 +136,7 @@ RETURN v + c + c
 _Stefan Plantikow_ (Neo4j) asked whether any considerations were given to making the rule more flexible; for instance, allowing the aggregating functions to be interspersed with constant expressions provided that there were no data flow dependencies.
 Tobias stated that it was better to have a clear simple rule that is always applied, as this will be easier for query writers.
 
-The next part of Tobias' presentation concerned syntax differentiation between aggregating functions and standard functions, which we'll discuss in the [next section](#distinguishing-between-standard-functions-and-aggregating-functions).
+The next part of Tobias' presentation concerned syntax differentiation between aggregating functions and standard functions, which we'll discuss in the [next section](#distinguish-functions).
 
 ----
 
@@ -152,7 +154,7 @@ _Option 2_:
 
 The idea here is to make a clear distinction between items returned by aggregations, and ones which are not.
 Each item in `RETURN` or `WITH` would be forced to either contain no aggregating functions, or only a single aggregating function at the top level.
-If this approach is taken, the grouping key is a tuple built from the items with no aggregates, which is consistent with the standard notion of grouping semantics and with the approach proposed above by Tobias, which József stated was his favoured way forward, especially within the context of the [syntax differentiation proposal](#a-proposal-for-easier-differentiation-between-standard-and-aggregating-functions).
+If this approach is taken, the grouping key is a tuple built from the items with no aggregates, which is consistent with the standard notion of grouping semantics and with the approach proposed above by Tobias, which József stated was his favoured way forward, especially within the context of the [syntax differentiation proposal](#easy-differentiation-proposal).
 
 ----
 
@@ -177,6 +179,8 @@ A good strategy is to ensure that much careful thought and consideration is give
 Stefan concluded by saying that although there is definitely a hint of functional programming woven into the fabric of Cypher, there are no immediate plans to strengthen or align this further.
 
 ----
+
+<div class="abstract-anchor" id="distinguish-functions"></div>
 
 ## Distinguishing between standard functions and aggregating functions
 
@@ -208,6 +212,8 @@ It's easy to see that the readability and comprehension are compromised for quer
 The CIR outlining this problem can found [here](https://github.com/opencypher/openCypher/issues/188).
 
 ---
+
+<div class="abstract-anchor" id="easy-differentiation-proposal"></div>
 
 ## A proposal for easier differentiation between standard and aggregating functions
 
