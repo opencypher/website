@@ -18,7 +18,7 @@ _The goal is to have in place for our next face-to-face openCypher Implementers 
 As mentioned in the [Executive Summary](http://www.opencypher.org/blog/2017/07/14/ocig1-exec-summary-blog/) for the [First oCIG (openCypher Implementers Group) Meeting](http://www.opencypher.org/ocig1), there was a discussion on the potentially confusing behaviour of aggregation and grouping in Cypher today, along with strategies for improvement.
 
 We provide below a description of the problems in the existing aggregation and grouping semantics, and then [present various approaches](#proposals-for-unambiguous-aggregation-semantics) to address these.
-As an ancillary consideration, a proposal to [distinguish between standard and aggregating functions](#distinguishing-between-standard-functions-and-aggregating-functions) is also discussed, and we conclude by considering the steps needing to be taken to make this and clear aggregation behaviour a reality.
+As an ancillary consideration, a proposal to [distinguish between standard and aggregating functions](#distinguishing-between-standard-functions-and-aggregating-functions) is also discussed, and we conclude by considering the steps necessary to include this in a clear aggregation story for Cypher.
 
 ---
 
@@ -75,7 +75,8 @@ RETURN x.a + x.b + x.c + count(*) + count(*)
 ~~~~
 
 In this query, _all_ the non-aggregated values occur before the aggregating function.
-This means that the non-aggregated values are grouped together as a single unit, resulting in `count(*)` evaluating to `3` (`x.a + x.b + x.c = 6` three times).
+This means that the non-aggregated values are grouped together as a single unit: the sum `x.a + x.b + x.c`, which evaluates to the same value `6` across all rows.
+This results in `count(*)` evaluating to `3`, and grouping all results into the same group in a single row (with total sum `6 + 3 + 3`).
 
 ### Synopsis
 
