@@ -39,7 +39,7 @@
             {% assign postDateMillis = post.date | date: "%s" %}
 
             <ul>
-            {% if postDateMillis < "1500501600" %}
+            {% if postDateMillis < "1501593000" %}
                 <li>
                     <a href="{{ post.url }}"><b>{{ post.date | date: "%A, %-d %B %Y" }}</b> (page)</a>
                 </li>
@@ -48,7 +48,7 @@
         {% endfor %}
 
         <!-- This allows us to change the view of this page with one line edit -->
-        {% assign nextDate = "Thursday, 27 July 2017" %}
+        {% assign nextDate = "Thursday, 17 August 2017" %}
 
         {% for post in sorted %}
             {% assign postDate = post.date | date: "%A, %-d %B %Y" %}
