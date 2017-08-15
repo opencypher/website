@@ -25,3 +25,4 @@ Preceding this, a proposal for the integration of graph query procedures (writte
 ## Logistics
 
 The fourth oCIG meeting will be held on 15.00 - 16:30 UTC on Thursday, 17 August 2017.
+To join the meeting, follow this GotoMeeting link: <a href="https://www.gotomeet.me/opencypher" target="_blank">https://www.gotomeet.me/opencypher</a>.
