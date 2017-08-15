@@ -7,15 +7,18 @@ date:   2017-08-17
 author: "Mats Rydberg"
 excerpt: "The fourth virtual meeting for members of the openCypher Implementers Group."
 agenda: |
-    ## Proposed Agenda
+    ## Agenda
 
-    * Multiple graphs, syntax and semantics
-        * **[CIR-2017-182](https://github.com/opencypher/openCypher/issues/182)**: Adding support for multiple graphs _(Stefan Plantikow)_
+    * An overview of a proposal for SQL/Graph Query Procedures _(Alastair Green, Neo4j)_
+    * Multiple graphs, syntax and semantics _(Stefan Plantikow, Neo4j)_
+        * **[CIR-2017-182](https://github.com/opencypher/openCypher/issues/182)**: Adding support for multiple graphs
+        * **[CIP2017-06-18](https://github.com/opencypher/openCypher/pull/241)**: Extending Cypher to support the construction, transformation and querying of multiple graphs.
+        The document can be accessed [here](https://github.com/boggle/openCypher/blob/CIP2017-06-18-multiple-graphs/cip/1.accepted/CIP2017-06-18-multiple-graphs.adoc).
 ---
 This is the fourth virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="/cips/" target="_blank">CIPs</a>).
 
-This meeting will be dedicated to the topic of multiple graphs, with a focus on syntax and semantics.
-The list of referenced CIRs and CIPs on the agenda will be updated as relevant entries come up.
+The main focus on this meeting will be dedicated to the topic of multiple graphs, with a focus on syntax and semantics.
+Preceding this, a proposal for the integration of graph query procedures (written in a graph query language) into SQL will be presented.
 
 {{ page.agenda }}
 
