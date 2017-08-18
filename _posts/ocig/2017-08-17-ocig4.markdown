@@ -9,20 +9,19 @@ excerpt: "The fourth virtual meeting for members of the openCypher Implementers 
 agenda: |
     ## Agenda
 
-    * An overview of a proposal for SQL/Graph Query Procedures _(Alastair Green, Neo4j)_
     * Multiple graphs, syntax and semantics _(Stefan Plantikow, Neo4j)_
         * **[CIR-2017-182](https://github.com/opencypher/openCypher/issues/182)**: Adding support for multiple graphs
         * **[CIP2017-06-18](https://github.com/opencypher/openCypher/pull/241)**: Extending Cypher to support the construction, transformation and querying of multiple graphs.
         The document can be accessed [here](https://github.com/boggle/openCypher/blob/CIP2017-06-18-multiple-graphs/cip/1.accepted/CIP2017-06-18-multiple-graphs.adoc).
+    * An overview of a proposal for SQL/Graph Query Procedures _(Peter Furniss, Neo4j)_
 ---
-This is the fourth virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="/cips/" target="_blank">CIPs</a>).
+This was the fourth virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="/cips/" target="_blank">CIPs</a>).
 
-The main focus on this meeting will be dedicated to the topic of multiple graphs, with a focus on syntax and semantics.
-Preceding this, a proposal for the integration of graph query procedures (written in a graph query language) into SQL will be presented.
+The main focus of this meeting was dedicated to the topic of multiple graphs, with an emphasis on syntax and semantics.
+Additionally, a proposal was presented for the integration of graph query procedures (written in a graph query language) into SQL.
 
 {{ page.agenda }}
 
 ## Logistics
 
-The fourth oCIG meeting will be held on 15.00 - 16:30 UTC on Thursday, 17 August 2017.
-To join the meeting, follow this GotoMeeting link: <a href="https://www.gotomeet.me/opencypher" target="_blank">https://www.gotomeet.me/opencypher</a>.
+The fourth oCIG meeting was held on 15.00 - 16:30 UTC on Thursday, 17 August 2017.
