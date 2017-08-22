@@ -25,8 +25,10 @@ This was the first virtual meeting for members of the openCypher Implementers Gr
 
 The first oCIG meeting was held 15.00 - 16:30 UTC on Thursday, 22 June 2017.
 
-## Meeting materials
-
 During the course of the meeting, [this Google document](https://docs.google.com/document/d/1hBQGT-3jOIL00Kb8zkPCTwQWIam_YX90SkC3JWyICsI/edit?usp=sharing) was shared between participants for collaborative notes.
 
-A recording of the meeting can be downloaded via [this link](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig1/ocig1-recording.zip).
+## Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bfjYBWoBD2I" frameborder="0" allowfullscreen></iframe>
+
+A recording of the meeting can also be downloaded via [this link](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig1/ocig1-recording.zip).

@@ -10,6 +10,7 @@ agenda: |
     ## Agenda
 
     * Path patterns and regular path queries (RPQs)
+        * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig2/Path+Pattern+Queries+-+oCIG+2017-07-06.pdf)**
         * **[CIR-2017-179](https://github.com/opencypher/openCypher/issues/179)**: Add support for regular path queries (RPQs) _(Tobias Lindaaker)_
         * **[CIP-2017-02-06](https://github.com/opencypher/openCypher/pull/187)**: Path Patterns _(Tobias Lindaaker)_
 ---
@@ -23,9 +24,9 @@ This meeting was dedicated to the topic of extending Cypher with support for exp
 
 The second oCIG meeting was held on 15.00 - 16:30 UTC on Thursday, 6 July 2017.
 
-## Meeting materials
+## Recording
 
-A PDF version of the slide deck presented by Tobias may be found [here](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig2/Path+Pattern+Queries+-+oCIG+2017-07-06.pdf).
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HN_etVA4FMk" frameborder="0" allowfullscreen></iframe>
 
-The recording of the meeting may be downloaded via [this link](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig2/ocig2-recording.zip).
+The recording of the meeting can also be downloaded via [this link](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig2/ocig2-recording.zip).
 The first few minutes (introduction and agenda overview) were unfortunately not recorded.

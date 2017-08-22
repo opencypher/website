@@ -38,6 +38,8 @@ These topics were also discussed at the meeting.
 
 The third oCIG meeting was held on 15.00 - 16:30 UTC on Thursday, 27 July 2017.
 
-## Meeting materials
+## Recording
 
-A recording of the meeting can be downloaded via [this link](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig3/oCIG3-recording.mp4.zip).
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7a2Oi3I0ZlU" frameborder="0" allowfullscreen></iframe>
+
+The recording of the meeting can also be downloaded via [this link](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig3/oCIG3-recording.mp4.zip).
