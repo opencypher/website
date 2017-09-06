@@ -3,7 +3,7 @@ permalink: ocig5
 layout: event
 categories: ocig
 title:  "Fifth openCypher Implementers Group Meeting"
-date:   2017-09-07
+date:   2017-09-28
 author: "Mats Rydberg"
 excerpt: "The fifth virtual meeting for members of the openCypher Implementers Group."
 agenda: |
@@ -11,13 +11,14 @@ agenda: |
 
     * **Cypher.PL**: an executable specification of Cypher written in Prolog _(Jan Posiadała and Paweł Susicki, Scott Tiger)_
     * Multiple graphs, syntax and semantics
-        * **[CIR-2017-182](https://github.com/opencypher/openCypher/issues/182)**: Adding support for multiple graphs _(Stefan Plantikow, Neo4j)_
-    * Cypher versioning _(TBD)_
+      * **[CIR-2017-182](https://github.com/opencypher/openCypher/issues/182)**: Adding support for multiple graphs _(Stefan Plantikow, Neo4j)_
+    * Cypher versioning _(Mats Rydberg, Neo4j)_
 ---
 This is the fifth virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="/cips/" target="_blank">CIPs</a>).
+
 
 {{ page.agenda }}
 
 ## Logistics
 
-The fifth oCIG meeting will be held on 15.00 - 16:30 UTC on Thursday, 7 September 2017.
+The fifth oCIG meeting will be held on 15.00 - 16:30 UTC on Thursday, 28 September 2017.
