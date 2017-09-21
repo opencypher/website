@@ -4,7 +4,7 @@
             <h2 class="title  text-center">References</h2>
 
             <p>
-                Here is a list of publications, talks and slides, grouped by topic.
+                Here is a list of publications, documents, talks and slides, grouped by topic and ordered by date (earliest first).
                 Please note that this list is not exhaustive.
             </p>
 
@@ -29,7 +29,12 @@
                 </li>
             </ol>
 
-            <h3>Graph querying in general (including regular path queries)</h3>
+            <h4>Links</h4>
+            <ol>
+                <li>Textual description of the Property Graph Model <a href="https://github.com/opencypher/openCypher/blob/master/docs/property-graph-model.adoc" target="_blank">[link]</a></li>
+            </ol>
+
+            <h3>Graph querying: regular path queries and graph pattern matching</h3>
 
             <h4>Publications</h4>
             <ol>
@@ -58,7 +63,34 @@
                     Querying Graphs with Data.
                     <i>ACM Journal</i>, pages 1-53, 2016.
                 </li>
+            </ol>
 
+            <h4>Cypher Improvement Proposals</h4>
+
+            <ol>
+                <li><a href="https://github.com/thobe/openCypher/blob/rpq/cip/1.accepted/CIP2017-02-06-Path-Patterns.adoc" target="_blank">CIP2017-02-06 Path Patterns</a></li>
+                <li><a href="https://github.com/boggle/openCypher/blob/isomatch/cip/1.accepted/CIP2017-01-18-configurable-pattern-matching-semantics.adoc" target="_blank">CIP2017-01-18 Configurable Pattern Matching Semantics</a></li>
+            </ol>
+
+            <h4>Links</h4>
+            <ol>
+                <li>
+                    Conjunctive regular path queries: <a href="https://docs.google.com/presentation/d/1D6LGf-Ivjz_nvrbQS-KdoAvKREMm3-Jow_u8B8I4cjY/edit#slide=id.g1370c15e05_0_19" target="_blank">[slides]</a> <i>(Tobias Lindaaker, Neo4j)</i>
+                </li>
+                <li>
+                    Graph pattern matching semantics: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/cypher_implementers_day_2017_pattern_matching_semantics.pdf" target="_blank">[slides]</a> <i>(Oskar van Rest, Oracle)</i>
+                </li>
+                <li>
+                    Expressivity of regular path pattern queries: <a href="https://docs.google.com/presentation/d/1J9a0LC24FvhHlzlvpDbQdNWbXiC06ZoCcfyyJEpDkto/edit#slide=id.g1db1194b57_0_0" target="_blank">[slides]</a> <i>(Tobias Lindaaker, Neo4j)</i>
+                </li>
+                <li>Path query patterns in Cypher (regular path queries): <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/11-15+Path+Queries.pdf" target="_blank">[slides]</a> <i>(Tobias Lindaaker, Neo4j)</i></li>
+                <li>
+                    Path pattern queries - regular path queries - in Cypher: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig2/Path+Pattern+Queries+-+oCIG+2017-07-06.pdf" target="_blank">[slides]</a> <a href="https://youtu.be/HN_etVA4FMk?t=161" target="_blank">[recording]</a> <i>(Tobias Lindaaker, Neo4j)</i>
+                </li>
+                <li>
+                    Proposal for configurable pattern matching semantics in Cypher: <a href="https://github.com/boggle/openCypher/blob/isomatch/cip/1.accepted/CIP2017-01-18-configurable-pattern-matching-semantics.adoc" target="_blank">[link]</a>
+                </li>
+                <li>Configurable pattern matching semantics in Cypher: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig3/CIP2017-01-18+-+Configurable+Pattern+Matching+Semantics+%5BoCIG+3+Edition%5D.pdf" target="_blank">[slides]</a> <a href="https://youtu.be/7a2Oi3I0ZlU" target="_blank">[recording]</a> <i>(Stefan Plantikow, Neo4j)</i> </li>
             </ol>
 
             <h3>Cypher</h3>
@@ -92,6 +124,25 @@
                 </li>
             </ol>
 
+            <h4>Links</h4>
+            <ol>
+                <li>
+                    Formal semantics of SQL (and Cypher): <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/sql-sem.pdf" target="_blank">[slides]</a> <i>(Paolo Guagliardo, University of Edinburgh)</i>
+                </li>
+                <li>
+                    Incremental graph queries for Cypher: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/ocim2017-incremental-opencypher.pdf" target="_blank">[slides]</a> <i>(Gábor Szárnyas, József Marton, Budapest University of Technology and Economics)</i>
+                </li>
+                <li>
+                    Extended Property Graphs and Cypher on Gradoop: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/20170208-oCIM-Gradoop.pdf" target="_blank">[slides]</a> <i>(Martin Junghanns, University of Leipzig)</i>
+                </li>
+                <li>
+                    Formal specification of Cypher: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/Slides.pdf" target="_blank">[slides]</a> <i>(Nadime Francis, University of Edinburgh)</i>
+                </li>
+                <li>
+                    The ingraph project and incremental evaluation of Cypher queries: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/ocim2-ingraph.pdf" target="_blank">[slides]</a> <i>(Gábor Szárnyas, József Marton, Budapest University of Technology and Economics)</i>
+                </li>
+            </ol>
+
             <h3>Graph composition and graph operations</h3>
 
             <h4>Publications</h4>
@@ -106,6 +157,27 @@
                     Query Language and Access Methods for Graph Databases.
                     <i>Managing and Mining Graph Data</i>, pages 125-160. Springer Publishing, 2010.
                 </li>
+            </ol>
+
+            <h4>Cypher Improvement Proposals</h4>
+            <ol>
+                <li><a href="https://github.com/petraselmer/openCypher/blob/379d3b2e9ab673fde6fe59a32ac32bcc6276b103/cip/CIP2016-06-22-nested-subqueries.adoc" target="_blank">CIP2016-06-22 Nested Subqueries</a> </li>
+                <li><a href="https://github.com/thobe/openCypher/blob/single-value-subqueries/cip/1.accepted/CIP2017-03-29-Single-Value-Subqueries.adoc" target="_blank">CIP2017-03-29 Scalar Subqueries and List Subqueries</a> </li>
+                <li><a href="https://github.com/boggle/openCypher/blob/CIP-query-combinators/cip/1.accepted/CIP2017-04-20-query-combinators.adoc" target="_blank">CIP2017-04-20 Query Combinators</a> </li>
+                <li><a href="https://github.com/boggle/openCypher/blob/CIP2017-06-18-multiple-graphs/cip/1.accepted/CIP2017-06-18-multiple-graphs.adoc" target="_blank">CIP2017-06-18 Multiple Graphs</a> </li>
+            </ol>
+
+            <h4>Links</h4>
+            <ol>
+                <li>The case for multiple graph querying: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/14-00+-+The+Case+for+Multiple+Graph+Querying.pdf" target="_blank">[slides]</a> <i>(Alastair Green, Neo4j)</i></li>
+                <li>Virtual graphs and graph views in Cypher: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/openCypher-GraphViews.pdf" target="_blank">[slides]</a> <i>(Hannes Voigt, Sascha Peukert, Technical University of Dresden; Michael Hunger, Neo4j)</i> </li>
+                <li>Evolving Cypher for processing multiple graphs: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/14-30+Multiple+Graphs-+Evolving+Cypher.pdf" target="_blank">slides</a> <i>(Stefan Plantikow, Neo4j)</i> </li>
+                <li>Nested subqueries: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10-00+Nested+Subqueries+%5BDONE%5D.pdf" target="_blank">[slides]</a> <i>(Petra Selmer, Neo4j)</i> </li>
+                <li>Query combinators: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10-00+Query+Combinators+%5BDONE%5D.pdf" target="_blank">[slides]</a> <i>(Stefan Plantikow, Neo4j)</i></li>
+                <li>Multiple graph processing: naming and addressing: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM+2+15.15+Multiple+Graph+Naming+and+Addressing.pdf" target="_blank">[slides]</a> <i>(Alastair Green, Neo4j)</i> </li>
+                <li>Syntax and semantics of Cypher for multiple graphs: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/15-15+Duality+through+Inversion-+Syntax+and+Semantics+of+Cypher+for+multiple+Graphs+%5BDONE%5D.pdf" target="_blank">[slides]</a> <i>(Stefan Plantikow, Neo4j)</i></li>
+                <li>Draft graph URI scheme: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig3/oCIG3+-+Draft+graph+URI+Scheme+Specification+0.3.pdf" target="_blank">[document]</a> <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig3/oCIG3+-+Graph+addressing.pdf" target="_blank">[slides]</a> <a href="https://youtu.be/7a2Oi3I0ZlU" target="_blank">[recording]</a> </li>
+                <li>Multiple graphs in depth: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig4/CIP2017-06-18+Multiple+Graphs+(oCIG+4+Presentation%2C+2017-08-17).pdf" target="_blank">[slides]</a> <a href="https://youtu.be/IC-xglbMJAw" target="_blank">[recording]</a> <i>(Stefan Plantikow, Neo4j)</i></li>
             </ol>
 
             <h3>General</h3>
