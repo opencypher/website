@@ -25,4 +25,8 @@ This meetup is organised by the [openCypher project](http://www.opencypher.org).
 
 ## Logistics
 
-The openCypher Meetup will be held in **New York City, USA** (details of the venue are forthcoming), from **6pm - 8pm** on Wednesday the **25th of October 2017**.
+The openCypher Meetup will be held at **WeWork Park South** at **110 East 28th Street, NY, USA**, from **6pm - 8pm** on Wednesday the **25th of October 2017**.
+The entrance to the building is on 28th Street.
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.868245370689!2d-73.98566378459408!3d40.7429245793286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a783b0be67%3A0xfef996ee524a78a4!2s110+E+28th+St%2C+New+York%2C+NY+10016!5e0!3m2!1sen!2sus!4v1506071437997" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
