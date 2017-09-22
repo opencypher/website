@@ -1,0 +1,245 @@
+<section id="references" class="home section">
+    <div class="container">
+        <div class="contact-inner">
+            <h2 class="title  text-center">References</h2>
+
+            <p>
+                The evolution of the Cypher language is driven by the <a href="http://www.opencypher.org/ocig" target="_blank">openCypher Implementers Group</a> via language <a href="http://www.opencypher.org/cips/" target="_blank">proposals</a> and <a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">requests</a>.
+                As an outcome, the openCypher community provides a number of <a href="http://www.opencypher.org/#resources" target="_blank">artifacts</a>.
+            </p>
+            <p>
+                However, many of these ideas are predated by academic work, and we provide here a list of publications, grouped by topic and ordered by date (earliest first).
+                We additionally list documents, talks and slides pertaining to these topics.
+            </p>
+            <p>
+                Please note that this list is not exhaustive.
+            </p>
+
+            <h3>Property graph data model</h3>
+
+            <h4>Publications</h4>
+            <ol>
+                <li>
+                    Martínez-Bazan, N., Muntés-Mulero, V., Gómez-Villamor, S., Nin, J., Sánchez-Martínez, M-A., and Larriba-Pey, J-L.
+                    DEX: High-performance Exploration on Large Graphs for Information Retrieval.
+                    In <i>Proc. 16th ACM Conference on Information and Knowledge Management</i>, pages 573–582, 2007.
+                </li>
+                <li>
+                    Rodriguez, M. A., and Neubauer, P.
+                    Constructions from Dots and Lines.
+                    <i>CoRR, abs/1006.2361</i>, 2010.
+                </li>
+                <li>
+                    Hartig, O.
+                    Reconciliation of RDF* and Property Graphs.
+                    <i>CoRR, abs/1409.3288</i>, 2014.
+                </li>
+                <li>
+                    Junghanns, M., Petermann, A., Gómez, K., and Rahm, E.
+                    GRADOOP: Scalable Graph Data Management and Analytics with Hadoop.
+                    <i>CoRR abs/1506.00548</i>, 2015.
+                </li>
+                <li>
+                    Marton, J., Szárnyas, G. and Varró, D.
+                    Formalising openCypher Graph Queries in Relational Algebra.
+                    In <i>Proc. 21st European Conference on Advances in Databases and Information Systems (ADBIS)</i>, 2017.
+                </li>
+            </ol>
+
+            <h4>Links</h4>
+            <ol>
+                <li>
+                    Textual description of the Property Graph Model: <a href="https://github.com/opencypher/openCypher/blob/master/docs/property-graph-model.adoc" target="_blank">[link]</a></li>
+                <li>
+                    Defining a Property Graph: <a href="https://github.com/tinkerpop/gremlin/wiki/Defining-a-Property-Graph" target="_blank">[link]</a></li>
+                </li>
+            </ol>
+
+            <h3>Graph querying: regular path queries and graph pattern matching</h3>
+
+            <h4>Publications</h4>
+            <ol>
+                <li>
+                    Cruz, I. F., Mendelzon A. O., and Wood, P. T.
+                    A graphical query language supporting recursion.
+                    In <i>Proc. ACM SIGMOD</i>, pages 323–330, 1987.
+                </li>
+                <li>
+                    Wood, P. T.
+                    Query Languages for Graph Databases.
+                    <i>SIGMOD Record</i>, pages 50-60, 2012.
+                </li>
+                <li>
+                    Barceló, P., Libkin, L., Lin, A. W., and Wood, P. T.
+                    Expressive Languages for Path Queries over Graph-Structured Data.
+                    <i>ACM Transactions on Database Systems (TODS)</i>, pages 1-46, 2012.
+                </li>
+                <li>
+                    Barceló, P., Libkin, L., and Reutter, J. L.
+                    Querying Regular Graph Patterns.
+                    <i>ACM Journal</i>, pages 1-54, 2014.
+                </li>
+                <li>
+                    Libkin, L., Martens, W., and Vrgoč, D.
+                    Querying Graphs with Data.
+                    <i>ACM Journal</i>, pages 1-53, 2016.
+                </li>
+                <li>
+                    van Rest, O., Hong, S., Kim, J., Meng, X., and Chafi, H.
+                    PGQL: A Property Graph Query Language.
+                    In <i>Proc. 4th International Workshop on Graph Data-management Experiences & Systems (GRADES)</i>, 2016.
+                </li>
+            </ol>
+
+            <h4>Cypher Improvement Proposals</h4>
+
+            <ol>
+                <li><a href="https://github.com/thobe/openCypher/blob/rpq/cip/1.accepted/CIP2017-02-06-Path-Patterns.adoc" target="_blank">CIP2017-02-06 Path Patterns</a></li>
+                <li><a href="https://github.com/boggle/openCypher/blob/isomatch/cip/1.accepted/CIP2017-01-18-configurable-pattern-matching-semantics.adoc" target="_blank">CIP2017-01-18 Configurable Pattern Matching Semantics</a></li>
+            </ol>
+
+            <h4>Links</h4>
+            <ol>
+                <li>
+                    Conjunctive regular path queries: <a href="https://docs.google.com/presentation/d/1D6LGf-Ivjz_nvrbQS-KdoAvKREMm3-Jow_u8B8I4cjY/edit#slide=id.g1370c15e05_0_19" target="_blank">[slides]</a> <i>(Tobias Lindaaker, Neo4j)</i>
+                </li>
+                <li>
+                    Graph pattern matching semantics: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/cypher_implementers_day_2017_pattern_matching_semantics.pdf" target="_blank">[slides]</a> <i>(Oskar van Rest, Oracle)</i>
+                </li>
+                <li>
+                    Expressivity of regular path pattern queries: <a href="https://docs.google.com/presentation/d/1J9a0LC24FvhHlzlvpDbQdNWbXiC06ZoCcfyyJEpDkto/edit#slide=id.g1db1194b57_0_0" target="_blank">[slides]</a> <i>(Tobias Lindaaker, Neo4j)</i>
+                </li>
+                <li>Path query patterns in Cypher (regular path queries): <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/11-15+Path+Queries.pdf" target="_blank">[slides]</a> <i>(Tobias Lindaaker, Neo4j)</i></li>
+                <li>
+                    Path pattern queries - regular path queries - in Cypher: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig2/Path+Pattern+Queries+-+oCIG+2017-07-06.pdf" target="_blank">[slides]</a> <a href="https://youtu.be/HN_etVA4FMk?t=161" target="_blank">[recording]</a> <i>(Tobias Lindaaker, Neo4j)</i>
+                </li>
+                <li>Configurable pattern matching semantics in Cypher: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig3/CIP2017-01-18+-+Configurable+Pattern+Matching+Semantics+%5BoCIG+3+Edition%5D.pdf" target="_blank">[slides]</a> <a href="https://youtu.be/7a2Oi3I0ZlU" target="_blank">[recording]</a> <i>(Stefan Plantikow, Neo4j)</i> </li>
+            </ol>
+
+            <h3>Cypher</h3>
+
+            <h4>Publications</h4>
+            <ol>
+                <li>
+                    Hölsch, J., and Grossniklaus, M.
+                    An Algebra and Equivalences to Transform Graph Patterns in Neo4j.
+                    In <i>Proc. of the Workshops of the EDBT/ICDT Joint Conference</i>, 2016.
+                </li>
+                <li>
+                    Yang, M.
+                    A Study of Execution Strategies for openCypher on Apache Flink.
+                    <i>Master's thesis, Eindhoven University of Technology.</i>, 2016.
+                </li>
+                <li>
+                    Marton, J., Szárnyas, G. and Varró, D.
+                    Formalising openCypher Graph Queries in Relational Algebra.
+                    In <i>Proc. 21st European Conference on Advances in Databases and Information Systems (ADBIS)</i>, 2017.
+                </li>
+                <li>
+                    Junghanns, M., Kiessling, M., Averbuch, A., Petermann, A. and Rahm, E.
+                    Cypher-based Graph Pattern Matching in Gradoop.
+                    In <i>Proc. 5th International Workshop on Graph Data-management Experiences & Systems (GRADES)</i>, 2017.
+                </li>
+                <li>
+                    Steer, B.A., Alnaimi, A., Lotz, M.A.B.F.G., Cuadrado, F., Vaquero, L.M., and Varvenne, J.
+                    Cytosm: Declarative Property Graph Queries Without Data Migration.
+                    In <i>Proc. 5th International Workshop on Graph Data-management Experiences & Systems (GRADES)</i>, 2017.
+                </li>
+                <li>
+                    Kankanamge, C., Sahu, S., Mhedbhi, A., Chen, J., and Salihoglu, S.
+                    Graphflow: An Active Graph Database.
+                    In <i>Proc. 2017 ACM SIGMOD International Conference on Management of Data</i>, 2017.
+                </li>
+                <li>
+                    Weber, J. H.
+                    GRAPE – A Graph Rewriting and Persistence Engine.
+                    In <i>Proc. 10th International Conference on Graph Transformation (ICGT)</i>, 2017.
+                </li>
+
+            </ol>
+
+            <h4>Links</h4>
+            <ol>
+                <li>
+                    Formal semantics of SQL (and Cypher): <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/sql-sem.pdf" target="_blank">[slides]</a> <i>(Paolo Guagliardo, University of Edinburgh)</i>
+                </li>
+                <li>
+                    Incremental graph queries for Cypher: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/ocim2017-incremental-opencypher.pdf" target="_blank">[slides]</a> <i>(Gábor Szárnyas, József Marton, Budapest University of Technology and Economics)</i>
+                </li>
+                <li>
+                    Extended Property Graphs and Cypher on Gradoop: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/20170208-oCIM-Gradoop.pdf" target="_blank">[slides]</a> <i>(Martin Junghanns, University of Leipzig)</i>
+                </li>
+                <li>
+                    Formal specification of Cypher: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/Slides.pdf" target="_blank">[slides]</a> <i>(Nadime Francis, University of Edinburgh)</i>
+                </li>
+                <li>
+                    The ingraph project and incremental evaluation of Cypher queries: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/ocim2-ingraph.pdf" target="_blank">[slides]</a> <i>(Gábor Szárnyas, József Marton, Budapest University of Technology and Economics)</i>
+                </li>
+            </ol>
+
+            <h3>Multiple graphs, graph composition and operations</h3>
+
+            <h4>Publications</h4>
+            <ol>
+                <li>
+                    He, H., and Singh, A. K.
+                    Graphs-at-a-time: Query Language and Access Methods for Graph Databases.
+                    In <i>Proc. 2008 ACM SIGMOD International Conference on Management of Data</i>, 2008.
+                </li>
+                <li>
+                    He, H., and Singh, A. K.
+                    Query Language and Access Methods for Graph Databases.
+                    <i>Managing and Mining Graph Data</i>, pages 125-160. Springer Publishing, 2010.
+                </li>
+                <li>
+                    Junghanns, M., Petermann, A., Gómez, K., and Rahm, E.
+                    GRADOOP: Scalable Graph Data Management and Analytics with Hadoop.
+                    <i>CoRR abs/1506.00548</i>, 2015.
+                </li>
+                <li>
+                    Junghanns, M., Petermann, A., Teichmann, N., Gómez, K., and Rahm, E.
+                    Analyzing extended property graphs with Apache Flink.
+                    In <i>Proc. 1st ACM SIGMOD Workshop on Network Data Analytics (NDA)</i>, 2016.
+                </li>
+            </ol>
+
+            <h4>Cypher Improvement Proposals</h4>
+            <ol>
+                <li><a href="https://github.com/petraselmer/openCypher/blob/379d3b2e9ab673fde6fe59a32ac32bcc6276b103/cip/CIP2016-06-22-nested-subqueries.adoc" target="_blank">CIP2016-06-22 Nested Subqueries</a> </li>
+                <li><a href="https://github.com/thobe/openCypher/blob/single-value-subqueries/cip/1.accepted/CIP2017-03-29-Single-Value-Subqueries.adoc" target="_blank">CIP2017-03-29 Scalar Subqueries and List Subqueries</a> </li>
+                <li><a href="https://github.com/boggle/openCypher/blob/CIP-query-combinators/cip/1.accepted/CIP2017-04-20-query-combinators.adoc" target="_blank">CIP2017-04-20 Query Combinators</a> </li>
+                <li><a href="https://github.com/boggle/openCypher/blob/CIP2017-06-18-multiple-graphs/cip/1.accepted/CIP2017-06-18-multiple-graphs.adoc" target="_blank">CIP2017-06-18 Multiple Graphs</a> </li>
+            </ol>
+
+            <h4>Links</h4>
+            <ol>
+                <li>The case for multiple graph querying: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/14-00+-+The+Case+for+Multiple+Graph+Querying.pdf" target="_blank">[slides]</a> <i>(Alastair Green, Neo4j)</i></li>
+                <li>Virtual graphs and graph views in Cypher: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/openCypher-GraphViews.pdf" target="_blank">[slides]</a> <i>(Hannes Voigt, Sascha Peukert, Technical University of Dresden; Michael Hunger, Neo4j)</i> </li>
+                <li>Evolving Cypher for processing multiple graphs: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/14-30+Multiple+Graphs-+Evolving+Cypher.pdf" target="_blank">slides</a> <i>(Stefan Plantikow, Neo4j)</i> </li>
+                <li>Nested subqueries: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10-00+Nested+Subqueries+%5BDONE%5D.pdf" target="_blank">[slides]</a> <i>(Petra Selmer, Neo4j)</i> </li>
+                <li>Query combinators: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10-00+Query+Combinators+%5BDONE%5D.pdf" target="_blank">[slides]</a> <i>(Stefan Plantikow, Neo4j)</i></li>
+                <li>Multiple graph processing: naming and addressing: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM+2+15.15+Multiple+Graph+Naming+and+Addressing.pdf" target="_blank">[slides]</a> <i>(Alastair Green, Neo4j)</i> </li>
+                <li>Syntax and semantics of Cypher for multiple graphs: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/15-15+Duality+through+Inversion-+Syntax+and+Semantics+of+Cypher+for+multiple+Graphs+%5BDONE%5D.pdf" target="_blank">[slides]</a> <i>(Stefan Plantikow, Neo4j)</i></li>
+                <li>Draft graph URI scheme: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig3/oCIG3+-+Draft+graph+URI+Scheme+Specification+0.3.pdf" target="_blank">[document]</a> <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig3/oCIG3+-+Graph+addressing.pdf" target="_blank">[slides]</a> <a href="https://youtu.be/7a2Oi3I0ZlU" target="_blank">[recording]</a> </li>
+                <li>Multiple graphs in depth: <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig4/CIP2017-06-18+Multiple+Graphs+(oCIG+4+Presentation%2C+2017-08-17).pdf" target="_blank">[slides]</a> <a href="https://youtu.be/IC-xglbMJAw" target="_blank">[recording]</a> <i>(Stefan Plantikow, Neo4j)</i></li>
+            </ol>
+
+            <h3>Position papers and surveys</h3>
+
+            <h4>Publications</h4>
+            <ol>
+                <li>
+                    Angles, R., and Gutierrez C.
+                    Survey of graph database models.
+                    <i>ACM Computing Survey</i>, 40(1):1:1–1:39, 2008.
+                </li>
+                <li>
+                    Sahu, S., Mhedhbi, A., Salihoglu, S., Lin J., and Özsu, M. T.
+                    The Ubiquity of Large Graphs and Surprising Challenges of Graph Processing: A User Survey.
+                    <i>CoRR, abs/1709.03188</i>, 2017.
+                </li>
+            </ol>
+
+        </div>
+    </div>
+</section>
