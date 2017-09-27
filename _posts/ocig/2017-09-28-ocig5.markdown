@@ -7,18 +7,20 @@ date:   2017-09-28
 author: "Mats Rydberg"
 excerpt: "The fifth virtual meeting for members of the openCypher Implementers Group."
 agenda: |
-    ## Proposed Agenda
+    ## Agenda
 
     * Welcome and oCIG updates _(Petra Selmer, Neo4j)_
-    * Latest updates from the _Ad Hoc on SQL Extensions Property Graphs_ committee _(Alastair Green, Neo4j)_
     * **Cypher.PL**: an executable specification of Cypher written in Prolog _(Jan Posiadała and Paweł Susicki, Cypher.PL)_
     * Cypher versioning _(Mats Rydberg, Neo4j)_
 ---
 This is the fifth virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="/cips/" target="_blank">CIPs</a>).
 
+The agenda focuses on Cypher.PL, an executable specification of Cypher, along with a proposal of how to define and manage versioning in Cypher.
 
 {{ page.agenda }}
 
 ## Logistics
 
 The fifth oCIG meeting will be held on 15.00 - 16:30 UTC on Thursday, 28 September 2017.
+
+To join the meeting, follow this GotoMeeting link: <a href="https://www.gotomeet.me/opencypher" target="_blank">https://www.gotomeet.me/opencypher</a>.
