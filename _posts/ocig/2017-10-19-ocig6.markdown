@@ -9,7 +9,7 @@ excerpt: "The sixth virtual meeting for members of the openCypher Implementers G
 agenda: |
     ## Proposed Agenda
 
-    * Organisation of the Third openCypher Implementers Meeting
+    * Organisation of the Third openCypher Implementers Meeting (oCIM 3)
     * Subqueries
       * **[CIR-2017-181](https://github.com/opencypher/openCypher/issues/181)**: Extended subqueries for Cypher _(Stefan Plantikow)_
       * **[CIR-2017-191](https://github.com/opencypher/openCypher/issues/191)**: Make OPTIONAL MATCH and WHERE interaction easier to understand _(Mats Rydberg)_
@@ -18,8 +18,8 @@ agenda: |
 ---
 This is the sixth virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="/cips/" target="_blank">CIPs</a>).
 
-This meeting is dedicated the topic of subqueries and to the planning of oCIM 3, which is to take place in New York October 2017, in alignment with [GraphConnect](http://graphconnect.com/).
-Any topics that had not been brought to conclusion during previous oCIG meetings can also be included into the agenda of this meeting.
+This meeting is dedicated the topic of subqueries and to the planning of oCIM 3, which is to take place in France, November 2017.
+Any topics that have not been finalized during previous oCIG meetings can also be included in the agenda of this meeting.
 
 {{ page.agenda }}
 
