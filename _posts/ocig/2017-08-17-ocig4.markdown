@@ -9,6 +9,8 @@ excerpt: "The fourth virtual meeting for members of the openCypher Implementers 
 agenda: |
     ## Agenda
 
+    * Welcome and oCIG updates _(Petra Selmer, Neo4j)_
+        * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig4/oCIG+4+-+Introduction.pdf)**
     * Multiple graphs, syntax and semantics _(Stefan Plantikow, Neo4j)_
         * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig4/CIP2017-06-18+Multiple+Graphs+(oCIG+4+Presentation%2C+2017-08-17).pdf)**
         * **[CIR-2017-182](https://github.com/opencypher/openCypher/issues/182)**: Adding support for multiple graphs

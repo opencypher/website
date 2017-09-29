@@ -9,6 +9,8 @@ excerpt: "The third virtual meeting for members of the openCypher Implementers G
 agenda: |
     ## Agenda
 
+    * Welcome and oCIG updates _(Petra Selmer, Neo4j)_
+        * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig3/oCIG+3+-+Introduction.pdf)**
     * How openCypher relates to graph query language discussions in ISO and LDBC _(Alastair Green, Neo4j)_
         * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig3/oCIG3+--+Language+Landscape+and+SQL%252FCypher%252FPGQL.pdf)**
     * ISO/INCITS initiatives on property graph querying in SQL _(Jan Michels (Oracle), Group Chair: Ad Hoc on SQL Extensions Property Graphs)_
