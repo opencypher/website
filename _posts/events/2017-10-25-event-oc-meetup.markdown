@@ -22,6 +22,10 @@ This meetup is organised by the [openCypher project](http://www.opencypher.org).
    * Graph theory is part of every computer science curriculum.
    However, there is surprisingly little interaction between academic and industrial graph research communities.
    To reveal topics for potential collaboration, key research directions in academia will be highlighted, and their possible applications will be shown.
+* Property graphs with time _(Julia Stoyanovich, Drexel University, USA, stoyanovich.org)_
+   * In this talk we discuss how graph representations and query primitives can be extended to accommodate evolution of graph structure and properties over time.
+   Our main insights are (1) that advances in the mature field of temporal databases can be leveraged for graphs and (2) that scalability can be achieved in a carefully engineered Spark-based solution.
+   This talk is based on our work on the Portal system, which will be released in the open source this Fall.
 
 ## Logistics
 
