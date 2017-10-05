@@ -29,4 +29,6 @@ The fifth oCIG meeting was held at 15.00 - 16:30 UTC on Thursday, 28 September 2
 
 ## Recording
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kRPLkvb_gYk" frameborder="0" allowfullscreen></iframe>
+
 The recording of the meeting can be downloaded via [this link](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig5/2017-09-28-oCIG5.mp4.zip)
