@@ -23,7 +23,7 @@ This was the first virtual meeting for members of the openCypher Implementers Gr
 
 ## Logistics
 
-The first oCIG meeting was held 15.00 - 16:30 UTC on Thursday, 22 June 2017.
+The first oCIG meeting was held at 15.00 - 16:30 UTC on Thursday, 22 June 2017.
 
 During the course of the meeting, [this Google document](https://docs.google.com/document/d/1hBQGT-3jOIL00Kb8zkPCTwQWIam_YX90SkC3JWyICsI/edit?usp=sharing) was shared between participants for collaborative notes.
 

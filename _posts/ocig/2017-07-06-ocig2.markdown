@@ -22,7 +22,7 @@ This meeting was dedicated to the topic of extending Cypher with support for exp
 
 ## Logistics
 
-The second oCIG meeting was held on 15.00 - 16:30 UTC on Thursday, 6 July 2017.
+The second oCIG meeting was held at 15.00 - 16:30 UTC on Thursday, 6 July 2017.
 
 ## Recording
 
