@@ -7,21 +7,15 @@ date:   2017-10-19
 author: "Mats Rydberg"
 excerpt: "The sixth virtual meeting for members of the openCypher Implementers Group."
 agenda: |
-    ## Proposed Agenda
+    ## Agenda
 
-    * Conventions for the structure and form of the namespace for functions and procedures in Cypher
-      * **[CIR-2017-255](https://github.com/opencypher/openCypher/issues/255)**: Namespace guidelines for functions and procedures _(Mats Rydberg, Neo4j)_
-    * Organisation of the Third openCypher Implementers Meeting (oCIM 3)
     * Subqueries
-      * **[CIR-2017-181](https://github.com/opencypher/openCypher/issues/181)**: Extended subqueries for Cypher _(Stefan Plantikow)_
-      * **[CIR-2017-191](https://github.com/opencypher/openCypher/issues/191)**: Make OPTIONAL MATCH and WHERE interaction easier to understand _(Mats Rydberg)_
-      * **[CIP-2016-06-22](https://github.com/opencypher/openCypher/pull/100)**: Nested Subqueries _(Petra Selmer & Stefan Plantikow)_
-      * **[CIP-2017-03-29](https://github.com/opencypher/openCypher/pull/217)**: Scalar Subqueries and List Subqueries _(Tobias Lindaaker)_
+      * **[CIP-2016-06-22](https://github.com/opencypher/openCypher/pull/100)**: Nested, updating, and chained subqueries _(Petra Selmer & Stefan Plantikow, Neo4j)_
+      * **[CIP-2017-03-29](https://github.com/opencypher/openCypher/pull/217)**: Scalar subqueries and list subqueries _(Tobias Lindaaker, Neo4j)_
 ---
 This is the sixth virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="/cips/" target="_blank">CIPs</a>).
 
-This meeting is dedicated the topic of subqueries and to the planning of oCIM 3, which is to take place in France, November 2017.
-In addition, a way forward will be discussed regarding the establishment of common conventions for the structure of the namespace of a (vendor-specific) function or procedure.
+This meeting is dedicated the topic of subqueries.
 
 {{ page.agenda }}
 
