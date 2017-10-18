@@ -22,3 +22,4 @@ This meeting is dedicated the topic of subqueries.
 ## Logistics
 
 The sixth oCIG meeting will be held on 15.00 - 16:30 UTC on Thursday, 19 October 2017.
+To join the meeting, follow this GotoMeeting link: <a href="https://www.gotomeet.me/opencypher" target="_blank">https://www.gotomeet.me/opencypher</a>.
