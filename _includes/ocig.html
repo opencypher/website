@@ -39,7 +39,7 @@
             {% assign postDateSeconds = post.date | date: "%s" %}
 
             <ul>
-            {% if postDateSeconds < "1506816000" %}
+            {% if postDateSeconds < "1508457540" %}
                 <li>
                     <a href="{{ post.url }}"><b>{{ post.date | date: "%A, %-d %B %Y" }}</b> (page)</a>
                 </li>
@@ -51,12 +51,12 @@
         </p>
 
         <!-- This allows us to change the view of this page with one line edit -->
-        {% assign nextDate = "Thursday, 19 October 2017" %}
+        {% assign nextDate = "2018" %}
 
         {% for post in sorted %}
             {% assign postDate = post.date | date: "%A, %-d %B %Y" %}
             {% if nextDate == postDate %}
-                <h3>Next oCIG meeting: {{ nextDate }} (oCIG 6)</h3>
+                <h3>Next oCIG meeting: {{ nextDate }} (oCIG 7)</h3>
                 <div class="inline-agenda">
                     {{ post.agenda | markdownify }}
                 </div>
@@ -68,6 +68,11 @@
                 </p>
             {% endif %}
         {% endfor %}
+
+        <h3>
+        The next oCIG meeting will be held in 2018
+        </h3>
+        <p>Details will be posted in the New Year.</p>
 
         <h3>Local times</h3>
         <p>
