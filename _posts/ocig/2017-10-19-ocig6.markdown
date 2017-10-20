@@ -12,8 +12,8 @@ agenda: |
     * Welcome and oCIG updates _(Petra Selmer, Neo4j)_
       * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig6/oCIG+6+-+Welcome.pdf)**
     * Subqueries
-      * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig6/Nested%2C+updating%2C+and+chained+subqueries.pdf)**: Nested, updating, and chained subqueries _(Petra Selmer & Stefan Plantikow, Neo4j)_
-      * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig6/Scalar+and+List+Subqueries+%5BoCIM+2017-10-19%5D.pdf)**: Scalar subqueries and list subqueries _(Tobias Lindaaker, Neo4j)_
+      * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig6/Nested%2C+updating%2C+and+chained+subqueries.pdf)**, **[Pull Request](https://github.com/opencypher/openCypher/pull/100)**: Nested, updating, and chained subqueries _(Petra Selmer & Stefan Plantikow, Neo4j)_
+      * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig6/Scalar+and+List+Subqueries+%5BoCIM+2017-10-19%5D.pdf)**, **[Pull Request](https://github.com/opencypher/openCypher/pull/217)**: Scalar subqueries and list subqueries _(Tobias Lindaaker, Neo4j)_
 ---
 This was the sixth virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="/cips/" target="_blank">CIPs</a>).
 
