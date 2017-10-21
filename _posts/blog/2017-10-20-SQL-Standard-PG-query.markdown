@@ -7,7 +7,7 @@ author: "Alastair Green"
 excerpt: "This presentation discusses the history of the SQL Standard, and describes upcoming work, including property graph querying."
 ---
 
-ISO SQL Working Group Convenor, Keith Hare, has kindly shared a presentation he's giving today at Denison University, Granville, Ohio.
+ISO SQL Working Group Convenor, Keith Hare, has kindly shared a [presentation](https://s3.amazonaws.com/artifacts.opencypher.org/website/materials/SQLStandards_2017-10-20.pdf) he's giving today at Denison University, Granville, Ohio.
 It's an interesting summary of the history of the SQL Standard.
 It also talks about emerging and projected work planned by the SQL group (WG3), and includes a section on property graph querying, which is an area under active consideration.
 The primary discussions on graph querying are happening in the INCITS Ad Hoc group looking at SQL Graph extensions.
