@@ -16,9 +16,104 @@ oCIM is a conference organised by the [openCypher project](http://www.opencypher
 
 ## Agenda
 
-The main focus of this meeting will be on finalizing support for multiple graphs and compositional graph querying within Cypher.
+The conference is dedicated to the topic of compositional queries and Multiple Graphs, which is viewed as a central theme for Cypher 10, the first openly specified, standard version of Cypher.
+This complex topic will be discussed in several sessions throughout the day, with the aim of arriving at a provisional acceptance of the concepts, semantics, and syntax of the language features.
 
-Further details regarding the starting time of the meeting and the social dinner will be published soon.
+### Programme
+
+<html>
+<head>
+    <style>
+        table, td, th {
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            border: 1;
+            border-collapse: collapse;
+            width: 50%;
+            min-width: 30em;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        .break {
+            background-color: #d0d0d0;
+        }
+
+        .item {
+            padding-left: 50px;
+            font-style: italic;
+        }
+
+        .main-title {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tbody>
+    <tr class="break">
+        <td colspan="1" rowspan="1"><p>09:00</p></td>
+        <td colspan="3" rowspan="1"><p>Opening and coffee</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>09.30</p></td>
+        <td colspan="3" rowspan="1" class="main-title"><p>From Cypher 9 to Cypher 10</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p><!-- TODO --></p></td>
+        <td colspan="3" rowspan="1" class="main-title"><p>Compositional queries and Multiple Graphs</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"></td>
+        <td colspan="3" rowspan="1" class="item"><p>Comparison with SQL and SPARQL</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"></td>
+        <td colspan="3" rowspan="1" class="item">
+            <p>Query structure and components:</p>
+            <p>&mdash; composition, graph inputs and outputs, subqueries</p>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"></td>
+        <td colspan="3" rowspan="1" class="item"><p>Graph passing, returning, referencing, cardinality</p></td>
+    </tr>
+    <tr class="break">
+        <td colspan="1" rowspan="1"><p><!-- TODO --></p></td>
+        <td colspan="3" rowspan="1"><p>Lunch</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"></td>
+        <td colspan="3" rowspan="1" class="item"><p>Graph operations (creation, transformation, identity, set operations)</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"></td>
+        <td colspan="3" rowspan="1" class="item"><p>Persistence and mutability</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"></td>
+        <td colspan="3" rowspan="1" class="item"><p>Schema and Constraints</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p><!-- TODO --></p></td>
+        <td colspan="3" rowspan="1" class="main-title"><p>Actions and future meetings</p></td>
+    </tr>
+    <tr class="break">
+        <td colspan="1" rowspan="1"><p>17.30</p></td>
+        <td colspan="3" rowspan="1"><p>End</p></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
 
 
 ## Logistics
