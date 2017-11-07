@@ -17,7 +17,18 @@ oCIM is a conference organised by the [openCypher project](http://www.opencypher
 ## Agenda
 
 The conference is dedicated to the topic of compositional queries and Multiple Graphs, which is viewed as a central theme for Cypher 10, the first openly specified, standard version of Cypher.
-This complex topic will be discussed in several sessions throughout the day, with the aim of arriving at a provisional acceptance of the concepts, semantics, and syntax of the language features.
+This complex topic will be discussed in several sessions throughout the day (the detailed programme may be found [here](#program)), with the aim of arriving at a provisional acceptance of the concepts, semantics, and syntax of the language features.
+
+
+## Logistics
+
+The third oCIM will be held in **Room A008** at **[the Inria Nancy Center](https://www.inria.fr/centre/nancy)**, 615 rue du Jardin Botanique, 54600 Villers-lès-Nancy, France, on Monday the **13th of November 2017**, and is co-located with [BDA 2017: the 33rd Conference on Data Management - Principles, Technologies and Applications](https://project.inria.fr/bda2017/ocim-iii/).
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2635.0811900252215!2d6.15455231566756!3d48.66568997926909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4794a279f38e6957%3A0xc0f057fa1a5706d7!2sINRIA+Nancy+-+Grand+Est!5e0!3m2!1sen!2suk!4v1507219487459" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+<div class="abstract-anchor" id="program"></div>
 
 ### Programme
 
@@ -116,9 +127,3 @@ This complex topic will be discussed in several sessions throughout the day, wit
 </html>
 
 
-## Logistics
-
-The third oCIM will be held in **Room A008** at **[the Inria Nancy Center](https://www.inria.fr/centre/nancy)**, 615 rue du Jardin Botanique, 54600 Villers-lès-Nancy, France, on Monday the **13th of November 2017**, and is co-located with [BDA 2017: the 33rd Conference on Data Management - Principles, Technologies and Applications](https://project.inria.fr/bda2017/ocim-iii/).
-
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2635.0811900252215!2d6.15455231566756!3d48.66568997926909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4794a279f38e6957%3A0xc0f057fa1a5706d7!2sINRIA+Nancy+-+Grand+Est!5e0!3m2!1sen!2suk!4v1507219487459" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
