@@ -15,17 +15,25 @@ This meetup is organised by the [openCypher project](http://www.opencypher.org).
 ## Agenda
 
 * Welcome and an introduction to openCypher. _(Petra Selmer, Neo4j)_
+    * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocmeetup/2017-10-25-openCypher-meetup-NYC.pdf)** (pages 1-10)
+* Introduction to Property Graphs and Cypher. _(Tobias Lindaaker, Neo4j)_
+    * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocmeetup/2017-10-25-openCypher-meetup-NYC.pdf)** (pages 11-14)
+* Using subqueries for increased query expressivity, reuse and maintainability. _(Petra Selmer, Neo4j)_
+    * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocmeetup/2017-10-25-openCypher-meetup-NYC.pdf)** (pages 15-25)
 * Working on, processing, creating and and outputting multiple graphs. _(Stefan Plantikow, Neo4j)_
-* Using subqueries for increased query expressivity, reuse and maintainability. _(TBD, Neo4j)_
+    * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocmeetup/2017-10-25-openCypher-meetup-NYC.pdf)** (pages 26-44)
 * Supporting very complex patterns in Cypher. _(Tobias Lindaaker, Neo4j)_
-* Academic research on graph processing: connecting recent findings to industrial technologies _(Gábor Szárnyas, Budapest University of Technology and Economics)_
-   * Graph theory is part of every computer science curriculum.
-   However, there is surprisingly little interaction between academic and industrial graph research communities.
-   To reveal topics for potential collaboration, key research directions in academia will be highlighted, and their possible applications will be shown.
+    * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocmeetup/2017-10-25-openCypher-meetup-NYC.pdf)** (pages 45-55)
 * Property graphs with time _(Julia Stoyanovich, Drexel University, USA, stoyanovich.org)_
-   * In this talk we discuss how graph representations and query primitives can be extended to accommodate evolution of graph structure and properties over time.
-   Our main insights are (1) that advances in the mature field of temporal databases can be leveraged for graphs and (2) that scalability can be achieved in a carefully engineered Spark-based solution.
-   This talk is based on our work on the Portal system, which will be released in the open source this Fall.
+    * In this talk we discuss how graph representations and query primitives can be extended to accommodate evolution of graph structure and properties over time.
+      Our main insights are (1) that advances in the mature field of temporal databases can be leveraged for graphs and (2) that scalability can be achieved in a carefully engineered Spark-based solution.
+      This talk is based on our work on the Portal system, which will be released in the open source this Fall.
+    * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocmeetup/property-graphs-with-time.pdf)**
+* Academic research on graph processing: connecting recent findings to industrial technologies _(Gábor Szárnyas, Budapest University of Technology and Economics)_
+    * Graph theory is part of every computer science curriculum.
+      However, there is surprisingly little interaction between academic and industrial graph research communities.
+      To reveal topics for potential collaboration, key research directions in academia will be highlighted, and their possible applications will be shown.
+    * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocmeetup/academic-research-on-graph-processing.pdf)**
 
 ## Logistics
 
