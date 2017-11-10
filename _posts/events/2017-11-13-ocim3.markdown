@@ -27,6 +27,9 @@ The third oCIM will be held in **Room A008** at **[the Inria Nancy Center](https
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2635.0811900252215!2d6.15455231566756!3d48.66568997926909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4794a279f38e6957%3A0xc0f057fa1a5706d7!2sINRIA+Nancy+-+Grand+Est!5e0!3m2!1sen!2suk!4v1507219487459" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
+### Remote attendance
+
+We will provide remote access to the conference via our [GotoMeeting channel](https://gotomeet.me/opencypher).
 
 <div class="abstract-anchor" id="program"></div>
 
