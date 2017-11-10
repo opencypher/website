@@ -89,13 +89,16 @@ The third oCIM will be held in **Room A008** at **[the Inria Nancy Center](https
     <tr>
         <td colspan="1" rowspan="1"></td>
         <td colspan="3" rowspan="1" class="item">
-            <p>Query structure and components:</p>
-            <p>&mdash; composition, graph inputs and outputs, subqueries</p>
+            <p>Accessing Multiple Graphs</p>
         </td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"></td>
-        <td colspan="3" rowspan="1" class="item"><p>Graph passing, returning, referencing, cardinality</p></td>
+        <td colspan="3" rowspan="1" class="item"><p>Query Composition</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"></td>
+        <td colspan="3" rowspan="1" class="item"><p>Graph Modification</p></td>
     </tr>
     <tr class="break">
         <td colspan="1" rowspan="1"><p>13:00</td>
@@ -103,15 +106,23 @@ The third oCIM will be held in **Room A008** at **[the Inria Nancy Center](https
     </tr>
     <tr>
         <td colspan="1" rowspan="1"></td>
-        <td colspan="3" rowspan="1" class="item"><p>Graph operations (creation, transformation, identity, set operations)</p></td>
+        <td colspan="3" rowspan="1" class="item"><p>Classes of graphs and graph sharing</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"></td>
-        <td colspan="3" rowspan="1" class="item"><p>Persistence and mutability</p></td>
+        <td colspan="3" rowspan="1" class="item"><p>Graph Persistence</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"></td>
-        <td colspan="3" rowspan="1" class="item"><p>Schema and Constraints</p></td>
+        <td colspan="3" rowspan="1" class="item"><p>Query Morphology</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"></td>
+        <td colspan="3" rowspan="1" class="item"><p>Subqueries</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"></td>
+        <td colspan="3" rowspan="1" class="item"><p>Named Queries and Views</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p><!-- TODO --></p></td>
