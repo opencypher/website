@@ -103,7 +103,8 @@ Returning to our recommendations example, let's take a look at __Query 2__, whic
 MANDATORY MATCH (u:User {id: $user})
 MANDATORY MATCH (c:City {name: $city})
 MANDATORY MATCH (old:Product {id: $product})<-[:BOUGHT]-(u)
-MATCH (store)-[:IN]->(c)-[:SELLS]->(new:Product),
+MATCH (store)-[:IN]->(c),
+    (store)-[:SELLS]->(new:Product),
     (new)-[:MADE_BY]->(brand)<-[:MADE_BY]-(old)
 WHERE new.availability > 0 AND new.category = old.category
 RETURN store, count(DISTINCT new) AS offers
