@@ -1,4 +1,4 @@
-gems: ['kramdown']
+plugins: ['kramdown']
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
 # Site settings
 title: openCypher
@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
   and a growing open community, with the goal to design and specify a standardised
   property graph query language, called Cypher.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://openCypher.com" # the base hostname & protocol for your site
+url: "https://opencypher.org" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
