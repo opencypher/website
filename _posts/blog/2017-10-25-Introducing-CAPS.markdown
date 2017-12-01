@@ -8,7 +8,7 @@ excerpt: "The first public alpha release of the source code for Cypher(TM) for A
 ---
 
 We'd like to announce the first public alpha release of the source code for Cypher(TM) for Apache Spark(TM) (CAPS).
-We've been building CAPS at Neo4j for over a year now and have released it under the APL2 as an official openCypher contribution at [https://github.com/opencypher/cypher-for-apache-spark](https://github.com/opencypher/cypher-for-apache-spark).
+We've been building CAPS at Neo4j for over a year now and have released it under the Apache 2.0 license as an official openCypher contribution at [https://github.com/opencypher/cypher-for-apache-spark](https://github.com/opencypher/cypher-for-apache-spark).
 
 
 <p style="text-align:center">
