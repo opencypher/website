@@ -1,4 +1,5 @@
 ---
+permalink: /ocig6
 layout: event
 categories: ocig
 title:  "Sixth openCypher Implementers Group Meeting"
