@@ -1,4 +1,4 @@
-ruby '2.3.5'
+ruby '2.4.2'
 source 'https://rubygems.org'
 gem 'github-pages', '170'
 gem 'rake', '12.3.0'
