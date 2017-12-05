@@ -1,5 +1,4 @@
 ---
-permalink: ocig4
 layout: event
 categories: ocig
 title:  "Fourth openCypher Implementers Group Meeting"
