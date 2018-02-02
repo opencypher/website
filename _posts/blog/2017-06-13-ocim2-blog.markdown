@@ -105,7 +105,7 @@ This was followed by [_Dmitry Vrublevsky_](https://neo4j.com/blog/contributor/dm
 Dmitry showed us the syntax highlighting features, context-sensitive error reporting (for example, when a query does not comply with the expected syntax) and auto completion.
 He concluded with a quick tour of small improvements made to the grammar, and challenges they encountered, comprising vendor extensions and intricacies surrounding the applications of the [Cypher style guide](https://github.com/opencypher/openCypher/blob/master/docs/style-guide.adoc).
 
-Gábor then rounded off the presentation section of the session with a [discussion](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/ocim2-tck.pdf) on his and his colleagues' take on the [TCK](http://www.opencypher.org/#resources) (Technology Compliance Kit), thus exemplifying how an implementation incorporated an openCypher artifact from scratch.
+Gábor then rounded off the presentation section of the session with a [discussion](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/ocim2-tck.pdf) on his and his colleagues' take on the [TCK](http://www.opencypher.org/resources) (Technology Compliance Kit), thus exemplifying how an implementation incorporated an openCypher artifact from scratch.
 Gábor began by covering the TCK as it stands, and then delved into more details about their experiences in implementing the TCK, focusing on issues and inconsistencies they encountered; in particular, in the area of side effects and how the underlying behaviour of these was not clearly specified.
 Since the meeting, a [PR](https://github.com/opencypher/openCypher/pull/236) (Pull Request) has been raised which explicitly defines side effects.
 

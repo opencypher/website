@@ -16,7 +16,7 @@ domain-specific language. In line with this approach, the TCK is a Cucumber-base
 be used for any Cypher implementation in any of the many languages supported by
 [Cucumber](https://cucumber.io/).
 
-The grammar specification and the TCK may be downloaded from the [Resources](http://www.opencypher.org/#resources) page.
+The grammar specification and the TCK may be downloaded from the [Resources](http://www.opencypher.org/resources) page.
 
 Several organizations are already involved in openCypher; read more about them in [Current projects](http://www.opencypher.org/#projects).
 

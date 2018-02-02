@@ -1,15 +1,50 @@
 <!-- ******RESOURCES****** -->
-<section id="_resources" class="resources section has-pattern">
+<section id="resources" class="home section">
     <div class="container">
         <div class="contact-inner">
 
-            <div class="abstract-anchor2" id="resources"></div>
             <h2 class="title  text-center">openCypher Resources</h2>
 
+            <p>
+                The following resources are available to download and use.
+                <ul>
+                    <li>The <strong>Cypher Query Language Reference (Version 9)</strong>, containing the complete reference for Version 9 of the Cypher
+                        query language.</li>
+                    <li>
+                        The <strong>Cypher Style Guide</strong> is comprised of:
+                        <ul>
+                            <li>Syntax guidelines for composing Cypher queries in a conventional, readability-oriented
+                    manner.</li>
+                            <li>Guidelines that may affect the semantics of queries.</li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        The <strong>TCK (Technology Compatibility Kit)</strong> is a Cucumber-based set of tests that can be used for any Cypher implementation in any of the many languages supported by Cucumber.
+                        <ul>
+                            <li>Defines the correct behaviour of Cypher under various conditions.</li>
+                            <li>Provides an unambiguous way of certifying implementations for correctness.</li>
+                            <li>Documents the behaviour of queries in a clear manner.</li>
+                            <li>Grouped into <em>features</em>, each of which consists of a set of <em>scenarios</em>, which comprise ordered <em>steps</em> defining the prerequisites, input and expected output.</li>
+                            <li>Allows a proposed change to be expressed clearly, through the modification of existing scenarios or the addition of a new scenario.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Grammar specification</strong></li>
+                    <ul>
+                        <li>
+                            A syntax and language composition specification in XML format, along with derived artifacts comprising a parser, EBNF-style grammar(s), and railroad diagrams.
+                        </li>
+                        <li>
+                            An XML grammar definition is used to generate an EBNF and an Antlr4 grammar for use by projects wanting to parse Cypher, and “Railroad Diagrams” which document the syntax.
+                        </li>
+                    </ul>
+                </ul>
+
+            </p>
+
+            <p>&nbsp;</p>
             <div>
-                <p>
-                    The table below provides links to consumable artifacts produced as part of the openCypher project.
-                </p>
+
                 <table class="table table-responsive">
                     <thead><tr>
                         <th>Resource name</th>
@@ -17,48 +52,53 @@
                         <th>Snapshot version</th>
                     </tr></thead>
                     <tr>
+                        <td>Cypher Query Language Reference (Version 9)</td>
+                        <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/openCypher9.pdf" target="_blank">[download]</a></td>
+                        <td></td>
+                    </tr>
+                    <tr>
                         <td>Cypher Style Guide</td>
-                        <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/M08/docs/style-guide.pdf" target="_blank">style-guide-M08</a></td>
+                        <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/M09/docs/style-guide.pdf" target="_blank">style-guide-M09</a></td>
                         <td><a href="https://github.com/opencypher/openCypher/blob/master/docs/style-guide.adoc" target="_blank">style-guide-snapshot</a></td>
                     </tr>
                     <tr>
                         <td>Technology Compatibility Kit (TCK)</td>
-                        <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/M08/tck-M08.zip" target="_blank">tck-M08</a></td>
+                        <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/M09/tck-M09.zip" target="_blank">tck-M09</a></td>
                         <td><a href="https://github.com/opencypher/openCypher/tree/master/tck#the-cypher-technology-compatibility-kit-tck" target="_blank">tck-snapshot</a></td>
                     </tr>
                     <tr>
                         <td>Grammar specification</td>
-                        <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/M08/grammar-M08.zip" target="_blank">grammar-M08</a></td>
+                        <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/M09/grammar-M09.zip" target="_blank">grammar-M09</a></td>
                         <td><a href="https://github.com/opencypher/openCypher/blob/master/grammar/cypher.xml" target="_blank">grammar-snapshot</a></td>
                     </tr>
                     <tr>
                         <td>Antlr grammar</td>
-                        <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/M08/Cypher.g4" target="_blank">antlr-grammar-M08</a></td>
+                        <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/M09/Cypher.g4" target="_blank">antlr-grammar-M09</a></td>
                         <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/Cypher.g4" target="_blank">antlr-grammar-snapshot</a></td>
                     </tr>
                     <tr>
                         <td>Antlr grammar (legacy*)</td>
-                        <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/M08/legacy/Cypher.g4" target="_blank">antlr-grammar-legacy-M08</a></td>
+                        <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/M09/legacy/Cypher.g4" target="_blank">antlr-grammar-legacy-M09</a></td>
                         <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/legacy/Cypher.g4" target="_blank">antlr-grammar-legacy-snapshot</a></td>
                     </tr>
                     <tr>
                         <td>EBNF grammar</td>
-                        <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/M08/cypher.ebnf" target="_blank">ebnf-grammar-M08</a></td>
+                        <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/M09/cypher.ebnf" target="_blank">ebnf-grammar-M09</a></td>
                         <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/cypher.ebnf" target="_blank">ebnf-grammar-snapshot</a></td>
                     </tr>
                     <tr>
                         <td>EBNF grammar (legacy*)</td>
-                        <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/M08/legacy/cypher.ebnf" target="_blank">ebnf-grammar-legacy-M08</a></td>
+                        <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/M09/legacy/cypher.ebnf" target="_blank">ebnf-grammar-legacy-M09</a></td>
                         <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/legacy/cypher.ebnf" target="_blank">ebnf-grammar-legacy-snapshot</a></td>
                     </tr>
                     <tr>
                         <td>Railroad diagrams</td>
-                        <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/M08/railroad/Cypher.html" target="_blank">railroad-M08</a></td>
+                        <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/M09/railroad/Cypher.html" target="_blank">railroad-M09</a></td>
                         <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/railroad/Cypher.html" target="_blank">railroad-snapshot</a></td>
                     </tr>
                     <tr>
                         <td>Railroad diagrams (legacy*)</td>
-                        <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/M08/legacy/railroad/Cypher.html" target="_blank">railroad-legacy-M08</a></td>
+                        <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/M09/legacy/railroad/Cypher.html" target="_blank">railroad-legacy-M09</a></td>
                         <td><a href="https://s3.amazonaws.com/artifacts.opencypher.org/legacy/railroad/Cypher.html" target="_blank">railroad-legacy-snapshot</a></td>
                     </tr>
                 </table>
