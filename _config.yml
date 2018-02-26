@@ -16,3 +16,6 @@ permalink: pretty
 
 # File organisation
 include: ["_pages"]
+
+# Allow posts with a date in the future to be rendered
+future: TRUE
