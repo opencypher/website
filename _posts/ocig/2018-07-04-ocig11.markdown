@@ -1,0 +1,16 @@
+---
+layout: event
+categories: ocig
+title:  "Eleventh openCypher Implementers Group Meeting"
+date:   2018-07-04
+author: "Petra Selmer"
+shortTitle: "oCIG 11"
+tentative: "Y"
+excerpt: "The eleventh virtual meeting for members of the openCypher Implementers Group."
+agenda: |
+    ## Agenda
+
+    * TBD
+---
+
+{{ page.agenda }}

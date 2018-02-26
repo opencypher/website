@@ -30,28 +30,13 @@
 
         <p>&nbsp;</p>
 
+        <p><b>We are pleased to announce that we are resuming our regular meetings in 2018.</b></p>
+
         <!-- Enumerate all oCIG posts, sorted -->
         {% assign sorted = (site.categories.ocig | sort: 'date') %}
 
-        <!-- Display historical meetings -->
-        <h3>Historical meetings</h3>
-        {% for post in sorted %}
-            {% assign postDateSeconds = post.date | date: "%s" %}
-
-            <ul>
-            {% if postDateSeconds < "1508457540" %}
-                <li>
-                    <a href="{{ post.url }}"><b>{{ post.date | date: "%A, %-d %B %Y" }}</b> (page)</a>
-                </li>
-            {% endif %}
-            </ul>
-        {% endfor %}
-        <p>
-            The recordings for all previous oCIG meetings may be accessed <a href="https://www.youtube.com/playlist?list=PL-0meR18IcYYcEStr_DvVR5ma2kBtzvVr" target="_blank">here</a>.
-        </p>
-
         <!-- This allows us to change the view of this page with one line edit -->
-        {% assign nextDate = "2018" %}
+        {% assign nextDate = "Wednesday, 14 March 2018" %}
 
         {% for post in sorted %}
             {% assign postDate = post.date | date: "%A, %-d %B %Y" %}
@@ -62,50 +47,68 @@
                 </div>
                 <p>
                     Visit the <a href= {{ post.url }}>meeting page</a> to view all details of this meeting.
-                    See the <a href="#meetings">full meetings schedule</a> below.
 
                     To join the meeting, follow this GotoMeeting link: <a href="https://www.gotomeet.me/opencypher" target="_blank">https://www.gotomeet.me/opencypher</a>.
                 </p>
             {% endif %}
         {% endfor %}
 
-        <h3>
-        The next oCIG meeting will be held in 2018
-        </h3>
-        <p>Details will be posted in the New Year.</p>
-
-        <h3>Local times</h3>
-        <p>
-
-            The call is scheduled for an hour and a half, and will start at <b>15.00 UTC</b>, which translates to:
-        </p>
-        <ul>
-            <li>18.00 IDT (Tel Aviv)</li>
-            <li>17.00 CEST (Berlin)</li>
-            <li>16.00 BST (London)</li>
-            <li>11.00 EDT (New York)</li>
-            <li>08.00 PDT (San Francisco)</li>
-        </ul>
-
-        <h3><a name="meetings"></a>Full meetings schedule</h3>
+        <h3><a name="meetings"></a>Upcoming tentative meeting schedule for 2018</h3>
         <ul>
             {% for post in sorted %}
+            {% assign postDateSeconds = post.date | date: "%s" %}
+            {% if postDateSeconds > "1514764800" %}
             <li>
-                <a href="{{ post.url }}"><b>{{ post.date | date: "%A, %-d %B %Y" }}</b> (page)</a>
+                <a href="{{ post.url }}"><b>{{ post.date | date: "%A, %-d %B %Y" }}</b> ({{ post.shortTitle }})</a> {% if post.tentative == "Y" %} * {% endif %}
             </li>
+            {% endif %}
             {% endfor %}
         </ul>
+
+        <p>* We note that some of the meetings in this schedule are tentative and subject to change, and thus currently act as placeholders. This is in order to accommodate a possible face-to-face meeting (April/May) and public holidays (July).</p>
+
+        <!-- Display historical meetings -->
+        <h3>Historical openCypher Implementers Group Meetings (2017)</h3>
+        <ul>
+            {% for post in sorted %}
+            {% assign postDateSeconds = post.date | date: "%s" %}
+            {% if postDateSeconds < "1508457540" %}
+            <li>
+                <a href="{{ post.url }}"><b>{{ post.shortTitle }}</b> - {{ post.date | date: "%A, %-d %B %Y" }}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+
+        <p>
+            The recordings for all previous oCIG meetings may be accessed <a href="https://www.youtube.com/playlist?list=PL-0meR18IcYYcEStr_DvVR5ma2kBtzvVr" target="_blank">here</a>.
+        </p>
 
         <h3>Meeting logistics</h3>
 
         <p>
-            The meetings will be held every two to three weeks, commencing on Thursday the <b>22nd of June 2017</b>.
+            The 2018 meetings will be held every four weeks, commencing on Wednesday the <b>14th of March 2018</b>.
         </p>
 
         <p>
             The call will open 15 minutes prior to the beginning of the meeting in order to allow some contingency in
             sorting out the technicalities of joining.
         </p>
+
+        <h4>Local times</h4>
+        <p>
+
+            The call is scheduled for an hour and a half, and will start at <b>16.00 UTC</b>, which translates to:
+        </p>
+        <ul>
+            <li>18.00 IDT (Tel Aviv)</li>
+            <li>17.00 CEST (Berlin)</li>
+            <li>16.00 GMT (London)</li>
+            <li>11.00 EDT (New York)</li>
+            <li>08.00 PDT (San Francisco)</li>
+        </ul>
+
+        <h4>How to join</h4>
 
         <p>
             The meeting will be hosted by Neo4j using <a href="https://www.gotomeeting.com/">GoToMeeting</a>.

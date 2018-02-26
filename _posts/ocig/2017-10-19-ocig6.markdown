@@ -4,6 +4,7 @@ categories: ocig
 title:  "Sixth openCypher Implementers Group Meeting"
 date:   2017-10-19
 author: "Mats Rydberg"
+shortTitle: "oCIG 6"
 excerpt: "The sixth virtual meeting for members of the openCypher Implementers Group."
 agenda: |
     ## Agenda
