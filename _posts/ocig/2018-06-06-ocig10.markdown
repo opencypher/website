@@ -1,0 +1,15 @@
+---
+layout: event
+categories: ocig
+title:  "Tenth openCypher Implementers Group Meeting"
+date:   2018-06-06
+author: "Petra Selmer"
+shortTitle: "oCIG 10"
+excerpt: "The tenth virtual meeting for members of the openCypher Implementers Group."
+agenda: |
+    ## Agenda
+
+    * TBD
+---
+
+{{ page.agenda }}

@@ -4,6 +4,7 @@ categories: ocig
 title:  "Third openCypher Implementers Group Meeting"
 date:   2017-07-27
 author: "Mats Rydberg"
+shortTitle: "oCIG 3"
 excerpt: "The third virtual meeting for members of the openCypher Implementers Group."
 agenda: |
     ## Agenda

@@ -1,0 +1,24 @@
+---
+layout: event
+categories: ocig
+title:  "Seventh openCypher Implementers Group Meeting"
+date:   2018-03-14
+author: "Petra Selmer"
+shortTitle: "oCIG 7"
+excerpt: "The seventh virtual meeting for members of the openCypher Implementers Group."
+agenda: |
+    ## Agenda
+
+    * Welcome and oCIG updates _(Petra Selmer, Neo4j)_
+    * **Multiple graphs and query composition**: Review of multiple graphs and query composition with work/proposals since the Third openCypher Implementers Meeting [(oCIM 3)](/event/2017/11/13/ocim3) in November 2017 at Nancy, France _(Neo4j)_
+      * [Document](https://docs.google.com/document/d/1puXFIxbytoU2RPYeD-yL0OW93vUsunpUqSuLXSxE7F8/edit?usp=sharing) 
+    * **Supporting dates and times in Cypher**  _(Tobias Lindaaker, Neo4j)_
+      * [CIP](https://github.com/thobe/openCypher/blob/date-time/cip/1.accepted/CIP2015-08-06-date-time.adoc)
+---
+This is the seventh virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="/cips/" target="_blank">CIPs</a>).
+
+{{ page.agenda }}
+
+## Logistics
+
+The seventh oCIG meeting will be held at 16.00 - 17:30 UTC on Wednesday, 14 March 2018.
