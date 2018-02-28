@@ -10,7 +10,9 @@ agenda: |
     ## Agenda
 
     * Welcome and oCIG updates _(Petra Selmer, Neo4j)_
-    * **Multiple graphs and query composition**: Review of multiple graphs and query composition with work/proposals since the Third openCypher Implementers Meeting [(oCIM 3)](/event/2017/11/13/ocim3) in November 2017 at Nancy, France _(Neo4j)_
+    * **ASCII Art for ERD (Entity Relationship Diagram)**: A schema language for Cypher _(Alastair Green, Neo4j)_
+    * **Cypher for Gremlin**: Cypher for Gremlin is a toolkit for users of Apache TinkerPop and Gremlin databases, allowing Cypher to be used within the Gremlin ecosystem _(Dimitry Solovyov, Neueda)_
+    * **Multiple graphs and query composition**: Review of multiple graphs and query composition with work/proposals since the Third openCypher Implementers Meeting [(oCIM 3)](/event/2017/11/13/ocim3) in November 2017 at Nancy, France _(Stefan Plantikow, Neo4j)_
       * [Document](https://docs.google.com/document/d/1puXFIxbytoU2RPYeD-yL0OW93vUsunpUqSuLXSxE7F8/edit?usp=sharing) 
     * **Supporting dates and times in Cypher**  _(Tobias Lindaaker, Neo4j)_
       * [CIP](https://github.com/thobe/openCypher/blob/date-time/cip/1.accepted/CIP2015-08-06-date-time.adoc)
