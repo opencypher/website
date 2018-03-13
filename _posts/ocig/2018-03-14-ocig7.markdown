@@ -10,12 +10,11 @@ agenda: |
     ## Agenda
 
     * Welcome and oCIG updates _(Petra Selmer, Neo4j)_
-    * **ASCII Art for ERD (Entity Relationship Diagram)**: A schema language for Cypher _(Alastair Green, Neo4j)_
-    * **Cypher for Gremlin**: Cypher for Gremlin is a toolkit for users of Apache TinkerPop and Gremlin databases, allowing Cypher to be used within the Gremlin ecosystem _(Dimitry Solovyov, Neueda)_
-    * **Multiple graphs and query composition**: Review of multiple graphs and query composition with work/proposals since the Third openCypher Implementers Meeting [(oCIM 3)](/event/2017/11/13/ocim3) in November 2017 at Nancy, France _(Stefan Plantikow, Neo4j)_
-      * [Document](https://docs.google.com/document/d/1puXFIxbytoU2RPYeD-yL0OW93vUsunpUqSuLXSxE7F8/edit?usp=sharing) 
+    * **openCypher Contributor Agreement** _(Alastair Green, Neo4j)_
+    * **ASCII Art for ERD (Entity Relationship Diagram)**: A schema language for Cypher _(Alastair Green, Neo4j)_ 
     * **Supporting dates and times in Cypher**  _(Tobias Lindaaker, Neo4j)_
       * [CIP](https://github.com/thobe/openCypher/blob/date-time/cip/1.accepted/CIP2015-08-06-date-time.adoc)
+    * **Cypher for Gremlin**: Cypher for Gremlin is a toolkit for users of Apache TinkerPop and Gremlin databases, allowing Cypher to be used within the Gremlin ecosystem _(Dimitry Solovyov, Neueda)_
 ---
 This is the seventh virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="/cips/" target="_blank">CIPs</a>).
 
@@ -23,4 +22,6 @@ This is the seventh virtual meeting for members of the openCypher Implementers G
 
 ## Logistics
 
-The seventh oCIG meeting will be held at 16.00 - 17:30 UTC on Wednesday, 14 March 2018.
+The seventh oCIG meeting will be held at 16.00 - 17:30 UTC on Wednesday, 14 March 2018. 
+
+To join the meeting, follow this GotoMeeting link: <a href="https://www.gotomeet.me/opencypher" target="_blank">https://www.gotomeet.me/opencypher</a>.
