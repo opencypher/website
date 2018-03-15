@@ -36,7 +36,7 @@
         {% assign sorted = (site.categories.ocig | sort: 'date') %}
 
         <!-- This allows us to change the view of this page with one line edit -->
-        {% assign nextDate = "Wednesday, 14 March 2018" %}
+        {% assign nextDate = "Wednesday, 11 April 2018" %}
 
         {% for post in sorted %}
             {% assign postDate = post.date | date: "%A, %-d %B %Y" %}
@@ -53,11 +53,11 @@
             {% endif %}
         {% endfor %}
 
-        <h3><a name="meetings"></a>Upcoming tentative meeting schedule for 2018</h3>
+        <h3><a name="meetings"></a>Upcoming meeting schedule for 2018</h3>
         <ul>
             {% for post in sorted %}
             {% assign postDateSeconds = post.date | date: "%s" %}
-            {% if postDateSeconds > "1514764800" %}
+            {% if postDateSeconds > "1521112387000" %}
             <li>
                 <a href="{{ post.url }}"><b>{{ post.date | date: "%A, %-d %B %Y" }}</b> ({{ post.shortTitle }})</a> {% if post.tentative == "Y" %} * {% endif %}
             </li>
@@ -67,12 +67,12 @@
 
         <p>* We note that some of the meetings in this schedule are tentative and subject to change, and thus currently act as placeholders. This is in order to accommodate a possible face-to-face meeting (April/May) and public holidays (July).</p>
 
-        <!-- Display historical meetings -->
-        <h3>Historical openCypher Implementers Group Meetings (2017)</h3>
+        <!-- Display previous meetings -->
+        <h3>Previous openCypher Implementers Group Meetings</h3>
         <ul>
             {% for post in sorted %}
             {% assign postDateSeconds = post.date | date: "%s" %}
-            {% if postDateSeconds < "1508457540" %}
+            {% if postDateSeconds < "1521112387000" %}
             <li>
                 <a href="{{ post.url }}"><b>{{ post.shortTitle }}</b> - {{ post.date | date: "%A, %-d %B %Y" }}</a>
             </li>
