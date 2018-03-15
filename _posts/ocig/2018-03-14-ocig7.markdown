@@ -10,7 +10,7 @@ agenda: |
     ## Agenda
 
     * Welcome and oCIG updates _(Petra Selmer, Neo4j)_
-      * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig7/oCIG+7+-+Welcome.pdf)**
+      * [Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig7/oCIG+7+-+Welcome.pdf)
     * **openCypher Contributor Agreement** _(Alastair Green, Neo4j)_
       * [Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig7/oCIG+7+openCypher+Implementers+Group.pdf)
       * [Contributions](https://www.opencypher.org/contributions)
