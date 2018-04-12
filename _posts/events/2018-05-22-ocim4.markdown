@@ -33,6 +33,8 @@ End: _Thursday_, **24 May 2018** at **12:30**
 * Property graph querying and RDF/SPARQL/OWL*
 * DateTime support in Cypher
 
+**Social dinner on Tuesday evening**
+
 ### Wednesday AM
 
 * Multiple Graphs I
