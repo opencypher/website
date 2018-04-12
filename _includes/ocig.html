@@ -36,12 +36,12 @@
         {% assign sorted = (site.categories.ocig | sort: 'date') %}
 
         <!-- This allows us to change the view of this page with one line edit -->
-        {% assign nextDate = "Wednesday, 11 April 2018" %}
+        {% assign nextDate = "Wednesday, 20 June 2018" %}
 
         {% for post in sorted %}
             {% assign postDate = post.date | date: "%A, %-d %B %Y" %}
             {% if nextDate == postDate %}
-                <h3>Next oCIG meeting: {{ nextDate }} at 15:00 UTC (oCIG 8)</h3>
+                <h3>Next oCIG meeting: {{ nextDate }} at 15:00 UTC (oCIG 9)</h3>
                 <div class="inline-agenda">
                     {{ post.agenda | markdownify }}
                 </div>
@@ -57,7 +57,7 @@
         <ul>
             {% for post in sorted %}
             {% assign postDateSeconds = post.date | date: "%s" %}
-            {% if postDateSeconds > "1521112387000" %}
+            {% if postDateSeconds > "1523524702000" %}
             <li>
                 <a href="{{ post.url }}"><b>{{ post.date | date: "%A, %-d %B %Y" }}</b> ({{ post.shortTitle }})</a> {% if post.tentative == "Y" %} * {% endif %}
             </li>
@@ -72,7 +72,7 @@
         <ul>
             {% for post in sorted %}
             {% assign postDateSeconds = post.date | date: "%s" %}
-            {% if postDateSeconds < "1521112387000" %}
+            {% if postDateSeconds < "1523524702000" %}
             <li>
                 <a href="{{ post.url }}"><b>{{ post.shortTitle }}</b> - {{ post.date | date: "%A, %-d %B %Y" }}</a>
             </li>
