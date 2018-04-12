@@ -1,0 +1,60 @@
+---
+layout: event
+categories: event
+title:  "Fourth openCypher Implementers Meeting"
+date:   2018-05-22
+excerpt: "This is the fourth face-to-face meeting for people, projects and organizations interested in participating in the openCypher project, with the goal of creating a standard language based on Cypher for querying graphs."
+---
+This is the fourth face-to-face meeting for people, projects and organizations who are interested in
+
+* implementing part or whole of the [Cypher graph query language](https://neo4j.com/developer/cypher/), including current implementers
+* the design and development of a standard declarative query language for graph databases, and want to see how Cypher could evolve to reach that goal
+
+oCIM is a conference organised by the [openCypher project](http://www.opencypher.org).
+
+
+## Logistics
+
+Location: **Copenhagen, Denmark** (venue TBC)
+ 
+Start: _Tuesday_, **22 May 2018** at **13:00**
+
+End: _Thursday_, **24 May 2018** at **12:30**
+
+
+## Provisional agenda
+
+### Tuesday PM
+
+* Scene setting: The state of Cypher
+* Demo of Cypher for Gremlin (CfoG)
+* State of work on property graph support for SQL
+* Schema/DDL
+* Property graph querying and RDF/SPARQL/OWL*
+* DateTime support in Cypher
+
+### Wednesday AM
+
+* Multiple Graphs I
+
+### Wednesday PM
+
+* Graph Matching
+  * Core patterns and semantics
+  * Morphism and Cardinality
+  * Regular path patterns
+* An overview of the GCore language*
+* Demo of Cypher for Apache Spark (CAPS)
+* Multiple Graphs II
+* Lightning Talks I
+
+### Thursday AM
+
+* Multiple Graphs III
+* Next steps
+* Lightning Talks II
+* Closing remarks
+
+
+*We are actively solicting speakers for these talks. 
+Please contact [Petra Selmer](mailto:petra.selmer@neo4j.com) if you are interested.
