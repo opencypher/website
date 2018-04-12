@@ -2,10 +2,9 @@
 layout: event
 categories: ocig
 title:  "Ninth openCypher Implementers Group Meeting"
-date:   2018-05-09
+date:   2018-06-20
 author: "Petra Selmer"
 shortTitle: "oCIG 9"
-tentative: "Y"
 excerpt: "The ninth virtual meeting for members of the openCypher Implementers Group."
 agenda: |
     ## Agenda
