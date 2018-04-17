@@ -48,13 +48,13 @@ End: _Thursday_, **24 May 2018** at **12:30**
 * An overview of the GCore language*
 * Demo of Cypher for Apache Spark (CAPS)
 * Multiple Graphs II
-* Lightning Talks I
+* Lightning Talks I*
 
 ### Thursday AM
 
 * Multiple Graphs III
 * Next steps
-* Lightning Talks II
+* Lightning Talks II*
 * Closing remarks
 
 
