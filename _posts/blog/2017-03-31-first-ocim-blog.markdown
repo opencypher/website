@@ -97,7 +97,7 @@ This project will be undertaken during the spring of 2017, and reports of progre
 ---
 
 All in all, the meeting was a resounding success, and we look forward to many more in the future, starting with the 2nd oCIM already on May 10th, this time in London.
-Please do reach out to us at <openCypher@neo4j.com> if you are interested, and be sure to check out the [event page for the 2nd oCIM](/event/2017/05/10/event-ocim2/) for further details.
+Please do reach out to us at <info@opencypher.org> if you are interested, and be sure to check out the [event page for the 2nd oCIM](/event/2017/05/10/event-ocim2/) for further details.
 
 ### Presentation materials
 

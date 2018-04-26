@@ -167,6 +167,6 @@ We should like to thank all our speakers and attendees for making it such an int
 It was very gratifying to see how many different strands -- introduced at the first meeting a mere three months ago -- have developed and gained momentum since the last meeting.
 We anticipate the pace to accelerate even more this summer, with the inception of [regular virtual meetings](http://www.opencypher.org/ocig) to discuss and incorporate new features into Cypher.
 We are also in the process of organizing the 3rd oCIM conference, and details thereof will be made public on our events page.
-As always, please feel free to reach out to us at <openCypher@neo4j.com> if you are interested or have any questions -- everyone is welcome!
+As always, please feel free to reach out to us at <info@opencypher.org> if you are interested or have any questions -- everyone is welcome!
 
 The programme, complete with all the slide materials presented during the conference, may be found at the event page for the [2nd oCIM conference](/event/2017/05/10/event-ocim2).

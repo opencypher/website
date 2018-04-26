@@ -2,7 +2,7 @@ plugins: ['kramdown']
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
 # Site settings
 title: openCypher
-email: opencypher@neo4j.com
+email: info@opencypher.org
 description: > # this means to ignore newlines until "baseurl:"
   The openCypher project is a collaboration between researchers, database vendors,
   and a growing open community, with the goal to design and specify a standardised
