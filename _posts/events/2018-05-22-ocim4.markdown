@@ -12,55 +12,95 @@ This is the fourth face-to-face meeting for people, projects and organizations w
 
 oCIM is a conference organised by the [openCypher project](http://www.opencypher.org).
 
-
 ## Logistics
 
-Location: **Copenhagen, Denmark** (venue TBC)
- 
+The fourth oCIM will be held at **[Republikken](https://republikken.net/)** at Vesterbrogade 26, 1620 Copenhagen in **Copenhagen, Denmark**.
+                                                   
 Start: _Tuesday_, **22 May 2018** at **13:00**
 
 End: _Thursday_, **24 May 2018** at **12:30**
 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d562.4818056513177!2d12.557284788162217!3d55.67286569877729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652530b5b3c8dcb%3A0x5d7837f2abb5e049!2sRepublikken!5e0!3m2!1sen!2suk!4v1525976021070" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-## Provisional agenda
+## Agenda
 
 ### Tuesday PM
 
+*Begin: 13:00*
+
 * Scene setting: The state of Cypher
-* Demo of Cypher for Gremlin (CfoG)
-* State of work on property graph support for SQL
-* Schema/DDL
-* Property graph querying and RDF/SPARQL/OWL*
-* DateTime support in Cypher
+* Demo of Cypher for Gremlin (CfoG) and Gremlin Cypher Differences 
+  * Dimitry Solovyov, Dmitry Novikov _([Neueda](https://www.neueda.com))_
+* SQL and graph schema 
+  * Alastair Green, Peter Furniss _([Neo4j](https://www.neo4j.com))_
+* HyperGraphQL 
+  * Charles Ivie _([Semantic Integration](https://www.semanticintegration.co.uk/))_
+  * _HyperGraphQL is a [GraphQL](http://graphql.org/) interface for querying and serving [linked data](https://www.w3.org/standards/semanticweb/data) on the Web. 
+  It is designed to support federated querying and exposing data from multiple linked data services using GraphQL query language and schemas.
+  The basic response format is [JSON-LD](https://github.com/semantic-integration/hypergraphql/blob/master/json-ld.org), which extends the standard JSON with the [JSON-LD context](https://json-ld.org/spec/latest/json-ld-api-best-practices/#dfn-json-ld-context) enabling semantic disambiguation of the contained data._ 
+* Temporal support in Cypher
+  * Tobias Lindaaker _([Neo4j](https://www.neo4j.com))_
+* Incremental View Maintenance for openCypher Queries
+  * Gábor Szárnyas, József Marton _([Budapest University of Technology and Economics](https://inf.mit.bme.hu/))_
+  * _Numerous graph use cases require continuous evaluation of queries over a constantly changing data set, e.g. fraud detection in financial systems, recommendations, and checking integrity constraints. 
+  For relational systems, incremental view maintenance has been researched for three decades, resulting in a wide body of literature. 
+  The property graph data model and the openCypher language, however, are recent developments, and therefore lack established techniques to perform efficient view maintenance. In this talk, we give an overview of the view maintenance problem for property graphs, discuss why it is particularly difficult and present an approach that tackles a meaningful subset of the language._
+
+*End: 17:30*
 
 **Social dinner on Tuesday evening**
 
 ### Wednesday AM
 
-* Multiple Graphs I
+*Begin 09:00*
+
+* Multiple Graphs I, II and III, and a demo of Cypher for Apache Spark (CAPS)
+  * Neo4j query languages group
 
 ### Wednesday PM
 
-* Graph Matching
-  * Core patterns and semantics
-  * Morphism and Cardinality
-  * Regular path patterns
-* An overview of the GCore language*
-* Demo of Cypher for Apache Spark (CAPS)
-* Multiple Graphs II
-* Lightning Talks I*
+#### Track 1
+
+* Learning Timed Automata with Cypher
+  * Márton Elekes, Anna Gujgiczer, Gábor Szárnyas _([Budapest University of Technology and Economics](https://inf.mit.bme.hu/))_
+  * _In this talk, we present a peculiar use case for Cypher queries: comprehending and prototyping a learning algorithm for timed automata. 
+  Originally, we tried to implement the learning algorithm in Java, but soon got stuck: the code was difficult to maintain and we had to develop custom tools to visualise learning process. 
+  Out of curiosity, we tried to use a graph database to solve the problem. 
+  We stored the automata as a property graph in Neo4j and used Cypher queries to specify the learning algorithm. 
+  This choice of tools turned out to be a very good fit for the problem and visualising the automaton graph greatly helped us understanding the algorithm. 
+  In this talk, we present the problem and demonstrate how we implemented the learning process in Cypher, including some lessons learnt on the strengths and limitations of this approach._
+* Formal Semantics for Cypher Queries and Updates
+  * Martin Schuster _([University of Edinburgh](https://www.ed.ac.uk/))_
+  * _To create a precise standard specification for OpenCypher, Neo4j and the University of Edinburgh are working on a formal denotational semantics for the Cypher language. 
+  This work has already been completed for the core of Cypher queries and is still ongoing for aggregation, ordering and update statements. 
+  In this talk, we give an overview of our work so far and present the main open questions and challenges._
+* Graph Algebra - Graph operations in the language of linear algebra 
+  * Roi Lipman _([Redis Labs](https://redislabs.com/))_
+  
+#### Track 2
+
+
+* Advances in Graph Matching
+  * Tobias Lindaaker, Stefan Plantikow _([Neo4j](https://www.neo4j.com))_
+* Cypher.PL - TBC
+  
+
+*End: 17:00*
 
 ### Thursday AM
 
-* Multiple Graphs III
+*Begin: 09:00*
+
+* Multiple Graphs IV
+  * Neo4j query languages group
+* Graph aggregation and augmentation 
+  * Hannes Voigt _(formerly at TU Dresden)_
 * Next steps
-* Lightning Talks II*
 * Closing remarks
 
+*End: 12:30*
 
-*We are actively solicting speakers for these talks. 
-Please contact [Petra Selmer](mailto:petra.selmer@neo4j.com) if you are interested.
 
 ## Registration
 
-Please contact [Petra Selmer](mailto:petra.selmer@neo4j.com) if you would like to attend the meeting, or if you have any questions about the event. 
+Please email us at [info@opencypher.org](mailto:<info@opencypher.org>) if you would like to attend the meeting, or if you have any questions about the event. 
