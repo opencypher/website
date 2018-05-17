@@ -12,6 +12,8 @@ This is the fourth face-to-face meeting for people, projects and organizations w
 
 oCIM is a conference organised by the [openCypher project](http://www.opencypher.org).
 
+**One property graph query language: [The GQL Manifesto](https://gql.today/)**
+
 ## Logistics
 
 The fourth oCIM will be held at **[Republikken](https://republikken.net/)** at Vesterbrogade 26, 1620 Copenhagen in **Copenhagen, Denmark**.
@@ -82,7 +84,6 @@ End: _Thursday_, **24 May 2018** at **12:30**
 
 * Advances in Graph Matching
   * Tobias Lindaaker, Stefan Plantikow _([Neo4j](https://www.neo4j.com))_
-* Cypher.PL - TBC
   
 
 *End: 17:00*
