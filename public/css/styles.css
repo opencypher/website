@@ -286,6 +286,25 @@ pre code {
   height: 1px;
   background: #fff
 }
+/* ======= GQL Section ======= */
+.gql {
+  margin-top: 40px;
+  padding: 10px 10px;
+  background-color: #000;
+  text-align:center;
+  color: #fff;
+  font-family: Lato, Helvetica, san-serif;
+}
+.gql h2, .gql h3 {
+  color: #fff;
+}
+.gql h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+.gql h3 {
+  font-weight: 600;
+}
 /* ======= Features Section ======= */
 .features {
   padding: 80px 0;
