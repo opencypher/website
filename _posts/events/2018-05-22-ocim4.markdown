@@ -30,23 +30,29 @@ End: _Thursday_, **24 May 2018** at **12:30**
 
 *Begin: 13:00*
 
-* Scene setting: The state of Cypher
-* Demo of Cypher for Gremlin (CfoG) and Gremlin Cypher Differences 
-  * Dimitry Solovyov, Dmitry Novikov _([Neueda](https://www.neueda.com))_
-* SQL and graph schema 
-  * Alastair Green, Peter Furniss _([Neo4j](https://www.neo4j.com))_
+#### GQL Manifesto
+
+* openCypher and The GQL Manifesto
+  * Alastair Green, Stefan Plantikow _([Neo4j](https://www.neo4j.com))_
+* SQL and Property Graphs 
+  * Peter Furniss, Tobias Lindaaker _([Neo4j](https://www.neo4j.com))_
+* Graph Schema 
+  * Alastair Green _([Neo4j](https://www.neo4j.com))_
 * HyperGraphQL 
   * Charles Ivie _([Semantic Integration](https://www.semanticintegration.co.uk/))_
-  * _HyperGraphQL is a [GraphQL](http://graphql.org/) interface for querying and serving [linked data](https://www.w3.org/standards/semanticweb/data) on the Web. 
+  * _HyperGraphQL is a [GraphQL](http://graphql.org/) interface for querying and serving [linked data](https://www.w3.org/standards/semanticweb/data) [RDF/SPARQL] on the Web. 
   It is designed to support federated querying and exposing data from multiple linked data services using GraphQL query language and schemas.
   The basic response format is [JSON-LD](https://github.com/semantic-integration/hypergraphql/blob/master/json-ld.org), which extends the standard JSON with the [JSON-LD context](https://json-ld.org/spec/latest/json-ld-api-best-practices/#dfn-json-ld-context) enabling semantic disambiguation of the contained data._ 
-* Temporal support in Cypher
-  * Tobias Lindaaker _([Neo4j](https://www.neo4j.com))_
-* Incremental View Maintenance for openCypher Queries
-  * Gábor Szárnyas, József Marton _([Budapest University of Technology and Economics](https://inf.mit.bme.hu/))_
-  * _Numerous graph use cases require continuous evaluation of queries over a constantly changing data set, e.g. fraud detection in financial systems, recommendations, and checking integrity constraints. 
-  For relational systems, incremental view maintenance has been researched for three decades, resulting in a wide body of literature. 
-  The property graph data model and the openCypher language, however, are recent developments, and therefore lack established techniques to perform efficient view maintenance. In this talk, we give an overview of the view maintenance problem for property graphs, discuss why it is particularly difficult and present an approach that tackles a meaningful subset of the language._
+* Demo of Cypher for Gremlin (CfoG) and Gremlin Cypher Differences 
+  * Dimitry Solovyov, Dmitry Novikov _([Neueda](https://www.neueda.com))_
+* Comparing Cypher, PGQL, and G-CORE
+  * Stefan Plantikow _([Neo4j](https://www.neo4j.com))_
+
+#### Multiple Graphs and Composable Queries
+
+* Multiple graphs and graph projection
+  * Alastair Green, Petra Selmer _([Neo4j](https://www.neo4j.com))_
+
 
 *End: 17:30*
 
@@ -56,12 +62,26 @@ End: _Thursday_, **24 May 2018** at **12:30**
 
 *Begin 09:00*
 
-* Multiple Graphs I, II and III, and a demo of Cypher for Apache Spark (CAPS)
-  * Neo4j query languages group
+#### Multiple Graphs and Composable Queries
+
+* A demo of Cypher for Apache Spark (CAPS)
+  * Mats Rydberg ([Neo4j](https://www.neo4j.com))
+* Updatable views and syntax options
+  * Stefan Plantikow ([Neo4j](https://www.neo4j.com))
+* Incremental View Maintenance for openCypher Queries
+  * Gábor Szárnyas, József Marton _([Budapest University of Technology and Economics](https://inf.mit.bme.hu/))_
+  * _Numerous graph use cases require continuous evaluation of queries over a constantly changing data set, e.g. fraud detection in financial systems, recommendations, and checking integrity constraints. 
+  For relational systems, incremental view maintenance has been researched for three decades, resulting in a wide body of literature. 
+  The property graph data model and the openCypher language, however, are recent developments, and therefore lack established techniques to perform efficient view maintenance. In this talk, we give an overview of the view maintenance problem for property graphs, discuss why it is particularly difficult and present an approach that tackles a meaningful subset of the language._
+  
+#### GQL Manifesto
+
+* An overview of the recent history of Property Graph Query Languages
+  * Tobias Lindaaker ([Neo4j](https://www.neo4j.com))
+* Support for the GQL Manifesto from Cypher Implementers
+  * Alastair Green ([Neo4j](https://www.neo4j.com))
 
 ### Wednesday PM
-
-#### Track 1
 
 * Learning Timed Automata with Cypher
   * Márton Elekes, Anna Gujgiczer, Gábor Szárnyas _([Budapest University of Technology and Economics](https://inf.mit.bme.hu/))_
@@ -78,13 +98,6 @@ End: _Thursday_, **24 May 2018** at **12:30**
   In this talk, we give an overview of our work so far and present the main open questions and challenges._
 * Graph Algebra - Graph operations in the language of linear algebra 
   * Roi Lipman _([Redis Labs](https://redislabs.com/))_
-  
-#### Track 2
-
-
-* Advances in Graph Matching
-  * Tobias Lindaaker, Stefan Plantikow _([Neo4j](https://www.neo4j.com))_
-  
 
 *End: 17:00*
 
@@ -92,12 +105,13 @@ End: _Thursday_, **24 May 2018** at **12:30**
 
 *Begin: 09:00*
 
-* Multiple Graphs IV
-  * Neo4j query languages group
+* Cypher.PL: Specifying Cypher in Prolog 
+  * Jan Posiadała, Paweł Susicki _(Cypher.PL)_
+* Temporal support in Cypher
+  * Tobias Lindaaker _([Neo4j](https://www.neo4j.com))_
 * Graph aggregation and augmentation 
   * Hannes Voigt _(formerly at TU Dresden)_
-* Next steps
-* Closing remarks
+* Next steps for openCypher and GQL
 
 *End: 12:30*
 
