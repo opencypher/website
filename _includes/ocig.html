@@ -30,42 +30,44 @@
 
         <p>&nbsp;</p>
 
-        <p><b>We are pleased to announce that we are resuming our regular meetings in 2018.</b></p>
+        <p><b>We are pleased to announce that we have resumed our regular meetings in 2018.</b></p>
 
         <!-- Enumerate all oCIG posts, sorted -->
         {% assign sorted = (site.categories.ocig | sort: 'date') %}
 
-        <!-- This allows us to change the view of this page with one line edit -->
-        {% assign nextDate = "Wednesday, 20 June 2018" %}
+        <!--&lt;!&ndash; This allows us to change the view of this page with one line edit &ndash;&gt;-->
+        <!--{% assign nextDate = "Wednesday, 20 June 2018" %}-->
 
-        {% for post in sorted %}
-            {% assign postDate = post.date | date: "%A, %-d %B %Y" %}
-            {% if nextDate == postDate %}
-                <h3>Next oCIG meeting: {{ nextDate }} at 15:00 UTC (oCIG 9)</h3>
-                <div class="inline-agenda">
-                    {{ post.agenda | markdownify }}
-                </div>
-                <p>
-                    Visit the <a href= {{ post.url }}>meeting page</a> to view all details of this meeting.
+        <!--{% for post in sorted %}-->
+            <!--{% assign postDate = post.date | date: "%A, %-d %B %Y" %}-->
+            <!--{% if nextDate == postDate %}-->
+                <!--<h3>Next oCIG meeting: {{ nextDate }} at 15:00 UTC (oCIG 9)</h3>-->
+                <!--<div class="inline-agenda">-->
+                    <!--{{ post.agenda | markdownify }}-->
+                <!--</div>-->
+                <!--<p>-->
+                    <!--Visit the <a href= {{ post.url }}>meeting page</a> to view all details of this meeting.-->
 
-                    To join the meeting, follow this GotoMeeting link: <a href="https://www.gotomeet.me/opencypher" target="_blank">https://www.gotomeet.me/opencypher</a>.
-                </p>
-            {% endif %}
-        {% endfor %}
+                    <!--To join the meeting, follow this GotoMeeting link: <a href="https://www.gotomeet.me/opencypher" target="_blank">https://www.gotomeet.me/opencypher</a>.-->
+                <!--</p>-->
+            <!--{% endif %}-->
+        <!--{% endfor %}-->
 
         <h3><a name="meetings"></a>Upcoming meeting schedule for 2018</h3>
-        <ul>
-            {% for post in sorted %}
-            {% assign postDateSeconds = post.date | date: "%s" %}
-            {% if postDateSeconds > "1523524702000" %}
-            <li>
-                <a href="{{ post.url }}"><b>{{ post.date | date: "%A, %-d %B %Y" }}</b> ({{ post.shortTitle }})</a> {% if post.tentative == "Y" %} * {% endif %}
-            </li>
-            {% endif %}
-            {% endfor %}
-        </ul>
 
-        <p>* We note that some of the meetings in this schedule are tentative and subject to change, and thus currently act as placeholders. This is in order to accommodate a possible face-to-face meeting (April/May) and public holidays (July).</p>
+        To be determined.
+        <!--<ul>-->
+            <!--{% for post in sorted %}-->
+            <!--{% assign postDateSeconds = post.date | date: "%s" %}-->
+            <!--{% if postDateSeconds > "1523524702000" %}-->
+            <!--<li>-->
+                <!--<a href="{{ post.url }}"><b>{{ post.date | date: "%A, %-d %B %Y" }}</b> ({{ post.shortTitle }})</a> {% if post.tentative == "Y" %} * {% endif %}-->
+            <!--</li>-->
+            <!--{% endif %}-->
+            <!--{% endfor %}-->
+        <!--</ul>-->
+
+        <!--<p>* We note that some of the meetings in this schedule are tentative and subject to change, and thus currently act as placeholders. This is in order to accommodate a possible face-to-face meeting (April/May) and public holidays (July).</p>-->
 
         <!-- Display previous meetings -->
         <h3>Previous openCypher Implementers Group Meetings</h3>
