@@ -47,7 +47,7 @@ _Roi Lipman_, software engineer at [Redis Labs](https://redislabs.com/), then ga
 A concept that has arisen in prior meetings with several interested parties is that of a shared standard of internal graph query representation, possibly compiled from several distinct source languages.
 _Stefan Plantikow_ [gave an insight](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/12-00+-+QUIL.pdf) as to how Neo4j and the CLG had been thinking about such a model, called QUIL (Query Intermediary Language).
 
-_Tomasz Zdybał_, software engineer at [Dgraph Labs](https://dgraph.io/), [presented Dgraph](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/dgraph.pdf), an in-memory native graph database, and the implementation in their product of a graph query language based on Facebook's GraphQL.
+_Tomasz Zdybał_, software engineer at [Dgraph Labs](https://dgraph.io/), [presented Dgraph](http://wiki.ldbcouncil.org/pages/viewpage.action?pageId=59277315&preview=/59277315/75235343/dgraph.pdf), an in-memory native graph database, and the implementation in their product of a graph query language based on Facebook's GraphQL.
 Tomasz highlighted Dgraph's intentions of adding support for Cypher, and how schema validation was an important topic.
 
 Just before lunch, _Alastair Green_ took the floor again, standing in for [Bitnine](http://Bitnine.net/) (the Korean company behind Agens Graph, who were unable to attend in person) discussing how Cypher, SQL, and other query languages could be integrated with one another.
