@@ -141,7 +141,7 @@ A PDF version of the programme may be downloaded [here](https://s3.amazonaws.com
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>12:15</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#dgraph">Dgraph</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/dgraph.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p><a href="/ocim1-abstracts#dgraph">Dgraph</a></p>(<a href="http://wiki.ldbcouncil.org/pages/viewpage.action?pageId=59277315&preview=/59277315/75235343/dgraph.pdf" target="_blank">slides</a>)</td>
         <td colspan="1" rowspan="1"><p>Tomasz Zdyba&#322; (Dgraph)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
