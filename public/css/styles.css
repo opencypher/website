@@ -286,23 +286,32 @@ pre code {
   height: 1px;
   background: #fff
 }
-/* ======= GQL Section ======= */
-.gql {
+/* ======= Banner Section ======= */
+.banner {
   margin-top: 40px;
   padding: 10px 10px;
-  background-color: #000;
+  border-color: #000;
+  border-style: double;
+  /*background: repeating-linear-gradient(*/
+          /*135deg,*/
+          /*#fff,*/
+          /*#fff 20px,*/
+          /*rgba(255, 82, 92, 0.15) 20px,*/
+          /*rgba(255, 82, 92, 0.15) 30px*/
+  /*);*/
+  /*background-color: #be51a8;*/
   text-align:center;
-  color: #fff;
+  /*color: #fff;*/
   font-family: Lato, Helvetica, san-serif;
 }
-.gql h2, .gql h3 {
-  color: #fff;
+.banner h2, .banner h3 {
+  /*color: #fff;*/
 }
-.gql h2 {
+.banner h2 {
   font-size: 36px;
   font-weight: 700;
 }
-.gql h3 {
+.banner h3 {
   font-weight: 600;
 }
 /* ======= Features Section ======= */
