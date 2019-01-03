@@ -290,22 +290,18 @@ pre code {
 .banner {
   margin-top: 40px;
   padding: 10px 10px;
-  border-color: #000;
-  border-style: double;
-  /*background: repeating-linear-gradient(*/
-          /*135deg,*/
-          /*#fff,*/
-          /*#fff 20px,*/
-          /*rgba(255, 82, 92, 0.15) 20px,*/
-          /*rgba(255, 82, 92, 0.15) 30px*/
-  /*);*/
-  /*background-color: #be51a8;*/
+  border-color: rgb(106, 106, 106);
+  border-style: solid;
+  background-color: #0b9bea;
   text-align:center;
-  /*color: #fff;*/
+  color: #fff;
   font-family: Lato, Helvetica, san-serif;
 }
 .banner h2, .banner h3 {
-  /*color: #fff;*/
+  color: #fff;
+}
+.banner a {
+  color: #0000ff;
 }
 .banner h2 {
   font-size: 36px;
