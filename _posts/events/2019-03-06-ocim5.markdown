@@ -1,0 +1,25 @@
+---
+layout: event
+categories: event
+title:  "Fifth openCypher Implementers Meeting"
+date:   2019-03-06
+excerpt: "This is the fifth face-to-face meeting (with the option to dial in remotely) for people, projects and organizations interested in participating in the openCypher project."
+---
+This is the fifth face-to-face meeting (with the option to dial in remotely) for people, projects and organizations who are interested in implementing part or whole of the [Cypher graph query language](https://neo4j.com/developer/cypher/), including current implementers.
+
+oCIM is a conference organised by the [openCypher project](http://www.opencypher.org).
+
+## Logistics
+
+The fifth oCIM will be co-located with the [W3C Workshop on Web Standardization for Graph Data (Creating Bridges: RDF, Property Graph and SQL)](https://www.w3.org/Data/events/data-ws-2019/index.html) and will be held [here](https://www.w3.org/Data/events/data-ws-2019/cfp.html#location) in **Berlin, Germany** on **6 March 2019, starting at just after lunchtime, and ending in the early evening**.
+
+We will also be providing a dial-in link in due course, allowing for **remote attendance**.
+
+## Agenda 
+
+We would welcome suggestions about topics of interest. 
+For example, one of these could be the latest developments in compositional querying and managing multiple graphs. 
+
+## Registration
+
+Please email us at [info@opencypher.org](mailto:<info@opencypher.org>) if you have any questions or would like to suggest topics. 
