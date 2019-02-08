@@ -5,20 +5,77 @@ title:  "Fifth openCypher Implementers Meeting"
 date:   2019-03-06
 excerpt: "This is the fifth face-to-face meeting (with the option to dial in remotely) for people, projects and organizations interested in participating in the openCypher project."
 ---
+**Date: Wednesday PM, 6 March - Thursday AM, 7 March**
+
+### **Update**: Short conference call meeting on Wednesday 13 February at 16.00 UTC, 17.00 CET, 11.00 EST, 08.00 PST to discuss the planned agenda (see below)
+
+Please connect to Zoom to join the meeting: [https://neo4j.zoom.us/j/365582475](https://neo4j.zoom.us/j/365582475).
+
+---
+
 This is the fifth face-to-face meeting (with the option to dial in remotely) for people, projects and organizations who are interested in implementing part or whole of the [Cypher graph query language](https://neo4j.com/developer/cypher/), including current implementers.
 
 oCIM is a conference organised by the [openCypher project](http://www.opencypher.org).
 
 ## Logistics
 
-The fifth oCIM will be co-located with the [W3C Workshop on Web Standardization for Graph Data (Creating Bridges: RDF, Property Graph and SQL)](https://www.w3.org/Data/events/data-ws-2019/index.html) and will be held [here](https://www.w3.org/Data/events/data-ws-2019/cfp.html#location) in **Berlin, Germany** on **6 March 2019, starting at just after lunchtime, and ending in the early evening**.
+The fifth oCIM will be co-located with the [W3C Workshop on Web Standardization for Graph Data (Creating Bridges: RDF, Property Graph and SQL)](https://www.w3.org/Data/events/data-ws-2019/index.html) and will be held [here](https://www.w3.org/Data/events/data-ws-2019/cfp.html#location) in **Berlin, Germany** on **6 March 2019, starting at just after lunchtime, and ending just before lunchtime on 7 March 2019**.
 
 We will also be providing a dial-in link in due course, allowing for **remote attendance**.
 
-## Agenda 
+## Provisional Agenda
 
-We would welcome suggestions about topics of interest. 
-For example, one of these could be the latest developments in compositional querying and managing multiple graphs. 
+### Wednesday 6 March PM
+
+*Begin: 14:00* 
+
+Welcome
+
+#### openCypher and GQL
+
+* Update on SQL/PGQ and GQL (_Oracle_)
+* Existing Languages Working Group (_GQL Community_)
+* GQL and Cypher, along with graph querying and analytics (_Neo4j_)
+
+*BREAK*
+
+#### Schema and multiple graphs
+
+* Property Graph Schema (_Neo4j_)
+* An overview of Gra.fo (_Capsenta_)
+* Multiple graphs and composable queries, exemplified by a live demonstration (_Neo4j_)
+
+*End: 18:00*
+
+### Thursday 7 March AM
+
+*Begin: 08:30*
+
+Arrival and coffee
+
+#### Path evaluation
+
+* Experimental Study of Context-Free Path Query Evaluation Methods (_TUe/Neo4j_)
+   * _Context-free path queries extend regular path queries for increased expressiveness. A context-free grammar is used to recognize accepted paths by their label strings, or traces. In this work, we study three context-free path query evaluation methods. We run query workloads on various data sets using these methods and compare their results. In particular, we showcase how these evaluation methods scale as graphs get bigger and queries become larger or more ambiguous._
+* Variable Length Relationship Pattern Extensions (_Memgraph_)
+   * _Wouldn't it be nice if traversing a variable length relationship pattern could be more tunable? There are already some ideas about supporting the so called "regular patterns". They should behave similarly to how regular expressions behave. Unfortunately, regular patterns can be quite a burden to implement. Most users are happy with a simpler and smaller set of features for controlling the match pattern. This presentation shows how Memgraph extends variable length relationship patterns by giving users what they want while keeping the implementation simple. The extensions cover choosing the traversal strategy (depth-first, breadth-first, shortest path), as well as deciding on which paths to follow._
+
+*BREAK*
+
+#### openCypher
+
+* Cypher over Gremlin release: updates and new features, and Cypher and Gremlin interoperability (_Neueda_)
+* Overview of current CIPs (Cypher Improvement Proposals), along with voting opportunities (_Neo4j_) 
+* openCypher artifacts: TCK and grammar (_Neueda and Neo4j_)
+   * Status 
+   * Result reporting 
+   * Discussion
+
+
+Closing remarks
+
+*End: 12:00*
+
 
 ## Registration
 
