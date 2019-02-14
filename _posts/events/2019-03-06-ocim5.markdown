@@ -62,9 +62,12 @@ Arrival and coffee
 
 *BREAK*
 
-#### openCypher
+#### Language  interoperability
 
 * Cypher over Gremlin release: updates and new features, and Cypher and Gremlin interoperability (_Neueda_)
+
+#### openCypher
+
 * Overview of current CIPs (Cypher Improvement Proposals), along with voting opportunities (_Neo4j_) 
 * openCypher artifacts: TCK and grammar (_Neueda and Neo4j_)
    * Status 
@@ -74,7 +77,7 @@ Arrival and coffee
 
 Closing remarks
 
-*End: 12:00*
+*End: 12:30*
 
 
 ## Registration
