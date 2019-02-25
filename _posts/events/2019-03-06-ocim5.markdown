@@ -25,8 +25,8 @@ Welcome
 
 #### openCypher and GQL
 
-* Update on SQL/PGQ and GQL ([_Oracle_](https://www.oracle.com/index.html))
-* Existing Languages Working Group ([_GQL Community_](https://www.gqlstandards.org/))
+* Update on SQL/PGQ and GQL (_Keith Hare_, [_JCC Consulting_](http://www.jcc.com/) & _Jan Michels_ [_Oracle_](https://www.oracle.com/index.html))
+* Existing Languages Working Group (_Thomas Frisendal_, [_Graph Data Modelling_](http://graphdatamodeling.com/))
 * GQL and Cypher, along with graph querying and analytics ([_Neo4j_](https://neo4j.com/))
 
 *BREAK*
@@ -35,7 +35,7 @@ Welcome
 
 * Multiple graphs and composable queries, exemplified by a live demonstration of [CAPS](https://github.com/opencypher/cypher-for-apache-spark) [Cypher for Apache Spark] ([_Neo4j_](https://neo4j.com/))
 * Property Graph Schema ([_Neo4j_](https://neo4j.com/))
-* An overview of [gra.fo](http://gra.fo/) ([_Capsenta_](https://capsenta.com/))
+* An overview of [gra.fo](http://gra.fo/) (_Juan Sequeda_, [_Capsenta_](https://capsenta.com/))
 
 *End: 18:00*
 
@@ -47,15 +47,15 @@ Arrival and coffee
 
 #### Path evaluation
 
-* Variable Length Relationship Pattern Extensions ([_Memgraph_](https://memgraph.com/))
+* Variable Length Relationship Pattern Extensions (_Teon Banek & Marko Budiselić_, [_Memgraph_](https://memgraph.com/))
    * _Wouldn't it be nice if traversing a variable length relationship pattern could be more tunable? There are already some ideas about supporting the so called "regular patterns". They should behave similarly to how regular expressions behave. Unfortunately, regular patterns can be quite a burden to implement. Most users are happy with a simpler and smaller set of features for controlling the match pattern. This presentation shows how Memgraph extends variable length relationship patterns by giving users what they want while keeping the implementation simple. The extensions cover choosing the traversal strategy (depth-first, breadth-first, shortest path), as well as deciding on which paths to follow._
-* Experimental Study of Context-Free Path Query Evaluation Methods ([_Eindhoven University of Technology_](https://www.tue.nl/en/) / [_Neo4j_](https://neo4j.com/))
+* Experimental Study of Context-Free Path Query Evaluation Methods (_Jochem Kuijpers_, [_Eindhoven University of Technology_](https://www.tue.nl/en/) / [_Neo4j_](https://neo4j.com/))
    * _Context-free path queries extend regular path queries for increased expressiveness. A context-free grammar is used to recognize accepted paths by their label strings, or traces. In this work, we study three context-free path query evaluation methods. We run query workloads on various data sets using these methods and compare their results. In particular, we showcase how these evaluation methods scale as graphs get bigger and queries become larger or more ambiguous._
 
 #### Lightning talks
 
-* Schema Validation and Evolution for Graph Databases ([_University of Lyon_](http://www.ens-lyon.fr/LIP/))
-* Named Property Graphs ([_University of Bialystok_](http://www.uwb.edu.pl/home))
+* Schema Validation and Evolution for Graph Databases (_Eugenia Oshurko_, [_University of Lyon_](http://www.ens-lyon.fr/LIP/))
+* Named Property Graphs (_Łukasz Szeremeta_, [_University of Bialystok_](http://www.uwb.edu.pl/home))
 
 #### Poster/Demo/Breakout session
 
@@ -63,18 +63,18 @@ Arrival and coffee
 
 #### Language  interoperability
 
-* Cypher for Gremlin 1.0 release 
-   * Updates and new features ([_Neueda_](https://www.neueda.com/))
+* Cypher for Gremlin 1.0 release (_Dmitry Novikov_, [_Neueda_](https://www.neueda.com/))
+   * Updates and new features 
    * Cypher-Gremlin language interoperation
    * TCK tools developed for Cypher for Gremlin
-* Gremlinator (SPARQL to Gremlin) ([_The University of Bonn_](https://www.uni-bonn.de/the-university))
+* Gremlinator (SPARQL to Gremlin) (_Harsh Thakkar_, [_The University of Bonn_](https://www.uni-bonn.de/the-university))
 
 #### openCypher
 
 * Overview of current CIPs (Cypher Improvement Proposals) ([_Neo4j_](https://neo4j.com/)) 
    * An overview of CIPs being worked on, and explicit presentation of CIPs for voting
    * [EXISTS and IS NOT NULL](https://github.com/opencypher/openCypher/pull/334)
-* openCypher artifacts: TCK and grammar ([_Neueda_](https://www.neueda.com/) and [_Neo4j_](https://neo4j.com/))
+* openCypher artifacts: TCK and grammar (_Dmitry Novikov_, [_Neueda_](https://www.neueda.com/) & [_Neo4j_](https://neo4j.com/))
    * Status 
    * Result reporting 
    * Discussion
