@@ -11,7 +11,7 @@ The website is built using Heroku.
 To build and deploy locally, simply run:
 
 ----
-jekyll serve --watch
+bundle exec jekyll serve --watch
 ----
 
 This will deploy the webserver and serve the website at `localhost:4000` (by default).
