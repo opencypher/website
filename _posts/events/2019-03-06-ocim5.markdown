@@ -19,7 +19,7 @@ The fifth oCIM will be co-located with the [W3C Workshop on Web Standardization 
 
 ### Wednesday 6 March PM
 
-*Begin: 14:00* 
+*Begin: 13:30* 
 
 Welcome
 
@@ -27,23 +27,29 @@ Welcome
 
 * Update on SQL/PGQ and GQL (_Keith Hare_, [_JCC Consulting_](http://www.jcc.com/) & _Jan Michels_ [_Oracle_](https://www.oracle.com/index.html))
 * Existing Languages Working Group (_Thomas Frisendal_, [_Graph Data Modelling_](http://graphdatamodeling.com/))
+   * _Preparatory to the commencement of planning for GQL, interested parties -- drawn from industry (Neo4j, Oracle, Redis Labs and TigerGraph), the community (a noted data modelling expert and published technical author), and academia (the University of Talca in Chile) -- formed an informal working group. 
+     We have worked in an incremental fashion on systematically identifying, surveying, analysing and comparing graph query language features, drawn from the existing query languages: Cypher; PGQL; GSQL; SQL PGQ; and G-CORE. 
+     The work is envisioned to comprise a catalogue of: the groups of features; to which extent (if at all) these are supported in each language; exemplar syntax; supplementary artifacts to aid in the understanding of the underlying semantics; grammar constructs; and any additional details of interest. 
+     The idea is to have this landscape of existing query languages to hand in order to inform the design and development of GQL by virtue of a well-informed work plan and helping to lead to a more robust outcome. 
+     Moreover, this will help us to identify areas of consolidation, innovation and opportunities for language interoperation in GQL (for example, with SPARQL). 
+     We have used a phased approach, and began by examining the basic feature groups, such as basic querying and operations, and will move onto composable querying and complex patterns in future phases._       
 * GQL and Cypher, along with graph querying and analytics ([_Neo4j_](https://neo4j.com/))
 
-*BREAK*
+*BREAK: 15:30 - 16:00*
 
 #### Schema and multiple graphs
 
 * Multiple graphs and composable queries, exemplified by a live demonstration of [CAPS](https://github.com/opencypher/cypher-for-apache-spark) [Cypher for Apache Spark] ([_Neo4j_](https://neo4j.com/))
-* Property Graph Schema ([_Neo4j_](https://neo4j.com/))
+* Property graph schema definition and table-to-graph mapping in CAPS ([_Neo4j_](https://neo4j.com/))
 * An overview of [gra.fo](http://gra.fo/) (_Juan Sequeda_, [_Capsenta_](https://capsenta.com/))
 
 *End: 18:00*
 
 ### Thursday 7 March AM
 
-*Begin: 08:30*
+*Begin: 08:45*
 
-Arrival and coffee
+Arrival and coffee. Talks begin at 09:00.
 
 #### Path evaluation
 
@@ -59,7 +65,7 @@ Arrival and coffee
 
 #### Poster/Demo/Breakout session
 
-*BREAK*
+*BREAK: 10:30 - 11:00*
 
 #### Language  interoperability
 
