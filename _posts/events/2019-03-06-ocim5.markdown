@@ -15,6 +15,13 @@ oCIM is a conference organised by the [openCypher project](http://www.opencypher
 
 The fifth oCIM will be co-located with the [W3C Workshop on Web Standardization for Graph Data (Creating Bridges: RDF, Property Graph and SQL)](https://www.w3.org/Data/events/data-ws-2019/index.html) and will be held [here](https://www.w3.org/Data/events/data-ws-2019/cfp.html#location) in **Berlin, Germany** on **6 March 2019, starting at just after lunchtime, and ending just before lunchtime on 7 March 2019**.
 
+## Remote attendance
+
+Please connect to Zoom to join the meeting:
+
+* Wednesday: [link](https://neo4j.zoom.us/j/120947019)
+* Thursday: [link](https://neo4j.zoom.us/j/122179231)
+
 ## Agenda
 
 ### Wednesday 6 March PM
