@@ -44,17 +44,17 @@ Welcome
      The idea is to have this landscape of existing query languages to hand in order to inform the design and development of GQL by virtue of a well-informed work plan and helping to lead to a more robust outcome. 
      Moreover, this will help us to identify areas of consolidation, innovation and opportunities for language interoperation in GQL (for example, with SPARQL). 
      We have used a phased approach, and began by examining the basic feature groups, such as basic querying and operations, and will move onto composable querying and complex patterns in future phases._       
-* GQL and openCypher: the road ahead ([_Neo4j_](https://neo4j.com/))
-* GQL Scope & Features ([_Neo4j_](https://neo4j.com/))
+* GQL and openCypher: the road ahead (_Alastair Green_, [_Neo4j_](https://neo4j.com/))
+* GQL Scope & Features (_Stefan Plantikow_, [_Neo4j_](https://neo4j.com/))
 * Graph Query Language: Composition & Co (_Romans Kasperovics_, [_SAP_](https://www.sap.com/index.html))
 
 *BREAK: 15:30 - 16:00*
 
 #### Schema and multiple graphs
 
-* Schema in GQL ([_Neo4j_](https://neo4j.com/))
-* Multiple graphs and composable queries, exemplified by a live demonstration of [CAPS](https://github.com/opencypher/cypher-for-apache-spark) [Cypher for Apache Spark] ([_Neo4j_](https://neo4j.com/))
-* Property graph schema definition and table-to-graph mapping in CAPS ([_Neo4j_](https://neo4j.com/))
+* Schema in GQL (_Peter Furniss_, _Hannes Voigt_ & _Alastair Green_, [_Neo4j_](https://neo4j.com/))
+* Multiple graphs and composable queries, exemplified by a live demonstration of [CAPS](https://github.com/opencypher/cypher-for-apache-spark) [Cypher for Apache Spark] (_Martin Junghanns_ & _Max Kießling_, [_Neo4j_](https://neo4j.com/))
+* Property graph schema definition and table-to-graph mapping in CAPS (_Max Kießling_ & _Martin Junghanns_, [_Neo4j_](https://neo4j.com/))
 * An overview of [gra.fo](http://gra.fo/) (_Juan Sequeda_, [_Capsenta_](https://capsenta.com/))
 
 *End: 18:00*
@@ -91,12 +91,13 @@ Arrival and coffee. Talks begin at 09:00.
 
 #### openCypher
 
-* Overview of current CIPs (Cypher Improvement Proposals) ([_Neo4j_](https://neo4j.com/)) 
+* Overview of current CIPs (Cypher Improvement Proposals) (_Satia Herfert_, [_Neo4j_](https://neo4j.com/)) 
    * An overview of CIPs being worked on, and explicit presentation of CIPs for voting
    * [EXISTS and IS NOT NULL](https://github.com/opencypher/openCypher/pull/334)
-* openCypher artifacts: TCK and grammar (_Dmitry Novikov_, [_Neueda_](https://www.neueda.com/) & [_Neo4j_](https://neo4j.com/))
+* openCypher artifacts: TCK and grammar (_Dmitry Novikov_, [_Neueda_](https://www.neueda.com/) & _Petra Selmer_, [_Neo4j_](https://neo4j.com/))
    * Status 
    * Result reporting 
+   * Categorization
    * Discussion
 
 
