@@ -7,24 +7,13 @@ excerpt: "This is the fifth face-to-face meeting (with the option to dial in rem
 ---
 **Date: Wednesday PM, 6 March - Thursday AM, 7 March**
 
-This is the fifth face-to-face meeting (with the option to dial in remotely) for people, projects and organizations who are interested in implementing part or whole of the [Cypher graph query language](https://neo4j.com/developer/cypher/), including current implementers.
+This was the fifth face-to-face meeting for people, projects and organizations who are interested in implementing part or whole of the [Cypher graph query language](https://neo4j.com/developer/cypher/), including current implementers.
 
 oCIM is a conference organised by the [openCypher project](http://www.opencypher.org).
 
 ## Logistics
 
-The fifth oCIM will be co-located with the [W3C Workshop on Web Standardization for Graph Data (Creating Bridges: RDF, Property Graph and SQL)](https://www.w3.org/Data/events/data-ws-2019/index.html) and will be held [here](https://www.w3.org/Data/events/data-ws-2019/cfp.html#location) in **Berlin, Germany** on **6 March 2019, starting at just after lunchtime, and ending just before lunchtime on 7 March 2019**.
-
-The meeting will be in Room "**Jazz 1 & 2**" on both days. 
-
-The breaks will be held in the foyer.
-
-## Remote attendance
-
-Please connect to Zoom to join the meeting:
-
-* Wednesday: [link](https://neo4j.zoom.us/j/120947019)
-* Thursday: [link](https://neo4j.zoom.us/j/763749182)
+The fifth oCIM was co-located with the [W3C Workshop on Web Standardization for Graph Data (Creating Bridges: RDF, Property Graph and SQL)](https://www.w3.org/Data/events/data-ws-2019/index.html) and was held [here](https://www.w3.org/Data/events/data-ws-2019/cfp.html#location) in **Berlin, Germany** on **6 March 2019, starting at just after lunchtime, and ending just before lunchtime on 7 March 2019**.
 
 ## Agenda
 
@@ -43,18 +32,21 @@ Welcome
      The work is envisioned to comprise a catalogue of: the groups of features; to which extent (if at all) these are supported in each language; exemplar syntax; supplementary artifacts to aid in the understanding of the underlying semantics; grammar constructs; and any additional details of interest. 
      The idea is to have this landscape of existing query languages to hand in order to inform the design and development of GQL by virtue of a well-informed work plan and helping to lead to a more robust outcome. 
      Moreover, this will help us to identify areas of consolidation, innovation and opportunities for language interoperation in GQL (for example, with SPARQL). 
-     We have used a phased approach, and began by examining the basic feature groups, such as basic querying and operations, and will move onto composable querying and complex patterns in future phases._       
+     We have used a phased approach, and began by examining the basic feature groups, such as basic querying and operations, and will move onto composable querying and complex patterns in future phases._
+   * [[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim5/slides/ocim5+-+ELWG-20190228-TF.pdf)]     
 * GQL and openCypher: the road ahead (_Alastair Green_, [_Neo4j_](https://neo4j.com/))
 * GQL Scope & Features (_Stefan Plantikow_, [_Neo4j_](https://neo4j.com/))
+   * [[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim5/slides/ocim5-GQL-Scope-and-Features-Digest.pdf)] 
 * Graph Query Language: Composition & Co (_Romans Kasperovics_, [_SAP_](https://www.sap.com/index.html))
+   * [[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim5/slides/ocim5-kasperovics_lightning_talk.pdf)] 
 
 *BREAK: 15:30 - 16:00*
 
 #### Schema and multiple graphs
 
 * Schema in GQL (_Peter Furniss_, _Hannes Voigt_ & _Alastair Green_, [_Neo4j_](https://neo4j.com/))
-* Multiple graphs and composable queries, exemplified by a live demonstration of [CAPS](https://github.com/opencypher/cypher-for-apache-spark) [Cypher for Apache Spark] (_Martin Junghanns_ & _Max Kießling_, [_Neo4j_](https://neo4j.com/))
-* Property graph schema definition and table-to-graph mapping in CAPS (_Max Kießling_ & _Martin Junghanns_, [_Neo4j_](https://neo4j.com/))
+* Multiple graphs, property graph schema definition, table-to-graph mapping and composable queries, exemplified by a live demonstration of [CAPS](https://github.com/opencypher/cypher-for-apache-spark) [Cypher for Apache Spark] (_Martin Junghanns_ & _Max Kießling_, [_Neo4j_](https://neo4j.com/))
+   * [[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim5/slides/ocim5+-+CAPS+%2B+GraphDDL.pdf)] 
 * An overview of [gra.fo](http://gra.fo/) (_Juan Sequeda_, [_Capsenta_](https://capsenta.com/))
 
 *End: 18:00*
@@ -65,17 +57,25 @@ Welcome
 
 Arrival and coffee. Talks begin at 09:00.
 
+* Welcome and GQL Lineage (_Petra Selmer_, [_Neo4j_](https://neo4j.com/))
+   * [[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim5/slides/ocim5+-+Graph+Query+Language+Lineage.pdf)]
+
+
 #### Path evaluation
 
 * Variable Length Relationship Pattern Extensions (_Teon Banek & Marko Budiselić_, [_Memgraph_](https://memgraph.com/))
    * _Wouldn't it be nice if traversing a variable length relationship pattern could be more tunable? There are already some ideas about supporting the so called "regular patterns". They should behave similarly to how regular expressions behave. Unfortunately, regular patterns can be quite a burden to implement. Most users are happy with a simpler and smaller set of features for controlling the match pattern. This presentation shows how Memgraph extends variable length relationship patterns by giving users what they want while keeping the implementation simple. The extensions cover choosing the traversal strategy (depth-first, breadth-first, shortest path), as well as deciding on which paths to follow._
+   * [[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim5/slides/ocim5-var-exp-teon-banek.pdf)] 
 * Experimental Study of Context-Free Path Query Evaluation Methods (_Jochem Kuijpers_, [_Eindhoven University of Technology_](https://www.tue.nl/en/) / [_Neo4j_](https://neo4j.com/))
    * _Context-free path queries extend regular path queries for increased expressiveness. A context-free grammar is used to recognize accepted paths by their label strings, or traces. In this work, we study three context-free path query evaluation methods. We run query workloads on various data sets using these methods and compare their results. In particular, we showcase how these evaluation methods scale as graphs get bigger and queries become larger or more ambiguous._
+   * [[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim5/slides/ocim5+-+Experimental+Study+of+Context-Free+Path+Query+Evaluation+Methods.pdf)] 
 
 #### Lightning talks
 
 * Schema Validation and Evolution for Graph Databases (_Eugenia Oshurko_, [_University of Lyon_](http://www.ens-lyon.fr/LIP/))
+   * [[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim5/slides/ocim5+-+Schema_validation_OpenCypher.pdf)] 
 * Named Property Graphs (_Łukasz Szeremeta_, [_University of Bialystok_](http://www.uwb.edu.pl/home))
+   * [[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim5/slides/ocim5+-+Named+property+graphs+W3C+Workshop+on+Web+Standardization+for+Graph+Data+%26+openCypher+meeting.pdf)] 
 
 #### Poster/Demo/Breakout session
 
@@ -88,17 +88,19 @@ Arrival and coffee. Talks begin at 09:00.
    * Cypher-Gremlin language interoperation
    * TCK tools developed for Cypher for Gremlin
 * Gremlinator (SPARQL to Gremlin) (_Harsh Thakkar_, [_The University of Bonn_](https://www.uni-bonn.de/the-university))
+* [[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim5/slides/ocim5+-+Graph+Query+Language+Interoperation+Gremlin-SPARQL-Cypher.pdf)] 
 
 #### openCypher
 
-* Overview of current CIPs (Cypher Improvement Proposals) (_Satia Herfert_, [_Neo4j_](https://neo4j.com/)) 
+* Overview of current CIPs (Cypher Improvement Proposals) (_Tobias Lindaaker_, [_Neo4j_](https://neo4j.com/)) 
    * An overview of CIPs being worked on, and explicit presentation of CIPs for voting
    * [EXISTS and IS NOT NULL](https://github.com/opencypher/openCypher/pull/334)
+   * [SET and REMOVE](https://github.com/opencypher/openCypher/pull/347)
 * openCypher artifacts: TCK and grammar (_Dmitry Novikov_, [_Neueda_](https://www.neueda.com/) & _Petra Selmer_, [_Neo4j_](https://neo4j.com/))
    * Status 
    * Result reporting 
    * Categorization
-   * Discussion
+   * [[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim5/slides/ocim5+-+TCK+Reporting.pdf)] 
 
 
 Closing remarks
