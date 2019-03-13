@@ -28,7 +28,7 @@ Welcome [[Recording](https://s3.amazonaws.com/artifacts.opencypher.org/website/o
 #### openCypher and GQL
 
 * Update on SQL/PGQ and GQL (_Keith Hare_, [_JCC Consulting_](http://www.jcc.com/))
-   * [[Recording](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim5/videos/oCIM5-day1-1+Keith+Hare+-+Update+on+SQL-PGQ+and+GQL+(12min).mp4)]
+   * [[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim5/slides/ocim5+-+SQL+and+GQL+Status+2019-03-06.pdf)] [[Recording](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim5/videos/oCIM5-day1-1+Keith+Hare+-+Update+on+SQL-PGQ+and+GQL+(12min).mp4)]
 * Existing Languages Working Group (_Thomas Frisendal_, [_Graph Data Modelling_](http://graphdatamodeling.com/))
    * _Preparatory to the commencement of planning for GQL, interested parties -- drawn from industry (Neo4j, Oracle, Redis Labs and TigerGraph), the community (a noted data modelling expert and published technical author), and academia (the University of Talca in Chile) -- formed an informal working group. 
      We have worked in an incremental fashion on systematically identifying, surveying, analysing and comparing graph query language features, drawn from the existing query languages: Cypher; PGQL; GSQL; SQL PGQ; and G-CORE. 
