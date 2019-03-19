@@ -59,7 +59,7 @@ Welcome [[Recording](https://s3.amazonaws.com/artifacts.opencypher.org/website/o
 * Property graph schema definition and table-to-graph mapping in [CAPS](https://github.com/opencypher/cypher-for-apache-spark) [Cypher for Apache Spark] (_Martin Junghanns_, [_Neo4j_](https://neo4j.com/))
    * [[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim5/slides/ocim5+-+CAPS+%2B+GraphDDL.pdf)] [[Recording](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim5/videos/oCIM5-day1-10+Martin+Junghanns+-+Property+graph+schema+definition+and+table-to-graph+mapping+in+CAPS+(17min).mp4)] 
 * An overview of [gra.fo](http://gra.fo/) (_Juan Sequeda_, [_Capsenta_](https://capsenta.com/))
-   * [[Recording](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim5/videos/oCIM5-day1-11+Juan+Sequeda+-+An+overview+of+gra-fo+(13min).mp4)]
+   * [[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim5/slides/ocim5+-+An+Introduction+to+Gra.fo+-+openCypher+Meeting.pdf)] [[Recording](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim5/videos/oCIM5-day1-11+Juan+Sequeda+-+An+overview+of+gra-fo+(13min).mp4)]
 
 *End: 18:00*
 
