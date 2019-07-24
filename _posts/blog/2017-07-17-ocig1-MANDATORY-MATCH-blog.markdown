@@ -15,7 +15,7 @@ _The goal is to have in place for our next face-to-face openCypher Implementers 
 
 ---
 
-As announced in the [Executive Summary](http://www.opencypher.org/event/2017/06/22/ocig1/)  for the [First oCIG (openCypher Implementers Group) Meeting](http://www.opencypher.org/ocig1), the decision was taken to add to the language a new variant of the `MATCH` clause, called `MANDATORY MATCH`.
+As announced in the [First oCIG (openCypher Implementers Group) Meeting](http://www.opencypher.org/event/2017/06/22/ocig1/), the decision was taken to add to the language a new variant of the `MATCH` clause, called `MANDATORY MATCH`.
 `MANDATORY MATCH` is, in effect, a sibling of the `OPTIONAL MATCH` clause.
 
 We discuss below a motivating use case for `MANDATORY MATCH`, after which we describe how it works, summarise the benefits and conclude with some related considerations.
