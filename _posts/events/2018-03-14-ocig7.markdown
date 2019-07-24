@@ -1,7 +1,7 @@
 ---
 layout: event
-categories: ocig
-title:  "Seventh openCypher Implementers Group Meeting"
+categories: event
+title:  "Seventh openCypher Implementers Group Meeting (oCIG 7)"
 date:   2018-03-14
 author: "Petra Selmer"
 shortTitle: "oCIG 7"

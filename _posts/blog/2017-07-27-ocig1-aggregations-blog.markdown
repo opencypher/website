@@ -9,13 +9,13 @@ excerpt: "We describe issues with the current aggregation and grouping semantics
 
 ---
 
-_During the course of this summer, we’re holding [regular virtual meetings](http://www.opencypher.org/ocig) in which language changes proposed via Cypher Improvement Requests ([CIRs](https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR)) and Cypher Improvement Proposals ([CIPs](http://www.opencypher.org/cips/)) are going to be discussed, and subsequently agreed or rejected._
+_During the course of this summer, we’re holding [regular virtual meetings](http://www.opencypher.org/events) in which language changes proposed via Cypher Improvement Requests ([CIRs](https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR)) and Cypher Improvement Proposals ([CIPs](http://www.opencypher.org/cips/)) are going to be discussed, and subsequently agreed or rejected._
 _The aim of these is to develop Cypher into a true open standard for declarative querying of property graphs._
 _The goal is to have in place for our next face-to-face openCypher Implementers Meeting (co-located with Neo4j’s GraphConnect New York conference in late October) an extended feature set in Cypher, including (but not limited to) the ability to process multiple graphs, the provision of complex path matching, a way forward for configurable uniqueness behaviour, subqueries, and clearer semantics for aggregation._
 
 ---
 
-As mentioned in the [Executive Summary](http://www.opencypher.org/blog/2017/07/14/ocig1-exec-summary-blog/) for the [First oCIG (openCypher Implementers Group) Meeting](http://www.opencypher.org/ocig1), there was a discussion on the potentially confusing behaviour of aggregation and grouping in Cypher today, along with strategies for improvement.
+As mentioned in the [Executive Summary](http://www.opencypher.org/event/2017/06/22/ocig1/) for the [First oCIG (openCypher Implementers Group) Meeting](http://www.opencypher.org/ocig1), there was a discussion on the potentially confusing behaviour of aggregation and grouping in Cypher today, along with strategies for improvement.
 
 We provide below a description of the problems in the existing aggregation and grouping semantics, and then [present various approaches](#unambiguous-semantics) to address these.
 As an ancillary consideration, a proposal to [distinguish between standard and aggregating functions](#distinguish-functions) is also discussed, and we conclude by considering the steps necessary to include this in a clear aggregation story for Cypher.

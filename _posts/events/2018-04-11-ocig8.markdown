@@ -1,7 +1,7 @@
 ---
 layout: event
-categories: ocig
-title:  "Eighth openCypher Implementers Group Meeting"
+categories: event
+title:  "Eighth openCypher Implementers Group Meeting (oCIG 8)"
 date:   2018-04-11
 author: "Petra Selmer"
 shortTitle: "oCIG 8"

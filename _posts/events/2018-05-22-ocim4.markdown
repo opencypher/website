@@ -1,7 +1,7 @@
 ---
 layout: event
 categories: event
-title:  "Fourth openCypher Implementers Meeting"
+title:  "Fourth openCypher Implementers Meeting (oCIM 4)"
 date:   2018-05-22
 excerpt: "This was the fourth face-to-face meeting for people, projects and organizations interested in participating in the openCypher project, with the goal of creating a standard language based on Cypher for querying graphs."
 ---

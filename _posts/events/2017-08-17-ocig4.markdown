@@ -1,7 +1,7 @@
 ---
 layout: event
-categories: ocig
-title:  "Fourth openCypher Implementers Group Meeting"
+categories: event
+title:  "Fourth openCypher Implementers Group Meeting (oCIG 4)"
 date:   2017-08-17
 author: "Mats Rydberg"
 shortTitle: "oCIG 4"

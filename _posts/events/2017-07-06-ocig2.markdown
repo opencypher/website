@@ -1,7 +1,7 @@
 ---
 layout: event
-categories: ocig
-title:  "Second openCypher Implementers Group Meeting"
+categories: event
+title:  "Second openCypher Implementers Group Meeting (oCIG 2)"
 date:   2017-07-06
 author: "Mats Rydberg"
 shortTitle: "oCIG 2"

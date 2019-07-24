@@ -1,7 +1,7 @@
 ---
 layout: event
 categories: event
-title:  "Fifth openCypher Implementers Meeting"
+title:  "Fifth openCypher Implementers Meeting (oCIM 5)"
 date:   2019-03-06
 excerpt: "This is the fifth face-to-face meeting (with the option to dial in remotely) for people, projects and organizations interested in participating in the openCypher project."
 ---

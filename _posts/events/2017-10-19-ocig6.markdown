@@ -1,7 +1,7 @@
 ---
 layout: event
-categories: ocig
-title:  "Sixth openCypher Implementers Group Meeting"
+categories: event
+title:  "Sixth openCypher Implementers Group Meeting (oCIG 6)"
 date:   2017-10-19
 author: "Mats Rydberg"
 shortTitle: "oCIG 6"

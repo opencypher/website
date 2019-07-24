@@ -1,17 +1,16 @@
 ---
 layout: event
 categories: event
-title:  "Third openCypher Implementers Meeting"
+title:  "Third openCypher Implementers Meeting (oCIM 3)"
 date:   2017-11-13
 excerpt: "The third face-to-face meeting for people, projects and organizations interested in participating in the openCypher project, with the goal of creating a standard language based on Cypher for querying graphs."
 ---
-This is the third face-to-face meeting for people, projects and organizations who are interested in
+This was the third face-to-face meeting for people, projects and organizations who are interested in
 
 * implementing part or whole of the [Cypher graph query language](https://neo4j.com/developer/cypher/), including current implementers
 * the design and development of a standard declarative query language for graph databases, and want to see how Cypher could evolve to reach that goal
 
 oCIM is a conference organised by the [openCypher project](http://www.opencypher.org).
-
 
 
 ## Agenda
@@ -22,14 +21,10 @@ This complex topic will be discussed in several sessions throughout the day (the
 
 ## Logistics
 
-The third oCIM will be held in **Room A008** at **[the Inria Nancy Center](https://www.inria.fr/centre/nancy)**, 615 rue du Jardin Botanique, 54600 Villers-lès-Nancy, France, on Monday the **13th of November 2017**, and is co-located with [BDA 2017: the 33rd Conference on Data Management - Principles, Technologies and Applications](https://project.inria.fr/bda2017/ocim-iii/).
+The third oCIM was held in **Room A008** at **[the Inria Nancy Center](https://www.inria.fr/centre/nancy)**, 615 rue du Jardin Botanique, 54600 Villers-lès-Nancy, France, on Monday the **13th of November 2017**, and is co-located with [BDA 2017: the 33rd Conference on Data Management - Principles, Technologies and Applications](https://project.inria.fr/bda2017/ocim-iii/).
 
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2635.0811900252215!2d6.15455231566756!3d48.66568997926909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4794a279f38e6957%3A0xc0f057fa1a5706d7!2sINRIA+Nancy+-+Grand+Est!5e0!3m2!1sen!2suk!4v1507219487459" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-### Remote attendance
-
-We will provide remote access to the conference via our [GotoMeeting channel](https://gotomeet.me/opencypher).
 
 <div class="abstract-anchor" id="program"></div>
 

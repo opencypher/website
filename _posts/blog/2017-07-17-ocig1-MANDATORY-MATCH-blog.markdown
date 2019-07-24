@@ -9,13 +9,13 @@ excerpt: "In this blog post, we describe the new MANDATORY MATCH clause."
 
 ---
 
-_During the course of this summer, we’re holding [regular virtual meetings](http://www.opencypher.org/ocig) in which language changes proposed via Cypher Improvement Requests ([CIRs](https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR)) and Cypher Improvement Proposals ([CIPs](http://www.opencypher.org/cips/)) are going to be discussed, and subsequently agreed or rejected._
+_During the course of this summer, we’re holding [regular virtual meetings](http://www.opencypher.org/events) in which language changes proposed via Cypher Improvement Requests ([CIRs](https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR)) and Cypher Improvement Proposals ([CIPs](http://www.opencypher.org/cips/)) are going to be discussed, and subsequently agreed or rejected._
 _The aim of these is to develop Cypher into a true open standard for declarative querying of property graphs._
 _The goal is to have in place for our next face-to-face openCypher Implementers Meeting (co-located with Neo4j’s GraphConnect New York conference in late October) an extended feature set in Cypher, including (but not limited to) the ability to process multiple graphs, the provision of complex path matching, a way forward for configurable uniqueness behaviour, subqueries, and clearer semantics for aggregation._
 
 ---
 
-As announced in the [Executive Summary](http://www.opencypher.org/blog/2017/07/14/ocig1-exec-summary-blog/) for the [First oCIG (openCypher Implementers Group) Meeting](http://www.opencypher.org/ocig1), the decision was taken to add to the language a new variant of the `MATCH` clause, called `MANDATORY MATCH`.
+As announced in the [Executive Summary](http://www.opencypher.org/event/2017/06/22/ocig1/)  for the [First oCIG (openCypher Implementers Group) Meeting](http://www.opencypher.org/ocig1), the decision was taken to add to the language a new variant of the `MATCH` clause, called `MANDATORY MATCH`.
 `MANDATORY MATCH` is, in effect, a sibling of the `OPTIONAL MATCH` clause.
 
 We discuss below a motivating use case for `MANDATORY MATCH`, after which we describe how it works, summarise the benefits and conclude with some related considerations.
@@ -131,7 +131,7 @@ It is perfectly acceptable to interleave `MANDATORY MATCH` and `MATCH` statement
 
 ## Auxiliary considerations
 
-At the [oCIG Meeting](http://www.opencypher.org/ocig1), _József Marton_ (Budapest University of Technology and Economics), raised the question of what the semantics would be in the following query, given a graph with two `:Person` nodes, only one of which is linked to an `:Address` node:
+At the [oCIG Meeting](http://www.opencypher.org/event/2017/06/22/ocig1/), _József Marton_ (Budapest University of Technology and Economics), raised the question of what the semantics would be in the following query, given a graph with two `:Person` nodes, only one of which is linked to an `:Address` node:
 
 ~~~~
 MATCH (p:Person)
@@ -143,7 +143,7 @@ _Stefan Plantikow_ (Neo4j) responded that the query would in fact succeed, as th
 
 This underscores the fact that the primary intention of `MANDATORY MATCH` is not to undertake error-checking of complex patterns, but instead to find individual nodes.
 However, this notion may be worth exploring as an extension to `MANDATORY MATCH` at a future date.
-Moreover, we anticipate that this scenario would be better dealt with using subqueries, which will be presented and discussed at the [Sixth oCIG Meeting](http://www.opencypher.org/ocig6) in September 2017.
+Moreover, we anticipate that this scenario would be better dealt with using subqueries, which will be presented and discussed at the [Sixth oCIG Meeting](http://www.opencypher.org/event/2017/10/19/ocig6) in September 2017.
 
 
 In addition, we note that the CIP does not include a mechanism to identify precisely _which_ `MANDATORY MATCH` clause failed (when there is more than one of these in a query); i.e. the ability to specify different errors for say, when a `user` is not found compared to a `city`, is not defined.

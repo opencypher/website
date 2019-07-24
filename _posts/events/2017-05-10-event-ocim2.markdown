@@ -1,7 +1,7 @@
 ---
 layout: event
 categories: event
-title:  "Second openCypher Implementers Meeting"
+title:  "Second openCypher Implementers Meeting (oCIM 2)"
 date:   2017-05-10
 excerpt: "The second face-to-face meeting for people, projects and organizations interested in participating in the openCypher project, with the goal of creating a standard language based on Cypher for querying graphs."
 ---
@@ -38,7 +38,7 @@ Alastair introduced the process underpinning this initiative, which is broadly a
 * [Cypher Improvement Requests](https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR) (CIRs) outline at a high level ideas, feature suggestions, or topics for discussion.
 * [Cypher Improvement Proposals](https://github.com/opencypher/openCypher/pulls?q=is%3Aopen+is%3Apr+label%3ACIP) (CIPs) act as the formal Cypher specification vehicle in that they address ideas suggested in CIRs, detailing the syntax and semantics of proposed new features.
 
-Every three weeks, the [oCIG will meet virtually](http://www.opencypher.org/ocig) to discuss CIPs and CIRs -- expanding and enriching as needed -- and to arrive at a consensus as to whether to accept or reject a CIP, and to assign working groups to produce CIPs in response to high-priority CIRs.
+Every three weeks, the oCIG will meet virtually to discuss CIPs and CIRs -- expanding and enriching as needed -- and to arrive at a consensus as to whether to accept or reject a CIP, and to assign working groups to produce CIPs in response to high-priority CIRs.
 
 ---
 

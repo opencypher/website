@@ -1,7 +1,7 @@
 ---
 layout: event
-categories: ocig
-title:  "First openCypher Implementers Group Meeting"
+categories: event
+title:  "First openCypher Implementers Group Meeting (oCIG 1)"
 date:   2017-06-22
 author: "Petra Selmer"
 shortTitle: "oCIG 1"
