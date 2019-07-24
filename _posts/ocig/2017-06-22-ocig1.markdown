@@ -32,3 +32,28 @@ During the course of the meeting, [this Google document](https://docs.google.com
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bfjYBWoBD2I" frameborder="0" allowfullscreen></iframe>
 
 A recording of the meeting can also be downloaded via [this link](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig1/ocig1-recording.zip).
+
+## Executive summary
+
+The major outcome was the acceptance by the oCIG of a new clause into Cypher, called [`MANDATORY MATCH`](https://github.com/opencypher/openCypher/pull/212).
+This is a new variant of the `MATCH` clause (in effect a sibling of the `OPTIONAL MATCH` clause), which will cause a query to fail if no matching data is found in the underlying graph, and the purpose is to allow for easier query validation.
+
+`MANDATORY MATCH <pattern>` allows the author of a query to force a match in the cases where there is an expectation of matching at least one node complying with `<pattern>`, enabling implicit query validity checking.
+Errors in the writing of the query itself -- such as invalid/non-existent parameter values -- will raise an appropriate exception.
+
+`MANDATORY MATCH` confers the following benefits:
+
+* Developers get a powerful new facility for detecting semantic errors in their applications, failing early in the case of an error.
+* Unnecessary round-trips to the database in order to check for the presence of mandatory data are avoided, leading to decreased application latency.
+* Extra validation code to check for the presence of mandatory data is no longer required, leading to decreased application complexity and verbosity, and increased application maintainability.
+* The expectation of a query (insofar as which portions of the data are expected to be present) is made much more obvious from the outset, leading to a better encapsulation of domain knowledge within the query.
+
+---
+
+Aggregation and grouping was also discussed at the meeting. Currently, the semantics are confusing and ill-defined, leading to unexpected behaviour under some circumstances.
+A number of approaches to address this issue were discussed.
+Under consideration was a proposed syntactical change allowing for far easier differentiation between aggregating functions (such as `count()`), and standard functions (such as `length()`) to improve query readability.
+
+---
+
+The `MANDATORY MATCH` clause, as well as the issues and proposed solutions regarding aggregation and grouping, will be discussed in detail in blog posts.
