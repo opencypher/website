@@ -2,123 +2,83 @@
 <section id="home" class="home section" xmlns="http://www.w3.org/1999/html">
     <div class="container">
 
+        <h2 class="title text-center">What is openCypher?</h2>
+
+        <div class="content">
+            <p>
+                openCypher is the most widely adopted, fully-specified, and open query language for property graph
+                databases.
+            </p>
+            <p>
+                It provides an intuitive way to work with property graphs today and is the best on-ramp to <a
+                    href="https://www.gqlstandards.org/">the graph
+                query language (GQL) standard being developed by ISO</a>.
+            </p>
+        </div>
+
         <div class="row">
-            <div class="col-md-8 col-md-offset-2">
+            <div class="item col-md-10 col-sm-10 col-xs-12 col-md-offset-1">
+                {% for post in site.categories.articles limit:1 %}
                 <div class="banner">
-                    <h3>Cypher accepted for Apache Spark 3.0</h3>
+                    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
                     <p>
-                        Databricks and Neo4j contributors have proposed to integrate the openCypher language into Apache
-                        Spark 3.0 to become a central piece of a new graph module in Apache Spark 3.0, driven through
-                        the openCypher project Cypher for Apache Spark (CAPS, see
-                        <a href="/projects" style="text-decoration: none;"> the projects page</a>).
-                    </p>
-                    <p>
-                        The proposal has been accepted and work has commenced for implementing the new graph module in
-                        Apache Spark 3.0. Thanks to everyone who supported the vote. The process may be followed in the
-                        <a href="https://issues.apache.org/jira/browse/SPARK-25994"
-                           style="text-decoration: none;">
-                            Apache Spark JIRA ticket SPARK-25994</a>
+                        {{ post.excerpt }}
                     </p>
                 </div>
+                {% endfor %}
             </div>
         </div>
 
-        <div class="row">
-            <div class="item col-md-10 col-sm-10 col-xs-12 col-md-offset-1">
-                <h2 class="title text-center">What is openCypher?</h2>
-                <h3 class="title text-center">The openCypher project aims to deliver a full and open specification of
-                    the industry’s most widely adopted graph database query language: <strong>Cypher.</strong></h3>
-            </div>
+        <h2 class="title text-center">What is the openCypher Implementers Group?</h2>
+
+        <div class="content">
+            <p>
+                The openCypher Implementers Group consists of openCypher implementers/vendors who collectively seek to
+            <li>Ensure consistency between implementations of openCypher</li>
+            <li>Maintain and bugfix the openCypher query language</li>
+            <li>Transition planning from openCypher implementations to the developing graph query language standard,
+                GQL
+            </li>
+            </p>
+            <p>
+                Members of the openCypher Implementers Group include Spark, RedisGraph, AnzoGraph, and Neo4j, <a
+                    href="/projects/">amongst others</a>.
+            </p>
         </div>
 
-        <div class="row">
-            <div class="item col-md-4 col-sm-6 col-xs-12">
-                <div class="icon-holder">
-                    <i class="fa fa-bullseye"></i>
-                </div>
-                <div class="content">
-                    <h3 class="sub-title">Focus on Your Domain</h3>
-                    <p>Graphs naturally describe your domain, and Cypher lets you focus on that domain instead of
-                        getting lost in the mechanics of data access. Both <i>expressive</i> and <i>efficient</i>,
-                        Cypher is <i>intuitive</i>
-                        and immediately familiar.</p>
-                </div><!--//content-->
-            </div><!--//item-->
-            <div class="item col-md-4 col-sm-6 col-xs-12">
-                <div class="icon-holder">
-                    <i class="fa fa-eye"></i>
-                </div>
-                <div class="content">
-                    <h3 class="sub-title">Human Readable</h3>
-                    <p>Cypher is a <i>human-readable</i> query language that makes common operations easy. A combination
-                        of
-                        English prose and <i>intuitive iconography</i>, Cypher is <i>accessible</i> to developers and
-                        operations
-                        professionals alike.</p>
-                </div><!--//content-->
-            </div><!--//item-->
-            <div class="item col-md-4 col-sm-6 col-xs-12">
-                <div class="icon-holder">
-                    <i class="fa fa-share-alt"></i>
-                </div>
-                <div class="content">
-                    <h3 class="sub-title">Complete Open Source Access</h3>
-                    <p>The openCypher project means you can use Cypher as your query language for graph processing
-                        capabilities within any product or application. Databases like <b>SAP HANA Graph</b>,
-                        <b>Redis</b>, <b>AgensGraph</b>
-                        and <b>Neo4j</b> all use the Cypher query language – now you can too.</p>
-                </div><!--//content-->
-            </div><!--//item-->
-        </div><!--//row-->
-        <div class="row">
-            <div class="item col-md-10 col-sm-10 col-xs-12 col-md-offset-1">
-                <div class="cypher">
-                        <pre>
+        <h2 class="title text-center">This website</h2>
 
-     MATCH (d:Database)-[:USES]->(<b>Cypher</b>)-[:QUERIES]->(:Model:Graph)
-     WHERE d.name IN [<b>'SAP HANA Graph','Redis','AgensGraph', 'Neo4j'</b>,...]
-     RETURN Cypher.features
-                        </pre>
-                </div><!--//cypher-->
-            </div><!--item-->
-        </div><!--//row-->
-
-        <div class="container">
-            <div class="col-md-10 col-md-offset-1">
-                <p>The <strong>openCypher project</strong> aims to improve growth and adoption of graph processing and
-                    analysis by providing an open graph query language to any data store, tooling or application
-                    provider as
-                    a mechanism to query graph data.</p>
-            </div><!--//container-->
+        <div class="content">
+            <p>
+            <li>Provides access to the <a href="/resources/">latest Cypher language resources required to implement
+                Cypher</a></li>
+            <li>Coordinates <a href="/events/">events</a> of the Cypher Implementers Group</li>
+            <li>Allows for the <a href="https://github.com/opencypher/openCypher">raising of issues around Cypher</a>
+            </li>
+            </p>
         </div>
-        <div class="container">
-            <div class="col-md-6 col-md-offset-1">
 
-                <ul>
-                    <li>Provides a query language with full support</li>
-                    <li>Makes graph processing and analysis easier to adopt</li>
-                    <li>Grants vendor independence to all users</li>
-                    <li>Eases graph integration with other data platforms</li>
-                </ul>
-            </div>
-        </div><!--//container-->
+        <h2 class="title text-center">More about openCypher</h2>
 
-        <div class="container">
-            <div class="col-md-10 col-md-offset-1">
-                <p>The following resources may be downloaded from the <a href="http://www.opencypher.org/resources"
-                                                                         target="_blank">Resources</a> page:</p>
-            </div><!--//container-->
+        <div class="content">
+            <p>
+            <li>openCypher is an open-source project that makes it easy to use the Cypher language in order to
+                incorporate graph processing capabilities within that product or application.
+            </li>
+            <li>Originally contributed by Neo4j, Cypher is now used by over 10 products and tens of thousands of
+                developers.
+            </li>
+            <li>Easy-to-learn and human-readable, Cypher is suitable for developers, data scientists and operations
+                professionals alike.
+            </li>
+            <li>Cypher lets users simply express what data to retrieve (declarative) while the underlying engine
+                completes the task without requiring they understand implementation details.
+            </li>
+            <li>Cypher is a key inspiration for <a href="https://www.gqlstandards.org/">the ISO project creating a
+                standard graph query language</a>.
+            </li>
+            </p>
         </div>
-        <div class="container">
-            <div class="col-md-6 col-md-offset-1">
-                <ul>
-                    <li>Cypher Query Language Reference, Version 9</li>
-                    <li>TCK (Technology Compatibility Kit)</li>
-                    <li>Grammar specification (along with EBNF and ANTLR grammars, and railroad diagrams)</li>
-                    <li>Cypher Style Guide</li>
-                </ul>
-            </div>
-        </div><!--//container-->
 
         <hr/>
 
