@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: blog
+categories: articles
 title:  "Apache Spark developers vote for Cypher in Spark 3.0"
 date:   2019-02-14
 author: "Alastair Green (Lead, Query Languages Standards and Research Group at Neo4j)"

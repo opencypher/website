@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: blog
+categories: articles
 title:  "Cypher(TM) for Apache Spark(TM) with support for multiple graph processing"
 date:   2017-10-25
 author: "Stefan Plantikow"
@@ -42,4 +42,4 @@ If you're interested in contributing, please let us know.
 We hope you're as excited about this as we are:
 It's a great moment in time to be working on and with Cypher as the data industry is increasingly realizing the true power of graphs.
 
-Stay tuned for further blog posts about Cypher for Apache Spark and multiple graph processing.
+Stay tuned for further articles about Cypher for Apache Spark and multiple graph processing.

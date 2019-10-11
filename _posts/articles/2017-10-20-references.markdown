@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: blog
+categories: articles
 title:  "Research references and presentations on graph querying"
 date:   2017-10-20
 author: "Petra Selmer"

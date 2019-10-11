@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: blog
+categories: articles
 title:  "The Summer of Syntax: Aggregation and grouping"
 date:   2017-07-27
 author: "Petra Selmer"

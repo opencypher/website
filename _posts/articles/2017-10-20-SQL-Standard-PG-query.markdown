@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: blog
+categories: articles
 title:  "An update on the SQL Standard"
 date:   2017-10-20
 author: "Alastair Green"
@@ -20,5 +20,5 @@ Other ideas under consideration include the idea of a "Common Core Path Pattern"
 ---
 
 By the way, the recently added [References](/references) page on the openCypher website is a very useful resource, and if anyone in the openCypher community would like to add papers or presentations, you can contact Petra Selmer at <petra.selmer@neo4j.com> who convenes the openCypher Implementers Group.
-This [blog post](/blog/2017/10/20/references/) gives an overview of the topics on the [page](/references#cypher-sql), and that's where we've posted Keith's slides.
+This [article](/articles/2017/10/20/references/) gives an overview of the topics on the [page](/references#cypher-sql), and that's where we've posted Keith's slides.
 Thanks again to Keith for letting us host this interesting presentation.

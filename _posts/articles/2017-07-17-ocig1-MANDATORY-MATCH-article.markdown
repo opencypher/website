@@ -1,10 +1,10 @@
 ---
 layout: post
-categories: blog
+categories: articles
 title:  "The Summer of Syntax: MANDATORY MATCH"
 date:   2017-07-17
 author: "Petra Selmer"
-excerpt: "In this blog post, we describe the new MANDATORY MATCH clause."
+excerpt: "In this article, we describe the new MANDATORY MATCH clause."
 ---
 
 ---

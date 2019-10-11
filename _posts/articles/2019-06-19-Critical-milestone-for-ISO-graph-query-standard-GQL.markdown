@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: blog
+categories: articles
 title:  "Critical milestone for ISO graph query standard GQL"
 date:   2019-06-19
 author: "Alastair Green (Lead, Query Languages Standards and Research Group at Neo4j)"
