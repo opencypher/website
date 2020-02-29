@@ -1,6 +1,6 @@
 ruby '2.4.2'
 source 'https://rubygems.org'
 gem 'github-pages', '170'
-gem 'rake', '12.3.0'
+gem 'rake', '12.3.3'
 gem 'puma', '3.11.0'
 gem 'rack-jekyll', '0.5.0'
