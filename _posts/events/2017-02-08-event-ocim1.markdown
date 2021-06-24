@@ -159,26 +159,26 @@ All in all, the meeting was a resounding success.
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>09:45</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/website/ocim1-abstracts#oc-artefacts">openCypher Artefacts</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/09-45+-+openCypher+artefacts.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p><a href="{{ site.baseurl }}/ocim1-abstracts#oc-artefacts">openCypher Artefacts</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/09-45+-+openCypher+artefacts.pdf" target="_blank">slides</a>)</td>
         <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>10:00</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/website/ocim1-abstracts#sap-hana">Graph Pattern Matching in SAP HANA</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/Graph+Pattern+Matching+in+SAP+HANA.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p><a href="{{ site.baseurl }}/ocim1-abstracts#sap-hana">Graph Pattern Matching in SAP HANA</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/Graph+Pattern+Matching+in+SAP+HANA.pdf" target="_blank">slides</a>)</td>
         <td colspan="1" rowspan="1"><p>Marcus Paradies (SAP)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>10:15</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/website/ocim1-abstracts#neueda">Cypher in JetBrains IDE</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/Jetbrains_Plugin_-_Graph_Database_support.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p><a href="{{ site.baseurl }}/ocim1-abstracts#neueda">Cypher in JetBrains IDE</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/Jetbrains_Plugin_-_Graph_Database_support.pdf" target="_blank">slides</a>)</td>
         <td colspan="1" rowspan="1"><p>Dmitry Vrublevsky (Neueda)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>10:30</p>
             <p></p></td>
-        <td colspan="1" rowspan="1"><p><a href="/website/ocim1-abstracts#inc-q">Incremental Graph Queries for Cypher</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/ocim2017-incremental-opencypher.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p><a href="{{ site.baseurl }}/ocim1-abstracts#inc-q">Incremental Graph Queries for Cypher</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/ocim2017-incremental-opencypher.pdf" target="_blank">slides</a>)</td>
         <td colspan="1" rowspan="1"><p>G&aacute;bor Sz&aacute;rnyas, J&oacute;zsef Marton (Budapest University of Technology and Economics)</p></td>
         <td colspan="1" rowspan="1"><p>30 mins</p></td>
     </tr>
@@ -192,31 +192,31 @@ All in all, the meeting was a resounding success.
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>11:20</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/website/ocim1-abstracts#neo4j">Neo4j Cypher Implementation</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/11-20+-+Neo4j+Cypher+implementation.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p><a href="{{ site.baseurl }}/ocim1-abstracts#neo4j">Neo4j Cypher Implementation</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/11-20+-+Neo4j+Cypher+implementation.pdf" target="_blank">slides</a>)</td>
         <td colspan="1" rowspan="1"><p>Andres Taylor (Neo)</p></td>
         <td colspan="1" rowspan="1"><p>25 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>11:45</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/website/ocim1-abstracts#redis">Redis Graph</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/Redis+Graph.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p><a href="{{ site.baseurl }}/ocim1-abstracts#redis">Redis Graph</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/Redis+Graph.pdf" target="_blank">slides</a>)</td>
         <td colspan="1" rowspan="1"><p>Roi Lipman (Redis Labs) </p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>12:00</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/website/ocim1-abstracts#quil">QUIL</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/12-00+-+QUIL.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p><a href="{{ site.baseurl }}/ocim1-abstracts#quil">QUIL</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/12-00+-+QUIL.pdf" target="_blank">slides</a>)</td>
         <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>12:15</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/website/ocim1-abstracts#dgraph">Dgraph</a></p>(<a href="http://wiki.ldbcouncil.org/pages/viewpage.action?pageId=59277315&preview=/59277315/75235343/dgraph.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p><a href="{{ site.baseurl }}/ocim1-abstracts#dgraph">Dgraph</a></p>(<a href="http://wiki.ldbcouncil.org/pages/viewpage.action?pageId=59277315&preview=/59277315/75235343/dgraph.pdf" target="_blank">slides</a>)</td>
         <td colspan="1" rowspan="1"><p>Tomasz Zdyba&#322; (Dgraph)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>12:30</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/website/ocim1-abstracts#discussion">Language Integration: SQL, GraphQL, and Tinkerpop</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/12-30+-+Language+Integration.pdf" target="_blank">slides</a>, <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/AgensGraph-+SQL+%2B+Cypher+Integration.pdf" target="_blank">BitNine slides</a>)</td>
+        <td colspan="1" rowspan="1"><p><a href="{{ site.baseurl }}/ocim1-abstracts#discussion">Language Integration: SQL, GraphQL, and Tinkerpop</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/12-30+-+Language+Integration.pdf" target="_blank">slides</a>, <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/AgensGraph-+SQL+%2B+Cypher+Integration.pdf" target="_blank">BitNine slides</a>)</td>
         <td colspan="1" rowspan="1"><p><b>Open discussion</b><br />Moderator: Alastair Green (Neo)</p></td>
         <td colspan="1" rowspan="1"><p>30 mins</p></td>
     </tr>
@@ -230,25 +230,25 @@ All in all, the meeting was a resounding success.
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>14:00</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/website/ocim1-abstracts#multi-graph-case">The case for Multiple Graph Querying</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/14-00+-+The+Case+for+Multiple+Graph+Querying.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p><a href="{{ site.baseurl }}/ocim1-abstracts#multi-graph-case">The case for Multiple Graph Querying</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/14-00+-+The+Case+for+Multiple+Graph+Querying.pdf" target="_blank">slides</a>)</td>
         <td colspan="1" rowspan="1"><p>Alastair Green (Neo)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>14:15</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/website/ocim1-abstracts#gradoop">Extended Property Graphs and Cypher on Gradoop</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/20170208-oCIM-Gradoop.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p><a href="{{ site.baseurl }}/ocim1-abstracts#gradoop">Extended Property Graphs and Cypher on Gradoop</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/20170208-oCIM-Gradoop.pdf" target="_blank">slides</a>)</td>
         <td colspan="1" rowspan="1"><p>Martin Junghanns (University of Leipzig)</p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>14:30</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/website/ocim1-abstracts#multi-graph">Multiple Graphs: Evolving Cypher</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/14-30+Multiple+Graphs-+Evolving+Cypher.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p><a href="{{ site.baseurl }}/ocim1-abstracts#multi-graph">Multiple Graphs: Evolving Cypher</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/14-30+Multiple+Graphs-+Evolving+Cypher.pdf" target="_blank">slides</a>)</td>
         <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo)</p></td>
         <td colspan="1" rowspan="1"><p>20 mins</p></td>
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>14:50</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/website/ocim1-abstracts#views">Views on Cypher</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/openCypher-GraphViews.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p><a href="{{ site.baseurl }}/ocim1-abstracts#views">Views on Cypher</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/openCypher-GraphViews.pdf" target="_blank">slides</a>)</td>
         <td colspan="1" rowspan="1"><p>Hannes Voigt (TU Dresden)</p></td>
         <td colspan="1" rowspan="1"><p>10 mins</p></td>
     </tr>
@@ -276,19 +276,19 @@ All in all, the meeting was a resounding success.
             <p>30 mins</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1" class="item"><p><a href="/website/ocim1-abstracts#schema">Schema and Constraints</a></p></td>
+        <td colspan="1" rowspan="1" class="item"><p><a href="{{ site.baseurl }}/ocim1-abstracts#schema">Schema and Constraints</a></p></td>
         <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo)</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1" class="item"><p><a href="/website/ocim1-abstracts#subqueries">Subqueries</a></p></td>
+        <td colspan="1" rowspan="1" class="item"><p><a href="{{ site.baseurl }}/ocim1-abstracts#subqueries">Subqueries</a></p></td>
         <td colspan="1" rowspan="1"><p>Petra Selmer (Neo)</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1" class="item"><p><a href="/website/ocim1-abstracts#iso">Isomorphic Matching</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/cypher_implementers_day_2017_pattern_matching_semantics.pdf" target="_blank">Oskar's slides</a>)</td>
+        <td colspan="1" rowspan="1" class="item"><p><a href="{{ site.baseurl }}/ocim1-abstracts#iso">Isomorphic Matching</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/cypher_implementers_day_2017_pattern_matching_semantics.pdf" target="_blank">Oskar's slides</a>)</td>
         <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo), Oskar van Rest (Oracle)</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1" class="item"><p><a href="/website/ocim1-abstracts#crpqs">CRPQs</a></p></td>
+        <td colspan="1" rowspan="1" class="item"><p><a href="{{ site.baseurl }}/ocim1-abstracts#crpqs">CRPQs</a></p></td>
         <td colspan="1" rowspan="1"><p>Tobias Lindaaker (Neo)</p></td>
     </tr>
     <tr>
@@ -297,7 +297,7 @@ All in all, the meeting was a resounding success.
     </tr>
     <tr>
         <td colspan="1" rowspan="1"><p>16:00</p></td>
-        <td colspan="1" rowspan="1"><p><a href="/website/ocim1-abstracts#edinburgh">Natural Language and Formal Specifications of Cypher</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/sql-sem.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p><a href="{{ site.baseurl }}/ocim1-abstracts#edinburgh">Natural Language and Formal Specifications of Cypher</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/sql-sem.pdf" target="_blank">slides</a>)</td>
         <td colspan="1" rowspan="1"><p>Paolo Guagliardo, Nadime Francis (University of Edinburgh)</p></td>
         <td colspan="1" rowspan="1"><p>20 mins</p></td>
     </tr>
@@ -313,15 +313,15 @@ All in all, the meeting was a resounding success.
             <p>30 mins</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1" class="item"><p><a href="/website/ocim1-abstracts#tck">TCK &nbsp;/ Specification</a></p></td>
+        <td colspan="1" rowspan="1" class="item"><p><a href="{{ site.baseurl }}/ocim1-abstracts#tck">TCK &nbsp;/ Specification</a></p></td>
         <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo)</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1" class="item"><p><a href="/website/ocim1-abstracts#vendor">Vendor Extensions</a></p></td>
+        <td colspan="1" rowspan="1" class="item"><p><a href="{{ site.baseurl }}/ocim1-abstracts#vendor">Vendor Extensions</a></p></td>
         <td colspan="1" rowspan="1"><p>Tobias Lindaaker (Neo)</p></td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="1" class="item"><p><a href="/website/ocim1-abstracts#cip">CIP Process -- Involvement</a></p></td>
+        <td colspan="1" rowspan="1" class="item"><p><a href="{{ site.baseurl }}/ocim1-abstracts#cip">CIP Process -- Involvement</a></p></td>
         <td colspan="1" rowspan="1"><p>Petra Selmer (Neo)</p></td>
     </tr>
     <tr>
