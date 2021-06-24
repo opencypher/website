@@ -19,7 +19,7 @@ agenda: |
     * An overview of a proposal for SQL/Graph Query Procedures _(Peter Furniss, Neo4j)_
         * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig4/SQL%252FGraph+Query+Procedures.pdf)**
 ---
-This was the fourth virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="/cips/" target="_blank">CIPs</a>).
+This was the fourth virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="/website/cips/" target="_blank">CIPs</a>).
 
 The main focus of this meeting was dedicated to the topic of multiple graphs, with an emphasis on syntax and semantics.
 Additionally, a proposal was presented for the integration of graph query procedures (written in a graph query language) into SQL.
