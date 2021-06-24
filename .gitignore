@@ -2,7 +2,8 @@
 .idea
 *.iml
 *~
-# Generated site files
+# Generated files
 _site/*
 .DS_Store
 _site/
+Gemfile.lock
