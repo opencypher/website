@@ -1,6 +1,6 @@
 = openCypher website
 
-This repository hosts the content of the website link:www.opencypher.org[http://www.opencypher.org].
+This repository hosts the content of the website link:http://www.opencypher.org[http://www.opencypher.org].
 
 === Build
 
