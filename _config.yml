@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
   and a growing open community, with the goal to design and specify a standardised
   property graph query language, called Cypher.
 baseurl: "website" # the subpath of your site, e.g. /blog/
-url: "https://opencypher.org" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
