@@ -7,187 +7,22 @@
                  The evolution of Cypher is driven by the production and acceptance of <a href="https://github.com/opencypher/openCypher/tree/master/cip">CIPs</a>,
                  which are written as a response to <a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">Cypher Improvement Requests (CIRs)</a>.
                  CIRs are feature requests, and are raised as issues to the <a href="https://github.com/opencypher/openCypher/">openCypher repository</a>.
-                 CIPs are documents that outline the syntax and semantics of the proposed new Cypher features.
+                 CIPs are documents that outline the syntax and semantics of the proposed new Cypher features, and are raise as a PR to the openCypher repository.
              </p>
 
-             <h3>The CIP Lifecycle</h3>
+             <h3>CIPs accepted into openCypher</h3>
 
              <p>
-                 CIPs normally pass through a number of phases in the process of incorporating them into the language: <i><a href=#proposed>proposed</a></i>, <i><a href="#accepted">accepted</a></i> and <i><a href="#testable">testable</a></i>.
+                 CIPs that are accepted in the into the language exists at two integration levels and can be found in the openCypher repository's master branch in the respective directories:
              </p>
-             <p>&nbsp;</p>
-
-             <h4><a name=proposed>Proposed</a></h4>
-
+             <ol>
+                 <li>Accepted CIPs: <a href="https://github.com/opencypher/openCypher/tree/master/cip/1.accepted">cip/1.accepted</a></li>
+                 <li>Testable CIPs: <a href="https://github.com/opencypher/openCypher/tree/master/cip/2.testable">cip/2.testable</a></li>
+             </ol>
              <p>
-                 Anyone may author and submit a CIP, which takes the form of a pull request (PR) to the <a href="https://github.com/opencypher/openCypher/">openCypher repository</a>.
-                 It is then the task of the openCypher Implementers Group (oCIG) to discuss, give feedback, and eventually (potentially) accept the CIP,
-                 at which point the pull request will be merged, and the CIP will be marked as "Accepted".
+                 Testable CIPs have test coverage in the <a href="https://github.com/opencypher/openCypher/tree/master/tck">TCK (Technology Compatibility Kit)</a>, while accpeted CIPs do not have such coverage.
+                 An accapted CIP can be promoted to a testable CIP by a PR to the openCypher repository that add the sufficient scenarios to the TCK.
              </p>
-
-             <h5>Currently proposed CIPs (including a link to the pull request)</h5>
-
-             <table class="table">
-                 <tr>
-                     <td>[<a href="https://github.com/opencypher/openCypher/issues/318" target="_blank">PR</a>]</td>
-                     <td><a href="https://github.com/opencypher/openCypher/files/2196816/ConsiderationsForSetAlgebraInOpenCypherFullText.pdf" target="_blank">Considerations for Set Algebra in OpenCypher</a></td>
-                     <td>The proposal for set algebra in Cypher.</td>
-                 </tr>
-
-
-                 <tr>
-                     <td>[<a href="https://github.com/opencypher/openCypher/pull/261" target="_blank">PR</a>]</td>
-                     <td><a href="https://github.com/Mats-SX/openCypher/blob/7e78a2a1e19ae6aed545a3bcae2a66941ca18038/cip/1.accepted/CIP2017-10-17-Cypher-9.adoc" target="_blank">CIP2017-10-17 Cypher version 9</a></td>
-                     <td>The proposal for the features included in Cypher version 9.</td>
-                 </tr>
-                 <tr>
-                     <td>[<a href="https://github.com/opencypher/openCypher/pull/241" target="_blank">PR</a>]</td>
-                     <td><a href="https://github.com/boggle/openCypher/blob/CIP2017-06-18-multiple-graphs/cip/1.accepted/CIP2017-06-18-multiple-graphs.adoc" target="_blank">CIP2017-06-18 Multiple Graphs</a></td>
-                     <td>Describes extending Cypher to support the construction, transformation, and querying of multiple graphs.</td>
-                 </tr>
-                 <tr>
-                     <td>[<a href="https://github.com/opencypher/openCypher/pull/237" target="_blank">PR</a>]</td>
-                     <td><a href="https://github.com/Mats-SX/openCypher/blob/a3373f73829cde28f8b81ae2ed69e39deec72463/cip/1.accepted/CIP2017-05-18-Plus-operator.adoc" target="_blank">CIP2017-05-18 Plus operators</a></td>
-                     <td>Defines the "+" and "++" operators.</td>
-                 </tr>
-                 <tr>
-                     <td>[<a href="https://github.com/opencypher/openCypher/pull/230" target="_blank">PR</a>]</td>
-                     <td><a href="https://github.com/Mats-SX/openCypher/blob/unwind-cip/cip/2.testable/CIP2017-04-24-UNWIND.adoc" target="_blank">CIP2017-04-24 UNWIND</a></td>
-                     <td>Describes the UNWIND and OPTIONAL UNWIND clauses.</td>
-                 </tr>
-                 <tr>
-                     <td>[<a href="https://github.com/opencypher/openCypher/pull/227" target="_blank">PR</a>]</td>
-                     <td><a href="https://github.com/boggle/openCypher/blob/CIP-query-combinators/cip/1.accepted/CIP2017-04-20-query-combinators-for-set-operations.adoc" target="_blank">CIP2017-04-20 Query combinators for set operations</a></td>
-                     <td>Describes how set operators work: all variations of UNION, INTERSECT, EXCEPT, OTHERWISE and CROSS.</td>
-                 </tr>
-                 <tr>
-                     <td>[<a href="https://github.com/opencypher/openCypher/pull/218" target="_blank">PR</a>]</td>
-                     <td><a href="https://github.com/thobe/openCypher/blob/aggregations/cip/1.accepted/CIP2017-04-13-Aggregations.adoc" target="_blank">CIP2017-04-13 Aggregations</a></td>
-                     <td>Describes syntax to address the current ambiguities in aggregations in Cypher.</td>
-                 </tr>
-                 <tr>
-                     <td>[<a href="https://github.com/opencypher/openCypher/pull/217" target="_blank">PR</a>]</td>
-                     <td><a href="https://github.com/thobe/openCypher/blob/single-value-subqueries/cip/1.accepted/CIP2017-03-29-Single-Value-Subqueries.adoc" target="_blank">CIP2017-03-29 Scalar Subqueries and List Subqueries</a></td>
-                     <td>Describes scalar subqueries (returning single values) and list subqueries (returning lists).</td>
-                 </tr>
-                 <tr>
-                     <td>[<a href="https://github.com/opencypher/openCypher/pull/200" target="_blank">PR</a>]</td>
-                     <td><a href="https://github.com/Mats-SX/openCypher/blob/3369038fb300419ee9e88965d636bd476d0f06a2/cip/1.accepted/CIP2017-03-01-Subclauses.adoc" target="_blank">CIP2017-03-01 Subclauses</a></td>
-                     <td>Clarifies and defines subclauses.</td>
-                 </tr>
-                 <tr>
-                     <td>[<a href="https://github.com/opencypher/openCypher/pull/216" target="_blank">PR</a>]</td>
-                     <td><a href="https://github.com/thobe/openCypher/blob/map-projection/cip/1.accepted/CIP2017-02-07-Map-Projection.adoc" target="_blank">CIP2017-02-07 Map Projection</a></td>
-                     <td>Details map projection: creating maps based on selected properties from an entity or input map.</td>
-                 </tr>
-                 <tr>
-                     <td>[<a href="https://github.com/opencypher/openCypher/pull/187" target="_blank">PR</a>]</td>
-                     <td><a href="https://github.com/thobe/openCypher/blob/rpq/cip/1.accepted/CIP2017-02-06-Path-Patterns.adoc" target="_blank">CIP2017-02-06 Path Patterns</a></td>
-                     <td>Describes complex pattern matching: regular expressions over paths, and node and relationship tests.</td>
-                 </tr>
-                 <tr>
-                     <td>[<a href="https://github.com/opencypher/openCypher/pull/175" target="_blank">PR</a>]</td>
-                     <td><a href="https://github.com/boggle/openCypher/blob/isomatch/cip/1.accepted/CIP2017-01-18-configurable-pattern-matching-semantics.adoc" target="_blank">CIP2017-01-18 Configurable Pattern Matching Semantics</a></td>
-                     <td>Describes the framework to allow for configurable pattern-matching semantics - relationship isomorphism, node isomorphism and homomorphism - to be defined at a query-by-query level.</td>
-                 </tr>
-                 <tr>
-                     <td>[<a href="https://github.com/opencypher/openCypher/pull/166" target="_blank">PR</a>]</td>
-                     <td><a href="https://github.com/Mats-SX/openCypher/blob/88c0f11f11410ce2f68dc050e54ff419058c6cad/cip/1.accepted/CIP2016-12-14-Constraint-syntax.adoc" target="_blank">CIP2016-12-16 Constraints syntax</a></td>
-                     <td>Describes the general framework, syntax and semantics for Cypher constraints.</td>
-                 </tr>
-                 <tr>
-                     <td>[<a href="https://github.com/opencypher/openCypher/pull/197" target="_blank">PR</a>]</td>
-                     <td><a href="https://github.com/Mats-SX/openCypher/blob/c542f94f07fb934254748f4f2ce44612d45866a3/cip/vendor-extensions/neo4j/CIP2016-12-14-Neo4j-indexes.adoc" target="_blank">CIP2016-12-16 Neo4j Indexes</a></td>
-                     <td>Neo4j's indexing extension to Cypher.</td>
-                 </tr>
-                 <tr>
-                     <td>[<a href="https://github.com/opencypher/openCypher/pull/100" target="_blank">PR</a>]</td>
-                     <td><a href="https://github.com/petraselmer/openCypher/blob/CIP-nested-subqueries/cip/1.accepted/CIP2016-06-22-nested-updating-and-chained-subqueries.adoc" target="_blank">CIP2016-06-22 Nested, updating, and chained subqueries</a></td>
-                     <td>Incorporates nested, updating and chained subqueries into Cypher.</td>
-                 </tr>
-                 <tr>
-                     <td>[<a href="https://github.com/opencypher/openCypher/pull/9" target="_blank">PR</a>]</td>
-                     <td><a href="https://github.com/pontusmelke/openCypher/blob/31f2dc8fc4b4ae2147d260d22c80fb91c42b71b6/cip/CIP2015-10-12-CREATE.adoc" target="_blank">CIP2015-10-12 CREATE</a></td>
-                     <td>Formalizes the CREATE clause which is used in Cypher to create nodes and relationships.</td>
-                 </tr>
-                 <tr>
-                     <td>[<a href="https://github.com/opencypher/openCypher/pull/15" target="_blank">PR</a>]</td>
-                     <td><a href="https://github.com/thobe/openCypher/blob/date-time/cip/1.accepted/CIP2015-08-06-date-time.adoc" target="_blank">CIP2015-08-06 Date and Time</a></td>
-                     <td>The addition of new date and time types for the management of temporal data.</td>
-                 </tr>
-             </table>
-
-             <h4><a name=accepted>Accepted</a></h4>
-
-             <p>
-                 As soon as the pull request for an in-progress CIP is merged - after consensus to do so is reached by the oCIG - the CIP is considered to be part of openCypher.
-                 Accepted CIPs are added to the openCypher repository, and can be found <a href="https://github.com/opencypher/openCypher/tree/master/cip/1.accepted">here</a>.
-             </p>
-
-             <h5>Accepted CIPs</h5>
-
-             <table class="table">
-                 <tr>
-                     <td><a href="https://github.com/opencypher/openCypher/blob/master/cip/1.accepted/CIP2016-12-19-Reserved-keywords.adoc" target="_blank">CIP2016-12-19 Reserved keywords</a></td>
-                     <td>Defines a set of reserved keywords (i.e. keywords not permitted to be used as symbolic names).</td>
-                 </tr>
-                 <tr>
-                     <td><a href="https://github.com/opencypher/openCypher/blob/master/cip/1.accepted/CIP2016-06-14-Define-comparability-and-equality-as-well-as-orderability-and-equivalence.adoc" target="_blank">CIP2016-06-14 Definitions for Comparability and Equality, and Orderability and Equivalence</a></td>
-                     <td>Redefines and formalizes four key language concepts: comparability, equality, orderability and equivalence.</td>
-                 </tr>
-                 <tr>
-                     <td><a href="https://github.com/opencypher/openCypher/blob/master/cip/1.accepted/CIP2016-01-26-mandatory-match.adoc" target="_blank">CIP2016-01-26 The MANDATORY MATCH clause</a></td>
-                     <td>Describes the syntax and semantics for the MANDATORY MATCH clause.</td>
-                 </tr>
-                 <tr>
-                     <td><a href="https://github.com/opencypher/openCypher/blob/master/cip/1.accepted/CIP2015-11-09-type-coercions.adoc" target="_blank">CIP2015-11-09 Type coercions</a></td>
-                     <td>Describes how type coercions work in Cypher.</td>
-                 </tr>
-                 <tr>
-                     <td><a href="https://github.com/opencypher/openCypher/blob/master/cip/1.accepted/CIP2015-10-27-State-visibility-between-clauses.adoc" target="_blank">CIP2015-10-27 State visibility between clauses</a></td>
-                     <td>Formalizes the behavior of state changes within a Cypher query.</td>
-                 </tr>
-                 <tr>
-                     <td><a href="https://github.com/opencypher/openCypher/blob/master/cip/1.accepted/CIP2015-09-16-public-type-system-type-annotation.adoc" target="_blank">CIP2015-09-16 Public Type System and Type Annotations</a></td>
-                     <td>Specifies the Public Type System of Cypher and introduces literal syntax for writing down types as well as new syntax for type annotations.</td>
-                 </tr>
-                 <tr>
-                     <td><a href="https://github.com/opencypher/openCypher/blob/master/cip/1.accepted/CIP2015-06-24-call-procedures.adoc" target="_blank">CIP2015-06-24 Calling Procedures</a></td>
-                     <td>Introduces procedures as a new concept to Cypher.</td>
-                 </tr>
-                 <tr>
-                     <td><a href="https://github.com/opencypher/openCypher/blob/master/cip/1.accepted/CIP2015-05-13-EXISTS.adoc" target="_blank">CIP2015-05-13 Existential subqueries</a></td>
-                     <td>Introduces EXISTS, a function and a keyword for checking the existence of properties, simple patterns and full subqueries.</td>
-                 </tr>
-             </table>
-
-             <h4><a name=testable>Testable</a></h4>
-
-             <p>
-                 A CIP enters this phase when it has received a sufficient set of TCK scenarios that outline the use of
-                 its suggested features. A list of CIPs in this state can be found <a href="https://github.com/opencypher/openCypher/tree/master/cip/2.testable">here</a>.
-             </p>
-
-             <h5>Testable CIPs</h5>
-
-             <table class="table">
-                 <tr>
-                     <td><a href="https://github.com/opencypher/openCypher/blob/master/cip/2.testable/CIP2016-07-07-Type-conversion-functions.adoc" target="_blank">CIP2016-07-07 Type conversion functions</a></td>
-                     <td>Renames the "toInt" function to "toInteger", and introduces "toBoolean".</td>
-                 </tr>
-                 <tr>
-                     <td><a href="https://github.com/opencypher/openCypher/blob/master/cip/2.testable/CIP2016-07-07-Parameter-syntax.adoc" target="_blank">CIP2016-07-07 Parameter syntax</a></td>
-                     <td>Describes the parameter syntax whereby the "{param}" syntax is replaced with "$param".</td>
-                 </tr>
-                 <tr>
-                     <td><a href="https://github.com/opencypher/openCypher/blob/master/cip/2.testable/CIP2015-09-15-STARTS-WITH-and-ENDS-WITH.adoc" target="_blank">CIP2015-09-15 STARTS WITH and ENDS WITH</a></td>
-                     <td>Details the operators for string search (prefix search using STARTS WITH, suffix search using ENDS WITH and inclusion search using CONTAINS).</td>
-                 </tr>
-                 <tr>
-                     <td><a href="https://github.com/opencypher/openCypher/blob/master/cip/2.testable/CIP2015-02-17-dynamic-property-lookup.adoc" target="_blank">CIP2015-02-17 Dynamic Property Lookup</a></td>
-                     <td>Describes the syntax and semantics of looking up the key of any map or entity (either a node or a relationship) using a dynamically-computed string value, along with a function which returns the keys of any map or entity.</td>
-                 </tr>
-             </table>
          </div>
-         </div>
+     </div>
  </section>
