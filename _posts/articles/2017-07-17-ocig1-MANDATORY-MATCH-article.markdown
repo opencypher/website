@@ -11,7 +11,7 @@ excerpt: "In this article, we describe the new MANDATORY MATCH clause."
 
 _During the course of this summer, we’re holding [regular virtual meetings](http://www.opencypher.org/events) in which language changes proposed via Cypher Improvement Requests ([CIRs](https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR)) and Cypher Improvement Proposals ([CIPs](http://www.opencypher.org/cips/)) are going to be discussed, and subsequently agreed or rejected._
 _The aim of these is to develop Cypher into a true open standard for declarative querying of property graphs._
-_The goal is to have in place for our next face-to-face openCypher Implementers Meeting (co-located with Neo4j’s GraphConnect New York conference in late October) an extended feature set in Cypher, including (but not limited to) the ability to process multiple graphs, the provision of complex path matching, a way forward for configurable uniqueness behaviour, subqueries, and clearer semantics for aggregation._
+_The goal is to have in place for our next face-to-face openCypher Implementers Meeting (co-located with Neo4j’s GraphConnect New York conference in late October this year) an extended feature set in Cypher, including (but not limited to) the ability to process multiple graphs, the provision of complex path matching, a way forward for configurable uniqueness behaviour, subqueries, and clearer semantics for aggregation._
 
 ---
 
