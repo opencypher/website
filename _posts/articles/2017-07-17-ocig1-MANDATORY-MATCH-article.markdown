@@ -9,7 +9,7 @@ excerpt: "In this article, we describe the new MANDATORY MATCH clause."
 
 ---
 
-Please note that the grammar and TCK currently do not include `MANDATORY MATCH`. 
+#### Please note that the grammar and TCK currently do not include `MANDATORY MATCH`. 
 
 _During the course of this summer, we’re holding [regular virtual meetings](http://www.opencypher.org/events) in which language changes proposed via Cypher Improvement Requests ([CIRs](https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR)) and Cypher Improvement Proposals ([CIPs](http://www.opencypher.org/cips/)) are going to be discussed, and subsequently agreed or rejected._
 _The aim of these is to develop Cypher into a true open standard for declarative querying of property graphs._
