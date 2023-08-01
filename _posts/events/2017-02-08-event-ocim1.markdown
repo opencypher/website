@@ -52,7 +52,7 @@ Both Gábor and József, as well as Dmitry, had already been directly involved i
 _Andrés Taylor_, engineer at Neo4j, father of Cypher, and former team lead of the CLG, started the next session by [describing how Cypher has been (and is) implemented in Neo4j](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/11-20+-+Neo4j+Cypher+implementation.pdf), for and from which the language has been grown.
 After a brief overview of Cypher's history, Andrés described in detail the cost-based query planner, the algorithm it is based on, and ended with a quick look at Neo4j's new Cypher runtime, which runs on generated code.
 
-_Roi Lipman_, software engineer at [Redis Labs](https://redislabs.com/), then gave a [presentation](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/Redis+Graph.pdf) on how he had developed the Redis graph module based on a hexastore model, where node-relationship-node triplets are stored in six permutations to enable fast prefix-based searches.
+_Roi Lipman_, software engineer at Redis Labs (now [Redis](https://redis.com/)), then gave a [presentation](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/Redis+Graph.pdf) on how he had developed the Redis graph module based on a hexastore model, where node-relationship-node triplets are stored in six permutations to enable fast prefix-based searches.
 
 A concept that has arisen in prior meetings with several interested parties is that of a shared standard of internal graph query representation, possibly compiled from several distinct source languages.
 _Stefan Plantikow_ [gave an insight](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/12-00+-+QUIL.pdf) as to how Neo4j and the CLG had been thinking about such a model, called QUIL (Query Intermediary Language).
@@ -199,7 +199,7 @@ All in all, the meeting was a resounding success.
     <tr>
         <td colspan="1" rowspan="1"><p>11:45</p></td>
         <td colspan="1" rowspan="1"><p><a href="{{ site.baseurl }}/ocim1-abstracts#redis">Redis Graph</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/Redis+Graph.pdf" target="_blank">slides</a>)</td>
-        <td colspan="1" rowspan="1"><p>Roi Lipman (Redis Labs) </p></td>
+        <td colspan="1" rowspan="1"><p>Roi Lipman (Redis Labs (now Redis)) </p></td>
         <td colspan="1" rowspan="1"><p>15 mins</p></td>
     </tr>
     <tr>
