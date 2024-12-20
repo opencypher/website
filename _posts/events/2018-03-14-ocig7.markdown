@@ -1,0 +1,40 @@
+---
+layout: event
+categories: event
+title:  "Seventh openCypher Implementers Group Meeting (oCIG 7)"
+date:   2018-03-14
+author: "Petra Selmer"
+shortTitle: "oCIG 7"
+excerpt: "The seventh virtual meeting for members of the openCypher Implementers Group."
+agenda: |
+    ## Agenda
+
+    * Welcome and oCIG updates _(Petra Selmer, Neo4j)_
+      * [Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig7/oCIG+7+-+Welcome.pdf)
+    * **openCypher Contributor Agreement** _(Alastair Green, Neo4j)_
+      * [Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig7/oCIG+7+openCypher+Implementers+Group.pdf)
+      * [Contributions](https://www.opencypher.org/contributions)
+    * **ASCII Art for ERD (Entity Relationship Diagram)**: A schema language for Cypher _(Alastair Green, Neo4j)_
+      * [CIR](https://github.com/opencypher/openCypher/issues/307) 
+    * **Supporting dates and times in Cypher**  _(Tobias Lindaaker, Neo4j)_
+      * [CIP](https://github.com/thobe/openCypher/blob/date-time/cip/1.accepted/CIP2015-08-06-date-time.adoc)
+      * [Pull request for CIP](https://github.com/opencypher/openCypher/pull/15)
+      * [Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig7/oCIG+7+-+2018-03-14+-+CIP+2015-08-06+Date+and+Time.pdf)
+    * **Cypher for Gremlin**: Cypher for Gremlin is a toolkit for users of Apache TinkerPop and Gremlin databases, allowing Cypher to be used within the Gremlin ecosystem _(Dimitry Solovyov, Neueda)_
+      * [Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig7/Cypher+for+Gremlin+-+oCIG+7.pdf)
+---
+This was the seventh virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="{{ site.baseurl }}/cips/" target="_blank">CIPs</a>).
+
+This meeting was dedicated to the topics of the DateTime CIP with a view to accepting it into Cypher 10 in the near future; Cypher for Gremlin; a proposal for a schema language in Cypher; and the openCypher Contributor Agreement.
+
+{{ page.agenda }}
+
+## Logistics
+
+The seventh oCIG meeting was held at 16.00 - 17:30 UTC on Wednesday, 14 March 2018. 
+
+## Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OKxwXp4DBRw" frameborder="0" allowfullscreen></iframe>
+
+The recording of the meeting can be downloaded via [this link](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig7/2018-03-14-oCIG7.mp4.zip)

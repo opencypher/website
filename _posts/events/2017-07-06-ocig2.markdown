@@ -1,0 +1,32 @@
+---
+layout: event
+categories: event
+title:  "Second openCypher Implementers Group Meeting (oCIG 2)"
+date:   2017-07-06
+author: "Mats Rydberg"
+shortTitle: "oCIG 2"
+excerpt: "The second virtual meeting for members of the openCypher Implementers Group."
+agenda: |
+    ## Agenda
+
+    * Path patterns and regular path queries (RPQs)
+        * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig2/Path+Pattern+Queries+-+oCIG+2017-07-06.pdf)**
+        * **[CIR-2017-179](https://github.com/opencypher/openCypher/issues/179)**: Add support for regular path queries (RPQs) _(Tobias Lindaaker)_
+        * **[CIP-2017-02-06](https://github.com/opencypher/openCypher/pull/187)**: Path Patterns _(Tobias Lindaaker)_
+---
+This was the second virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="{{ site.baseurl }}/cips/" target="_blank">CIPs</a>).
+
+This meeting was dedicated to the topic of extending Cypher with support for expressing Regular Path Queries (RPQs).
+
+{{ page.agenda }}
+
+## Logistics
+
+The second oCIG meeting was held at 15.00 - 16:30 UTC on Thursday, 6 July 2017.
+
+## Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HN_etVA4FMk" frameborder="0" allowfullscreen></iframe>
+
+The recording of the meeting can also be downloaded via [this link](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig2/ocig2-recording.zip).
+The first few minutes (introduction and agenda overview) were unfortunately not recorded.

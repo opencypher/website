@@ -1,0 +1,32 @@
+---
+layout: event
+categories: event
+title:  "Eighth openCypher Implementers Group Meeting (oCIG 8)"
+date:   2018-04-11
+author: "Petra Selmer"
+shortTitle: "oCIG 8"
+excerpt: "The eighth virtual meeting for members of the openCypher Implementers Group."
+agenda: |
+    ## Agenda
+
+    * Welcome and oCIG updates _(Petra Selmer, Neo4j)_
+      * [Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig8/oCIG+8+-+Welcome.pdf)
+    * **Multiple graphs and query composition**: Review of multiple graphs and query composition with work/proposals since the Third openCypher Implementers Meeting [(oCIM 3)](/event/2017/11/13/ocim3) in November 2017 at Nancy, France _(Stefan Plantikow, Neo4j)_
+      * [Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig8/Multiple+Graphs+(oCIG+8).pdf)
+    * **Progress report on supporting dates and times in Cypher 10**  _(Tobias Lindaaker, Neo4j)_
+      * [CIP](https://github.com/thobe/openCypher/blob/date-time/cip/1.accepted/CIP2015-08-06-date-time.adoc)
+      * [Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig8/oCIG+2018-04-11+-+CIP+2015-08-06+Date+and+Time.pdf)
+---
+This was the eighth virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="{{ site.baseurl }}/cips/" target="_blank">CIPs</a>).
+
+{{ page.agenda }}
+
+## Logistics
+
+The eighth oCIG meeting was held at 15.00 - 16:30 UTC on Wednesday, 11 April 2018. 
+
+## Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_U9r53oOfaQ" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+
+The recording of the meeting can be downloaded via [this link](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig8/2018-04-11-oCIG8.mp4.zip)

@@ -1,0 +1,138 @@
+---
+layout: event
+categories: event
+title:  "Third openCypher Implementers Meeting (oCIM 3)"
+date:   2017-11-13
+excerpt: "The third face-to-face meeting for people, projects and organizations interested in participating in the openCypher project, with the goal of creating a standard language based on Cypher for querying graphs."
+---
+This was the third face-to-face meeting for people, projects and organizations who are interested in
+
+* implementing part or whole of the [Cypher graph query language](https://neo4j.com/developer/cypher/), including current implementers
+* the design and development of a standard declarative query language for graph databases, and want to see how Cypher could evolve to reach that goal
+
+oCIM is a conference organised by the [openCypher project](http://www.opencypher.org).
+
+
+## Agenda
+
+The conference is dedicated to the topic of compositional queries and Multiple Graphs, which is viewed as a central theme for Cypher 10, the first openly specified, standard version of Cypher.
+This complex topic will be discussed in several sessions throughout the day (the detailed programme may be found [here](#program)), with the aim of arriving at a provisional acceptance of the concepts, semantics, and syntax of the language features.
+
+
+## Logistics
+
+The third oCIM was held in **Room A008** at **[the Inria Nancy Center](https://www.inria.fr/centre/nancy)**, 615 rue du Jardin Botanique, 54600 Villers-lès-Nancy, France, on Monday the **13th of November 2017**, and is co-located with [BDA 2017: the 33rd Conference on Data Management - Principles, Technologies and Applications](https://project.inria.fr/bda2017/ocim-iii/).
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2635.0811900252215!2d6.15455231566756!3d48.66568997926909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4794a279f38e6957%3A0xc0f057fa1a5706d7!2sINRIA+Nancy+-+Grand+Est!5e0!3m2!1sen!2suk!4v1507219487459" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+<div class="abstract-anchor" id="program"></div>
+
+### Programme
+
+<html>
+<head>
+    <style>
+        table, td, th {
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            border: 1;
+            border-collapse: collapse;
+            width: 50%;
+            min-width: 30em;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        .break {
+            background-color: #d0d0d0;
+        }
+
+        .item {
+            padding-left: 50px;
+            font-style: italic;
+        }
+
+        .main-title {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tbody>
+    <tr class="break">
+        <td colspan="1" rowspan="1"><p>09:00</p></td>
+        <td colspan="3" rowspan="1"><p>Opening and coffee</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>09.30</p></td>
+        <td colspan="3" rowspan="1" class="main-title"><p>From Cypher 9 to Cypher 10</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p><!-- TODO --></p></td>
+        <td colspan="3" rowspan="1" class="main-title"><p>Compositional queries and Multiple Graphs</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"></td>
+        <td colspan="3" rowspan="1" class="item"><p>Comparison with SQL and SPARQL</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"></td>
+        <td colspan="3" rowspan="1" class="item">
+            <p>Accessing Multiple Graphs</p>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"></td>
+        <td colspan="3" rowspan="1" class="item"><p>Query Composition</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"></td>
+        <td colspan="3" rowspan="1" class="item"><p>Graph Modification</p></td>
+    </tr>
+    <tr class="break">
+        <td colspan="1" rowspan="1"><p>13:00</td>
+        <td colspan="3" rowspan="1"><p>Lunch</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"></td>
+        <td colspan="3" rowspan="1" class="item"><p>Classes of graphs and graph sharing</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"></td>
+        <td colspan="3" rowspan="1" class="item"><p>Graph Persistence</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"></td>
+        <td colspan="3" rowspan="1" class="item"><p>Query Morphology</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"></td>
+        <td colspan="3" rowspan="1" class="item"><p>Subqueries</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"></td>
+        <td colspan="3" rowspan="1" class="item"><p>Named Queries and Views</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p><!-- TODO --></p></td>
+        <td colspan="3" rowspan="1" class="main-title"><p>Actions and future meetings</p></td>
+    </tr>
+    <tr class="break">
+        <td colspan="1" rowspan="1"><p>17.30</p></td>
+        <td colspan="3" rowspan="1"><p>End</p></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
+
+

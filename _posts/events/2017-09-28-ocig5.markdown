@@ -1,0 +1,34 @@
+---
+layout: event
+categories: event
+title:  "Fifth openCypher Implementers Group Meeting (oCIG 5)"
+date:   2017-09-28
+author: "Mats Rydberg"
+shortTitle: "oCIG 5"
+excerpt: "The fifth virtual meeting for members of the openCypher Implementers Group."
+agenda: |
+    ## Agenda
+
+    * Welcome and oCIG updates _(Petra Selmer, Neo4j)_
+       * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig5/oCIG+5+-+Welcome.pdf)**
+    * **Cypher.PL**: an executable specification of Cypher written in Prolog _(Jan Posiadała and Paweł Susicki, Cypher.PL)_
+       * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig5/Cypher.PL_20Sept2017.pdf)**
+    * Cypher versioning _(Mats Rydberg, Neo4j)_
+       * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig5/openCypher+Versioning.pdf)**
+---
+This was the fifth virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="{{ site.baseurl }}/cips/" target="_blank">CIPs</a>).
+
+The agenda focused on Cypher.PL, an executable specification of Cypher, along with a proposal of how to define and manage versioning in Cypher.
+In addition, a way forward was discussed regarding the establishment of common conventions for the structure of the namespace of a (vendor-specific) function or procedure.
+
+{{ page.agenda }}
+
+## Logistics
+
+The fifth oCIG meeting was held at 15.00 - 16:30 UTC on Thursday, 28 September 2017.
+
+## Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kRPLkvb_gYk" frameborder="0" allowfullscreen></iframe>
+
+The recording of the meeting can be downloaded via [this link](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig5/2017-09-28-oCIG5.mp4.zip)

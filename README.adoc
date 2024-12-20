@@ -1,0 +1,19 @@
+= openCypher website
+
+This repository hosts the content of the website link:http://www.opencypher.org[http://www.opencypher.org].
+
+== Local
+
+To build and deploy locally, simply run:
+
+----
+bundle exec jekyll serve --watch --baseurl=""
+----
+
+This will deploy the webserver and serve the website at `localhost:4000` (by default).
+
+For live updates to the local browser, simply run:
+
+----
+bundle exec jekyll serve --livereload --baseurl=""
+----

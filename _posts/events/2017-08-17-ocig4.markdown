@@ -1,0 +1,38 @@
+---
+layout: event
+categories: event
+title:  "Fourth openCypher Implementers Group Meeting (oCIG 4)"
+date:   2017-08-17
+author: "Mats Rydberg"
+shortTitle: "oCIG 4"
+excerpt: "The fourth virtual meeting for members of the openCypher Implementers Group."
+agenda: |
+    ## Agenda
+
+    * Welcome and oCIG updates _(Petra Selmer, Neo4j)_
+        * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig4/oCIG+4+-+Introduction.pdf)**
+    * Multiple graphs, syntax and semantics _(Stefan Plantikow, Neo4j)_
+        * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig4/CIP2017-06-18+Multiple+Graphs+(oCIG+4+Presentation%2C+2017-08-17).pdf)**
+        * **[CIR-2017-182](https://github.com/opencypher/openCypher/issues/182)**: Adding support for multiple graphs
+        * **[CIP2017-06-18](https://github.com/opencypher/openCypher/pull/241)**: Extending Cypher to support the construction, transformation and querying of multiple graphs.
+        The document can be accessed [here](https://github.com/boggle/openCypher/blob/CIP2017-06-18-multiple-graphs/cip/1.accepted/CIP2017-06-18-multiple-graphs.adoc).
+    * An overview of a proposal for SQL/Graph Query Procedures _(Peter Furniss, Neo4j)_
+        * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig4/SQL%252FGraph+Query+Procedures.pdf)**
+---
+This was the fourth virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="{{ site.baseurl }}/cips/" target="_blank">CIPs</a>).
+
+The main focus of this meeting was dedicated to the topic of multiple graphs, with an emphasis on syntax and semantics.
+Additionally, a proposal was presented for the integration of graph query procedures (written in a graph query language) into SQL.
+
+{{ page.agenda }}
+
+## Logistics
+
+The fourth oCIG meeting was held at 15.00 - 16:30 UTC on Thursday, 17 August 2017.
+
+## Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IC-xglbMJAw" frameborder="0" allowfullscreen></iframe>
+
+The recording of the meeting can also be downloaded via [this link](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig4/2017-08-17-oCIG4.mp4.zip)
+

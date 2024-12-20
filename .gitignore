@@ -1,0 +1,9 @@
+# IntelliJ project files
+.idea
+*.iml
+*~
+# Generated files
+_site/*
+.DS_Store
+_site/
+Gemfile.lock

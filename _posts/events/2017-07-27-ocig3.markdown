@@ -1,0 +1,47 @@
+---
+layout: event
+categories: event
+title:  "Third openCypher Implementers Group Meeting (oCIG 3)"
+date:   2017-07-27
+author: "Mats Rydberg"
+shortTitle: "oCIG 3"
+excerpt: "The third virtual meeting for members of the openCypher Implementers Group."
+agenda: |
+    ## Agenda
+
+    * Welcome and oCIG updates _(Petra Selmer, Neo4j)_
+        * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig3/oCIG+3+-+Introduction.pdf)**
+    * How openCypher relates to graph query language discussions in ISO and LDBC _(Alastair Green, Neo4j)_
+        * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig3/oCIG3+--+Language+Landscape+and+SQL%252FCypher%252FPGQL.pdf)**
+    * ISO/INCITS initiatives on property graph querying in SQL _(Jan Michels (Oracle), Group Chair: Ad Hoc on SQL Extensions Property Graphs)_
+        * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig3/oCIG3+-+DM32.2+ad+hoc+on+SQL+extensions+for+property+graphs+July+update+20170727.pdf)**
+    * Controllable morphism: walks, trails, and paths _(Stefan Plantikow, Neo4j)_
+        * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig3/CIP2017-01-18+-+Configurable+Pattern+Matching+Semantics+%5BoCIG+3+Edition%5D.pdf)**
+        * **[CIR-2017-174](https://github.com/opencypher/openCypher/issues/174)**: Isomorphic pattern matching and configurable uniqueness
+        * **[CIP-2017-01-18](https://github.com/opencypher/openCypher/pull/175)**: Configurable Pattern Matching Semantics
+    * SQL and Cypher (and PGQL) _(Alastair Green, Neo4j)_
+        * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig3/oCIG3+--+Language+Landscape+and+SQL%252FCypher%252FPGQL.pdf)**
+    * Graph addressing in support of multiple graphs _(Peter Furniss, Neo4j)_
+        * **[Graph URI Scheme (draft)](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig3/oCIG3+-+Draft+graph+URI+Scheme+Specification+0.3.pdf)**
+        * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig3/oCIG3+-+Graph+addressing.pdf)**
+
+---
+This was the third virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="{{ site.baseurl }}/cips/" target="_blank">CIPs</a>).
+
+The agenda focused on adding support for control over pattern matching 'morphism', and graph addressing.
+
+Additionally, there are interesting discussions in ISO and the LDBC Query Language Task Force around graph querying, which are relevant for the openCypher community.
+An important aspect of these discussions is the relationship between SQL and a native property graph query language like Cypher.
+These topics were also discussed at the meeting.
+
+{{ page.agenda }}
+
+## Logistics
+
+The third oCIG meeting was held at 15.00 - 16:30 UTC on Thursday, 27 July 2017.
+
+## Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7a2Oi3I0ZlU" frameborder="0" allowfullscreen></iframe>
+
+The recording of the meeting can also be downloaded via [this link](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig3/oCIG3-recording.mp4.zip).

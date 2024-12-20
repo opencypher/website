@@ -1,0 +1,32 @@
+---
+layout: event
+categories: event
+title:  "Sixth openCypher Implementers Group Meeting (oCIG 6)"
+date:   2017-10-19
+author: "Mats Rydberg"
+shortTitle: "oCIG 6"
+excerpt: "The sixth virtual meeting for members of the openCypher Implementers Group."
+agenda: |
+    ## Agenda
+
+    * Welcome and oCIG updates _(Petra Selmer, Neo4j)_
+      * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig6/oCIG+6+-+Welcome.pdf)**
+    * Subqueries
+      * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig6/Nested%2C+updating%2C+and+chained+subqueries.pdf)**, **[Pull Request](https://github.com/opencypher/openCypher/pull/100)**: Nested, updating, and chained subqueries _(Petra Selmer & Stefan Plantikow, Neo4j)_
+      * **[Slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig6/Scalar+and+List+Subqueries+%5BoCIM+2017-10-19%5D.pdf)**, **[Pull Request](https://github.com/opencypher/openCypher/pull/217)**: Scalar subqueries and list subqueries _(Tobias Lindaaker, Neo4j)_
+---
+This was the sixth virtual meeting for members of the openCypher Implementers Group, with the aim of discussing, agreeing upon or rejecting Cypher language changes proposed via Cypher Improvement Requests (<a href="https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR" target="_blank">CIRs</a>) and Improvement Proposals (<a href="{{ site.baseurl }}/cips/" target="_blank">CIPs</a>).
+
+This meeting was dedicated the topic of subqueries.
+
+{{ page.agenda }}
+
+## Logistics
+
+The sixth oCIG meeting was held at 15.00 - 16:30 UTC on Thursday, 19 October 2017.
+
+## Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TtCMnP7DglU" frameborder="0" allowfullscreen></iframe>
+
+The recording of the meeting can be downloaded via [this link](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocig6/oCIG6.mp4.zip)

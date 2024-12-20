@@ -1,0 +1,110 @@
+---
+layout: event
+categories: event
+title:  "Fourth openCypher Implementers Meeting (oCIM 4)"
+date:   2018-05-22
+excerpt: "This was the fourth face-to-face meeting for people, projects and organizations interested in participating in the openCypher project, with the goal of creating a standard language based on Cypher for querying graphs."
+---
+This was the fourth face-to-face meeting for people, projects and organizations who are interested in
+
+* implementing part or whole of the [Cypher graph query language](https://neo4j.com/developer/cypher/), including current implementers
+* the design and development of a standard declarative query language for graph databases, and want to see how Cypher could evolve to reach that goal
+
+oCIM is a conference organised by the [openCypher project](http://www.opencypher.org).
+
+**One property graph query language: [The GQL Manifesto](https://gql.today/)**
+
+## Logistics
+
+The fourth oCIM was held at **[Republikken](https://republikken.net/)** at Vesterbrogade 26, 1620 Copenhagen in **Copenhagen, Denmark** from **22 - 24 May 2018**.
+
+
+## Agenda and slides (where available)
+
+### Tuesday PM
+
+*Begin: 13:00*
+
+#### GQL Manifesto
+
+* openCypher and The GQL Manifesto
+  * Alastair Green, Stefan Plantikow _([Neo4j](https://www.neo4j.com))_
+* SQL and Property Graphs 
+  * Peter Furniss, Tobias Lindaaker _([Neo4j](https://www.neo4j.com))_
+* Graph Schema 
+  * Alastair Green _([Neo4j](https://www.neo4j.com))_
+* HyperGraphQL [[slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim4/Micro-ServicingLinkedData.pptx.pdf)]
+  * Charles Ivie _([Semantic Integration](https://www.semanticintegration.co.uk/))_
+  * _HyperGraphQL is a [GraphQL](http://graphql.org/) interface for querying and serving [linked data](https://www.w3.org/standards/semanticweb/data) [RDF/SPARQL] on the Web. 
+  It is designed to support federated querying and exposing data from multiple linked data services using GraphQL query language and schemas.
+  The basic response format is [JSON-LD](https://github.com/semantic-integration/hypergraphql/blob/master/json-ld.org), which extends the standard JSON with the [JSON-LD context](https://json-ld.org/spec/latest/json-ld-api-best-practices/#dfn-json-ld-context) enabling semantic disambiguation of the contained data._ 
+* Demo of Cypher for Gremlin (CfoG) and Gremlin Cypher Differences [[slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim4/Cypher+for+Gremlin+-+oCIM+4.pdf)]
+  * Dimitry Solovyov, Dmitry Novikov _([Neueda](https://www.neueda.com))_
+* Comparing Cypher, PGQL, and G-CORE [[slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim4/Comparing+PGQL%2C+G-Core%2C+Cypher.pdf)]
+  * Stefan Plantikow _([Neo4j](https://www.neo4j.com))_
+
+
+*End: 17:30*
+
+**Social dinner on Tuesday evening**
+
+### Wednesday AM
+
+*Begin 09:00*
+
+#### Multiple Graphs and Composable Queries
+
+* Multiple graphs and graph projection [[slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim4/From+Cypher+9+to+GQL_+Concepts+of+MNG+and+CQ.pdf)]
+  * Alastair Green, Petra Selmer _([Neo4j](https://www.neo4j.com))_
+* Updatable views and syntax options [[slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim4/Multiple+Graphs_+Updatable+views+%26+Choices.pdf)]
+  * Stefan Plantikow ([Neo4j](https://www.neo4j.com))
+* Incremental View Maintenance for openCypher Queries [[slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim4/ocim4-ivm.pdf)]
+  * Gábor Szárnyas, József Marton _([Budapest University of Technology and Economics](https://inf.mit.bme.hu/))_
+  * _Numerous graph use cases require continuous evaluation of queries over a constantly changing data set, e.g. fraud detection in financial systems, recommendations, and checking integrity constraints. 
+  For relational systems, incremental view maintenance has been researched for three decades, resulting in a wide body of literature. 
+  The property graph data model and the openCypher language, however, are recent developments, and therefore lack established techniques to perform efficient view maintenance. In this talk, we give an overview of the view maintenance problem for property graphs, discuss why it is particularly difficult and present an approach that tackles a meaningful subset of the language._
+  
+#### GQL Manifesto
+
+* An overview of the recent history of Property Graph Query Languages [[slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim4/History+of+Current+Graph+Query+Languages.pdf)]
+  * Tobias Lindaaker ([Neo4j](https://www.neo4j.com))
+* Support for the GQL Manifesto from Cypher Implementers
+  * Alastair Green ([Neo4j](https://www.neo4j.com))
+
+### Wednesday PM
+
+* Learning Timed Automata with Cypher [[slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim4/ocim4-learning-timed-automata-with-cypher.pdf)]
+  * Márton Elekes, Anna Gujgiczer, Gábor Szárnyas _([Budapest University of Technology and Economics](https://inf.mit.bme.hu/))_
+  * _In this talk, we present a peculiar use case for Cypher queries: comprehending and prototyping a learning algorithm for timed automata. 
+  Originally, we tried to implement the learning algorithm in Java, but soon got stuck: the code was difficult to maintain and we had to develop custom tools to visualise learning process. 
+  Out of curiosity, we tried to use a graph database to solve the problem. 
+  We stored the automata as a property graph in Neo4j and used Cypher queries to specify the learning algorithm. 
+  This choice of tools turned out to be a very good fit for the problem and visualising the automaton graph greatly helped us understanding the algorithm. 
+  In this talk, we present the problem and demonstrate how we implemented the learning process in Cypher, including some lessons learnt on the strengths and limitations of this approach._
+* Formal Semantics for Cypher Queries and Updates [[slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim4/ocim4_slides_formal_semantics_static.pdf)]
+  * Martin Schuster _([University of Edinburgh](https://www.ed.ac.uk/))_
+  * _To create a precise standard specification for OpenCypher, Neo4j and the University of Edinburgh are working on a formal denotational semantics for the Cypher language. 
+  This work has already been completed for the core of Cypher queries and is still ongoing for aggregation, ordering and update statements. 
+  In this talk, we give an overview of our work so far and present the main open questions and challenges._
+* Graph Algebra - Graph operations in the language of linear algebra 
+  * Roi Lipman _([Redis Labs](https://redislabs.com/))_
+
+*End: 17:00*
+
+### Thursday AM
+
+*Begin: 09:00*
+
+* Cypher.PL: Specifying Cypher in Prolog [[slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim4/oCIM4_Insights+into+Cypher.PL.pdf)]
+  * Jan Posiadała, Paweł Susicki _(Cypher.PL)_
+* Temporal support in Cypher
+  * Tobias Lindaaker _([Neo4j](https://www.neo4j.com))_
+* Graph abstraction [[slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim4/graph+abstraction.pdf)]
+  * Hannes Voigt _(formerly at TU Dresden)_
+
+*End: 12:30*
+
+
+## Registration
+
+Please email us at [info@opencypher.org](mailto:<info@opencypher.org>) if you have any questions about the event. 

@@ -1,0 +1,21 @@
+plugins: ['kramdown']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
+# Site settings
+title: openCypher
+email: info@opencypher.org
+description: > # this means to ignore newlines until "baseurl:"
+  The openCypher project is a collaboration between researchers, database vendors,
+  and a growing open community, with the goal to design and specify a standardised
+  property graph query language, called Cypher.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://opencypher.org/" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# File organisation
+include: ["_pages"]
+
+# Allow posts with a date in the future to be rendered
+future: TRUE

@@ -1,0 +1,436 @@
+---
+layout: event
+categories: event
+title:  "Second openCypher Implementers Meeting (oCIM 2)"
+date:   2017-05-10
+excerpt: "The second face-to-face meeting for people, projects and organizations interested in participating in the openCypher project, with the goal of creating a standard language based on Cypher for querying graphs."
+---
+This was the second face-to-face meeting for people, projects and organizations who are interested in
+
+* implementing part or whole of the [Cypher graph query language](https://neo4j.com/developer/cypher/), including current implementers
+* the design and development of a standard declarative query language for graph databases, and want to see how Cypher could evolve to reach that goal
+
+Links
+* [Summary of the day (including links)](#summary)
+* [Program with links to materials](#program)
+
+<div class="abstract-anchor" id="summary"></div>
+
+# Summary
+
+We were very pleased to welcome an interested and diverse set of attendees to the [Second openCypher Implementers Meeting](/event/2017/05/10/event-ocim2), which was held in central London, UK, on the 10th of May 2017.
+
+<img src="{{ site.baseurl }}/public/images/ocim2-group-photo.jpg" width="840" height="630" />
+
+*Group photo of the participants at the 2nd oCIM conference.*
+
+---
+
+Testament to the increasing impact and adoption of Cypher, and following in the footsteps of the [1st oCIM conference](/event/2017/02/08/event-ocim1/#program), we had once more a schedule jam-packed with a wide variety of presentations.
+The day was divided into a number of sessions, each of which centred around a particular topic or theme.
+
+_Stefan Plantikow_, the team lead of Neo4j's Cypher Language Group (the team at Neo4j responsible for the language development of Cypher and fostering the growth of the openCyper project) welcomed everyone to the meeting with a [summarization](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/09-15+State+of+the+Cypher+%5BDONE%5D.pdf) of the current state of Cypher, touching upon the vast quantity of new features under consideration, and giving a quick update on both the ongoing specification process, as well as the progress of new implementations using Cypher, such as Scott Tiger and the _Cypher for Apache Spark_ project.
+
+_Alastair Green_, the Product Manager at Neo4j, followed on from Stefan’s talk with a [presentation](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM+2+09.45+openCypher+Implementers+Group.pdf) on the openCypher Implementers Group, building on from the announcement made at the 1st oCIM conference.
+As a public body, the oCIG is open to any interested parties -- vendors, researchers, implementers, users -- wishing to be involved in improving the feature set, expressiveness, aesthetics and usability of Cypher.
+Alastair introduced the process underpinning this initiative, which is broadly as follows:
+
+* [Cypher Improvement Requests](https://github.com/opencypher/openCypher/issues?q=is%3Aopen+is%3Aissue+label%3ACIR) (CIRs) outline at a high level ideas, feature suggestions, or topics for discussion.
+* [Cypher Improvement Proposals](https://github.com/opencypher/openCypher/pulls?q=is%3Aopen+is%3Apr+label%3ACIP) (CIPs) act as the formal Cypher specification vehicle in that they address ideas suggested in CIRs, detailing the syntax and semantics of proposed new features.
+
+Every three weeks, the oCIG will meet virtually to discuss CIPs and CIRs -- expanding and enriching as needed -- and to arrive at a consensus as to whether to accept or reject a CIP, and to assign working groups to produce CIPs in response to high-priority CIRs.
+
+---
+
+The next session shone a spotlight on four CIPs, with the aim of kicking off a discussion around these.
+
+_Petra Selmer_, an engineer at Neo4j and a member of the Cypher Language Group, started off by [presenting](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10-00+Nested+Subqueries+%5BDONE%5D.pdf) a talk on [nested subqueries](https://github.com/opencypher/openCypher/pull/100); i.e. self-contained queries running within the scope of an outer query.
+This feature would greatly increase the expressivity of complex read, write and read-write queries, as well as provide a useful abstraction mechanism.
+In addition to following in the footsteps of SQL, this CIP motivates, for the first time, the usage of a query combinator to allow for chained nested subqueries.
+
+In the discussion that followed, [_Hannes Voigt_](https://wwwdb.inf.tu-dresden.de/our-group/team/hannes-voigt/), a researcher at the Technical University of Dresden, made the comment that it would be very useful to delineate clearly the subsumption and orthogonality of nested subqueries when contrasted with multiple `MATCH` statements, which currently exist in Cypher.
+Another suggestion made was to consider named subqueries -- i.e. along the lines of Oracle’s temporary tables -- within the CIP, motivated by the benefit conferred by being able to refer to these subqueries by name in any subsequent queries.
+
+Stefan followed this with a [presentation](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10-00+Query+Combinators+%5BDONE%5D.pdf) on [query combinators](https://github.com/opencypher/openCypher/pull/227), a foundational construct allowing for a very powerful query composition paradigm.
+Query combinators come in several different ‘flavours’: _set_ operations (such an `UNION`, `INTERSECT`, and so on); _multiset_ operators (such as `UNION ALL`, `INTERSECT ALL`, and so on); and _general_ operators such as `THEN` and `OTHERWISE`, which are used for pipelining queries (as well as nested queries) and to impose an order of execution on queries.
+
+[Professor _Leonid Libkin_](http://homepages.inf.ed.ac.uk/libkin/), a researcher at the University of Edinburgh, raised the question regarding whether, in the event of the query preceding `OTHERWISE` failing to execute, any indication of this was propagated back to the user.
+Indeed, a user can mimic this behaviour manually by returning a flag, but it may be worth considering how to do it automatically.
+
+Stefan then changed track with a [discussion](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10-00+MANDATORY+MATCH+%5BDONE%5D.pdf) on `MANDATORY MATCH` ([CIP](https://github.com/opencypher/openCypher/pull/212)), which can be considered as the inverse to `OPTIONAL MATCH`, whereby an error is raised if the pattern does not find at least one match.
+The idea broadly is to improve error reporting, and make querying more expressive and efficient by negating the need to have validation code in the application.
+
+_Mats Rydberg_, an engineer at Neo4j and a member of the Cypher Language Group, ended the session with a [talk](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10.00+Constraints+syntax.pdf) on the proposed generic syntax for [constraints](https://github.com/opencypher/openCypher/pull/166).
+In addition to the familiar uniqueness constraint, Mats also discussed the generality of the syntax when applied to more sophisticated constraints underpinning label co-existence, cardinality conditions and property value conditions.
+The wording of `NODE KEY` was questioned by Leonid and Hannes, among others.
+Moreover, concerns were raised around the idea of standardizing a loose framework around constraints in general (instead of specific, feasible constraints) as it was deemed that using a generic syntax to express most constraints would never be implementable.
+
+A general recommendation raised by the group was to design a canonical dataset, which could henceforth be incorporated into CIPs and CIRs.
+This would have the benefit of not needing to invent contrived examples in each and every CIP/CIR going forward (thus easing the writing thereof for the authors) and, moreover, would lessen the cognitive load required by readers of the CIP/CIR.
+
+---
+
+The next session gave a lot of food for thought, exploring in detail Conjunctive Regular Path Queries (CRPQs), and work done to date on the formal specification on Cypher, both topics pushing the boundaries on querying in general.
+
+_Tobias Lindaaker_, an engineer at Neo4j and a member of the Cypher Language Group, began the session with a [deep dive](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/11-15+Path+Queries.pdf) into the thinking around CRPQs  -- or, to use a more Cypher-oriented nomenclature  -- Path Query Patterns (PQPs) in Cypher ([CIP](https://github.com/opencypher/openCypher/pull/187)).
+These allow for paths to be defined by regular expressions (including grouping or nesting) over the relationship types, thus allowing for very complex connections to be expressed.
+CRPQs have been studied extensively in academia over the past few decades.
+Bringing the notion of CRPQs into the world of property graphs, PQPs additionally allow for property predicates on intermediate nodes and relationships (i.e. data tests).
+
+Leading on from Tobias’ talk, [_Nadime Francis_](https://www.inf.ed.ac.uk/people/staff/Nadime_Francis.html), a researcher at the University of Edinburgh, [presented](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/Slides.pdf) the work and thinking to date around the formal specification of Cypher.
+This work returns to basics, defining all the constructs within Cypher and the property graph formally from the ground up, with the idea of building a solid foundation upon which all future work on Cypher semantics will be based.
+Nadime started off by detailing the formalization of operations, expressions and pattern matching.
+He then proceeded to discuss the various corner cases, ambiguities and inconsistencies, and incomplete and ill-defined cases, discovered in the course of this work so far, making for a very illuminating presentation!
+
+For example, it may not be clear what the semantics are for the following query: `MATCH (n:Person {name: null}) RETURN n`.
+Does this i) return every node `n` labelled with `:Person` having a `name` property, or ii) return every node `n` labelled with `:Person` such that `n.name IS NULL = true`, or iii) return nothing?
+It turns out that the third case is the correct one, as the query is equivalent to `MATCH (n:Person) WHERE n.name = null RETURN n`, thus returning no results as nothing is ever equal to null.
+As Nadime reflected, this provides a good example as to why formal semantics are not only interesting, but necessary.
+
+---
+
+After lunch, it was time for matters to take a more practical turn, with the next session being comprised of presentations of various implementations using Cypher.
+
+_Jan Posiadała_, from [Scott Tiger](http://tiger.com.pl/), a software company using advanced data techniques, kicked off the session by [presenting](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/Cypher.PL_PS_1300_JP_MR.pdf) a novel implementation of Cypher in Prolog, showing how this was realized from the grammar, through the intermediate representation -- represented as a Prolog term -- to the end point, resulting in a tool which could be used for verifying and validating Cypher; in effect, an _executable specification_.
+Jan concluded with a number of ‘exercises’ exemplifying its use.
+
+Mats then took the floor by [showing](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/13-15+Cypher+for+Apache+Spark.pdf) how graph processing over a combined OLAP and OLTP workload could be achieved by using Cypher as a bridging construct on Apache Spark (OLAP) and Neo4j (OLTP) and seamlessly integrating between the two.
+Among many novel developments, one idea that resonated particularly was the extension of Cypher to be able to return graphs, yielding a truly compositional language.
+Mats ended this talk with a comprehensive demonstration of the implementation.
+
+[_Gábor Szárnyas_](https://inf.mit.bme.hu/en/members/szarnyasg/), a researcher at the Budapest University of Technology and Economics, closed the session with a [discussion](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/ocim2-ingraph.pdf) on the inGraph project, which allows for the incremental evaluation of Cypher queries.
+Following on from Gábor’s [presentation at the 1st oCIM conference](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/ocim2017-incremental-opencypher.pdf), he motivated this with a use case involving proximity detection in a live railway network model.
+Queries are continuously evaluated over the graph, taking changes into account.
+He showed how Cypher is transformed into relational graph algebra, which is composed of basic relational algebra with extra graph-oriented extensions, such as expanding from vertices.
+Gábor continued with a discussion on their Incremental Relational Engine -- transforming nested relational algebra to flat algebra expressions -- showing how this was used to optimize incremental graph querying.
+The talk ended with a roadmap of future challenges in this area.
+
+Owing to the volume and breadth of content in the talks, we unfortunately ran out of time at this juncture, which meant that Mats was not able to present his talk on recent implementation changes made to Neo4j.
+
+---
+
+After a break, the next session focused on openCypher artifacts.
+Alastair opened the series of talks by quickly drawing attention to the [legal side of collaboration](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM+2+14.15+Collaboration.pdf) -- more information on this is forthcoming in summer -- and it was ascertained that no one was against a retroactive agreement of collaboration.
+
+This was followed by [_Dmitry Vrublevsky_](https://neo4j.com/blog/contributor/dmitry-vrublevsky/), a software engineer at [Neueda](https://www.neueda.com/) who, following on from his [presentation at the 1st oCIM conference](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/Jetbrains_Plugin_-_Graph_Database_support.pdf), covered [work](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/Cypher_Editor.pdf) on the Cypher editor they have been building which is included in the Neo4j Browser.
+Dmitry showed us the syntax highlighting features, context-sensitive error reporting (for example, when a query does not comply with the expected syntax) and auto completion.
+He concluded with a quick tour of small improvements made to the grammar, and challenges they encountered, comprising vendor extensions and intricacies surrounding the applications of the [Cypher style guide](https://github.com/opencypher/openCypher/blob/master/docs/style-guide.adoc).
+
+Gábor then rounded off the presentation section of the session with a [discussion](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/ocim2-tck.pdf) on his and his colleagues' take on the [TCK](http://www.opencypher.org/resources) (Technology Compliance Kit), thus exemplifying how an implementation incorporated an openCypher artifact from scratch.
+Gábor began by covering the TCK as it stands, and then delved into more details about their experiences in implementing the TCK, focusing on issues and inconsistencies they encountered; in particular, in the area of side effects and how the underlying behaviour of these was not clearly specified.
+Since the meeting, a [PR](https://github.com/opencypher/openCypher/pull/236) (Pull Request) has been raised which explicitly defines side effects.
+
+Mats then took the floor with an open discussion on how best to align the growing number of artifacts.
+Hannes stated that it is an unsolved problem, mentioning that a university in Germany is undertaking a research project on this very topic.
+The general consensus was that we as a group ought to try and think about how to align the artifacts.
+To illustrate how artifacts may be integrated effectively, Mats stated that the Antlr parser is run on all TCK queries.
+
+---
+
+A pronounced change of topic was brought about in the penultimate session through the focus on a very pertinent and exciting area: multiple graphs.
+This area was [introduced](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/14-00+-+The+Case+for+Multiple+Graph+Querying.pdf) at the 1st oCIM conference: hitherto, Cypher has operated on a single implicit graph, producing a stream of records (in effect, forming a table) as output.
+The idea going forwards is to allow Cypher to be closed over graphs; i.e. augmenting Cypher such that multiple graphs could be provided as input, one or more graphs could be produced as output, and defining a pipeline over these.
+
+To motivate this topic, two real-world use cases were presented: social media monitoring and analytics, and financial regulatory compliance.
+
+_Frank Smit_, the CIO of [OBI4WAN](https://www.obi4wan.com/en/), began the session by [presenting](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/Presentation+OBI4wan+graphs.pdf) their tool which is used for social media monitoring, publishing and social analytics, which references multiple graphs from different sources, from which it is possible to derive interesting results and actionable information.
+They further have the need to segment the graph according to privacy requirements.
+Frank ended with an overview of their system architecture, which uses Spark, and next steps, in which Cypher will be used as the query language.
+
+_Patrick Watts_ and _Matthew Toy_, from [BNP Paribas](http://www.bnpparibas.co.uk/en/), discussed the [second use case](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM+2+BNP+Paribas+Data+Lineage+--+Generic+Overview.pdf) for multiple graphs.
+Briefly, they are required by law to show that they are compliant with a number of regulations.
+In order to do this, they need to show, and subsequently query, a list of files pertaining to a set of risk portfolios.
+The resulting data is in essence a graph.
+They showed that using a graph database for these tasks was easy, extensible, and performed well.
+
+After the talks on the two very interesting use cases motivating the need for multiple graphs, Alastair [discussed](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM+2+15.15+Multiple+Graph+Naming+and+Addressing.pdf) the naming and addressing aspects of multiple graph processing.
+A number of overarching problems were covered.
+The first of these concerned loading and saving the graph, in which potential URI schemes and their requirements were discussed, and putative Cypher syntax was proposed.
+Next to be covered was the notion of how queries and subqueries need to be able to return and possibly persist results as graphs, both in the context of final, as well as intermediate, results.
+This led naturally into the notion of views in graphs.
+
+Stefan ended the multiple graph session with a [talk](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/15-15+Duality+through+Inversion-+Syntax+and+Semantics+of+Cypher+for+multiple+Graphs+%5BDONE%5D.pdf) featuring various ideas and proposals for adding multiple graph support to Cypher, considering the physical and logical aspects alongside the language syntax and semantics.
+Ensuring that Cypher is extended in a systematic manner such that it changes seamlessly from a table transformation language into a graph transformation language, the main strand here was that of inverting existing operations in Cypher in order to define the corresponding ‘dual’ operation.
+For instance, the inverse of `RETURN` -- which in effect discards the graph and returns a table (and in the future, graphs) -- is the notion of loading a graph using `LOAD GRAPH AT <some url>`.
+Analogously, the inverse of `MATCH` -- which reads a graph -- can be thought of as returning a graph using `RETURN GRAPH FROM <pattern matches>`.
+Stefan then proceeded to propose syntax regarding the management of persistent named graphs, and ended with a call to arms regarding further discussions, as well as the production of CIRs and CIPs needed to bring to fruition this far-reaching, fundamental change to Cypher.
+
+Leonid raised the point that both SQL and XQuery ought to be compared and contrasted with the proposed multiple graph functionality in Cypher, owing to the latter’s far closer alignment with the graph data model than the former (XQuery is a query language operating on semi-structured data).
+
+---
+
+The last session of the day centred firmly on emerging topics, both in the form of CIRs and ideas under development.
+
+Recently, there has been a lot of activity in providing solutions to address the shortcomings of Cypher’s current aggregation semantics, whereby the lack of differentiation between aggregating and non-aggregating expressions can lead to confusion.
+
+Jan and his colleague from Scott Tiger, _Paweł Susicki_, began by [presenting](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/GrupingSemantics_SP_1645_SoCIM_JP_MR.pdf) their proposal on grouping semantics, followed by [_József Marton_](https://www.tmit.bme.hu/marton.jozsef?language=en), a researcher at the Budapest University of Technology and Economics, [discussing](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM2_aggregation_JozsefMarton.pdf) his take on a potential [solution](https://github.com/opencypher/openCypher/issues/219) to this.
+József then followed with a [presentation](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM2_lists_JozsefMarton.pdf) on his [proposal](https://github.com/opencypher/openCypher/issues/220) on how to explicitly order elements in functions that construct lists (such as `collect()`).
+He also posed the question of whether ordering results matters between query parts in a pipeline.
+József ended with a proposal for the inception of `OPTIONAL UNWIND`, partnered with a motivating example.
+
+Time was drawing to a close at this juncture, and Stefan took the floor for the final time, detailing [topics](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/17-20+Future+oCIM+Topics+%5BDONE%5D.pdf) that are appearing on the Cypher horizon, such as CRPQs, multiple graphs, subqueries (nested, scalar and list).
+He proceeded to describe how to compose SQL with Cypher in a bidirectional fashion, showing how this keeps intact the purity of each language, as opposed to, say, extending SQL with graph-processing capabilities.
+The penultimate topic was a quick run-through of ideas around uniqueness in Cypher, and how this may be extended to allow for multiple notions of uniqueness to be supported.
+
+---
+
+We should like to thank all our speakers and attendees for making it such an interesting and absorbing day.
+It was very gratifying to see how many different strands -- introduced at the first meeting a mere three months ago -- have developed and gained momentum since the last meeting.
+
+<div class="abstract-anchor" id="program"></div>
+
+# Program
+
+All slide presentations from the conference are now publicly available to download, see the below links.
+A zipped archive of all presentations may be downloaded [here](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/ocim2-slides.zip).
+
+<html>
+<head>
+    <style>
+        table, td, th {
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        table {
+            border: 1;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        .break {
+            background-color: #d0d0d0;
+        }
+
+        .item {
+            padding-left: 50px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tbody>
+    <tr class="break">
+        <td colspan="1" rowspan="1"><p>09:00</p></td>
+        <td colspan="2" rowspan="1"><p>Coffee</p></td>
+        <td colspan="1" rowspan="1"><p>30 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="4" rowspan="1"><p><b>Session:</b> Formalizing the openCypher Implementers Group (oCIG) (Chair: Mats Rydberg)</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>09:30</p></td>
+        <td colspan="1" rowspan="1"><p>Introduction & Status Report (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/09-15+State+of+the+Cypher+%5BDONE%5D.pdf" target="_blank">slides</a>)</p></td>
+        <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo4j)</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>09:45</p></td>
+        <td colspan="1" rowspan="1"><p>Updated CIP/oCIG Process (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM+2+09.45+openCypher+Implementers+Group.pdf" target="_blank">slides</a>)</p></td>
+        <td colspan="1" rowspan="1"><p>Alastair Green (Neo4j)</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
+
+    <tr>
+        <td colspan="1" rowspan="2"><p>10.00</p></td>
+        <td colspan="2" rowspan="1"><p><b>Session:</b> CIPs (Chair: Alastair Green)</p></td>
+        <td colspan="1" rowspan="2"><p>60 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="1" class="item">
+            CIPs proposed for approval by oCIG:
+            <ul>
+                <li><a href="https://github.com/opencypher/openCypher/pull/100" target="_blank">Nested Subqueries</a> (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10-00+Nested+Subqueries+%5BDONE%5D.pdf" target="_blank">slides</a>)</li>
+                <li><a href="https://github.com/opencypher/openCypher/pull/227" target="_blank">Query Combinators</a> (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10-00+Query+Combinators+%5BDONE%5D.pdf" target="_blank">slides</a>)</li>
+                <li><a href="https://github.com/opencypher/openCypher/pull/212" target="_blank">MANDATORY MATCH</a> (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10-00+MANDATORY+MATCH+%5BDONE%5D.pdf" target="_blank">slides</a>)</li>
+                <li><a href="https://github.com/opencypher/openCypher/pull/166" target="_blank">Constraints</a> (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/10.00+Constraints+syntax.pdf" target="_blank">slides</a>)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr class="break">
+        <td colspan="1" rowspan="1"><p>11:00</p></td>
+        <td colspan="2" rowspan="1"><p>Break</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="4" rowspan="1"><p><b>Session:</b> CIPs & Specification (Chair: Stefan Plantikow)</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>11:15</p></td>
+        <td colspan="1" rowspan="1"><p><a href="https://github.com/opencypher/openCypher/pull/187" target="_blank">Regular Path Queries (RPQs)</a> (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/11-15+Path+Queries.pdf" target="_blank">slides</a>)</p></td>
+        <td colspan="1" rowspan="1"><p>Tobias Lindaaker (Neo4j)</p></td>
+        <td colspan="1" rowspan="1"><p>30 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>11:45</p></td>
+        <td colspan="1" rowspan="1"><p>Formal specification of Cypher (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/Slides.pdf" target="_blank">slides</a>)</p></td>
+        <td colspan="1" rowspan="1"><p>Nadime Francis (University of Edinburgh)</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
+    <tr class="break">
+        <td colspan="1" rowspan="1"><p>12:00</p></td>
+        <td colspan="2" rowspan="1"><p>Lunch</p></td>
+        <td colspan="1" rowspan="1"><p>60 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="4" rowspan="1"><p><b>Session:</b> openCypher Implementations (Chair: Petra Selmer)</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>13:00</p></td>
+        <td colspan="1" rowspan="1"><p>Implementation in Prolog (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/Cypher.PL_PS_1300_JP_MR.pdf" target="_blank">slides</a>)</p></td>
+        <td colspan="1" rowspan="1"><p>Jan Posiadała (Scott Tiger)</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>13:15</p></td>
+        <td colspan="1" rowspan="1"><p>Cypher for Apache Spark (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/13-15+Cypher+for+Apache+Spark.pdf" target="_blank">slides</a>)</p></td>
+        <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo4j)</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>13:30</p></td>
+        <td colspan="1" rowspan="1"><p>The ingraph project and incremental evaluation of Cypher queries (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/ocim2-ingraph.pdf" target="_blank">slides</a>)</p></td>
+        <td colspan="1" rowspan="1"><p>G&aacute;bor Sz&aacute;rnyas, J&oacute;zsef Marton (Budapest University of Technology and Economics)</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>13:45</p></td>
+        <td colspan="1" rowspan="1"><p>Neo4j implementation changes (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/13-45+Neo4j+implementation+updates.pdf" target="_blank">slides</a>)</p></td>
+        <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo4j)</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
+    <tr class="break">
+        <td colspan="1" rowspan="1"><p>14:00</p></td>
+        <td colspan="2" rowspan="1"><p>Break</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="4" rowspan="1"><p><b>Session:</b> openCypher Artifacts (Chair: Petra Selmer)</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>14:15</p></td>
+        <td colspan="1" rowspan="1"><p>Mode of collaboration (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM+2+14.15+Collaboration.pdf" target="_blank">slides</a>)</p></td>
+        <td colspan="1" rowspan="1"><p>Alastair Green (Neo4j)</p></td>
+        <td colspan="1" rowspan="1"><p>5 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>14:20</p></td>
+        <td colspan="1" rowspan="1"><p>Web-based Cypher editor in relationship to openCypher (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/Cypher_Editor.pdf" target="_blank">slides</a>)</p></td>
+        <td colspan="1" rowspan="1"><p>Dmitry Vrublevsky (Neueda)</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>14:35</p></td>
+        <td colspan="1" rowspan="1"><p>openCypher TCK (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/ocim2-tck.pdf" target="_blank">slides</a>)</p></td>
+        <td colspan="1" rowspan="1"><p>G&aacute;bor Sz&aacute;rnyas (Budapest University of Technology and Economics)</p></td>
+        <td colspan="1" rowspan="1"><p>10 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="3"><p>14:45</p></td>
+        <td colspan="2" rowspan="1"><p>openCypher grammar and parsers</p></td>
+        <td colspan="1" rowspan="3"><p>15 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>openCypher perspective on parsing and grammar</p></td>
+        <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo4j)</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>openCypher Artifacts & Best Practices</p></td>
+        <td colspan="1" rowspan="1"><p><b>Open discussion</b></p></td>
+    </tr>
+    <tr class="break">
+        <td colspan="1" rowspan="1"><p>15:00</p></td>
+        <td colspan="2" rowspan="1"><p>Break</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="4"><p>15:15</p></td>
+        <td colspan="2" rowspan="1"><p><b>Session:</b> Multiple graphs (Chair: Mats Rydberg)</p></td>
+        <td colspan="1" rowspan="4"><p>75 mins</p></td>
+    <tr>
+        <td colspan="2" rowspan="1" class="item"><p>User requirements (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/Presentation+OBI4wan+graphs.pdf" target="_blank">Frank Smit's slides</a>, <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM+2+BNP+Paribas+Data+Lineage+--+Generic+Overview.pdf" target="_blank">Matt Toy's slides</a>)</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1" class="item"><p>Identification and addressing (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM+2+15.15+Multiple+Graph+Naming+and+Addressing.pdf" target="_blank">slides</a>)</p></td>
+        <td colspan="1" rowspan="1"><p>Alastair Green (Neo4j)</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1" class="item"><p>Syntax and semantics (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/15-15+Duality+through+Inversion-+Syntax+and+Semantics+of+Cypher+for+multiple+Graphs+%5BDONE%5D.pdf" target="_blank">slides</a>)</p></td>
+        <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo4j)</p></td>
+    </tr>
+    </tr>
+    <tr class="break">
+        <td colspan="1" rowspan="1"><p>16:30</p></td>
+        <td colspan="2" rowspan="1"><p>Break</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="4" rowspan="1"><p><b>Session:</b> Cypher Improvement Requests (CIRs) and developing ideas (Chair: Stefan Plantikow)</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="4"><p>16:45</p></td>
+        <td colspan="2" rowspan="1"><p>Discussion on grouping semantics</p></td>
+        <td colspan="1" rowspan="4"><p>25 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="1" class="item"><p>Presentation by Scott Tiger (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/GrupingSemantics_SP_1645_SoCIM_JP_MR.pdf" target="_blank">slides</a>)</p></td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="1" class="item"><p>Presentation by J&oacute;zsef Marton (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM2_aggregation_JozsefMarton.pdf" target="_blank">slides</a>)</p></td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="1" class="item"><p>Open discussion</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>17:10</p></td>
+        <td colspan="1" rowspan="1"><p>Sorting lists (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/oCIM2_lists_JozsefMarton.pdf" target="_blank">slides</a>)</p></td>
+        <td colspan="1" rowspan="1"><p>J&oacute;zsef Marton (Budapest University of Technology and Economics)</p></td>
+        <td colspan="1" rowspan="1"><p>10 mins</p></td>
+    </tr>
+
+    <tr>
+        <td colspan="1" rowspan="5"><p>17:20</p></td>
+        <td colspan="1" rowspan="1"><p>Future oCIM Topics (<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim2/slides/17-20+Future+oCIM+Topics+%5BDONE%5D.pdf" target="_blank">slides</a>)</p></td>
+        <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo4j)</p></td>
+        <td colspan="1" rowspan="5"><p>15 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="1" class="item"><p>Cypher relationship to SQL</p></td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="1" class="item"><p>Expression subqueries</p></td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="1" class="item"><p>Pattern matching iso-/homomorphism</p></td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="1" class="item"><p>Participant proposals</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>17:35</p></td>
+        <td colspan="2" rowspan="1"><p><b>Closing & Next Meeting</b></p></td>
+        <td colspan="1" rowspan="1"><p>10 mins</p></td>
+    </tr>
+    <tr class="break">
+        <td colspan="1" rowspan="1"><p>17:45</p></td>
+        <td colspan="3" rowspan="1"><p>End</p></td>
+    </tr>
+    <tr class="break">
+        <td colspan="1" rowspan="1"><p>18:30</p></td>
+        <td colspan="3" rowspan="1"><p>Dinner</p></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
+
+## Logistics
+
+The second oCIM will be held at **etc.venues Marble Arch** at Garfield House, 86 Edgware Road, W2 2EA in London, United Kingdom, on Wednesday the **10th of May 2017**.
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d655.3306178401593!2d-0.16368293312351984!3d51.51539565196469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761acaa3df49ed%3A0x23f0c6bb528aea95!2setc.venues+Marble+Arch!5e0!3m2!1sen!2sse!4v1490365633315" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>

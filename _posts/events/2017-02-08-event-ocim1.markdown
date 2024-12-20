@@ -1,0 +1,600 @@
+---
+layout: event
+categories: event
+title:  "First openCypher Implementers Meeting (oCIM 1)"
+date:   2017-02-08
+excerpt: "The first face-to-face meeting for people, projects and organizations interested in participating in the openCypher project, with the goal of creating a standard language based on Cypher for querying graphs."
+---
+This was the first face-to-face meeting for people, projects and companies who are interested in
+
+* implementing part or whole of the [Cypher language](https://neo4j.com/developer/cypher/), including current implementers (there are now approaching ten [projects](http://opencypher.org/projects) or products, commercial and research)
+* the design of a standard declarative query language for graph databases, and want to see how Cypher could evolve to help that goal
+
+Links
+* [Summary of the day (including links)](#summary)
+* [Program with links to materials](#program)
+
+<div class="abstract-anchor" id="summary"></div>
+
+# Introduction
+
+The conference was held in Walldorf, Germany, at SAP's headquarters.
+
+<img src="{{ site.baseurl }}/public/images/ocim1_meeting_room.jpg" width="400" height="268" />
+
+_The conference room, featuring Alastair Green making the case for multiple graph querying._
+
+# What happened
+
+The [opening presentation](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/09-30+-+Introduction.pdf) was given by _Alastair Green_, the Product Manager at Neo4j responsible for the development of Cypher and the openCypher project.
+In his talk, Alastair explained that the goal of the openCypher initiative is to craft a standard language for querying graphs, using as a basis Cypher in its current form, and seeking to evolve it via an open process, with the active participation of all interested vendors and implementers.
+
+_Mats Rydberg_, an engineer at Neo4j, [presented an overview](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/09-45+-+openCypher+artefacts.pdf) of the library of shared artifacts that have been produced and made publicly available under the auspices of openCypher.
+He then proceeded to a discussion of ideas around a shared grammar and a verifiable test kit.
+
+<div class="abstract-anchor" id="above"></div>
+
+Next, _Marcus Paradies_, developer at SAP, discussed how they've [injected Cypher](https://blogs.sap.com/2016/12/01/graph-processing-with-sap-hana-2/) into their HANA Graph stack, [detailing how SAP has modelled graphs in their relational system](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/Graph+Pattern+Matching+in+SAP+HANA.pdf), and mentioning some of the shortcomings that were encountered.
+In particular, Marcus highlighted the importance of compositionality within the language, and brought up two of the conference's larger topics: pattern matching semantics, and multiple graphs.
+[Later in the day](#below), Neo4j's CLG (Cypher Language Group, the internal Neo4j team responsible for language development of Cypher) team lead _Stefan Plantikow_ and _Oskar van Rest_, Principal Member of Technical Staff at Oracle, both described problems relating to Cypher's pattern matching semantics, and explored alternatives.
+
+Following on from Marcus' presentation, _Dmitry Vrublevsky_, software engineer at [Neueda](http://www.neueda.com/), [presented and demonstrated](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/Jetbrains_Plugin_-_Graph_Database_support.pdf) the Cypher developer tool that they have been building as a plugin for the popular JetBrains family of IDEs.
+As of 8 February 2017, the plugin had over 11,000 downloads, and Dmitry showcased its syntax highlighting, refactoring and error reporting features.
+
+Just before the first coffee break of the day, [_Gábor Szárnyas_](https://inf.mit.bme.hu/en/members/szarnyasg) and [_József Marton_](https://www.tmit.bme.hu/marton.jozsef?language=en), researchers at Budapest University of Technology and Economics, took the audience through [their research project of incremental query execution](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/ocim2017-incremental-opencypher.pdf) on graphs.
+The example model of a railroad network resonated well with the audience, as did the extensive work on mapping Cypher onto relational algebra (with special extensions).
+The session concluded with a list of challenging components of the language, which include the handling of lists, aggregations and the default bag semantics that are in effect when not using `DISTINCT`.
+
+Both Gábor and József, as well as Dmitry, had already been directly involved in the openCypher project, raising issues, providing pull requests and discussing various topics, mostly related to the grammar specification.
+
+---
+
+_Andrés Taylor_, engineer at Neo4j, father of Cypher, and former team lead of the CLG, started the next session by [describing how Cypher has been (and is) implemented in Neo4j](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/11-20+-+Neo4j+Cypher+implementation.pdf), for and from which the language has been grown.
+After a brief overview of Cypher's history, Andrés described in detail the cost-based query planner, the algorithm it is based on, and ended with a quick look at Neo4j's new Cypher runtime, which runs on generated code.
+
+_Roi Lipman_, software engineer at Redis Labs (now [Redis](https://redis.com/)), then gave a [presentation](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/Redis+Graph.pdf) on how he had developed the Redis graph module based on a hexastore model, where node-relationship-node triplets are stored in six permutations to enable fast prefix-based searches.
+
+A concept that has arisen in prior meetings with several interested parties is that of a shared standard of internal graph query representation, possibly compiled from several distinct source languages.
+_Stefan Plantikow_ [gave an insight](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/12-00+-+QUIL.pdf) as to how Neo4j and the CLG had been thinking about such a model, called QUIL (Query Intermediary Language).
+
+_Tomasz Zdybał_, software engineer at [Dgraph Labs](https://dgraph.io/), [presented Dgraph](http://wiki.ldbcouncil.org/pages/viewpage.action?pageId=59277315&preview=/59277315/75235343/dgraph.pdf), an in-memory native graph database, and the implementation in their product of a graph query language based on Facebook's GraphQL.
+Tomasz highlighted Dgraph's intentions of adding support for Cypher, and how schema validation was an important topic.
+
+Just before lunch, _Alastair Green_ took the floor again, standing in for [Bitnine](http://Bitnine.net/) (the Korean company behind Agens Graph, who were unable to attend in person) discussing how Cypher, SQL, and other query languages could be integrated with one another.
+Alastair [presented slides authored by Kisung Kim from Bitnine](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/AgensGraph-+SQL+%2B+Cypher+Integration.pdf), detailing the hybrid relational/graph architecture of Agens Graph, which is based on PostgreSQL.
+The most significant contribution was the way in which Bitnine had introduced integration points between SQL and Cypher, allowing for each to be passed in as a subquery construct to the other, and how functions may be shared as expressions between the languages.
+
+---
+
+The lunch break paved the way for the big topic previously brought up by _Marcus Paradies_ of SAP in the morning: multiple graphs.
+Cypher has always been a language that operates on a single implicit graph, producing a stream of records as output (the collection of which effectively form a table).
+_Alastair Green_ [discussed the motivations for changing this model](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/14-00+-+The+Case+for+Multiple+Graph+Querying.pdf) to make Cypher a language _closed over graphs_, envisioning a future where Cypher would be capable of processing multiple graphs provided as input, and producing as output one or more graphs.
+Alastair explored salient subtopics such as identity, addressing, and ways of defining compositions of graphs from distinct sources.
+
+Following on from Alastair's talk on the vision of multiple graphs in Cypher, _Stefan Plantikow_ [led a longer session on the topic](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/14-30+Multiple+Graphs-+Evolving+Cypher.pdf), presenting his latest thinking on how Cypher can be remodeled towards a graph-in-graph-out paradigm.
+Stefan discussed the motivations from a different angle to those covered by Alastair, focusing on how to make the concept of multiple graphs logically consistent and how to extend the execution model, whilst still keeping in mind Cypher's considerable user base and the cost of imposing breaking change in semantics.
+One of the major concepts in Stefan's discussion was the re-interpretation of Cypher's result records as 'g-records' (graph-records, or graphlets), meaning each binding of a matched subgraph would itself be interpreted as a (typically very small) graph, and the extended ability to collapse/union all such g-records into one large result graph.
+Both the g-record model and the companion model of the unionised graph would enact Cypher as being _closed over graphs_, as it would be possible to upon retrieval of the result graph(s) immediately issue a new Cypher query, now pattern matching on the newly computed results.
+Stefan also gave detailed syntax proposals for how to define and use graphs as values in the context of a query, including a take on the addressing topic raised by Alastair.
+It was made clear that this topic is foremost in the minds of several key Cypher innovators.
+
+Before Stefan's dive into the world of multiple graphs, _Martin Junghanns_, researcher at the University of Leipzig, [presented his research project](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/20170208-oCIM-Gradoop.pdf) on implementing Cypher on [Gradoop](http://dbs.uni-leipzig.de/en/research/projects/gradoop), a graph platform based on [Apache Hadoop](http://hadoop.apache.org/).
+Martin gave us an overview on how their system handled query planning, and the model used to represent (intermediate) query results in the distributed framework, Flink, in which the queries are executed.
+The project also featured interesting extensions to the [Property Graph Model](https://github.com/opencypher/openCypher/blob/master/docs/property-graph-model.adoc), upon which Cypher is based, including the concept of logical subgraphs and a set of graph operations.
+
+Following on from Martin's talk, _Hannes Voigt_, researcher at the Technical University of Dresden, [walked us through his research project](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/openCypher-GraphViews.pdf), in which _Michael Hunger_, community caretaker at Neo4j, had participated.
+The topic comprised virtual graphs and views, and featured several intriguing extensions to Cypher. These were expressed in terms of 'crossing the concept chasm', which Hannes explained as the different levels of abstraction that users view their data in.
+At the lowest level of abstraction is the actual raw unprocessed data, which is usually very high in volume.
+At higher levels, larger patterns start to appear, composed of groups of nodes and relationships from the lower levels.
+These larger patterns are in the model constructed using virtual nodes and relationships, with the additional ability to define views which provide several interesting qualities, such as performance optimizations and query modularization.
+
+---
+
+<div class="abstract-anchor" id="below"></div>
+
+The afternoon session featured two larger sections ([#1](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/15-30+-+Language+Evolution-+Future+Features.pdf) and [#2](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/16-20+-+Language+Evolution-+Conformance+and+Extension.pdf)) in which four of the members of the CLG presented views and ideas on how to address the most prominently mentioned shortcomings of the language in its current form.
+_Mats Rydberg_ presented a proposal for a new schema/constraint syntax, and also talked more in-depth on the Technology Compatibility Kit, highlighting its usefulness to verify that a multitude of language implementations are semantically consistent.
+_Petra Selmer_ went through the latest thinking on several classes of subqueries, including syntax proposals.
+Petra also detailed the revised Cypher improvement process, which has been designed to chime in with the open, collaborative format intended for the openCypher project.
+[As mentioned above](#above), _Stefan Plantikow_ and _Oskar van Rest_ discussed ([Oskar's slides](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/cypher_implementers_day_2017_pattern_matching_semantics.pdf)) semantics of pattern matching in terms of isomorphism/homomorphism of subgraphs and entities.
+_Tobias Lindaaker_ provided insights as to how Cypher could complete its support for Conjunctive Regular Path Queries (CRPQs), going through historical thinking as well as recent syntax and semantics proposals.
+The topic of vendor-specific extensions, including some of the pitfalls that should be looked out for from experiences with the SQL standard, was also presented by Tobias.
+
+The last session also featured [_Paolo Guagliardo_](http://www.research.ed.ac.uk/portal/en/persons/paolo-guagliardo(653c9723-b374-4ad3-9cef-0f7e7f45d812).html), researcher at the University of Edinburgh, who [presented a recent research project on formalising semantics of SQL](https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/sql-sem.pdf), and the advantages conferred on a language through the provision of a formal specification.
+Paolo also announced the recently begun project of producing a formal semantics specification of Cypher, which is to be carried out by his research team, including [_Nadime Francis_](https://www.inf.ed.ac.uk/people/staff/Nadime_Francis.html) and Professor [_Leonid Libkin_](http://homepages.inf.ed.ac.uk/libkin/).
+This project will be undertaken during the spring of 2017, and reports of progress will be given at upcoming oCIMs.
+
+---
+
+All in all, the meeting was a resounding success.
+
+<div class="abstract-anchor" id="program"></div>
+
+# Programme
+
+<html>
+<head>
+    <style>
+        table, td, th {
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        table {
+            border: 1;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        .break {
+            background-color: #d0d0d0;
+        }
+
+        .item {
+            padding-left: 50px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tbody>
+    <tr class="break">
+        <td colspan="1" rowspan="1"><p>09:00</p></td>
+        <td colspan="2" rowspan="1"><p>Coffee</p></td>
+        <td colspan="1" rowspan="1"><p>30 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="4" rowspan="1"><p>Chair: <b>Tobias Lindaaker</b></p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>09:30</p></td>
+        <td colspan="1" rowspan="1"><p>Introduction</p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/09-30+-+Introduction.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p>Alastair Green (Neo)</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>09:45</p></td>
+        <td colspan="1" rowspan="1"><p><a href="#oc-artefacts">openCypher Artefacts</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/09-45+-+openCypher+artefacts.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo)</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>10:00</p></td>
+        <td colspan="1" rowspan="1"><p><a href="#sap-hana">Graph Pattern Matching in SAP HANA</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/Graph+Pattern+Matching+in+SAP+HANA.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p>Marcus Paradies (SAP)</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>10:15</p></td>
+        <td colspan="1" rowspan="1"><p><a href="#neueda">Cypher in JetBrains IDE</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/Jetbrains_Plugin_-_Graph_Database_support.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p>Dmitry Vrublevsky (Neueda)</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>10:30</p>
+            <p></p></td>
+        <td colspan="1" rowspan="1"><p><a href="#inc-q">Incremental Graph Queries for Cypher</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/ocim2017-incremental-opencypher.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p>G&aacute;bor Sz&aacute;rnyas, J&oacute;zsef Marton (Budapest University of Technology and Economics)</p></td>
+        <td colspan="1" rowspan="1"><p>30 mins</p></td>
+    </tr>
+    <tr class="break">
+        <td colspan="1" rowspan="1"><p>11:00</p></td>
+        <td colspan="2" rowspan="1"><p>Break</p></td>
+        <td colspan="1" rowspan="1"><p>30 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="4" rowspan="1"><p>Chair: <b>Petra Selmer</b></p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>11:20</p></td>
+        <td colspan="1" rowspan="1"><p><a href="#neo4j">Neo4j Cypher Implementation</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/11-20+-+Neo4j+Cypher+implementation.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p>Andres Taylor (Neo)</p></td>
+        <td colspan="1" rowspan="1"><p>25 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>11:45</p></td>
+        <td colspan="1" rowspan="1"><p><a href="#redis">Redis Graph</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/Redis+Graph.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p>Roi Lipman (Redis Labs (now Redis)) </p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>12:00</p></td>
+        <td colspan="1" rowspan="1"><p><a href="#quil">QUIL</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/12-00+-+QUIL.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo)</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>12:15</p></td>
+        <td colspan="1" rowspan="1"><p><a href="#dgraph">Dgraph</a></p>(<a href="http://wiki.ldbcouncil.org/pages/viewpage.action?pageId=59277315&preview=/59277315/75235343/dgraph.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p>Tomasz Zdyba&#322; (Dgraph)</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>12:30</p></td>
+        <td colspan="1" rowspan="1"><p><a href="#discussion">Language Integration: SQL, GraphQL, and Tinkerpop</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/12-30+-+Language+Integration.pdf" target="_blank">slides</a>, <a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/AgensGraph-+SQL+%2B+Cypher+Integration.pdf" target="_blank">BitNine slides</a>)</td>
+        <td colspan="1" rowspan="1"><p><b>Open discussion</b><br />Moderator: Alastair Green (Neo)</p></td>
+        <td colspan="1" rowspan="1"><p>30 mins</p></td>
+    </tr>
+    <tr class="break">
+        <td colspan="1" rowspan="1"><p>13:00</p></td>
+        <td colspan="2" rowspan="1"><p>Lunch</p></td>
+        <td colspan="1" rowspan="1"><p>60 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="4" rowspan="1"><p>Chair: <b>Mats Rydberg</b></p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>14:00</p></td>
+        <td colspan="1" rowspan="1"><p><a href="#multi-graph-case">The case for Multiple Graph Querying</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/14-00+-+The+Case+for+Multiple+Graph+Querying.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p>Alastair Green (Neo)</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>14:15</p></td>
+        <td colspan="1" rowspan="1"><p><a href="#gradoop">Extended Property Graphs and Cypher on Gradoop</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/20170208-oCIM-Gradoop.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p>Martin Junghanns (University of Leipzig)</p></td>
+        <td colspan="1" rowspan="1"><p>15 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>14:30</p></td>
+        <td colspan="1" rowspan="1"><p><a href="#multi-graph">Multiple Graphs: Evolving Cypher</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/14-30+Multiple+Graphs-+Evolving+Cypher.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo)</p></td>
+        <td colspan="1" rowspan="1"><p>20 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>14:50</p></td>
+        <td colspan="1" rowspan="1"><p><a href="#views">Views on Cypher</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/openCypher-GraphViews.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p>Hannes Voigt (TU Dresden)</p></td>
+        <td colspan="1" rowspan="1"><p>10 mins</p></td>
+    </tr>
+    <tr class="break">
+        <td colspan="1" rowspan="1"><p>15:00</p></td>
+        <td colspan="2" rowspan="1"><p>Break</p></td>
+        <td colspan="1" rowspan="1"><p>30 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="4" rowspan="1"><p>Chair: <b>Alastair Green</b></p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="6"><p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p>15:30</p></td>
+        <td colspan="2" rowspan="1"><p>Language Evolution: Future Features</p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/15-30+-+Language+Evolution-+Future+Features.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="6"><p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p>30 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1" class="item"><p><a href="#schema">Schema and Constraints</a></p></td>
+        <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo)</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1" class="item"><p><a href="#subqueries">Subqueries</a></p></td>
+        <td colspan="1" rowspan="1"><p>Petra Selmer (Neo)</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1" class="item"><p><a href="#iso">Isomorphic Matching</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/cypher_implementers_day_2017_pattern_matching_semantics.pdf" target="_blank">Oskar&#39;s slides</a>)</td>
+        <td colspan="1" rowspan="1"><p>Stefan Plantikow (Neo), Oskar van Rest (Oracle)</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1" class="item"><p><a href="#crpqs">CRPQs</a></p></td>
+        <td colspan="1" rowspan="1"><p>Tobias Lindaaker (Neo)</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1" class="item"><p><b>What else? Other ideas?</b></p></td>
+        <td colspan="1" rowspan="1"><p></p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>16:00</p></td>
+        <td colspan="1" rowspan="1"><p><a href="#edinburgh">Natural Language and Formal Specifications of Cypher</a></p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/sql-sem.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="1"><p>Paolo Guagliardo, Nadime Francis (University of Edinburgh)</p></td>
+        <td colspan="1" rowspan="1"><p>20 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="4"><p></p>
+            <p></p>
+            <p></p>
+            <p>16:20</p></td>
+        <td colspan="2" rowspan="1"><p>Language Evolution: Conformance and Extension</p>(<a href="https://s3.amazonaws.com/artifacts.opencypher.org/website/ocim1/slides/16-20+-+Language+Evolution-+Conformance+and+Extension.pdf" target="_blank">slides</a>)</td>
+        <td colspan="1" rowspan="4"><p></p>
+            <p></p>
+            <p></p>
+            <p>30 mins</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1" class="item"><p><a href="#tck">TCK &nbsp;/ Specification</a></p></td>
+        <td colspan="1" rowspan="1"><p>Mats Rydberg (Neo)</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1" class="item"><p><a href="#vendor">Vendor Extensions</a></p></td>
+        <td colspan="1" rowspan="1"><p>Tobias Lindaaker (Neo)</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1" class="item"><p><a href="#cip">CIP Process -- Involvement</a></p></td>
+        <td colspan="1" rowspan="1"><p>Petra Selmer (Neo)</p></td>
+    </tr>
+    <tr>
+        <td colspan="1" rowspan="1"><p>16:50</p></td>
+        <td colspan="1" rowspan="1"><p>Wrap-up and future meetings</p></td>
+        <td colspan="1" rowspan="1"><p>Alastair Green, Stefan Plantikow (Neo)</p></td>
+        <td colspan="1" rowspan="1"><p>10 mins</p></td>
+    </tr>
+    <tr class="break">
+        <td colspan="1" rowspan="1"><p>17:00</p></td>
+        <td colspan="3" rowspan="1"><p>End</p></td>
+    </tr>
+    <tr class="break">
+        <td colspan="1" rowspan="1"><p>19:30</p></td>
+        <td colspan="3" rowspan="1"><p>Dinner</p></td>
+    </tr>
+    </tbody>
+</table>
+<h1>Talks & Abstracts</h1>
+<div id="oc-artifacts" class="abstract-anchor"></div>
+<div>
+    <h3>openCypher Artefacts</h3>
+    <h4>Mats Rydberg (Neo4j)</h4>
+    <p>
+        In this talk, we will present and discuss the motivation behind the provision of the openCypher artefacts, all of which are 
+        publicly available for consumption. We will describe the components of the grammar specification and our Technology Compatibility Kit (TCK).
+    </p>
+</div>
+<div id="sap-hana" class="abstract-anchor"></div>
+<div>
+    <h3>Graph Pattern Matching in SAP HANA</h3>
+    <h4>Marcus Paradies (SAP)</h4>
+    <p>
+        In this presentation we will describe SAP HANA Graph, a core component of the SAP HANA database. 
+        Specifically, we discuss the major design decisions that drove the integration of native graph processing capabilities 
+        and describe how we integrated a language subset of openCypher into SAP HANA. We conclude with a list of observations 
+        that we made during the development process when integrating openCypher into an existing database management system.
+    </p>
+</div>
+<div id="neueda" class="abstract-anchor"></div>
+<div>
+    <h3>Cypher in JetBrains IDE</h3>
+    <h4>Dmitry Vrublevsky (Neueda)</h4>
+    <p>
+        In this talk we will take a look on "Graph Database support" plugin for JetBrains IDEs, in particular Cypher support 
+        that this plugin offers. We will explore what functionality it provides and how it can be used by developers to make 
+        them more efficient when dealing with Cypher.
+    </p>
+</div>
+<div id="inc-q" class="abstract-anchor"></div>
+<div>
+    <h3>Incremental Graph Queries for Cypher</h3>
+    <h4>Gábor Szárnyas, József Marton (Budapest University of Technology and Economics)</h4>
+    <p>
+        How can we evaluate a global query on huge graphs in 0.1 seconds? Given our current technology, that would be magic. 
+        The lack of wizarding skills did not stop us, however, from tackling the problem by using smart caching structures, 
+        which are witchcrafts on their own.
+    </p>
+    <p>
+        Why is this challenge important? Several applications evaluate global queries on continuously changing graphs: 
+        fraud detection in financial transactions, analysis of source code repositories and validating engineering models.
+        Current approaches employ domain-specific optimizations, which are difficult and error-prone to implement. 
+        Meanwhile, the requirements of these (and similar) use cases could be uniformly addressed by incremental graph query evaluation. 
+        With this technique, the first execution of the queries takes some time, but once the result are calculated, they can be efficiently 
+        maintained for each change in the graph.
+    </p>
+    <p>
+        To allow incremental queries on property graphs, we implemented the ingraph engine, based on the openCypher language 
+        specification. We aim to support the standard subset of openCypher, as most standard constructs can be calculated incrementally. 
+        We already mapped some of the standard constructs to relational algebra, defined incremental relational algebraic operators and 
+        implemented them in an incremental relational engine using Akka actors.
+    </p>
+    <p>
+        We start the talk by presenting use cases that evaluate complex global queries on continuously changing graphs and 
+        discuss the idea of incremental graph queries. We show the mapping of basic openCypher constructs (e.g. MATCH, WHERE, 
+        WITH, RETURN) to relational operators, such as joins, selections and projections. Finally, we show our approach for 
+        optimizing incremental graph queries and outline related challenges.
+    </p>
+</div>
+<div id="neo4j" class="abstract-anchor"></div>
+<div>
+    <h3>Neo4j Cypher Implementation</h3>
+    <h4>Andrés Taylor (Neo4j)</h4>
+    <p>
+        The first and most widely-used version of Cypher is the version that is currently implemented in Neo4j. 
+        After a brief history of Cypher, we will present our current implementation of Cypher as it appears in Neo4j. 
+        We will discuss the full life cycle of a Cypher query, from the initial parsing of the query string through to 
+        the execution of the physical query plan. We define relevant concepts, such as iterative dynamic programming, 
+        and describe how we use these techniques within our implementation. The talk concludes with an outlook on next 
+        steps for further improving the implementation of Cypher in Neo4j.
+    </p>
+</div>
+<div id="redis" class="abstract-anchor"></div>
+<div>
+    <h3>Redis Graph</h3>
+    <h4>Roi Lipman (Redis Labs)</h4>
+    <p>
+        Redis-Graph is a graph database built on top of Redis. In this talk we will review from top to bottom an 
+        implementation of a graph database, dig a bit inside its internals and touch on key decisions made as the 
+        project developed.
+    </p>
+</div>
+<div id="quil" class="abstract-anchor"></div>
+<div>
+    <h3>QUIL</h3>
+    <h4>Stefan Plantikow (Neo4j)</h4>
+    <p>
+        QUIL is an ongoing effort for creating a platform-agnostic intermediary representation for Cypher. 
+        The goal of QUIL is to provide a compact representation for a Cypher query for analysis and executing 
+        by different vendors. We would like to discuss the motivation for QUIL, our current approach, 
+        open questions, and gather general feedback around the idea.
+    </p>
+</div>
+<div id="dgraph" class="abstract-anchor"></div>
+<div>
+    <h3>Dgraph</h3>
+    <h4>Tomasz Zdybał (Dgraph)</h4>
+    <p>
+        Dgraph is an open source, scalable, distributed, highly available and fast graph database, 
+        designed from ground up to be run in production. In this talk we present our goals, main design concepts, 
+        current status of the project and benchmark results. We also discuss implementation decisions and 
+        introduce the GraphQL+- query language.
+    </p>
+</div>
+<div id="discussion" class="abstract-anchor"></div>
+<div>
+    <h3>Language Integration: SQL, GraphQL, and Tinkerpop</h3>
+    <h4>Moderator: Alastair Green (Neo4j)</h4>
+    <p>
+        A number of companies and groups have considered how to integrate SQL and Cypher. 
+        The simple composition model used by Bitnine in their Agens Graph product is of interest. 
+        GraphQL is a widely-used tool for expressing queries and for defining returned data documents, 
+        but it is not a fully-featured graph querying language: it will be interesting to see how 
+        GraphQL can be integrated with Cypher. Jason Crawford at IBM&#39;s System G project has recently 
+        raised the idea of implementing Cypher over Tinkerpop, an idea which has also been floated by 
+        the Apache Tinkerpop project. This session is an opportunity to talk about these kinds of 
+        language integrations in a round table discussion.
+    </p>
+</div>
+<div id="multi-graph-case" class="abstract-anchor"></div>
+<div>
+    <h3>Multiple graphs</h3>
+    <h4>Alastair Green (Neo4j)</h4>
+    <p>
+        Accessing multiple property graphs within the same query provides many promising new 
+        approaches for graph data management, graph analytics, and graph modelling.
+    </p>
+</div>
+<div id="gradoop" class="abstract-anchor"></div>
+<div>
+    <h3>Extended Property Graphs and Cypher on Gradoop</h3>
+    <h4>Martin Junghanns (University of Leipzig)</h4>
+    <p>
+        Graph pattern matching is one of the most interesting and challenging operations in graph analytics. 
+        However, it is primarily supported by graph database systems such as Neo4j but, besides research prototypes, 
+        not generally available for distributed (not-only graph) processing frameworks like Apache Flink or Apache Spark.
+    </p>
+    <p>
+        In our talk, we want to give an overview of our current implementation of Cypher on Apache Flink. 
+        Cypher is the Neo4j graph query language and enables the intuitive definition of graph patterns including 
+        structural and semantic predicates. As the Neo4j graph data model is not supported out-of-the box by Apache Flink, 
+        we leverage Gradoop, a Flink-based graph analytics framework based on Apache Flink that already provides an 
+        abstraction of schema-free property graphs.
+    </p>
+    <p>
+        We will give a brief overview about the technologies used to implement Cypher, explain our query engine and give 
+        a demonstration of the available language features. Finally, we will discuss open challenges and missing features 
+        hopefully motivating people to contribute.
+    </p>
+    <p>
+        The project is a cooperation between the University of Leipzig and Neo4j.
+    </p>
+</div>
+<div id="multi-graph" class="abstract-anchor"></div>
+<div>
+    <h3>Multiple graphs</h3>
+    <h4>Stefan Plantikow (Neo4j)</h4>
+    <p>
+        In this talk we present an outlook on a future world of multiple graph processing and show how applications may 
+        benefit from the techniques enabled by accessing multiple, globally-addressable property graphs, including 
+        parameterized views, logical graphs, and data graphs. The talk discusses these topics in the context of how the 
+        Cypher graph query language may be evolved over time to support querying multiple property graphs end-to-end in 
+        OLTP as well as in OLAP scenarios.
+    </p>
+</div>
+<div id="views" class="abstract-anchor"></div>
+<div>
+    <h3>Views on Cypher</h3>
+    <h4>Hannes Voigt (TU Dresden)</h4>
+    <p>
+        In this talk, we discuss ongoing work on Graph Views in Cypher.
+    </p>
+</div>
+<div id="schema" class="abstract-anchor"></div>
+<div>
+    <h3>Language Evolution: Future Features — Schema and Constraints</h3>
+    <h4>Mats Rydberg (Neo4j)</h4>
+    <p>
+        Schemas and constraints are an integral part of any database management system. In this talk, we will present 
+        our view on this topic, and provide details on current and future work in this area.
+    </p>
+</div>
+<div id="subqueries" class="abstract-anchor"></div>
+<div>
+    <h3>Language Evolution: Future Features — Subqueries </h3>
+    <h4>Petra Selmer (Neo4j)</h4>
+    <p>
+        Subqueries are a well-known and useful adjunct in querying, and in this talk we will discuss how we envisage 
+        incorporating existential, nested, and scalar subqueries into Cypher, along with projections and comprehensions.
+    </p>
+</div>
+<div id="iso" class="abstract-anchor"></div>
+<div>
+    <h3>Language Evolution: Future Features — Isomorphic Matching </h3>
+    <h4>Stefan Plantikow (Neo4j)</h4>
+    <p>
+        Cypher&#39;s pattern matching semantics is based on relationship-isomorphic matching. While this has proven to be a good, 
+        pragmatic choice for real-world applications, it also limits language expressivity for no strong reason. 
+        This short talk presents a recent proposal for lifting this restriction by introducing a new set of uniqueness 
+        modes to pattern matching as well as accompanying path predicate functions.
+    </p>
+</div>
+<div id="crpqs" class="abstract-anchor"></div>
+<div>
+    <h3>Language Evolution: Future Features — CRPQs </h3>
+    <h4>Tobias Lindaaker (Neo4j)</h4>
+    <p>
+        Conjuctive Regular Path Queries (CRPQs) lie at the heart of complex graph pattern matching, and research into 
+        this area has been ongoing for decades. In this talk, we present our ideas for their incorporation into Cypher.
+    </p>
+</div>
+<div id="edinburgh" class="abstract-anchor"></div>
+<div>
+    <h3>Natural Language and Formal Specifications of Cypher</h3>
+    <h4>Paolo Guagliardo, Nadime Francis (University of Edinburgh)</h4>
+    <p>
+        The SQL standard has been around for more than three decades, but we still do not fully understand what to expect 
+        when executing an SQL query on a relational DBMS. This is mostly due to vagueness of the standard and the ambiguity 
+        of the natural language it is expressed in. In this talk, I will discuss recent efforts in providing a formal 
+        semantics for a core fragment of the SQL language that captures the behavior of real DBMSs, and the lessons we learned 
+        from this exercise. I will also introduce the newly started, ongoing collaboration between Neo4j and the University of 
+        Edinburgh in providing a similar formal semantics for Cypher, the challenges it poses and expected outcomes.
+    </p>
+</div>
+<div id="tck" class="abstract-anchor"></div>
+<div>
+    <h3>Language Evolution: Conformance and Extension — TCK / Specification</h3>
+    <h4>Mats Rydberg (Neo4j)</h4>
+    <p>
+        In this talk, we will provide working details on the Technology Compatability Kit (TCK), an artefact that we provide as 
+        part of openCypher. We will discuss the purpose, benefits, and limitations of the TCK, and walk through an example.
+    </p>
+</div>
+<div id="vendor" class="abstract-anchor"></div>
+<div>
+    <h3>Language Evolution: Conformance and Extension — Vendor Extensions</h3>
+    <h4>Tobias Lindaaker (Neo4j)</h4>
+    <p>
+        In SQL&#39;s long history, there have been a number of undesirable outcomes, such as different meanings for the same query, 
+        alternative ways of implementing the same construct, and difficulty in evolving the language whilst remaining backwards-compatible. 
+        *These are situations we seek to* avoid in Cypher, and in this talk, we discuss various ways of extending Cypher along with 
+        a motivating example, as well as language profiles and ideas around versioning the language.
+    </p>
+</div>
+<div id="cip" class="abstract-anchor"></div>
+<div>
+    <h3>Language Evolution: Conformance and Extension — CIP Process — Involvement</h3>
+    <h4>Petra Selmer (Neo4j)</h4>
+    <p>
+        The evolution of Cypher is driven by the production and acceptance of Cypher Improvement Proposals (CIPs), which are documents 
+        outlining the syntax and semantics of proposed new Cypher features. In this talk, we will provide details of how we envisage 
+        the Cypher Improvement Proposal (CIP) process to work going forwards.
+    </p>
+</div>
+</body>
+</html>
